@@ -153,18 +153,9 @@ static string ValueToString(string name, object? value)
 {
     switch (value)
     {
-        case CFuncKeysReal keys:
-            value = KeysToString(keys);
-            break;
-        case CPlugVehicleCarPhyTuning.Keys tuningKeys:
-            if (tuningKeys.U01 is not null)
-            {
-                value = KeysToString(tuningKeys.U01);
-            }
-            else if (tuningKeys.U04 is not null)
-            {
-                value = KeysVec2ToString(tuningKeys.U04);
-            }
+        case CFuncKeysReal or CPlugVehicleCarPhyTuning.Keys:
+            var points = GetKeyPoints(value);
+            value = points is null ? null : string.Join(" ", points.Select(p => $"({p.X}, {p.Y})"));
             break;
         case Array array:
             value = ArrayToString(array);
@@ -172,24 +163,6 @@ static string ValueToString(string name, object? value)
     }
 
     return $"{name}: {value ?? "null"}";
-}
-
-static string KeysToString(CFuncKeysReal keys)
-{
-    var xs = keys.Xs ?? [];
-    var ys = keys.Ys ?? [];
-
-    return string.Join(" ", xs.Zip(ys, (x, y) => $"({x}, {y})"));
-}
-
-static string KeysVec2ToString(Vec2[]? keys)
-{
-    if (keys is null)
-    {
-        return "null";
-    }
-
-    return string.Join(" ", keys.Select(k => $"({k.X}, {k.Y})"));
 }
 
 static string ArrayToString(Array array)
@@ -201,43 +174,11 @@ static string ValueToMarkdownCell(string name, object? value)
 {
     switch (value)
     {
-        case CFuncKeysReal keys:
-            {
-                var xs = keys.Xs ?? [];
-                var ys = keys.Ys ?? [];
-
-                if (xs.Length == 0)
-                {
-                    return "*(empty)*";
-                }
-
-                return $"![{EscapeMarkdownCell(name)}]({KeysToChartUrl(xs, ys)})";
-            }
-        case CPlugVehicleCarPhyTuning.Keys tuningKeys:
-            if (tuningKeys.U01 is not null)
-            {
-                var xs = tuningKeys.U01.Xs ?? [];
-                var ys = tuningKeys.U01.Ys ?? [];
-                if (xs.Length == 0)
-                {
-                    return "*(empty)*";
-                }
-                return $"![{EscapeMarkdownCell(name)}]({KeysToChartUrl(xs, ys)})";
-            }
-            else if (tuningKeys.U04 is not null)
-            {
-                var xs = tuningKeys.U04.Select(k => k.X).ToArray();
-                var ys = tuningKeys.U04.Select(k => k.Y).ToArray();
-                if (xs.Length == 0)
-                {
-                    return "*(empty)*";
-                }
-                return $"![{EscapeMarkdownCell(name)}]({KeysToChartUrl(xs, ys)})";
-            }
-            else
-            {
-                return "null";
-            }
+        case CFuncKeysReal or CPlugVehicleCarPhyTuning.Keys:
+            var points = GetKeyPoints(value);
+            return points is null || points.Length == 0
+                ? "*(empty)*"
+                : $"![{EscapeMarkdownCell(name)}]({KeysToChartUrl(points)})";
         case Array array:
             return EscapeMarkdownCell(ArrayToString(array));
         default:
@@ -245,14 +186,30 @@ static string ValueToMarkdownCell(string name, object? value)
     }
 }
 
+static (float X, float Y)[]? GetKeyPoints(object? value)
+{
+    return value switch
+    {
+        CFuncKeysReal keys => ZipKeys(keys.Xs, keys.Ys),
+        CPlugVehicleCarPhyTuning.Keys { U01: { } keys } => ZipKeys(keys.Xs, keys.Ys),
+        CPlugVehicleCarPhyTuning.Keys { U04: { } vecs } => vecs.Select(v => (v.X, v.Y)).ToArray(),
+        _ => null
+    };
+}
+
+static (float X, float Y)[] ZipKeys(float[]? xs, float[]? ys)
+{
+    return (xs ?? []).Zip(ys ?? [], (x, y) => (x, y)).ToArray();
+}
+
 static string EscapeMarkdownCell(string text)
 {
     return text.Replace("|", "\\|").Replace("\r\n", " ").Replace("\n", " ");
 }
 
-static string KeysToChartUrl(float[] xs, float[] ys)
+static string KeysToChartUrl((float X, float Y)[] points)
 {
-    var points = string.Join(",", xs.Zip(ys, (x, y) => $"{{x:{x},y:{y}}}"));
+    var pointsJson = string.Join(",", points.Select(p => $"{{x:{p.X},y:{p.Y}}}"));
 
     var config = $@"
 {{
@@ -260,7 +217,7 @@ static string KeysToChartUrl(float[] xs, float[] ys)
   data: {{
     datasets: [
       {{
-        data: [{points}],
+        data: [{pointsJson}],
         fill: false
       }}
     ]
