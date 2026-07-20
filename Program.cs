@@ -3,10 +3,7 @@ using DiffPlex.DiffBuilder.Model;
 using GBX.NET;
 using GBX.NET.Engines.Function;
 using GBX.NET.Engines.Plug;
-using GBX.NET.LZO;
 using System.Globalization;
-
-Gbx.LZO = new Lzo();
 
 CultureInfo.CurrentCulture = CultureInfo.InvariantCulture;
 

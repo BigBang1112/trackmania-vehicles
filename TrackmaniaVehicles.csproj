@@ -1,11 +1,11 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
-  <PropertyGroup>
-    <OutputType>Exe</OutputType>
-    <TargetFramework>net10.0</TargetFramework>
-    <ImplicitUsings>enable</ImplicitUsings>
-    <Nullable>enable</Nullable>
-  </PropertyGroup>
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>net10.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
 
     <ItemGroup>
         <Content Include="Tunings\**">
@@ -14,15 +14,8 @@
     </ItemGroup>
 
     <ItemGroup>
-      <PackageReference Include="DiffPlex" Version="1.9.0" />
-      <PackageReference Include="GBX.NET" Version="2.4.3" />
-      <PackageReference Include="GBX.NET.LZO" Version="2.1.5" />
-    </ItemGroup>
-
-    <ItemGroup>
-      <Folder Include="Tunings\TM2020\" />
-      <Folder Include="Tunings\TM10\" />
-      <Folder Include="Tunings\TMSX\" />
+        <PackageReference Include="DiffPlex" Version="1.9.0" />
+        <PackageReference Include="GBX.NET" Version="2.4.3" />
     </ItemGroup>
 
 </Project>
