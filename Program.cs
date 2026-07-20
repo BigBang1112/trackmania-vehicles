@@ -202,15 +202,42 @@ static string ValueToMarkdownCell(string name, object? value)
     switch (value)
     {
         case CFuncKeysReal keys:
-            var xs = keys.Xs ?? [];
-            var ys = keys.Ys ?? [];
-
-            if (xs.Length == 0)
             {
-                return "*(empty)*";
-            }
+                var xs = keys.Xs ?? [];
+                var ys = keys.Ys ?? [];
 
-            return $"![{EscapeMarkdownCell(name)}]({KeysToChartUrl(xs, ys)})";
+                if (xs.Length == 0)
+                {
+                    return "*(empty)*";
+                }
+
+                return $"![{EscapeMarkdownCell(name)}]({KeysToChartUrl(xs, ys)})";
+            }
+        case CPlugVehicleCarPhyTuning.Keys tuningKeys:
+            if (tuningKeys.U01 is not null)
+            {
+                var xs = tuningKeys.U01.Xs ?? [];
+                var ys = tuningKeys.U01.Ys ?? [];
+                if (xs.Length == 0)
+                {
+                    return "*(empty)*";
+                }
+                return $"![{EscapeMarkdownCell(name)}]({KeysToChartUrl(xs, ys)})";
+            }
+            else if (tuningKeys.U04 is not null)
+            {
+                var xs = tuningKeys.U04.Select(k => k.X).ToArray();
+                var ys = tuningKeys.U04.Select(k => k.Y).ToArray();
+                if (xs.Length == 0)
+                {
+                    return "*(empty)*";
+                }
+                return $"![{EscapeMarkdownCell(name)}]({KeysToChartUrl(xs, ys)})";
+            }
+            else
+            {
+                return "null";
+            }
         case Array array:
             return EscapeMarkdownCell(ArrayToString(array));
         default:
