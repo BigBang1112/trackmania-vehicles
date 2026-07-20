@@ -19,9 +19,10 @@ foreach (var filePath in Directory.EnumerateFiles("Tunings", "*.Gbx", SearchOpti
     var relativePath = Path.GetRelativePath("Tunings", filePath);
     var relativeDir = Path.GetDirectoryName(relativePath) ?? throw new InvalidOperationException("Could not determine relative directory.");
 
-    var rawDir = Path.Combine(referenceDir, relativeDir, "Raw", fileName);
-    var diffDir = Path.Combine(referenceDir, relativeDir, "Diff", fileName);
-    var tablesDir = Path.Combine(referenceDir, relativeDir, "Tables", fileName);
+    var tuningDir = Path.Combine(referenceDir, relativeDir, fileName);
+    var rawDir = Path.Combine(tuningDir, "Raw");
+    var diffDir = Path.Combine(tuningDir, "Diff");
+    var tablesDir = Path.Combine(tuningDir, "Tables");
 
     Directory.CreateDirectory(rawDir);
     Directory.CreateDirectory(diffDir);
@@ -111,7 +112,7 @@ foreach (var filePath in Directory.EnumerateFiles("Tunings", "*.Gbx", SearchOpti
 
     if (latestTablesFilePath is not null)
     {
-        var readmeFilePath = Path.Combine(tablesDir, "README.md");
+        var readmeFilePath = Path.Combine(tuningDir, "README.md");
         var latestContent = await File.ReadAllTextAsync(latestTablesFilePath);
 
         await using var readmeWriter = File.CreateText(readmeFilePath);
