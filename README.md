@@ -72,7 +72,8 @@ Inside `Reference/<Game>/<Vehicle>.VehicleTunings.Gbx`, you'll find three siblin
 | --- | --- |
 | `Raw/` | One `.txt` per revision - every property and chunk field, sorted alphabetically. |
 | `Diff/` | One `.diff` per revision - what changed compared to the previous revision. |
-| `Tables/` | One `.md` per revision with the same data as nicely formatted tables, plus a [`README.md`](Reference/TMF/Tables/StadiumCar.VehicleTunings.Gbx/README.md) that always mirrors the **latest** revision. |
+| `Tables/` | One `.md` per revision with the same data as nicely formatted tables |
+| `README.md` | Mirrors the **latest** revision from `Tables/` |
 
 > [!NOTE]
 > The revision names (`26Nov2002`, `11Fevrier2005`, `20juin2006`, ...) come straight from Nadeo's internal tuning history and roughly track real development dates.
