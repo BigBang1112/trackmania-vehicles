@@ -13,6 +13,9 @@ This is a generated reference of every documented Trackmania vehicle tuning revi
 | RallyCar | CarRally | [CarRally.VehicleTunings.Gbx](Reference/TM2020/CarRally.VehicleTunings.Gbx) |
 | DesertCar | CarDesert | [DesertCar.VehicleTunings.Gbx](Reference/TM2020/DesertCar.VehicleTunings.Gbx) |
 
+> [!NOTE]
+> Some parameters could be inaccurate for TM2020 due to bad member mapping of values. If you find any possible mappings, please contribute in the [GBX.NET](https://github.com/BigBang1112/gbx-net/blob/master/Src/GBX.NET/Engines/Plug/CPlugVehicleCarPhyTuning.chunkl) repository.
+
 ### [TrackMania 2](Reference/MP4)
 
 | Name | Technical name | Tunings file |
@@ -23,6 +26,9 @@ This is a generated reference of every documented Trackmania vehicle tuning revi
 | ValleyCar | ValleyCar | [ValleyCar.VehicleTunings.Gbx](Reference/MP4/ValleyCar.VehicleTunings.Gbx) |
 | LagoonCar | LagoonCar | [LagoonCar.VehicleTunings.Gbx](Reference/MP4/LagoonCar.VehicleTunings.Gbx) |
 | TrafficCar | TrafficCar | [TrafficCar.VehicleTunings.Gbx](Reference/MP4/TrafficCar.VehicleTunings.Gbx) |
+
+> [!NOTE]
+> Some parameters could be inaccurate for TM2 due to bad member mapping of values. If you find any possible mappings, please contribute in the [GBX.NET](https://github.com/BigBang1112/gbx-net/blob/master/Src/GBX.NET/Engines/Plug/CPlugVehicleCarPhyTuning.chunkl) repository.
 
 ### [TrackMania Forever](Reference/TMF)
 
