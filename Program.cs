@@ -13,111 +13,154 @@ CultureInfo.CurrentCulture = CultureInfo.InvariantCulture;
 var projectDir = Directory.GetParent(Environment.CurrentDirectory)?.Parent?.Parent?.FullName ?? throw new InvalidOperationException("Could not determine project directory.");
 var referenceDir = Path.Combine(projectDir, "Reference");
 
-foreach (var filePath in Directory.EnumerateFiles("Tunings", "*.Gbx", SearchOption.AllDirectories))
+var gameVehicleOrder = new Dictionary<string, (string DisplayName, string FileBaseName)[]>
 {
-    var fileName = Path.GetFileName(filePath);
-    var relativePath = Path.GetRelativePath("Tunings", filePath);
-    var relativeDir = Path.GetDirectoryName(relativePath) ?? throw new InvalidOperationException("Could not determine relative directory.");
+    ["TM2020"] = [("StadiumCar", "TuningsSport"), ("SnowCar", "TuningsSnow"), ("RallyCar", "CarRally"), ("DesertCar", "DesertCar")],
+    ["MP4"] = [("CanyonCar", "CanyonCar"), ("DesertCar", "DesertCar"), ("StadiumCar", "StadiumCar"), ("ValleyCar", "ValleyCar"), ("LagoonCar", "LagoonCar"), ("TrafficCar", "TrafficCar")],
+    ["TMF"] = [("DesertCar", "American"), ("SnowCar", "Buggy"), ("RallyCar", "Rally"), ("IslandCar", "Sport"), ("BayCar", "BayCar"), ("CoastCar", "CoastCar"), ("StadiumCar", "StadiumCar")],
+    ["TMN"] = [("StadiumCar", "StadiumCar")],
+    ["TMSX"] = [("IslandCar", "Sport"), ("BayCar", "BayCar"), ("CoastCar", "CoastCar")],
+    ["TM10"] = [("DesertCar", "American"), ("SnowCar", "Buggy"), ("RallyCar", "Rally")],
+};
 
-    var tuningDir = Path.Combine(referenceDir, relativeDir, fileName);
-    var rawDir = Path.Combine(tuningDir, "Raw");
-    var diffDir = Path.Combine(tuningDir, "Diff");
-    var tablesDir = Path.Combine(tuningDir, "Tables");
+var filesByGame = Directory.EnumerateFiles("Tunings", "*.Gbx", SearchOption.AllDirectories)
+    .GroupBy(filePath => Path.GetDirectoryName(Path.GetRelativePath("Tunings", filePath)) ?? throw new InvalidOperationException("Could not determine relative directory."));
 
-    Directory.CreateDirectory(rawDir);
-    Directory.CreateDirectory(diffDir);
-    Directory.CreateDirectory(tablesDir);
+foreach (var gameGroup in filesByGame)
+{
+    var relativeDir = gameGroup.Key;
+    var gameReferenceDir = Path.Combine(referenceDir, relativeDir);
+    var gameVehicles = new List<VehicleTableData>();
 
-    var tunings = Gbx.ParseNode<CPlugVehiclePhyTunings>(filePath);
-
-    var previousTuningFilePath = default(string);
-    var latestTablesFilePath = default(string);
-
-    foreach (var (i, tuning) in tunings.Tuning?.Index() ?? [])
+    foreach (var filePath in gameGroup)
     {
-        var tuningName = (tuning as CPlugVehicleCarPhyTuning)?.Name ?? tuning.Name;
+        var fileName = Path.GetFileName(filePath);
+        var fileBaseName = Path.GetFileNameWithoutExtension(Path.GetFileNameWithoutExtension(fileName));
 
-        var validTuningName = string.Join("_", tuningName.Split(Path.GetInvalidFileNameChars()));
+        var tuningDir = Path.Combine(gameReferenceDir, fileName);
+        var rawDir = Path.Combine(tuningDir, "Raw");
+        var diffDir = Path.Combine(tuningDir, "Diff");
+        var tablesDir = Path.Combine(tuningDir, "Tables");
 
-        var tuningFilePath = Path.Combine(rawDir, $"{i:D3}_{validTuningName}.txt");
-        var tablesFilePath = Path.Combine(tablesDir, $"{i:D3}_{validTuningName}.md");
+        Directory.CreateDirectory(rawDir);
+        Directory.CreateDirectory(diffDir);
+        Directory.CreateDirectory(tablesDir);
 
-        await using (var txtWriter = File.CreateText(tuningFilePath))
-        await using (var mdWriter = File.CreateText(tablesFilePath))
+        var tunings = Gbx.ParseNode<CPlugVehiclePhyTunings>(filePath);
+
+        var previousTuningFilePath = default(string);
+        var latestTablesFilePath = default(string);
+        var latestProperties = new Dictionary<string, object?>();
+        var latestChunks = new Dictionary<string, Dictionary<string, object?>>();
+
+        foreach (var (i, tuning) in tunings.Tuning?.Index() ?? [])
         {
-            await txtWriter.WriteLineAsync($"Name: {tuningName}");
-            await txtWriter.WriteLineAsync();
+            var tuningName = (tuning as CPlugVehicleCarPhyTuning)?.Name ?? tuning.Name;
 
-            await mdWriter.WriteLineAsync($"# {tuningName}");
-            await mdWriter.WriteLineAsync();
-            await mdWriter.WriteLineAsync("## Properties");
-            await mdWriter.WriteLineAsync();
-            await mdWriter.WriteLineAsync("| Name | Value |");
-            await mdWriter.WriteLineAsync("| --- | --- |");
+            var validTuningName = string.Join("_", tuningName.Split(Path.GetInvalidFileNameChars()));
 
-            var nodeType = tuning.GetType();
+            var tuningFilePath = Path.Combine(rawDir, $"{i:D3}_{validTuningName}.txt");
+            var tablesFilePath = Path.Combine(tablesDir, $"{i:D3}_{validTuningName}.md");
 
-            foreach (var property in nodeType.GetProperties().OrderBy(x => x.Name))
+            var properties = new Dictionary<string, object?>();
+            var chunks = new Dictionary<string, Dictionary<string, object?>>();
+
+            await using (var txtWriter = File.CreateText(tuningFilePath))
+            await using (var mdWriter = File.CreateText(tablesFilePath))
             {
-                if (property.Name is "Id" or "Chunks" or "GameVersion" or "Name")
-                {
-                    continue;
-                }
-
-                var value = property.GetValue(tuning);
-
-                await txtWriter.WriteLineAsync(ValueToString(property.Name, value));
-                await mdWriter.WriteLineAsync($"| {property.Name} | {ValueToMarkdownCell(property.Name, value)} |");
-            }
-
-            await mdWriter.WriteLineAsync("## Chunks");
-
-            foreach (var chunk in tuning.Chunks)
-            {
-                var chunkType = chunk.GetType();
-                var fields = chunkType.GetFields().OrderBy(x => x.Name).ToList();
-
+                await txtWriter.WriteLineAsync($"Name: {tuningName}");
                 await txtWriter.WriteLineAsync();
-                await txtWriter.WriteLineAsync($"0x{chunk.Id:X8}");
 
-                if (fields.Count > 0)
+                await mdWriter.WriteLineAsync($"# {tuningName}");
+                await mdWriter.WriteLineAsync();
+                await mdWriter.WriteLineAsync("## Properties");
+                await mdWriter.WriteLineAsync();
+                await mdWriter.WriteLineAsync("| Name | Value |");
+                await mdWriter.WriteLineAsync("| --- | --- |");
+
+                var nodeType = tuning.GetType();
+
+                foreach (var property in nodeType.GetProperties().OrderBy(x => x.Name))
                 {
-                    await mdWriter.WriteLineAsync();
-                    await mdWriter.WriteLineAsync($"### 0x{chunk.Id:X8}");
-                    await mdWriter.WriteLineAsync();
-                    await mdWriter.WriteLineAsync("| Name | Value |");
-                    await mdWriter.WriteLineAsync("| --- | --- |");
+                    if (property.Name is "Id" or "Chunks" or "GameVersion" or "Name")
+                    {
+                        continue;
+                    }
+
+                    var value = property.GetValue(tuning);
+
+                    properties[property.Name] = value;
+
+                    await txtWriter.WriteLineAsync(ValueToString(property.Name, value));
+                    await mdWriter.WriteLineAsync($"| {property.Name} | {ValueToMarkdownCell(property.Name, value)} |");
                 }
 
-                foreach (var field in fields)
-                {
-                    var value = field.GetValue(chunk);
+                await mdWriter.WriteLineAsync("## Chunks");
 
-                    await txtWriter.WriteLineAsync(ValueToString(field.Name, value));
-                    await mdWriter.WriteLineAsync($"| {field.Name} | {ValueToMarkdownCell(field.Name, value)} |");
+                foreach (var chunk in tuning.Chunks)
+                {
+                    var chunkType = chunk.GetType();
+                    var fields = chunkType.GetFields().OrderBy(x => x.Name).ToList();
+                    var chunkId = $"0x{chunk.Id:X8}";
+                    var chunkFields = new Dictionary<string, object?>();
+
+                    await txtWriter.WriteLineAsync();
+                    await txtWriter.WriteLineAsync(chunkId);
+
+                    if (fields.Count > 0)
+                    {
+                        await mdWriter.WriteLineAsync();
+                        await mdWriter.WriteLineAsync($"### {chunkId}");
+                        await mdWriter.WriteLineAsync();
+                        await mdWriter.WriteLineAsync("| Name | Value |");
+                        await mdWriter.WriteLineAsync("| --- | --- |");
+                    }
+
+                    foreach (var field in fields)
+                    {
+                        var value = field.GetValue(chunk);
+
+                        chunkFields[field.Name] = value;
+
+                        await txtWriter.WriteLineAsync(ValueToString(field.Name, value));
+                        await mdWriter.WriteLineAsync($"| {field.Name} | {ValueToMarkdownCell(field.Name, value)} |");
+                    }
+
+                    if (chunkFields.Count > 0)
+                    {
+                        chunks[chunkId] = chunkFields;
+                    }
                 }
             }
+
+            if (previousTuningFilePath is not null)
+            {
+                var diffFilePath = Path.Combine(diffDir, $"{Path.GetFileNameWithoutExtension(tuningFilePath)}.diff");
+
+                await WriteDiffFileAsync(previousTuningFilePath, tuningFilePath, diffFilePath);
+            }
+
+            previousTuningFilePath = tuningFilePath;
+            latestTablesFilePath = tablesFilePath;
+            latestProperties = properties;
+            latestChunks = chunks;
         }
 
-        if (previousTuningFilePath is not null)
+        if (latestTablesFilePath is not null)
         {
-            var diffFilePath = Path.Combine(diffDir, $"{Path.GetFileNameWithoutExtension(tuningFilePath)}.diff");
+            var readmeFilePath = Path.Combine(tuningDir, "README.md");
+            var latestContent = await File.ReadAllTextAsync(latestTablesFilePath);
 
-            await WriteDiffFileAsync(previousTuningFilePath, tuningFilePath, diffFilePath);
+            await using var readmeWriter = File.CreateText(readmeFilePath);
+            await readmeWriter.WriteAsync(latestContent);
+
+            gameVehicles.Add(new VehicleTableData(fileBaseName, latestProperties, latestChunks));
         }
-
-        previousTuningFilePath = tuningFilePath;
-        latestTablesFilePath = tablesFilePath;
     }
 
-    if (latestTablesFilePath is not null)
-    {
-        var readmeFilePath = Path.Combine(tuningDir, "README.md");
-        var latestContent = await File.ReadAllTextAsync(latestTablesFilePath);
+    var vehicleOrder = gameVehicleOrder.TryGetValue(relativeDir, out var configuredOrder) ? configuredOrder : [];
 
-        await using var readmeWriter = File.CreateText(readmeFilePath);
-        await readmeWriter.WriteAsync(latestContent);
-    }
+    await WriteGameReadmeAsync(gameReferenceDir, relativeDir, gameVehicles, vehicleOrder);
 }
 
 static async Task WriteDiffFileAsync(string oldFilePath, string newFilePath, string diffFilePath)
@@ -245,3 +288,97 @@ static string KeysToChartUrl((float X, float Y)[] points)
 
     return $"https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c={Uri.EscapeDataString(config)}";
 }
+
+static async Task WriteGameReadmeAsync(string gameReferenceDir, string gameName, List<VehicleTableData> vehicles, (string DisplayName, string FileBaseName)[] vehicleOrder)
+{
+    if (vehicles.Count == 0)
+    {
+        return;
+    }
+
+    var orderedColumns = vehicleOrder
+        .Select(o => (o.DisplayName, Vehicle: vehicles.Find(v => v.FileBaseName == o.FileBaseName)))
+        .Where(c => c.Vehicle is not null)
+        .Select(c => (c.DisplayName, Vehicle: c.Vehicle!))
+        .ToList();
+
+    var remainingColumns = vehicles
+        .Where(v => orderedColumns.All(c => c.Vehicle.FileBaseName != v.FileBaseName))
+        .OrderBy(v => v.FileBaseName)
+        .Select(v => (DisplayName: v.FileBaseName, Vehicle: v));
+
+    var columns = orderedColumns.Concat(remainingColumns).ToList();
+
+    var readmeFilePath = Path.Combine(gameReferenceDir, "README.md");
+
+    await using var writer = File.CreateText(readmeFilePath);
+
+    await writer.WriteLineAsync("# Vehicle comparison");
+    await writer.WriteLineAsync();
+    await writer.WriteLineAsync("Comparison of the latest tuning revision of every vehicle.");
+    await writer.WriteLineAsync();
+    await writer.WriteLineAsync("## Properties");
+    await writer.WriteLineAsync();
+    await writer.WriteLineAsync($"| Property | {string.Join(" | ", columns.Select(c => c.DisplayName))} |");
+    await writer.WriteLineAsync($"| --- | {string.Join(" | ", columns.Select(_ => "---"))} |");
+
+    var propertyNames = columns
+        .SelectMany(c => c.Vehicle.Properties.Keys)
+        .Distinct()
+        .OrderBy(x => x);
+
+    foreach (var propertyName in propertyNames)
+    {
+        var cells = columns.Select(c =>
+        {
+            c.Vehicle.Properties.TryGetValue(propertyName, out var value);
+            return ValueToMarkdownCell(propertyName, value);
+        });
+
+        await writer.WriteLineAsync($"| {propertyName} | {string.Join(" | ", cells)} |");
+    }
+
+    var chunkIds = columns
+        .SelectMany(c => c.Vehicle.Chunks.Keys)
+        .Distinct()
+        .OrderBy(x => x);
+
+    foreach (var chunkId in chunkIds)
+    {
+        var fieldNames = columns
+            .SelectMany(c => c.Vehicle.Chunks.TryGetValue(chunkId, out var chunkFields) ? (IEnumerable<string>)chunkFields.Keys : Array.Empty<string>())
+            .Distinct()
+            .OrderBy(x => x)
+            .ToList();
+
+        if (fieldNames.Count == 0)
+        {
+            continue;
+        }
+
+        await writer.WriteLineAsync();
+        await writer.WriteLineAsync($"## Chunk {chunkId}");
+        await writer.WriteLineAsync();
+        await writer.WriteLineAsync($"| Field | {string.Join(" | ", columns.Select(c => c.DisplayName))} |");
+        await writer.WriteLineAsync($"| --- | {string.Join(" | ", columns.Select(_ => "---"))} |");
+
+        foreach (var fieldName in fieldNames)
+        {
+            var cells = columns.Select(c =>
+            {
+                object? value = null;
+
+                if (c.Vehicle.Chunks.TryGetValue(chunkId, out var chunkFields))
+                {
+                    chunkFields.TryGetValue(fieldName, out value);
+                }
+
+                return ValueToMarkdownCell(fieldName, value);
+            });
+
+            await writer.WriteLineAsync($"| {fieldName} | {string.Join(" | ", cells)} |");
+        }
+    }
+}
+
+record VehicleTableData(string FileBaseName, Dictionary<string, object?> Properties, Dictionary<string, Dictionary<string, object?>> Chunks);
