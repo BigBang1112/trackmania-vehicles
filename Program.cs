@@ -30,6 +30,7 @@ foreach (var filePath in Directory.EnumerateFiles("Tunings", "*.Gbx", SearchOpti
     var tunings = Gbx.ParseNode<CPlugVehiclePhyTunings>(filePath);
 
     var previousTuningFilePath = default(string);
+    var latestTablesFilePath = default(string);
 
     foreach (var (i, tuning) in tunings.Tuning?.Index() ?? [])
     {
@@ -103,6 +104,16 @@ foreach (var filePath in Directory.EnumerateFiles("Tunings", "*.Gbx", SearchOpti
         }
 
         previousTuningFilePath = tuningFilePath;
+        latestTablesFilePath = tablesFilePath;
+    }
+
+    if (latestTablesFilePath is not null)
+    {
+        var readmeFilePath = Path.Combine(tablesDir, "README.md");
+        var latestContent = await File.ReadAllTextAsync(latestTablesFilePath);
+
+        await using var readmeWriter = File.CreateText(readmeFilePath);
+        await readmeWriter.WriteAsync(latestContent);
     }
 }
 
