@@ -21,9 +21,11 @@ foreach (var filePath in Directory.EnumerateFiles("Tunings", "*.Gbx", SearchOpti
 
     var rawDir = Path.Combine(referenceDir, relativeDir, "Raw", fileName);
     var diffDir = Path.Combine(referenceDir, relativeDir, "Diff", fileName);
+    var tablesDir = Path.Combine(referenceDir, relativeDir, "Tables", fileName);
 
     Directory.CreateDirectory(rawDir);
     Directory.CreateDirectory(diffDir);
+    Directory.CreateDirectory(tablesDir);
 
     var tunings = Gbx.ParseNode<CPlugVehiclePhyTunings>(filePath);
 
@@ -34,11 +36,20 @@ foreach (var filePath in Directory.EnumerateFiles("Tunings", "*.Gbx", SearchOpti
         var tuningName = (tuning as CPlugVehicleCarPhyTuning)?.Name ?? tuning.Name;
 
         var tuningFilePath = Path.Combine(rawDir, $"{i:D3}_{tuningName}.txt");
+        var tablesFilePath = Path.Combine(tablesDir, $"{i:D3}_{tuningName}.md");
 
         await using (var txtWriter = File.CreateText(tuningFilePath))
+        await using (var mdWriter = File.CreateText(tablesFilePath))
         {
             await txtWriter.WriteLineAsync($"Name: {tuningName}");
             await txtWriter.WriteLineAsync();
+
+            await mdWriter.WriteLineAsync($"# {tuningName}");
+            await mdWriter.WriteLineAsync();
+            await mdWriter.WriteLineAsync("## Properties");
+            await mdWriter.WriteLineAsync();
+            await mdWriter.WriteLineAsync("| Name | Value |");
+            await mdWriter.WriteLineAsync("| --- | --- |");
 
             var nodeType = tuning.GetType();
 
@@ -52,20 +63,34 @@ foreach (var filePath in Directory.EnumerateFiles("Tunings", "*.Gbx", SearchOpti
                 var value = property.GetValue(tuning);
 
                 await txtWriter.WriteLineAsync(PropertyValueToString(property.Name, value));
+                await mdWriter.WriteLineAsync($"| {property.Name} | {ValueToMarkdownCell(property.Name, value)} |");
             }
+
+            await mdWriter.WriteLineAsync("## Chunks");
 
             foreach (var chunk in tuning.Chunks)
             {
                 var chunkType = chunk.GetType();
+                var fields = chunkType.GetFields().OrderBy(x => x.Name).ToList();
 
                 await txtWriter.WriteLineAsync();
                 await txtWriter.WriteLineAsync($"0x{chunk.Id:X8}");
 
-                foreach (var field in chunkType.GetFields().OrderBy(x => x.Name))
+                if (fields.Count > 0)
+                {
+                    await mdWriter.WriteLineAsync();
+                    await mdWriter.WriteLineAsync($"### 0x{chunk.Id:X8}");
+                    await mdWriter.WriteLineAsync();
+                    await mdWriter.WriteLineAsync("| Name | Value |");
+                    await mdWriter.WriteLineAsync("| --- | --- |");
+                }
+
+                foreach (var field in fields)
                 {
                     var value = field.GetValue(chunk);
 
                     await txtWriter.WriteLineAsync(PropertyValueToString(field.Name, value));
+                    await mdWriter.WriteLineAsync($"| {field.Name} | {ValueToMarkdownCell(field.Name, value)} |");
                 }
             }
         }
@@ -136,4 +161,40 @@ static string KeysToString(CFuncKeysReal keys)
 static string ArrayToString(Array array)
 {
     return $"[{string.Join(", ", array.Cast<object>().Select(x => x?.ToString() ?? "null"))}]";
+}
+
+static string ValueToMarkdownCell(string name, object? value)
+{
+    switch (value)
+    {
+        case CFuncKeysReal keys:
+            var xs = keys.Xs ?? [];
+            var ys = keys.Ys ?? [];
+
+            if (xs.Length == 0)
+            {
+                return "*(empty)*";
+            }
+
+            return $"![{EscapeMarkdownCell(name)}]({KeysToChartUrl(xs, ys)})";
+        case Array array:
+            return EscapeMarkdownCell(ArrayToString(array));
+        default:
+            return EscapeMarkdownCell(value?.ToString() ?? "null");
+    }
+}
+
+static string EscapeMarkdownCell(string text)
+{
+    return text.Replace("|", "\\|").Replace("\r\n", " ").Replace("\n", " ");
+}
+
+static string KeysToChartUrl(float[] xs, float[] ys)
+{
+    var labels = string.Join(",", xs.Select(x => x.ToString(CultureInfo.InvariantCulture)));
+    var data = string.Join(",", ys.Select(y => y.ToString(CultureInfo.InvariantCulture)));
+
+    var config = $"{{type:'line',data:{{labels:[{labels}],datasets:[{{data:[{data}],fill:false,borderColor:'rgb(54,162,235)',pointRadius:2}}]}},options:{{plugins:{{legend:{{display:false}}}},scales:{{x:{{type:'linear'}}}}}}}}";
+
+    return $"https://quickchart.io/chart?width=300&height=150&c={Uri.EscapeDataString(config)}";
 }
