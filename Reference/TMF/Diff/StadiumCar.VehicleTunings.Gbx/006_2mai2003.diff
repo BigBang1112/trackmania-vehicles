@@ -1,0 +1,411 @@
+- Name: 11Avril2003
++ Name: 2mai2003
+  
+  AbsorbingValKa: 2
+  AbsorbingValKi: 40
+  AbsorbingValMax: 0.5
+  AbsorbingValMin: 0
+  AbsorbingValRest: 0.25
+  AbsorbTension: 5
+- AccelCurve: (-100, 30) (0, 25) (100, 12) (134.5, 9) (300, 6) (800, 3)
++ AccelCurve: (-100, 30) (0, 30) (100, 10) (200, 9) (400, 6) (800, 1)
+  AccelCurveRearGear: (-100, 2) (-50, 5) (0, 10)
+  AirControlDuration: 30000
+  AirControlZCoefFromAngularSpeed: (0, 1)
+  AngularFluidFrictionCoef1: 0.8
+  AngularFluidFrictionCoef2: 0.5
+  AngularSpeedClamp: 100
+  AngularSpeedYImpulseScale: 0.55
+  AxialSlopeAdherenceMax: 0.7
+  AxialSlopeAdherenceMin: 0.4
+  BodyFrictionCoef: 0.3
+  BodyFrictionCoef_Metal: 0.2
+  BodyRestCoef: -0.5
+  BodyRestCoef_Metal: -0.5
+- BrakeBase: 50
+- BrakeCoef: 0
++ BrakeBase: 5
++ BrakeCoef: 5
+  BrakeCoolingSpeed: -0.3
+  BrakeHeatSpeedFromFBrake: (0, 0) (20, 1)
+- BrakeMax: 500
+- BrakeMaxDynamic: 500
++ BrakeMax: 35
++ BrakeMaxDynamic: 25
+  CMAftForce: 0
+  CMDownUp: 0.45
+  DebugAbsorbCoef: 0.2
+  DecrepitudeCoef: 0.2
+  DecrepitudeImpactVal: 25
+  DisplaySteerRadiusCoef: 0
+  DisplaySteerRadiusMin: 0
+  EngineAutoGearMaxRPMs: null
+  EngineAutoGearMinRPMs: null
+  EngineGearRatios: null
+- GravityCoef: 3
++ GravityCoef: 4
+  GravityCoefAir: 4
+  GroundSlowDownBase: 1
+- GroundSlowDownCoef: 0
++ GroundSlowDownCoef: 0.2
+  InertiaHalfDiag: <0.5, 0.5, 1>
+  InertiaMass: 5
+  IsFakeEngine: True
+- LateralContactSlowDown: (0, 2)
++ LateralContactSlowDown: (0, 0) (50, 2)
+  LateralSlopeAdherenceMax: 0.7
+  LateralSlopeAdherenceMin: 0.3
+  LimitToMaxSpeedForce: 10
+  LinearFluidFrictionCoef: 0
+  LinearSpeed2PositiveDeltaMax: 10000
+  M4LateralFrictionForce: 1
+  M4LateralFrictionSquareForce: 1
+  M4LateralFrictionSquareTorque: 0
+  M4LateralFrictionTorque: 1
+  M4LeaveSlippingSpeed: 1
+  M4MaxFrictionForceFromSpeed: (0, 40)
+  M4MaxFrictionForceWhenSlipping: 1
+  M4MaxFrictionTorqueFromSpeed: (0, 100)
+  M4MaxFrictionTorqueWhenSlippingCoef: 1
+  M4SlipAngleSpeed: 0.005
+  M4SteerAngleWhenSlippingMax: 0.7853982
+  M4SteerRadiusCoefFromSlipAngle: 0.3
+  M4SteerRadiusFromSpeed: (0, 10) (100, 20)
+  M4SteerRadiusWhenSlippingCoef: 1
+  M5AccelSlipCoefMax: 1
+  M5KeepNoSteerSlowDownWhenSlippingDuration: 0
+  M5KeepSlidingAccelDuration: 0
+  M5KeepSteerSlowDownDurarion: 1
+  M5LateralConstantSlowDownDuration: 500
+  M5MaxAxialRolloverTorque: 20
+  M5SlippingAccelCurve: (-100, 50) (0, 50) (100, 1)
+  M5SmoothInputSteerDurationFromSpeed: (0, 0)
+  M5SteerCoefFromSpeed: (0, 1)
+  M6AfterBurnoutAccMod: 4
+  M6AfterBurnoutDuration: 500
+  M6AfterBurnoutImpulse: 10
+  M6AirRpmAcc: 5000
+  M6AirRpmDeadening: 2500
+  M6BrakeMaxDynamicRear: 50
+  M6BrakeMaxRear: 100
+  M6BrakeModulationWhenSlipping: 0.5
+  M6BrakeSmokeIntensity: 1
+  M6BurnoutAccMod: 0.5
+  M6BurnoutCenterForceCoeff: 1
+  M6BurnoutCenterForceCoeff2: 0.2
+  M6BurnoutDuration: 1000
+  M6BurnoutFricMod: 0.01
+  M6BurnoutLateralSpeed: (0, 0) (1, 30) (10, 30)
+  M6BurnoutLateralSpeedCoeff: 1
+  M6BurnoutLateralSpeedMax: 10
+  M6BurnoutRadius: (0, 1) (5, 2) (10, 3)
+  M6BurnoutRadiusMax: 20
+  M6BurnoutRolloverFromSpeed: (0, 1.5) (10, 1.2) (50, 0.2)
+  M6BurnoutRpmAcc: 5000
+  M6BurnoutSmokeIntensity: 5
+  M6BurnoutSmokeVelocity: 1
+  M6BurnoutSteerCoeff: 6
+  M6BurnoutSteerCoeff2: 2
+  M6BurnoutSteerCoeff3: 0.5
+  M6BurnoutWheelAngularRotation: 150
+  M6DonutRolloverFromSpeed: (0, 0) (10, 5) (20, 6)
+  M6ForceEpsilon: 0.01
+  M6FrictionModulationWhenSlipNBrake: 0.2
+  M6GearRatio: [4, 2, 1, 0.8, 0.5, 0.3]
+  M6InertialMass: 5
+  M6InertialTorqueModualtionX: 0.1
+  M6InertialTorqueModulationZ: 0.1
+  M6MaxDiffBtwGroundNormal: 0.35
+  M6MaxDiffBtwnPropulsionAndSpeed: 200
+  M6MaxNegAngle4Burnout: 0.785
+  M6MaxPosAngle4Burnout: 1.7453
+  M6MaxRpm: 0.8
+  M6MaxRPM: [0, 0.8125, 0.8125, 0.8125, 0.8125, 1]
+  M6MaxSpeed4Burnout: 10
+  M6MinRPM: [0, 0, 0.375, 0.53125, 0.5625, 0.625]
+  M6MinSpeed4Burnout: 3
+  M6RolloverLateralFromSpeedRatio: (0, 0) (1, 0.8) (10, 1) (20, 1) (30, 1)
+  M6RpmGainCoefOnGearDown: 10000
+  M6RpmGainOnTakeOff: 10000
+  M6RpmLossCoefOnGearUp: 5000
+  M6RpmLossOnTakeOffFinished: 4000
+  M6RpmWantedOnGearUp: [0, 0, 0.4285, 0.333, 0.25, 0.166]
+  M6SpeedLimitNegForTakeOffFront: -2
+  M6SpeedLimitNegTakeOffRear: -3
+  M6SpeedLimitPositiveForTakeOffFront: 3
+  M6SpeedLimitPositiveForTakeOffRear: 2
+  Mass: 1
+  MaxAngularSpeedYAirControl: 3.141593
+- MaxSideFriction: (0, 50)
++ MaxSideFriction: (0, 80)
+  MaxSideFrictionBlendCoef: 0
+- MaxSideFrictionSliding: 0.6
+- MaxSpeed: 97.22222
++ MaxSideFrictionSliding: 0.35
++ MaxSpeed: 416.6667
+  ModulationFromWheelCompression: (0, 1) (0.5, 2) (1, 3)
+  NoSteerSlowDownWhenSlipping: False
+  RelSpeedMultCoef: 0.2
+  ReverseMaxSpeed: 41.666668
+- RolloverAxial: 0
+- RolloverLateral: (0, 0.1)
+- RolloverLateralFromAngle: (0, 1)
++ RolloverAxial: 0.3
++ RolloverLateral: (0, 0.3)
++ RolloverLateralFromAngle: (0, 1) (0.5, 1) (0.8, 0)
+  RubberBallElasticity: 1
+  ShockModel: Demo03
+  SideFriction1: 40
+  SideFriction2: 0
+  SlipAngleForceCoef1: 10
+  SlipAngleForceCoef2: 0.01
+  SlipAngleForceMax: 0.087266
+  SlopeSpeedGainLimit: 0
+  SoundBodyImpact_Hard_Threshold: 5
+  SoundBodyImpact_Soft_Threshold: 2.5
+  SoundEngineVolume: 0.3
+  SoundImpactVolume: 1
+  SoundSkidConcreteVolume: 1
+  SoundSkidSandVolume: 1
+  SoundWheelImpact_Hard_Threshold: 5
+  SoundWheelImpact_Soft_Threshold: 2.5
+  SteerAngleMax: 0.523599
+- SteerDriveTorque: (0, 6)
++ SteerDriveTorque: (0, 9)
+  SteerDurationBeforeSteerSlowDown: 200
+  SteerGroundTorque: 0.08
+  SteerGroundTorqueSlippingCoef: 1
+  SteerLowSpeed: 30
+  SteerModel: Steer02
+  SteerRadiusCoef: 0.7
+  SteerRadiusMin: 2
+- SteerSlowDown: (0, 11)
+- SteerSlowDownCoef: 0
+- SteerSlowDownFadeInDuration: 0
++ SteerSlowDown: (0, 0) (50, 16)
++ SteerSlowDownCoef: 0.5
++ SteerSlowDownFadeInDuration: 1500
+  SteerSlowDownFadeOutDuration: 0
+  SteerSpeed: 20
+  TireMaterial: 9
+- Turbo2Boost: 2
++ Turbo2Boost: 3
+  Turbo2Duration: 1000
+- TurboBoost: 2
++ TurboBoost: 3
+  TurboDuration: 1000
+  VibrationPeriodSpeedCoef: 0.0005
+  VisualSteerAngleFromSpeed: null
+  WaterAngularFriction: 0.1
+  WaterAngularFrictionSq: 0.2
+  WaterBumpMinSpeed: 50
+  WaterBumpSlowDownFromSpeedRatio: (0, 0)
+  WaterFrictionFromSpeed: (0, 0) (1000, 1000)
+  WaterGravity: 1
+  WaterReboundFromSpeedRatio: (0, 1)
+  WaterReboundMinHSpeed: 55.555557
+  WaterSplashFromSpeed: null
+  WheelFrictionCoef_Concrete: 0
+  WheelFrictionCoef_Metal: 0
+  WheelRestCoef_Concrete: -0.8
+  WheelRestCoef_Metal: -0.8
+  
+  0x090EB000
+  U01: (0, 0) (30, 0) (100, 1)
+  U02: 5
+  
+  0x090ED000
+  U01: 1
+  U02: 35
+  
+  0x090ED001
+  
+  0x090ED002
+  
+  0x090ED004
+  
+  0x090ED005
+  
+  0x090ED007
+  
+  0x090ED009
+  
+  0x090ED00B
+  
+  0x090ED00D
+  
+  0x090ED00E
+  
+  0x090ED010
+  
+  0x090ED013
+  U01: 0
+  U02: 0
+  U03: 0
+  U04: 0
+  U05: 0
+  U06: 0
+  U07: 0
+  U08: 0
+  U09: 0
+  U10: 0
+  U11: 0
+  U12: 0
+  
+  0x090ED014
+  U01: 0
+  U02: 0
+  
+  0x090ED017
+  U01: 0
+  U02: 0
+  U03: 0
+  U04: 0
+  U05: 0
+  
+  0x090ED018
+  
+  0x090ED019
+  
+  0x090ED01A
+  U01: 1
+  
+  0x090ED01B
+  U01: 0
+  
+  0x090ED01D
+  
+  0x090ED01E
+  
+  0x090ED01F
+  U01: 1
+  U02: 1
+  U03: 1
+  
+  0x090ED020
+  
+  0x090ED023
+  
+  0x090ED024
+  
+  0x090ED026
+  
+  0x090ED027
+  
+  0x090ED028
+  U01: 1
+  U02: 1
+  
+  0x090ED029
+  
+  0x090ED02A
+  
+  0x090ED02B
+  
+  0x090ED02C
+  
+  0x090ED02D
+  
+  0x090ED02E
+  U01: 0
+  
+  0x090ED030
+  
+  0x090ED031
+  
+  0x090ED032
+  
+  0x090ED033
+  
+  0x090ED034
+  
+  0x090ED035
+  
+  0x090ED036
+  
+  0x090ED037
+  
+  0x090ED038
+  
+  0x090ED039
+  U01: 0
+  
+  0x090ED03A
+  
+  0x090ED03B
+  
+  0x090ED03C
+  
+  0x090ED03D
+  
+  0x090ED03E
+  
+  0x090ED03F
+  
+  0x090ED040
+  
+  0x090ED041
+  
+  0x090ED042
+  
+  0x090ED043
+  
+  0x090ED044
+  
+  0x090ED046
+  
+  0x090ED047
+  
+  0x090ED049
+  
+  0x090ED04D
+  
+  0x090ED04E
+  
+  0x090ED04F
+  
+  0x090ED051
+  
+  0x090ED052
+  
+  0x090ED053
+  
+  0x090ED056
+  
+  0x090ED057
+  
+  0x090ED058
+  
+  0x090ED059
+  
+  0x090ED05A
+  
+  0x090ED05B
+  
+  0x090ED05C
+  
+  0x090ED05D
+  
+  0x090ED05E
+  
+  0x090ED05F
+  
+  0x090ED060
+  
+  0x090ED061
+  
+  0x090ED062
+  U01: 0
+  
+  0x090ED063
+  U01: 1
+  
+  0x090ED064
+  U01: 1
+  
+  0x090ED065
+  U01: 1
+  
+  0x090ED066
+  U01: 1
+  
