@@ -1,6 +1,6 @@
-# TMSX vehicle comparison
+# Vehicle comparison
 
-Side-by-side comparison of the latest tuning revision of every vehicle.
+Comparison of the latest tuning revision of every vehicle.
 
 ## Properties
 
