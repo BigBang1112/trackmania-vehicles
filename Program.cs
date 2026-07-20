@@ -191,10 +191,39 @@ static string EscapeMarkdownCell(string text)
 
 static string KeysToChartUrl(float[] xs, float[] ys)
 {
-    var labels = string.Join(",", xs.Select(x => x.ToString(CultureInfo.InvariantCulture)));
-    var data = string.Join(",", ys.Select(y => y.ToString(CultureInfo.InvariantCulture)));
+    var points = string.Join(",", xs.Zip(ys, (x, y) => $"{{x:{x},y:{y}}}"));
 
-    var config = $"{{type:'line',data:{{labels:[{labels}],datasets:[{{data:[{data}],fill:false,borderColor:'rgb(54,162,235)',pointRadius:2}}]}},options:{{plugins:{{legend:{{display:false}}}},scales:{{x:{{type:'linear'}}}}}}}}";
+    var config = $@"
+{{
+  type: 'line',
+  data: {{
+    datasets: [
+      {{
+        data: [{points}],
+        fill: false
+      }}
+    ]
+  }},
+  options: {{
+    plugins: {{
+      legend: {{
+        display: false
+      }}
+    }},
+    elements: {{
+      line: {{
+        cubicInterpolationMode: 'default'
+      }}
+    }},
+    scales: {{
+      x: {{
+        type: 'linear'
+      }}
+    }}
+  }}
+}}";
 
-    return $"https://quickchart.io/chart?width=300&height=150&c={Uri.EscapeDataString(config)}";
+    config = string.Concat(config.Where(c => !char.IsWhiteSpace(c)));
+
+    return $"https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c={Uri.EscapeDataString(config)}";
 }

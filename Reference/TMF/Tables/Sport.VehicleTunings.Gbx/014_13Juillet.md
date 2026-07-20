@@ -10,10 +10,10 @@
 | AbsorbingValMin | 0.02 |
 | AbsorbingValRest | 0.08 |
 | AbsorbTension | 5 |
-| AccelCurve | ![AccelCurve](https://quickchart.io/chart?width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Blabels%3A%5B-500%2C-90%2C-50%2C0%2C100.5%2C200%2C400%2C800%5D%2Cdatasets%3A%5B%7Bdata%3A%5B0%2C2%2C10%2C15%2C10%2C6%2C5%2C4%5D%2Cfill%3Afalse%2CborderColor%3A%27rgb%2854%2C162%2C235%29%27%2CpointRadius%3A2%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
-| AccelCurveRearGear | ![AccelCurveRearGear](https://quickchart.io/chart?width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Blabels%3A%5B-100%2C-50%2C0%5D%2Cdatasets%3A%5B%7Bdata%3A%5B2%2C5%2C10%5D%2Cfill%3Afalse%2CborderColor%3A%27rgb%2854%2C162%2C235%29%27%2CpointRadius%3A2%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
+| AccelCurve | ![AccelCurve](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A-500%2Cy%3A0%7D%2C%7Bx%3A-90%2Cy%3A2%7D%2C%7Bx%3A-50%2Cy%3A10%7D%2C%7Bx%3A0%2Cy%3A15%7D%2C%7Bx%3A100.5%2Cy%3A10%7D%2C%7Bx%3A200%2Cy%3A6%7D%2C%7Bx%3A400%2Cy%3A5%7D%2C%7Bx%3A800%2Cy%3A4%7D%5D%2Cfill%3Afalse%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Celements%3A%7Bline%3A%7BcubicInterpolationMode%3A%27default%27%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
+| AccelCurveRearGear | ![AccelCurveRearGear](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A-100%2Cy%3A2%7D%2C%7Bx%3A-50%2Cy%3A5%7D%2C%7Bx%3A0%2Cy%3A10%7D%5D%2Cfill%3Afalse%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Celements%3A%7Bline%3A%7BcubicInterpolationMode%3A%27default%27%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
 | AirControlDuration | 30000 |
-| AirControlZCoefFromAngularSpeed | ![AirControlZCoefFromAngularSpeed](https://quickchart.io/chart?width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Blabels%3A%5B0%5D%2Cdatasets%3A%5B%7Bdata%3A%5B1%5D%2Cfill%3Afalse%2CborderColor%3A%27rgb%2854%2C162%2C235%29%27%2CpointRadius%3A2%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
+| AirControlZCoefFromAngularSpeed | ![AirControlZCoefFromAngularSpeed](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A0%2Cy%3A1%7D%5D%2Cfill%3Afalse%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Celements%3A%7Bline%3A%7BcubicInterpolationMode%3A%27default%27%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
 | AngularFluidFrictionCoef1 | 0 |
 | AngularFluidFrictionCoef2 | 0.4 |
 | AngularSpeedClamp | 100 |
@@ -27,7 +27,7 @@
 | BrakeBase | 10 |
 | BrakeCoef | 10 |
 | BrakeCoolingSpeed | -0.3 |
-| BrakeHeatSpeedFromFBrake | ![BrakeHeatSpeedFromFBrake](https://quickchart.io/chart?width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Blabels%3A%5B0%2C20%5D%2Cdatasets%3A%5B%7Bdata%3A%5B0%2C1%5D%2Cfill%3Afalse%2CborderColor%3A%27rgb%2854%2C162%2C235%29%27%2CpointRadius%3A2%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
+| BrakeHeatSpeedFromFBrake | ![BrakeHeatSpeedFromFBrake](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A0%2Cy%3A0%7D%2C%7Bx%3A20%2Cy%3A1%7D%5D%2Cfill%3Afalse%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Celements%3A%7Bline%3A%7BcubicInterpolationMode%3A%27default%27%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
 | BrakeMax | 50 |
 | BrakeMaxDynamic | 20 |
 | CMAftForce | 0 |
@@ -47,7 +47,7 @@
 | InertiaHalfDiag | <0.5, 0.5, 0.54> |
 | InertiaMass | 5 |
 | IsFakeEngine | True |
-| LateralContactSlowDown | ![LateralContactSlowDown](https://quickchart.io/chart?width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Blabels%3A%5B0%2C50%2C100%2C200%2C400%2C800%5D%2Cdatasets%3A%5B%7Bdata%3A%5B0%2C0.5%2C10%2C50%2C200%2C800%5D%2Cfill%3Afalse%2CborderColor%3A%27rgb%2854%2C162%2C235%29%27%2CpointRadius%3A2%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
+| LateralContactSlowDown | ![LateralContactSlowDown](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A0%2Cy%3A0%7D%2C%7Bx%3A50%2Cy%3A0.5%7D%2C%7Bx%3A100%2Cy%3A10%7D%2C%7Bx%3A200%2Cy%3A50%7D%2C%7Bx%3A400%2Cy%3A200%7D%2C%7Bx%3A800%2Cy%3A800%7D%5D%2Cfill%3Afalse%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Celements%3A%7Bline%3A%7BcubicInterpolationMode%3A%27default%27%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
 | LateralSlopeAdherenceMax | 0.7 |
 | LateralSlopeAdherenceMin | 0.3 |
 | LimitToMaxSpeedForce | 10 |
@@ -58,14 +58,14 @@
 | M4LateralFrictionSquareTorque | 0 |
 | M4LateralFrictionTorque | 1 |
 | M4LeaveSlippingSpeed | 1 |
-| M4MaxFrictionForceFromSpeed | ![M4MaxFrictionForceFromSpeed](https://quickchart.io/chart?width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Blabels%3A%5B0%5D%2Cdatasets%3A%5B%7Bdata%3A%5B40%5D%2Cfill%3Afalse%2CborderColor%3A%27rgb%2854%2C162%2C235%29%27%2CpointRadius%3A2%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
+| M4MaxFrictionForceFromSpeed | ![M4MaxFrictionForceFromSpeed](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A0%2Cy%3A40%7D%5D%2Cfill%3Afalse%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Celements%3A%7Bline%3A%7BcubicInterpolationMode%3A%27default%27%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
 | M4MaxFrictionForceWhenSlipping | 1 |
-| M4MaxFrictionTorqueFromSpeed | ![M4MaxFrictionTorqueFromSpeed](https://quickchart.io/chart?width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Blabels%3A%5B0%5D%2Cdatasets%3A%5B%7Bdata%3A%5B100%5D%2Cfill%3Afalse%2CborderColor%3A%27rgb%2854%2C162%2C235%29%27%2CpointRadius%3A2%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
+| M4MaxFrictionTorqueFromSpeed | ![M4MaxFrictionTorqueFromSpeed](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A0%2Cy%3A100%7D%5D%2Cfill%3Afalse%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Celements%3A%7Bline%3A%7BcubicInterpolationMode%3A%27default%27%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
 | M4MaxFrictionTorqueWhenSlippingCoef | 1 |
 | M4SlipAngleSpeed | 0.005 |
 | M4SteerAngleWhenSlippingMax | 0.785398 |
 | M4SteerRadiusCoefFromSlipAngle | 0.5 |
-| M4SteerRadiusFromSpeed | ![M4SteerRadiusFromSpeed](https://quickchart.io/chart?width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Blabels%3A%5B0%2C100%5D%2Cdatasets%3A%5B%7Bdata%3A%5B10%2C20%5D%2Cfill%3Afalse%2CborderColor%3A%27rgb%2854%2C162%2C235%29%27%2CpointRadius%3A2%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
+| M4SteerRadiusFromSpeed | ![M4SteerRadiusFromSpeed](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A0%2Cy%3A10%7D%2C%7Bx%3A100%2Cy%3A20%7D%5D%2Cfill%3Afalse%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Celements%3A%7Bline%3A%7BcubicInterpolationMode%3A%27default%27%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
 | M4SteerRadiusWhenSlippingCoef | 1 |
 | M5AccelSlipCoefMax | 5 |
 | M5KeepNoSteerSlowDownWhenSlippingDuration | 500 |
@@ -73,9 +73,9 @@
 | M5KeepSteerSlowDownDurarion | 100 |
 | M5LateralConstantSlowDownDuration | 200 |
 | M5MaxAxialRolloverTorque | 20 |
-| M5SlippingAccelCurve | ![M5SlippingAccelCurve](https://quickchart.io/chart?width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Blabels%3A%5B-500%2C-90%2C-50%2C0%2C100.5%2C200%2C400%2C500%2C800%5D%2Cdatasets%3A%5B%7Bdata%3A%5B1%2C15%2C20%2C15%2C10%2C40%2C25%2C10%2C4%5D%2Cfill%3Afalse%2CborderColor%3A%27rgb%2854%2C162%2C235%29%27%2CpointRadius%3A2%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
-| M5SmoothInputSteerDurationFromSpeed | ![M5SmoothInputSteerDurationFromSpeed](https://quickchart.io/chart?width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Blabels%3A%5B0%2C200%2C500%5D%2Cdatasets%3A%5B%7Bdata%3A%5B0%2C0%2C500%5D%2Cfill%3Afalse%2CborderColor%3A%27rgb%2854%2C162%2C235%29%27%2CpointRadius%3A2%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
-| M5SteerCoefFromSpeed | ![M5SteerCoefFromSpeed](https://quickchart.io/chart?width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Blabels%3A%5B0%2C200%2C500%5D%2Cdatasets%3A%5B%7Bdata%3A%5B1%2C0.5%2C0.1%5D%2Cfill%3Afalse%2CborderColor%3A%27rgb%2854%2C162%2C235%29%27%2CpointRadius%3A2%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
+| M5SlippingAccelCurve | ![M5SlippingAccelCurve](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A-500%2Cy%3A1%7D%2C%7Bx%3A-90%2Cy%3A15%7D%2C%7Bx%3A-50%2Cy%3A20%7D%2C%7Bx%3A0%2Cy%3A15%7D%2C%7Bx%3A100.5%2Cy%3A10%7D%2C%7Bx%3A200%2Cy%3A40%7D%2C%7Bx%3A400%2Cy%3A25%7D%2C%7Bx%3A500%2Cy%3A10%7D%2C%7Bx%3A800%2Cy%3A4%7D%5D%2Cfill%3Afalse%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Celements%3A%7Bline%3A%7BcubicInterpolationMode%3A%27default%27%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
+| M5SmoothInputSteerDurationFromSpeed | ![M5SmoothInputSteerDurationFromSpeed](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A0%2Cy%3A0%7D%2C%7Bx%3A200%2Cy%3A0%7D%2C%7Bx%3A500%2Cy%3A500%7D%5D%2Cfill%3Afalse%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Celements%3A%7Bline%3A%7BcubicInterpolationMode%3A%27default%27%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
+| M5SteerCoefFromSpeed | ![M5SteerCoefFromSpeed](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A0%2Cy%3A1%7D%2C%7Bx%3A200%2Cy%3A0.5%7D%2C%7Bx%3A500%2Cy%3A0.1%7D%5D%2Cfill%3Afalse%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Celements%3A%7Bline%3A%7BcubicInterpolationMode%3A%27default%27%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
 | M6AfterBurnoutAccMod | 4 |
 | M6AfterBurnoutDuration | 500 |
 | M6AfterBurnoutImpulse | 10 |
@@ -90,12 +90,12 @@
 | M6BurnoutCenterForceCoeff2 | 0.5 |
 | M6BurnoutDuration | 1000 |
 | M6BurnoutFricMod | 0.01 |
-| M6BurnoutLateralSpeed | ![M6BurnoutLateralSpeed](https://quickchart.io/chart?width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Blabels%3A%5B0%2C1%2C10%5D%2Cdatasets%3A%5B%7Bdata%3A%5B0%2C30%2C30%5D%2Cfill%3Afalse%2CborderColor%3A%27rgb%2854%2C162%2C235%29%27%2CpointRadius%3A2%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
+| M6BurnoutLateralSpeed | ![M6BurnoutLateralSpeed](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A0%2Cy%3A0%7D%2C%7Bx%3A1%2Cy%3A30%7D%2C%7Bx%3A10%2Cy%3A30%7D%5D%2Cfill%3Afalse%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Celements%3A%7Bline%3A%7BcubicInterpolationMode%3A%27default%27%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
 | M6BurnoutLateralSpeedCoeff | 1 |
 | M6BurnoutLateralSpeedMax | 10 |
-| M6BurnoutRadius | ![M6BurnoutRadius](https://quickchart.io/chart?width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Blabels%3A%5B0%2C5%2C10%5D%2Cdatasets%3A%5B%7Bdata%3A%5B1%2C2%2C3%5D%2Cfill%3Afalse%2CborderColor%3A%27rgb%2854%2C162%2C235%29%27%2CpointRadius%3A2%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
+| M6BurnoutRadius | ![M6BurnoutRadius](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A0%2Cy%3A1%7D%2C%7Bx%3A5%2Cy%3A2%7D%2C%7Bx%3A10%2Cy%3A3%7D%5D%2Cfill%3Afalse%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Celements%3A%7Bline%3A%7BcubicInterpolationMode%3A%27default%27%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
 | M6BurnoutRadiusMax | 20 |
-| M6BurnoutRolloverFromSpeed | ![M6BurnoutRolloverFromSpeed](https://quickchart.io/chart?width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Blabels%3A%5B0%2C10%2C50%5D%2Cdatasets%3A%5B%7Bdata%3A%5B1.5%2C1.2%2C0.2%5D%2Cfill%3Afalse%2CborderColor%3A%27rgb%2854%2C162%2C235%29%27%2CpointRadius%3A2%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
+| M6BurnoutRolloverFromSpeed | ![M6BurnoutRolloverFromSpeed](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A0%2Cy%3A1.5%7D%2C%7Bx%3A10%2Cy%3A1.2%7D%2C%7Bx%3A50%2Cy%3A0.2%7D%5D%2Cfill%3Afalse%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Celements%3A%7Bline%3A%7BcubicInterpolationMode%3A%27default%27%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
 | M6BurnoutRpmAcc | 5 |
 | M6BurnoutSmokeIntensity | 5 |
 | M6BurnoutSmokeVelocity | 1 |
@@ -103,7 +103,7 @@
 | M6BurnoutSteerCoeff2 | 2 |
 | M6BurnoutSteerCoeff3 | 0.5 |
 | M6BurnoutWheelAngularRotation | 150 |
-| M6DonutRolloverFromSpeed | ![M6DonutRolloverFromSpeed](https://quickchart.io/chart?width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Blabels%3A%5B0%2C10%2C20%5D%2Cdatasets%3A%5B%7Bdata%3A%5B0%2C5%2C6%5D%2Cfill%3Afalse%2CborderColor%3A%27rgb%2854%2C162%2C235%29%27%2CpointRadius%3A2%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
+| M6DonutRolloverFromSpeed | ![M6DonutRolloverFromSpeed](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A0%2Cy%3A0%7D%2C%7Bx%3A10%2Cy%3A5%7D%2C%7Bx%3A20%2Cy%3A6%7D%5D%2Cfill%3Afalse%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Celements%3A%7Bline%3A%7BcubicInterpolationMode%3A%27default%27%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
 | M6ForceEpsilon | 0.01 |
 | M6FrictionModulationWhenSlipNBrake | 0.2 |
 | M6GearRatio | [4, 2, 1, 0.8, 0.5, 0.3] |
@@ -119,7 +119,7 @@
 | M6MaxSpeed4Burnout | 10 |
 | M6MinRPM | [0, 0, 0.375, 0.53125, 0.5625, 0.625] |
 | M6MinSpeed4Burnout | 3 |
-| M6RolloverLateralFromSpeedRatio | ![M6RolloverLateralFromSpeedRatio](https://quickchart.io/chart?width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Blabels%3A%5B0%2C1%2C10%2C20%2C30%5D%2Cdatasets%3A%5B%7Bdata%3A%5B0%2C0.8%2C1%2C1%2C1%5D%2Cfill%3Afalse%2CborderColor%3A%27rgb%2854%2C162%2C235%29%27%2CpointRadius%3A2%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
+| M6RolloverLateralFromSpeedRatio | ![M6RolloverLateralFromSpeedRatio](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A0%2Cy%3A0%7D%2C%7Bx%3A1%2Cy%3A0.8%7D%2C%7Bx%3A10%2Cy%3A1%7D%2C%7Bx%3A20%2Cy%3A1%7D%2C%7Bx%3A30%2Cy%3A1%7D%5D%2Cfill%3Afalse%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Celements%3A%7Bline%3A%7BcubicInterpolationMode%3A%27default%27%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
 | M6RpmGainCoefOnGearDown | 10000 |
 | M6RpmGainOnTakeOff | 10000 |
 | M6RpmLossCoefOnGearUp | 5000 |
@@ -131,17 +131,17 @@
 | M6SpeedLimitPositiveForTakeOffRear | 2 |
 | Mass | 1 |
 | MaxAngularSpeedYAirControl | 3.14 |
-| MaxSideFriction | ![MaxSideFriction](https://quickchart.io/chart?width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Blabels%3A%5B0%5D%2Cdatasets%3A%5B%7Bdata%3A%5B70%5D%2Cfill%3Afalse%2CborderColor%3A%27rgb%2854%2C162%2C235%29%27%2CpointRadius%3A2%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
+| MaxSideFriction | ![MaxSideFriction](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A0%2Cy%3A70%7D%5D%2Cfill%3Afalse%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Celements%3A%7Bline%3A%7BcubicInterpolationMode%3A%27default%27%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
 | MaxSideFrictionBlendCoef | 0.03 |
 | MaxSideFrictionSliding | 0.1 |
 | MaxSpeed | 277.7778 |
-| ModulationFromWheelCompression | ![ModulationFromWheelCompression](https://quickchart.io/chart?width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Blabels%3A%5B0%2C0.5%2C1%5D%2Cdatasets%3A%5B%7Bdata%3A%5B1%2C2%2C3%5D%2Cfill%3Afalse%2CborderColor%3A%27rgb%2854%2C162%2C235%29%27%2CpointRadius%3A2%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
+| ModulationFromWheelCompression | ![ModulationFromWheelCompression](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A0%2Cy%3A1%7D%2C%7Bx%3A0.5%2Cy%3A2%7D%2C%7Bx%3A1%2Cy%3A3%7D%5D%2Cfill%3Afalse%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Celements%3A%7Bline%3A%7BcubicInterpolationMode%3A%27default%27%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
 | NoSteerSlowDownWhenSlipping | True |
 | RelSpeedMultCoef | 0.2 |
 | ReverseMaxSpeed | 138.61111 |
 | RolloverAxial | 0.16 |
-| RolloverLateral | ![RolloverLateral](https://quickchart.io/chart?width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Blabels%3A%5B0%2C200%2C201%5D%2Cdatasets%3A%5B%7Bdata%3A%5B0.01%2C0.01%2C0.01%5D%2Cfill%3Afalse%2CborderColor%3A%27rgb%2854%2C162%2C235%29%27%2CpointRadius%3A2%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
-| RolloverLateralFromAngle | ![RolloverLateralFromAngle](https://quickchart.io/chart?width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Blabels%3A%5B0%2C0.4%2C0.8%2C1%5D%2Cdatasets%3A%5B%7Bdata%3A%5B1%2C0.7%2C0.2%2C0%5D%2Cfill%3Afalse%2CborderColor%3A%27rgb%2854%2C162%2C235%29%27%2CpointRadius%3A2%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
+| RolloverLateral | ![RolloverLateral](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A0%2Cy%3A0.01%7D%2C%7Bx%3A200%2Cy%3A0.01%7D%2C%7Bx%3A201%2Cy%3A0.01%7D%5D%2Cfill%3Afalse%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Celements%3A%7Bline%3A%7BcubicInterpolationMode%3A%27default%27%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
+| RolloverLateralFromAngle | ![RolloverLateralFromAngle](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A0%2Cy%3A1%7D%2C%7Bx%3A0.4%2Cy%3A0.7%7D%2C%7Bx%3A0.8%2Cy%3A0.2%7D%2C%7Bx%3A1%2Cy%3A0%7D%5D%2Cfill%3Afalse%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Celements%3A%7Bline%3A%7BcubicInterpolationMode%3A%27default%27%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
 | RubberBallElasticity | 1 |
 | ShockModel | Demo03 |
 | SideFriction1 | 40 |
@@ -159,7 +159,7 @@
 | SoundWheelImpact_Hard_Threshold | 8 |
 | SoundWheelImpact_Soft_Threshold | 1.5 |
 | SteerAngleMax | 0.523599 |
-| SteerDriveTorque | ![SteerDriveTorque](https://quickchart.io/chart?width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Blabels%3A%5B0%5D%2Cdatasets%3A%5B%7Bdata%3A%5B9%5D%2Cfill%3Afalse%2CborderColor%3A%27rgb%2854%2C162%2C235%29%27%2CpointRadius%3A2%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
+| SteerDriveTorque | ![SteerDriveTorque](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A0%2Cy%3A9%7D%5D%2Cfill%3Afalse%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Celements%3A%7Bline%3A%7BcubicInterpolationMode%3A%27default%27%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
 | SteerDurationBeforeSteerSlowDown | 200 |
 | SteerGroundTorque | 0.08 |
 | SteerGroundTorqueSlippingCoef | 1 |
@@ -167,7 +167,7 @@
 | SteerModel | Steer05 |
 | SteerRadiusCoef | 0.7 |
 | SteerRadiusMin | 5 |
-| SteerSlowDown | ![SteerSlowDown](https://quickchart.io/chart?width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Blabels%3A%5B-500%2C-90%2C-50%2C0%2C100.5%2C200%2C400%2C800%5D%2Cdatasets%3A%5B%7Bdata%3A%5B15%2C12%2C0%2C0%2C0%2C4%2C50%2C200%5D%2Cfill%3Afalse%2CborderColor%3A%27rgb%2854%2C162%2C235%29%27%2CpointRadius%3A2%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
+| SteerSlowDown | ![SteerSlowDown](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A-500%2Cy%3A15%7D%2C%7Bx%3A-90%2Cy%3A12%7D%2C%7Bx%3A-50%2Cy%3A0%7D%2C%7Bx%3A0%2Cy%3A0%7D%2C%7Bx%3A100.5%2Cy%3A0%7D%2C%7Bx%3A200%2Cy%3A4%7D%2C%7Bx%3A400%2Cy%3A50%7D%2C%7Bx%3A800%2Cy%3A200%7D%5D%2Cfill%3Afalse%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Celements%3A%7Bline%3A%7BcubicInterpolationMode%3A%27default%27%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
 | SteerSlowDownCoef | 0 |
 | SteerSlowDownFadeInDuration | 1500 |
 | SteerSlowDownFadeOutDuration | 0 |
@@ -182,10 +182,10 @@
 | WaterAngularFriction | 0.1 |
 | WaterAngularFrictionSq | 0.2 |
 | WaterBumpMinSpeed | 13.888889 |
-| WaterBumpSlowDownFromSpeedRatio | ![WaterBumpSlowDownFromSpeedRatio](https://quickchart.io/chart?width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Blabels%3A%5B0%2C0.4%2C0.5%2C1%5D%2Cdatasets%3A%5B%7Bdata%3A%5B0.7%2C0.7%2C0.6%2C0.6%5D%2Cfill%3Afalse%2CborderColor%3A%27rgb%2854%2C162%2C235%29%27%2CpointRadius%3A2%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
-| WaterFrictionFromSpeed | ![WaterFrictionFromSpeed](https://quickchart.io/chart?width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Blabels%3A%5B0%2C2%2C50%5D%2Cdatasets%3A%5B%7Bdata%3A%5B0%2C0.2%2C1%5D%2Cfill%3Afalse%2CborderColor%3A%27rgb%2854%2C162%2C235%29%27%2CpointRadius%3A2%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
+| WaterBumpSlowDownFromSpeedRatio | ![WaterBumpSlowDownFromSpeedRatio](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A0%2Cy%3A0.7%7D%2C%7Bx%3A0.4%2Cy%3A0.7%7D%2C%7Bx%3A0.5%2Cy%3A0.6%7D%2C%7Bx%3A1%2Cy%3A0.6%7D%5D%2Cfill%3Afalse%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Celements%3A%7Bline%3A%7BcubicInterpolationMode%3A%27default%27%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
+| WaterFrictionFromSpeed | ![WaterFrictionFromSpeed](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A0%2Cy%3A0%7D%2C%7Bx%3A2%2Cy%3A0.2%7D%2C%7Bx%3A50%2Cy%3A1%7D%5D%2Cfill%3Afalse%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Celements%3A%7Bline%3A%7BcubicInterpolationMode%3A%27default%27%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
 | WaterGravity | 0.5 |
-| WaterReboundFromSpeedRatio | ![WaterReboundFromSpeedRatio](https://quickchart.io/chart?width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Blabels%3A%5B0%2C0.4%2C0.5%2C1%5D%2Cdatasets%3A%5B%7Bdata%3A%5B0.9%2C0.9%2C1.5%2C1.5%5D%2Cfill%3Afalse%2CborderColor%3A%27rgb%2854%2C162%2C235%29%27%2CpointRadius%3A2%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
+| WaterReboundFromSpeedRatio | ![WaterReboundFromSpeedRatio](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A0%2Cy%3A0.9%7D%2C%7Bx%3A0.4%2Cy%3A0.9%7D%2C%7Bx%3A0.5%2Cy%3A1.5%7D%2C%7Bx%3A1%2Cy%3A1.5%7D%5D%2Cfill%3Afalse%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Celements%3A%7Bline%3A%7BcubicInterpolationMode%3A%27default%27%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
 | WaterReboundMinHSpeed | 55.555557 |
 | WaterSplashFromSpeed | null |
 | WheelFrictionCoef_Concrete | 0 |
@@ -198,7 +198,7 @@
 
 | Name | Value |
 | --- | --- |
-| U01 | ![U01](https://quickchart.io/chart?width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Blabels%3A%5B0%2C3%2C60%5D%2Cdatasets%3A%5B%7Bdata%3A%5B0%2C0%2C1%5D%2Cfill%3Afalse%2CborderColor%3A%27rgb%2854%2C162%2C235%29%27%2CpointRadius%3A2%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
+| U01 | ![U01](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A0%2Cy%3A0%7D%2C%7Bx%3A3%2Cy%3A0%7D%2C%7Bx%3A60%2Cy%3A1%7D%5D%2Cfill%3Afalse%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Celements%3A%7Bline%3A%7BcubicInterpolationMode%3A%27default%27%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
 | U02 | 25 |
 
 ### 0x090ED000
