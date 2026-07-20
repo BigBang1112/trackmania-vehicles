@@ -4,7 +4,7 @@ Comparison of the latest tuning revision of every vehicle.
 
 ## Properties
 
-| Property | DesertCar | SnowCar | RallyCar |
+| Property | [DesertCar](American.VehicleTunings.Gbx) | [SnowCar](Buggy.VehicleTunings.Gbx) | [RallyCar](Rally.VehicleTunings.Gbx) |
 | --- | --- | --- | --- |
 | AbsorbingValKa | 2 | 2 | 2 |
 | AbsorbingValKi | 40 | 40 | 40 |
@@ -199,14 +199,14 @@ Comparison of the latest tuning revision of every vehicle.
 
 ### 0x090ED000
 
-| Field | DesertCar | SnowCar | RallyCar |
+| Field | [DesertCar](American.VehicleTunings.Gbx) | [SnowCar](Buggy.VehicleTunings.Gbx) | [RallyCar](Rally.VehicleTunings.Gbx) |
 | --- | --- | --- | --- |
 | U01 | 1 | 1 | 1 |
 | U02 | 35 | 35 | 35 |
 
 ### 0x090ED013
 
-| Field | DesertCar | SnowCar | RallyCar |
+| Field | [DesertCar](American.VehicleTunings.Gbx) | [SnowCar](Buggy.VehicleTunings.Gbx) | [RallyCar](Rally.VehicleTunings.Gbx) |
 | --- | --- | --- | --- |
 | U01 | 0 | 0 | 0 |
 | U02 | 0 | 0 | 0 |
@@ -223,14 +223,14 @@ Comparison of the latest tuning revision of every vehicle.
 
 ### 0x090ED014
 
-| Field | DesertCar | SnowCar | RallyCar |
+| Field | [DesertCar](American.VehicleTunings.Gbx) | [SnowCar](Buggy.VehicleTunings.Gbx) | [RallyCar](Rally.VehicleTunings.Gbx) |
 | --- | --- | --- | --- |
 | U01 | 2.9833224E-32 | 2.9833224E-32 | 2.9833224E-32 |
 | U02 | 6.2863704E-33 | 6.2863704E-33 | 6.2863704E-33 |
 
 ### 0x090ED017
 
-| Field | DesertCar | SnowCar | RallyCar |
+| Field | [DesertCar](American.VehicleTunings.Gbx) | [SnowCar](Buggy.VehicleTunings.Gbx) | [RallyCar](Rally.VehicleTunings.Gbx) |
 | --- | --- | --- | --- |
 | U01 | 0 | 0 | 0 |
 | U02 | 0 | 0 | 0 |
@@ -240,19 +240,19 @@ Comparison of the latest tuning revision of every vehicle.
 
 ### 0x090ED01A
 
-| Field | DesertCar | SnowCar | RallyCar |
+| Field | [DesertCar](American.VehicleTunings.Gbx) | [SnowCar](Buggy.VehicleTunings.Gbx) | [RallyCar](Rally.VehicleTunings.Gbx) |
 | --- | --- | --- | --- |
 | U01 | 1 | 1 | 1 |
 
 ### 0x090ED01B
 
-| Field | DesertCar | SnowCar | RallyCar |
+| Field | [DesertCar](American.VehicleTunings.Gbx) | [SnowCar](Buggy.VehicleTunings.Gbx) | [RallyCar](Rally.VehicleTunings.Gbx) |
 | --- | --- | --- | --- |
 | U01 | 0 | 0 | 0 |
 
 ### 0x090ED01F
 
-| Field | DesertCar | SnowCar | RallyCar |
+| Field | [DesertCar](American.VehicleTunings.Gbx) | [SnowCar](Buggy.VehicleTunings.Gbx) | [RallyCar](Rally.VehicleTunings.Gbx) |
 | --- | --- | --- | --- |
 | U01 | 1 | 1 | 1 |
 | U02 | 1 | 1 | 1 |
@@ -260,13 +260,13 @@ Comparison of the latest tuning revision of every vehicle.
 
 ### 0x090ED028
 
-| Field | DesertCar | SnowCar | RallyCar |
+| Field | [DesertCar](American.VehicleTunings.Gbx) | [SnowCar](Buggy.VehicleTunings.Gbx) | [RallyCar](Rally.VehicleTunings.Gbx) |
 | --- | --- | --- | --- |
 | U01 | 1 | 1 | 1 |
 | U02 | 1 | 1 | 1 |
 
 ### 0x090ED02E
 
-| Field | DesertCar | SnowCar | RallyCar |
+| Field | [DesertCar](American.VehicleTunings.Gbx) | [SnowCar](Buggy.VehicleTunings.Gbx) | [RallyCar](Rally.VehicleTunings.Gbx) |
 | --- | --- | --- | --- |
 | U01 | 0 | 0 | 0 |

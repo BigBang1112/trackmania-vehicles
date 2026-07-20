@@ -152,7 +152,7 @@ foreach (var gameGroup in filesByGame)
             await using var readmeWriter = File.CreateText(readmeFilePath);
             await readmeWriter.WriteAsync(latestContent);
 
-            gameVehicles.Add(new VehicleTableData(fileBaseName, latestProperties, latestChunks));
+            gameVehicles.Add(new VehicleTableData(fileBaseName, fileName, latestProperties, latestChunks));
         }
     }
 
@@ -331,7 +331,7 @@ static async Task WriteGameReadmeAsync(string gameReferenceDir, string gameName,
     await writer.WriteLineAsync();
     await writer.WriteLineAsync("## Properties");
     await writer.WriteLineAsync();
-    await writer.WriteLineAsync($"| Property | {string.Join(" | ", columns.Select(c => c.DisplayName))} |");
+    await writer.WriteLineAsync($"| Property | {string.Join(" | ", columns.Select(c => $"[{c.DisplayName}]({c.Vehicle.FolderName})"))} |");
     await writer.WriteLineAsync($"| --- | {string.Join(" | ", columns.Select(_ => "---"))} |");
 
     var propertyNames = columns
@@ -374,7 +374,7 @@ static async Task WriteGameReadmeAsync(string gameReferenceDir, string gameName,
         await writer.WriteLineAsync();
         await writer.WriteLineAsync($"### {chunkId}");
         await writer.WriteLineAsync();
-        await writer.WriteLineAsync($"| Field | {string.Join(" | ", columns.Select(c => c.DisplayName))} |");
+        await writer.WriteLineAsync($"| Field | {string.Join(" | ", columns.Select(c => $"[{c.DisplayName}]({c.Vehicle.FolderName})"))} |");
         await writer.WriteLineAsync($"| --- | {string.Join(" | ", columns.Select(_ => "---"))} |");
 
         foreach (var fieldName in fieldNames)
@@ -397,4 +397,4 @@ static async Task WriteGameReadmeAsync(string gameReferenceDir, string gameName,
 }
 
 record KeyPoints((float X, float Y)[] Points, CFuncKeysReal.ERealInterp Interp);
-record VehicleTableData(string FileBaseName, Dictionary<string, object?> Properties, Dictionary<string, Dictionary<string, object?>> Chunks);
+record VehicleTableData(string FileBaseName, string FolderName, Dictionary<string, object?> Properties, Dictionary<string, Dictionary<string, object?>> Chunks);

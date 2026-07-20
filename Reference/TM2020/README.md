@@ -4,7 +4,7 @@ Comparison of the latest tuning revision of every vehicle.
 
 ## Properties
 
-| Property | StadiumCar | SnowCar | RallyCar | DesertCar |
+| Property | [StadiumCar](TuningsSport.VehicleTunings.Gbx) | [SnowCar](TuningsSnow.VehicleTunings.Gbx) | [RallyCar](CarRally.VehicleTunings.Gbx) | [DesertCar](DesertCar.VehicleTunings.Gbx) |
 | --- | --- | --- | --- | --- |
 | AbsorbingValKa | 1 | 2 | 2 | 2 |
 | AbsorbingValKi | 40 | 40 | 40 | 40 |
@@ -199,27 +199,27 @@ Comparison of the latest tuning revision of every vehicle.
 
 ### 0x090EB000
 
-| Field | StadiumCar | SnowCar | RallyCar | DesertCar |
+| Field | [StadiumCar](TuningsSport.VehicleTunings.Gbx) | [SnowCar](TuningsSnow.VehicleTunings.Gbx) | [RallyCar](CarRally.VehicleTunings.Gbx) | [DesertCar](DesertCar.VehicleTunings.Gbx) |
 | --- | --- | --- | --- | --- |
 | U01 | null | null | null | null |
 | U02 | 0 | 0 | 0 | 0 |
 
 ### 0x090EB001
 
-| Field | StadiumCar | SnowCar | RallyCar | DesertCar |
+| Field | [StadiumCar](TuningsSport.VehicleTunings.Gbx) | [SnowCar](TuningsSnow.VehicleTunings.Gbx) | [RallyCar](CarRally.VehicleTunings.Gbx) | [DesertCar](DesertCar.VehicleTunings.Gbx) |
 | --- | --- | --- | --- | --- |
 | U01 | False | False | False | False |
 
 ### 0x090ED000
 
-| Field | StadiumCar | SnowCar | RallyCar | DesertCar |
+| Field | [StadiumCar](TuningsSport.VehicleTunings.Gbx) | [SnowCar](TuningsSnow.VehicleTunings.Gbx) | [RallyCar](CarRally.VehicleTunings.Gbx) | [DesertCar](DesertCar.VehicleTunings.Gbx) |
 | --- | --- | --- | --- | --- |
 | U01 | 1 | 1 | 1 | 1 |
 | U02 | 0 | 0 | 0 | 0 |
 
 ### 0x090ED013
 
-| Field | StadiumCar | SnowCar | RallyCar | DesertCar |
+| Field | [StadiumCar](TuningsSport.VehicleTunings.Gbx) | [SnowCar](TuningsSnow.VehicleTunings.Gbx) | [RallyCar](CarRally.VehicleTunings.Gbx) | [DesertCar](DesertCar.VehicleTunings.Gbx) |
 | --- | --- | --- | --- | --- |
 | U01 | 0 | 0 | 0 | 0 |
 | U02 | 0 | 0 | 0 | 0 |
@@ -236,14 +236,14 @@ Comparison of the latest tuning revision of every vehicle.
 
 ### 0x090ED014
 
-| Field | StadiumCar | SnowCar | RallyCar | DesertCar |
+| Field | [StadiumCar](TuningsSport.VehicleTunings.Gbx) | [SnowCar](TuningsSnow.VehicleTunings.Gbx) | [RallyCar](CarRally.VehicleTunings.Gbx) | [DesertCar](DesertCar.VehicleTunings.Gbx) |
 | --- | --- | --- | --- | --- |
 | U01 | 0 | 0 | 0 | 0 |
 | U02 | 0 | 0 | 0 | 0 |
 
 ### 0x090ED017
 
-| Field | StadiumCar | SnowCar | RallyCar | DesertCar |
+| Field | [StadiumCar](TuningsSport.VehicleTunings.Gbx) | [SnowCar](TuningsSnow.VehicleTunings.Gbx) | [RallyCar](CarRally.VehicleTunings.Gbx) | [DesertCar](DesertCar.VehicleTunings.Gbx) |
 | --- | --- | --- | --- | --- |
 | U01 | 0 | 0 | 0 | 0 |
 | U02 | 0 | 0 | 0 | 0 |
@@ -253,7 +253,7 @@ Comparison of the latest tuning revision of every vehicle.
 
 ### 0x090ED01F
 
-| Field | StadiumCar | SnowCar | RallyCar | DesertCar |
+| Field | [StadiumCar](TuningsSport.VehicleTunings.Gbx) | [SnowCar](TuningsSnow.VehicleTunings.Gbx) | [RallyCar](CarRally.VehicleTunings.Gbx) | [DesertCar](DesertCar.VehicleTunings.Gbx) |
 | --- | --- | --- | --- | --- |
 | U01 | 1 | 1 | 1 | 1 |
 | U02 | 1 | 1 | 1 | 1 |
@@ -261,62 +261,62 @@ Comparison of the latest tuning revision of every vehicle.
 
 ### 0x090ED02E
 
-| Field | StadiumCar | SnowCar | RallyCar | DesertCar |
+| Field | [StadiumCar](TuningsSport.VehicleTunings.Gbx) | [SnowCar](TuningsSnow.VehicleTunings.Gbx) | [RallyCar](CarRally.VehicleTunings.Gbx) | [DesertCar](DesertCar.VehicleTunings.Gbx) |
 | --- | --- | --- | --- | --- |
 | U01 | 0 | 0 | 0 | 0 |
 
 ### 0x090ED039
 
-| Field | StadiumCar | SnowCar | RallyCar | DesertCar |
+| Field | [StadiumCar](TuningsSport.VehicleTunings.Gbx) | [SnowCar](TuningsSnow.VehicleTunings.Gbx) | [RallyCar](CarRally.VehicleTunings.Gbx) | [DesertCar](DesertCar.VehicleTunings.Gbx) |
 | --- | --- | --- | --- | --- |
 | U01 | 0 | 0 | 0 | 0 |
 
 ### 0x090ED062
 
-| Field | StadiumCar | SnowCar | RallyCar | DesertCar |
+| Field | [StadiumCar](TuningsSport.VehicleTunings.Gbx) | [SnowCar](TuningsSnow.VehicleTunings.Gbx) | [RallyCar](CarRally.VehicleTunings.Gbx) | [DesertCar](DesertCar.VehicleTunings.Gbx) |
 | --- | --- | --- | --- | --- |
 | U01 | -0.05 | 0.05 | 0.05 | 0.05 |
 
 ### 0x090ED063
 
-| Field | StadiumCar | SnowCar | RallyCar | DesertCar |
+| Field | [StadiumCar](TuningsSport.VehicleTunings.Gbx) | [SnowCar](TuningsSnow.VehicleTunings.Gbx) | [RallyCar](CarRally.VehicleTunings.Gbx) | [DesertCar](DesertCar.VehicleTunings.Gbx) |
 | --- | --- | --- | --- | --- |
 | U01 | 0.05 | 20 | 20 | 20 |
 
 ### 0x090ED064
 
-| Field | StadiumCar | SnowCar | RallyCar | DesertCar |
+| Field | [StadiumCar](TuningsSport.VehicleTunings.Gbx) | [SnowCar](TuningsSnow.VehicleTunings.Gbx) | [RallyCar](CarRally.VehicleTunings.Gbx) | [DesertCar](DesertCar.VehicleTunings.Gbx) |
 | --- | --- | --- | --- | --- |
 | U01 | 90 | 15 | 15 | 15 |
 
 ### 0x090ED065
 
-| Field | StadiumCar | SnowCar | RallyCar | DesertCar |
+| Field | [StadiumCar](TuningsSport.VehicleTunings.Gbx) | [SnowCar](TuningsSnow.VehicleTunings.Gbx) | [RallyCar](CarRally.VehicleTunings.Gbx) | [DesertCar](DesertCar.VehicleTunings.Gbx) |
 | --- | --- | --- | --- | --- |
 | U01 | 1 | 1 | 1 | 1 |
 
 ### 0x090ED066
 
-| Field | StadiumCar | SnowCar | RallyCar | DesertCar |
+| Field | [StadiumCar](TuningsSport.VehicleTunings.Gbx) | [SnowCar](TuningsSnow.VehicleTunings.Gbx) | [RallyCar](CarRally.VehicleTunings.Gbx) | [DesertCar](DesertCar.VehicleTunings.Gbx) |
 | --- | --- | --- | --- | --- |
 | U01 | 2 | 2 | 2 | 2 |
 
 ### 0x090ED06A
 
-| Field | StadiumCar | SnowCar | RallyCar | DesertCar |
+| Field | [StadiumCar](TuningsSport.VehicleTunings.Gbx) | [SnowCar](TuningsSnow.VehicleTunings.Gbx) | [RallyCar](CarRally.VehicleTunings.Gbx) | [DesertCar](DesertCar.VehicleTunings.Gbx) |
 | --- | --- | --- | --- | --- |
 | U01 | 277.77777 | 277.77777 | 277.77777 | 277.77777 |
 | U02 | 10 | 10 | 10 | 10 |
 
 ### 0x090ED06E
 
-| Field | StadiumCar | SnowCar | RallyCar | DesertCar |
+| Field | [StadiumCar](TuningsSport.VehicleTunings.Gbx) | [SnowCar](TuningsSnow.VehicleTunings.Gbx) | [RallyCar](CarRally.VehicleTunings.Gbx) | [DesertCar](DesertCar.VehicleTunings.Gbx) |
 | --- | --- | --- | --- | --- |
 | U01 | 0 | 0 | 0 | 0 |
 
 ### 0x090ED072
 
-| Field | StadiumCar | SnowCar | RallyCar | DesertCar |
+| Field | [StadiumCar](TuningsSport.VehicleTunings.Gbx) | [SnowCar](TuningsSnow.VehicleTunings.Gbx) | [RallyCar](CarRally.VehicleTunings.Gbx) | [DesertCar](DesertCar.VehicleTunings.Gbx) |
 | --- | --- | --- | --- | --- |
 | U01 | 0 | 0 | 0 | 0 |
 | U02 | 0 | 0 | 0 | 0 |
@@ -325,13 +325,13 @@ Comparison of the latest tuning revision of every vehicle.
 
 ### 0x090ED078
 
-| Field | StadiumCar | SnowCar | RallyCar | DesertCar |
+| Field | [StadiumCar](TuningsSport.VehicleTunings.Gbx) | [SnowCar](TuningsSnow.VehicleTunings.Gbx) | [RallyCar](CarRally.VehicleTunings.Gbx) | [DesertCar](DesertCar.VehicleTunings.Gbx) |
 | --- | --- | --- | --- | --- |
 | U01 | 1000 | 1000 | 1000 | 1000 |
 
 ### 0x090ED07D
 
-| Field | StadiumCar | SnowCar | RallyCar | DesertCar |
+| Field | [StadiumCar](TuningsSport.VehicleTunings.Gbx) | [SnowCar](TuningsSnow.VehicleTunings.Gbx) | [RallyCar](CarRally.VehicleTunings.Gbx) | [DesertCar](DesertCar.VehicleTunings.Gbx) |
 | --- | --- | --- | --- | --- |
 | U01 | 0 | 0 | 0 | 0 |
 | U02 | 0 | 0 | 0 | 0 |
@@ -339,7 +339,7 @@ Comparison of the latest tuning revision of every vehicle.
 
 ### 0x090ED084
 
-| Field | StadiumCar | SnowCar | RallyCar | DesertCar |
+| Field | [StadiumCar](TuningsSport.VehicleTunings.Gbx) | [SnowCar](TuningsSnow.VehicleTunings.Gbx) | [RallyCar](CarRally.VehicleTunings.Gbx) | [DesertCar](DesertCar.VehicleTunings.Gbx) |
 | --- | --- | --- | --- | --- |
 | U01 | 3 | 3 | 3 | 3 |
 | U02 | 1 | 1 | 1 | 1 |
@@ -347,7 +347,7 @@ Comparison of the latest tuning revision of every vehicle.
 
 ### 0x090ED085
 
-| Field | StadiumCar | SnowCar | RallyCar | DesertCar |
+| Field | [StadiumCar](TuningsSport.VehicleTunings.Gbx) | [SnowCar](TuningsSnow.VehicleTunings.Gbx) | [RallyCar](CarRally.VehicleTunings.Gbx) | [DesertCar](DesertCar.VehicleTunings.Gbx) |
 | --- | --- | --- | --- | --- |
 | U01 | True | True | True | True |
 | U02 | 0 | 0 | 0 | 0 |
@@ -358,20 +358,20 @@ Comparison of the latest tuning revision of every vehicle.
 
 ### 0x090ED086
 
-| Field | StadiumCar | SnowCar | RallyCar | DesertCar |
+| Field | [StadiumCar](TuningsSport.VehicleTunings.Gbx) | [SnowCar](TuningsSnow.VehicleTunings.Gbx) | [RallyCar](CarRally.VehicleTunings.Gbx) | [DesertCar](DesertCar.VehicleTunings.Gbx) |
 | --- | --- | --- | --- | --- |
 | U01 | 0 | 0 | 0 | 0 |
 | U02 | 0.5 | 0.5 | 0.5 | 0.5 |
 
 ### 0x090ED088
 
-| Field | StadiumCar | SnowCar | RallyCar | DesertCar |
+| Field | [StadiumCar](TuningsSport.VehicleTunings.Gbx) | [SnowCar](TuningsSnow.VehicleTunings.Gbx) | [RallyCar](CarRally.VehicleTunings.Gbx) | [DesertCar](DesertCar.VehicleTunings.Gbx) |
 | --- | --- | --- | --- | --- |
 | U01 | 0.3 | 0.3 | 0.3 | 0.3 |
 
 ### 0x090ED089
 
-| Field | StadiumCar | SnowCar | RallyCar | DesertCar |
+| Field | [StadiumCar](TuningsSport.VehicleTunings.Gbx) | [SnowCar](TuningsSnow.VehicleTunings.Gbx) | [RallyCar](CarRally.VehicleTunings.Gbx) | [DesertCar](DesertCar.VehicleTunings.Gbx) |
 | --- | --- | --- | --- | --- |
 | U01 | ![U01](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A0%2Cy%3A0%7D%2C%7Bx%3A360%2Cy%3A30%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) | ![U01](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A0%2Cy%3A0%7D%2C%7Bx%3A100%2Cy%3A2%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) | ![U01](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A0%2Cy%3A0%7D%2C%7Bx%3A100%2Cy%3A2%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) | ![U01](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A0%2Cy%3A0%7D%2C%7Bx%3A100%2Cy%3A2%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
 | U02 | null | null | null | null |
@@ -398,7 +398,7 @@ Comparison of the latest tuning revision of every vehicle.
 
 ### 0x090ED08A
 
-| Field | StadiumCar | SnowCar | RallyCar | DesertCar |
+| Field | [StadiumCar](TuningsSport.VehicleTunings.Gbx) | [SnowCar](TuningsSnow.VehicleTunings.Gbx) | [RallyCar](CarRally.VehicleTunings.Gbx) | [DesertCar](DesertCar.VehicleTunings.Gbx) |
 | --- | --- | --- | --- | --- |
 | U01 | 5 | 5 | 5 | 5 |
 | U02 | 5 | 5 | 5 | 5 |
@@ -419,7 +419,7 @@ Comparison of the latest tuning revision of every vehicle.
 
 ### 0x090ED08B
 
-| Field | StadiumCar | SnowCar | RallyCar | DesertCar |
+| Field | [StadiumCar](TuningsSport.VehicleTunings.Gbx) | [SnowCar](TuningsSnow.VehicleTunings.Gbx) | [RallyCar](CarRally.VehicleTunings.Gbx) | [DesertCar](DesertCar.VehicleTunings.Gbx) |
 | --- | --- | --- | --- | --- |
 | U01 | null | null | null | null |
 | U02 | null | null | null | null |
@@ -490,7 +490,7 @@ Comparison of the latest tuning revision of every vehicle.
 
 ### 0x090ED08C
 
-| Field | StadiumCar | SnowCar | RallyCar | DesertCar |
+| Field | [StadiumCar](TuningsSport.VehicleTunings.Gbx) | [SnowCar](TuningsSnow.VehicleTunings.Gbx) | [RallyCar](CarRally.VehicleTunings.Gbx) | [DesertCar](DesertCar.VehicleTunings.Gbx) |
 | --- | --- | --- | --- | --- |
 | U01 | -0.8 | -0.8 | -0.8 | -0.8 |
 | U02 | -0.8 | -0.8 | -0.8 | -0.8 |
@@ -500,7 +500,7 @@ Comparison of the latest tuning revision of every vehicle.
 
 ### 0x090ED08D
 
-| Field | StadiumCar | SnowCar | RallyCar | DesertCar |
+| Field | [StadiumCar](TuningsSport.VehicleTunings.Gbx) | [SnowCar](TuningsSnow.VehicleTunings.Gbx) | [RallyCar](CarRally.VehicleTunings.Gbx) | [DesertCar](DesertCar.VehicleTunings.Gbx) |
 | --- | --- | --- | --- | --- |
 | U01 | 10 | 10 | 10 | 10 |
 | U02 | False | False | False | False |
@@ -514,7 +514,7 @@ Comparison of the latest tuning revision of every vehicle.
 
 ### 0x090ED08E
 
-| Field | StadiumCar | SnowCar | RallyCar | DesertCar |
+| Field | [StadiumCar](TuningsSport.VehicleTunings.Gbx) | [SnowCar](TuningsSnow.VehicleTunings.Gbx) | [RallyCar](CarRally.VehicleTunings.Gbx) | [DesertCar](DesertCar.VehicleTunings.Gbx) |
 | --- | --- | --- | --- | --- |
 | U01 | [External { Node = , File = Cars\CarSport\Camera\Behind.Cam.Gbx, Flags: 1, UseFile: False }, External { Node = , File = Cars\CarSport\Camera\Close.Cam.Gbx, Flags: 1, UseFile: False }, External { Node = , File = Cars\CarSport\Camera\Internal.Cam.Gbx, Flags: 1, UseFile: False }] | [External { Node = , File = CarSport\Camera\Behind.Cam.Gbx, Flags: 1, UseFile: False }, External { Node = , File = CarSport\Camera\Close.Cam.Gbx, Flags: 1, UseFile: False }, External { Node = , File = CarSnow\Camera\Internal.Cam.Gbx, Flags: 1, UseFile: False }] | [External { Node = , File = CarSport\Camera\Behind.Cam.Gbx, Flags: 1, UseFile: False }, External { Node = , File = CarSport\Camera\Close.Cam.Gbx, Flags: 1, UseFile: False }, External { Node = , File = CarRally\Camera\Internal.Cam.Gbx, Flags: 1, UseFile: False }] | [External { Node = , File = CarSport\Camera\Behind.Cam.Gbx, Flags: 1, UseFile: False }, External { Node = , File = CarSport\Camera\Close.Cam.Gbx, Flags: 1, UseFile: False }, External { Node = , File = CarDesert\Camera\Internal.Cam.Gbx, Flags: 1, UseFile: False }] |
 | U01File | null | null | null | null |
@@ -529,7 +529,7 @@ Comparison of the latest tuning revision of every vehicle.
 
 ### 0x090ED094
 
-| Field | StadiumCar | SnowCar | RallyCar | DesertCar |
+| Field | [StadiumCar](TuningsSport.VehicleTunings.Gbx) | [SnowCar](TuningsSnow.VehicleTunings.Gbx) | [RallyCar](CarRally.VehicleTunings.Gbx) | [DesertCar](DesertCar.VehicleTunings.Gbx) |
 | --- | --- | --- | --- | --- |
 | U01 | 5 | 10 | 5 | 3 |
 | U02 | ![U02](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A0%2Cy%3A0%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) | ![U02](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A0%2Cy%3A60%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) | ![U02](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A0%2Cy%3A60%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) | ![U02](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A0%2Cy%3A60%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
@@ -548,7 +548,7 @@ Comparison of the latest tuning revision of every vehicle.
 
 ### 0x090ED095
 
-| Field | StadiumCar | SnowCar | RallyCar | DesertCar |
+| Field | [StadiumCar](TuningsSport.VehicleTunings.Gbx) | [SnowCar](TuningsSnow.VehicleTunings.Gbx) | [RallyCar](CarRally.VehicleTunings.Gbx) | [DesertCar](DesertCar.VehicleTunings.Gbx) |
 | --- | --- | --- | --- | --- |
 | U01 | 30000 | 30000 | 30000 | 30000 |
 | U02 | 3.14 | 3.141593 | 3.141593 | 3.141593 |
@@ -571,7 +571,7 @@ Comparison of the latest tuning revision of every vehicle.
 
 ### 0x090ED096
 
-| Field | StadiumCar | SnowCar | RallyCar | DesertCar |
+| Field | [StadiumCar](TuningsSport.VehicleTunings.Gbx) | [SnowCar](TuningsSnow.VehicleTunings.Gbx) | [RallyCar](CarRally.VehicleTunings.Gbx) | [DesertCar](DesertCar.VehicleTunings.Gbx) |
 | --- | --- | --- | --- | --- |
 | U01 | 11000 | 11000 | 11000 | 11000 |
 | U02 | 2500 | 2500 | 2500 | 2500 |
@@ -595,7 +595,7 @@ Comparison of the latest tuning revision of every vehicle.
 
 ### 0x090ED097
 
-| Field | StadiumCar | SnowCar | RallyCar | DesertCar |
+| Field | [StadiumCar](TuningsSport.VehicleTunings.Gbx) | [SnowCar](TuningsSnow.VehicleTunings.Gbx) | [RallyCar](CarRally.VehicleTunings.Gbx) | [DesertCar](DesertCar.VehicleTunings.Gbx) |
 | --- | --- | --- | --- | --- |
 | U01 | 0.3 | 0.3 | 0.3 | 0.3 |
 | U02 | 0.2 | 0.2 | 0.2 | 0.2 |
@@ -608,7 +608,7 @@ Comparison of the latest tuning revision of every vehicle.
 
 ### 0x090ED098
 
-| Field | StadiumCar | SnowCar | RallyCar | DesertCar |
+| Field | [StadiumCar](TuningsSport.VehicleTunings.Gbx) | [SnowCar](TuningsSnow.VehicleTunings.Gbx) | [RallyCar](CarRally.VehicleTunings.Gbx) | [DesertCar](DesertCar.VehicleTunings.Gbx) |
 | --- | --- | --- | --- | --- |
 | U01 | 80 | 80 | 80 | 80 |
 | U02 | 150 | 150 | 150 | 150 |
@@ -622,20 +622,20 @@ Comparison of the latest tuning revision of every vehicle.
 
 ### 0x090ED099
 
-| Field | StadiumCar | SnowCar | RallyCar | DesertCar |
+| Field | [StadiumCar](TuningsSport.VehicleTunings.Gbx) | [SnowCar](TuningsSnow.VehicleTunings.Gbx) | [RallyCar](CarRally.VehicleTunings.Gbx) | [DesertCar](DesertCar.VehicleTunings.Gbx) |
 | --- | --- | --- | --- | --- |
 | U01 | null | null | null | null |
 
 ### 0x090ED09A
 
-| Field | StadiumCar | SnowCar | RallyCar | DesertCar |
+| Field | [StadiumCar](TuningsSport.VehicleTunings.Gbx) | [SnowCar](TuningsSnow.VehicleTunings.Gbx) | [RallyCar](CarRally.VehicleTunings.Gbx) | [DesertCar](DesertCar.VehicleTunings.Gbx) |
 | --- | --- | --- | --- | --- |
 | U01 | null | GBX.NET.Engines.Plug.CPlugVehicleGearBox | GBX.NET.Engines.Plug.CPlugVehicleGearBox | GBX.NET.Engines.Plug.CPlugVehicleGearBox |
 | U01File | Cars\CarSport\GearboxSport.VehicleGearBox.Gbx, Flags: 1, UseFile: False | null | null | null |
 
 ### 0x090ED09B
 
-| Field | StadiumCar | SnowCar | RallyCar | DesertCar |
+| Field | [StadiumCar](TuningsSport.VehicleTunings.Gbx) | [SnowCar](TuningsSnow.VehicleTunings.Gbx) | [RallyCar](CarRally.VehicleTunings.Gbx) | [DesertCar](DesertCar.VehicleTunings.Gbx) |
 | --- | --- | --- | --- | --- |
 | U01 | 12 | 25 | 25 | 25 |
 | U02 | 20 | 15 | 15 | 15 |
@@ -671,7 +671,7 @@ Comparison of the latest tuning revision of every vehicle.
 
 ### 0x090ED09C
 
-| Field | StadiumCar | SnowCar | RallyCar | DesertCar |
+| Field | [StadiumCar](TuningsSport.VehicleTunings.Gbx) | [SnowCar](TuningsSnow.VehicleTunings.Gbx) | [RallyCar](CarRally.VehicleTunings.Gbx) | [DesertCar](DesertCar.VehicleTunings.Gbx) |
 | --- | --- | --- | --- | --- |
 | U01 | null | null | null | null |
 | U02 | ![U02](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A0%2Cy%3A3500%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) | ![U02](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A0%2Cy%3A3500%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) | ![U02](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A0%2Cy%3A3500%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) | ![U02](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A0%2Cy%3A3500%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
@@ -711,7 +711,7 @@ Comparison of the latest tuning revision of every vehicle.
 
 ### 0x090ED09D
 
-| Field | StadiumCar | SnowCar | RallyCar | DesertCar |
+| Field | [StadiumCar](TuningsSport.VehicleTunings.Gbx) | [SnowCar](TuningsSnow.VehicleTunings.Gbx) | [RallyCar](CarRally.VehicleTunings.Gbx) | [DesertCar](DesertCar.VehicleTunings.Gbx) |
 | --- | --- | --- | --- | --- |
 | U01 | null | null | null | null |
 | U02 | null | null | null | null |
@@ -767,7 +767,7 @@ Comparison of the latest tuning revision of every vehicle.
 
 ### 0x090ED09E
 
-| Field | StadiumCar | SnowCar | RallyCar | DesertCar |
+| Field | [StadiumCar](TuningsSport.VehicleTunings.Gbx) | [SnowCar](TuningsSnow.VehicleTunings.Gbx) | [RallyCar](CarRally.VehicleTunings.Gbx) | [DesertCar](DesertCar.VehicleTunings.Gbx) |
 | --- | --- | --- | --- | --- |
 | U01 | 5 | 5 | 5 | 5 |
 | U02 | 0.5 | 0.5 | 0.5 | 0.5 |
@@ -786,7 +786,7 @@ Comparison of the latest tuning revision of every vehicle.
 
 ### 0x090ED09F
 
-| Field | StadiumCar | SnowCar | RallyCar | DesertCar |
+| Field | [StadiumCar](TuningsSport.VehicleTunings.Gbx) | [SnowCar](TuningsSnow.VehicleTunings.Gbx) | [RallyCar](CarRally.VehicleTunings.Gbx) | [DesertCar](DesertCar.VehicleTunings.Gbx) |
 | --- | --- | --- | --- | --- |
 | U01 | ![U01](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A0%2Cy%3A1%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) | ![U01](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A0%2Cy%3A1%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) | ![U01](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A0%2Cy%3A1%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) | ![U01](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A0%2Cy%3A1%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
 | U02 | 1 | 1 | 1 | 1 |
@@ -824,7 +824,7 @@ Comparison of the latest tuning revision of every vehicle.
 
 ### 0x090ED0A0
 
-| Field | StadiumCar | SnowCar | RallyCar | DesertCar |
+| Field | [StadiumCar](TuningsSport.VehicleTunings.Gbx) | [SnowCar](TuningsSnow.VehicleTunings.Gbx) | [RallyCar](CarRally.VehicleTunings.Gbx) | [DesertCar](DesertCar.VehicleTunings.Gbx) |
 | --- | --- | --- | --- | --- |
 | U01 | -1133133169 | -1133133169 | -1133133169 | -1133133169 |
 | U02 | 1103626240 | 1103626240 | 1103626240 | 1103626240 |
@@ -839,7 +839,7 @@ Comparison of the latest tuning revision of every vehicle.
 
 ### 0x090ED0A1
 
-| Field | StadiumCar | SnowCar | RallyCar | DesertCar |
+| Field | [StadiumCar](TuningsSport.VehicleTunings.Gbx) | [SnowCar](TuningsSnow.VehicleTunings.Gbx) | [RallyCar](CarRally.VehicleTunings.Gbx) | [DesertCar](DesertCar.VehicleTunings.Gbx) |
 | --- | --- | --- | --- | --- |
 | U01 | ![U01](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A-90%2Cy%3A1.5%7D%2C%7Bx%3A-10%2Cy%3A1.25%7D%2C%7Bx%3A0%2Cy%3A1%7D%2C%7Bx%3A10%2Cy%3A-1.25%7D%2C%7Bx%3A90%2Cy%3A-1.5%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) | ![U01](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A-90%2Cy%3A1.5%7D%2C%7Bx%3A-10%2Cy%3A1.25%7D%2C%7Bx%3A0%2Cy%3A1%7D%2C%7Bx%3A10%2Cy%3A-1.25%7D%2C%7Bx%3A90%2Cy%3A-1.5%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) | ![U01](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A-90%2Cy%3A1.5%7D%2C%7Bx%3A-10%2Cy%3A1.25%7D%2C%7Bx%3A0%2Cy%3A1%7D%2C%7Bx%3A10%2Cy%3A-1.25%7D%2C%7Bx%3A90%2Cy%3A-1.5%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) | ![U01](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A-90%2Cy%3A1.5%7D%2C%7Bx%3A-10%2Cy%3A1.25%7D%2C%7Bx%3A0%2Cy%3A1%7D%2C%7Bx%3A10%2Cy%3A-1.25%7D%2C%7Bx%3A90%2Cy%3A-1.5%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
 | U02 | ![U02](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A0%2Cy%3A400%7D%2C%7Bx%3A60%2Cy%3A0%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) | ![U02](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A0%2Cy%3A400%7D%2C%7Bx%3A60%2Cy%3A0%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) | ![U02](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A0%2Cy%3A400%7D%2C%7Bx%3A60%2Cy%3A0%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) | ![U02](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A0%2Cy%3A400%7D%2C%7Bx%3A60%2Cy%3A0%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
@@ -856,7 +856,7 @@ Comparison of the latest tuning revision of every vehicle.
 
 ### 0x090ED0A2
 
-| Field | StadiumCar | SnowCar | RallyCar | DesertCar |
+| Field | [StadiumCar](TuningsSport.VehicleTunings.Gbx) | [SnowCar](TuningsSnow.VehicleTunings.Gbx) | [RallyCar](CarRally.VehicleTunings.Gbx) | [DesertCar](DesertCar.VehicleTunings.Gbx) |
 | --- | --- | --- | --- | --- |
 | U01 | ![U01](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A0%2Cy%3A1%7D%2C%7Bx%3A50%2Cy%3A0.5%7D%2C%7Bx%3A100%2Cy%3A0.25%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) | ![U01](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A0%2Cy%3A1%7D%2C%7Bx%3A50%2Cy%3A0.5%7D%2C%7Bx%3A100%2Cy%3A0.25%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) | ![U01](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A0%2Cy%3A1%7D%2C%7Bx%3A50%2Cy%3A0.5%7D%2C%7Bx%3A100%2Cy%3A0.25%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) | ![U01](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A0%2Cy%3A1%7D%2C%7Bx%3A50%2Cy%3A0.5%7D%2C%7Bx%3A100%2Cy%3A0.25%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
 | U02 | ![U02](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A0%2Cy%3A0%7D%2C%7Bx%3A50%2Cy%3A0.95%7D%2C%7Bx%3A100%2Cy%3A0.98%7D%2C%7Bx%3A200%2Cy%3A0.99%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) | ![U02](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A0%2Cy%3A0%7D%2C%7Bx%3A50%2Cy%3A0.95%7D%2C%7Bx%3A100%2Cy%3A0.98%7D%2C%7Bx%3A200%2Cy%3A0.99%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) | ![U02](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A0%2Cy%3A0%7D%2C%7Bx%3A50%2Cy%3A0.95%7D%2C%7Bx%3A100%2Cy%3A0.98%7D%2C%7Bx%3A200%2Cy%3A0.99%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) | ![U02](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A0%2Cy%3A0%7D%2C%7Bx%3A50%2Cy%3A0.95%7D%2C%7Bx%3A100%2Cy%3A0.98%7D%2C%7Bx%3A200%2Cy%3A0.99%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
@@ -873,7 +873,7 @@ Comparison of the latest tuning revision of every vehicle.
 
 ### 0x090ED0A3
 
-| Field | StadiumCar | SnowCar | RallyCar | DesertCar |
+| Field | [StadiumCar](TuningsSport.VehicleTunings.Gbx) | [SnowCar](TuningsSnow.VehicleTunings.Gbx) | [RallyCar](CarRally.VehicleTunings.Gbx) | [DesertCar](DesertCar.VehicleTunings.Gbx) |
 | --- | --- | --- | --- | --- |
 | U01 | 1045220557 | 1045220557 | 1045220557 | 1045220557 |
 | U02 | 1061997773 | 1061997773 | 1061997773 | 1061997773 |
@@ -907,7 +907,7 @@ Comparison of the latest tuning revision of every vehicle.
 
 ### 0x090ED0A4
 
-| Field | StadiumCar | SnowCar | RallyCar | DesertCar |
+| Field | [StadiumCar](TuningsSport.VehicleTunings.Gbx) | [SnowCar](TuningsSnow.VehicleTunings.Gbx) | [RallyCar](CarRally.VehicleTunings.Gbx) | [DesertCar](DesertCar.VehicleTunings.Gbx) |
 | --- | --- | --- | --- | --- |
 | U01 | 1058139013 | 1058139013 | 1058139013 | 1058139013 |
 | U02 | 1038323257 | 1038323257 | 1038323257 | 1038323257 |
@@ -938,7 +938,7 @@ Comparison of the latest tuning revision of every vehicle.
 
 ### 0x090ED0A5
 
-| Field | StadiumCar | SnowCar | RallyCar | DesertCar |
+| Field | [StadiumCar](TuningsSport.VehicleTunings.Gbx) | [SnowCar](TuningsSnow.VehicleTunings.Gbx) | [RallyCar](CarRally.VehicleTunings.Gbx) | [DesertCar](DesertCar.VehicleTunings.Gbx) |
 | --- | --- | --- | --- | --- |
 | U01 | 0 | 0 | 0 | 0 |
 | U02 | 0 | 0 | 0 | 0 |
@@ -968,7 +968,7 @@ Comparison of the latest tuning revision of every vehicle.
 
 ### 0x090ED0A6
 
-| Field | StadiumCar | SnowCar | RallyCar | DesertCar |
+| Field | [StadiumCar](TuningsSport.VehicleTunings.Gbx) | [SnowCar](TuningsSnow.VehicleTunings.Gbx) | [RallyCar](CarRally.VehicleTunings.Gbx) | [DesertCar](DesertCar.VehicleTunings.Gbx) |
 | --- | --- | --- | --- | --- |
 | U01 | ![U01](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A0%2Cy%3A1%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) | ![U01](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A0%2Cy%3A8%7D%2C%7Bx%3A0.5%2Cy%3A2%7D%2C%7Bx%3A1%2Cy%3A8%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) | ![U01](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A0%2Cy%3A8%7D%2C%7Bx%3A0.5%2Cy%3A2%7D%2C%7Bx%3A1%2Cy%3A8%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) | ![U01](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A0%2Cy%3A8%7D%2C%7Bx%3A0.5%2Cy%3A2%7D%2C%7Bx%3A1%2Cy%3A8%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
 | U02 | ![U02](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A0%2Cy%3A0%7D%2C%7Bx%3A25%2Cy%3A0.02%7D%2C%7Bx%3A90%2Cy%3A0.025%7D%2C%7Bx%3A360%2Cy%3A5%7D%2C%7Bx%3A720%2Cy%3A15%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) | ![U02](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A0%2Cy%3A0%7D%2C%7Bx%3A10%2Cy%3A1%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) | ![U02](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A0%2Cy%3A0%7D%2C%7Bx%3A10%2Cy%3A1%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) | ![U02](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A0%2Cy%3A0%7D%2C%7Bx%3A10%2Cy%3A1%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
@@ -1001,7 +1001,7 @@ Comparison of the latest tuning revision of every vehicle.
 
 ### 0x090ED0A7
 
-| Field | StadiumCar | SnowCar | RallyCar | DesertCar |
+| Field | [StadiumCar](TuningsSport.VehicleTunings.Gbx) | [SnowCar](TuningsSnow.VehicleTunings.Gbx) | [RallyCar](CarRally.VehicleTunings.Gbx) | [DesertCar](DesertCar.VehicleTunings.Gbx) |
 | --- | --- | --- | --- | --- |
 | U01 | 1 | 1 | 1 | 1 |
 | U02 | 0 | 0 | 0 | 0 |
@@ -1044,7 +1044,7 @@ Comparison of the latest tuning revision of every vehicle.
 
 ### 0x090ED0A8
 
-| Field | StadiumCar | SnowCar | RallyCar | DesertCar |
+| Field | [StadiumCar](TuningsSport.VehicleTunings.Gbx) | [SnowCar](TuningsSnow.VehicleTunings.Gbx) | [RallyCar](CarRally.VehicleTunings.Gbx) | [DesertCar](DesertCar.VehicleTunings.Gbx) |
 | --- | --- | --- | --- | --- |
 | U01 | 1 | 1 | 1 | 1 |
 | U02 | ![U02](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A10%2Cy%3A0%7D%2C%7Bx%3A25%2Cy%3A50%7D%2C%7Bx%3A100%2Cy%3A60%7D%2C%7Bx%3A250%2Cy%3A75%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) | ![U02](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A10%2Cy%3A0%7D%2C%7Bx%3A25%2Cy%3A50%7D%2C%7Bx%3A100%2Cy%3A60%7D%2C%7Bx%3A250%2Cy%3A75%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) | ![U02](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A10%2Cy%3A0%7D%2C%7Bx%3A25%2Cy%3A50%7D%2C%7Bx%3A100%2Cy%3A60%7D%2C%7Bx%3A250%2Cy%3A75%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) | ![U02](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A10%2Cy%3A0%7D%2C%7Bx%3A25%2Cy%3A50%7D%2C%7Bx%3A100%2Cy%3A60%7D%2C%7Bx%3A250%2Cy%3A75%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
@@ -1063,7 +1063,7 @@ Comparison of the latest tuning revision of every vehicle.
 
 ### 0x090ED0A9
 
-| Field | StadiumCar | SnowCar | RallyCar | DesertCar |
+| Field | [StadiumCar](TuningsSport.VehicleTunings.Gbx) | [SnowCar](TuningsSnow.VehicleTunings.Gbx) | [RallyCar](CarRally.VehicleTunings.Gbx) | [DesertCar](DesertCar.VehicleTunings.Gbx) |
 | --- | --- | --- | --- | --- |
 | U01 | 0 | 0 | 0 | 0 |
 | U02 | 2000 | 500 | 500 | 500 |
@@ -1078,13 +1078,13 @@ Comparison of the latest tuning revision of every vehicle.
 
 ### 0x090ED0AA
 
-| Field | StadiumCar | SnowCar | RallyCar | DesertCar |
+| Field | [StadiumCar](TuningsSport.VehicleTunings.Gbx) | [SnowCar](TuningsSnow.VehicleTunings.Gbx) | [RallyCar](CarRally.VehicleTunings.Gbx) | [DesertCar](DesertCar.VehicleTunings.Gbx) |
 | --- | --- | --- | --- | --- |
 | U01 | 0 | 1061752795 | 1061752795 | 1061752795 |
 
 ### 0x090ED0AB
 
-| Field | StadiumCar | SnowCar | RallyCar | DesertCar |
+| Field | [StadiumCar](TuningsSport.VehicleTunings.Gbx) | [SnowCar](TuningsSnow.VehicleTunings.Gbx) | [RallyCar](CarRally.VehicleTunings.Gbx) | [DesertCar](DesertCar.VehicleTunings.Gbx) |
 | --- | --- | --- | --- | --- |
 | U01 | 1 | 0 | 0 | 0 |
 | U02 | 2000 | 2000 | 2000 | 2000 |
@@ -1093,13 +1093,13 @@ Comparison of the latest tuning revision of every vehicle.
 
 ### 0x090ED0AC
 
-| Field | StadiumCar | SnowCar | RallyCar | DesertCar |
+| Field | [StadiumCar](TuningsSport.VehicleTunings.Gbx) | [SnowCar](TuningsSnow.VehicleTunings.Gbx) | [RallyCar](CarRally.VehicleTunings.Gbx) | [DesertCar](DesertCar.VehicleTunings.Gbx) |
 | --- | --- | --- | --- | --- |
 | U01 | 0 | 0 | 0 | 0 |
 
 ### 0x090ED0AD
 
-| Field | StadiumCar | SnowCar | RallyCar | DesertCar |
+| Field | [StadiumCar](TuningsSport.VehicleTunings.Gbx) | [SnowCar](TuningsSnow.VehicleTunings.Gbx) | [RallyCar](CarRally.VehicleTunings.Gbx) | [DesertCar](DesertCar.VehicleTunings.Gbx) |
 | --- | --- | --- | --- | --- |
 | U01 | ![U01](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A0%2Cy%3A0%7D%2C%7Bx%3A4%2Cy%3A0.05%7D%2C%7Bx%3A16%2Cy%3A0.06%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) | ![U01](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A0%2Cy%3A0%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) | ![U01](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A0%2Cy%3A0%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) | ![U01](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A0%2Cy%3A0%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
 | U02 | 0 | 0 | 0 | 0 |
@@ -1138,7 +1138,7 @@ Comparison of the latest tuning revision of every vehicle.
 
 ### 0x090ED0AE
 
-| Field | StadiumCar | SnowCar | RallyCar | DesertCar |
+| Field | [StadiumCar](TuningsSport.VehicleTunings.Gbx) | [SnowCar](TuningsSnow.VehicleTunings.Gbx) | [RallyCar](CarRally.VehicleTunings.Gbx) | [DesertCar](DesertCar.VehicleTunings.Gbx) |
 | --- | --- | --- | --- | --- |
 | U01 | 1 | 1 | 1 | 1 |
 | U02 | ![U02](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A0%2Cy%3A0%7D%2C%7Bx%3A50%2Cy%3A0.5%7D%2C%7Bx%3A100%2Cy%3A0.75%7D%2C%7Bx%3A250%2Cy%3A0.5%7D%2C%7Bx%3A525%2Cy%3A0.25%7D%2C%7Bx%3A1000%2Cy%3A0.1%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) | ![U02](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A0%2Cy%3A0%7D%2C%7Bx%3A50%2Cy%3A0.5%7D%2C%7Bx%3A100%2Cy%3A0.75%7D%2C%7Bx%3A250%2Cy%3A0.5%7D%2C%7Bx%3A525%2Cy%3A0.25%7D%2C%7Bx%3A1000%2Cy%3A0.1%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) | ![U02](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A0%2Cy%3A0%7D%2C%7Bx%3A50%2Cy%3A0.5%7D%2C%7Bx%3A100%2Cy%3A0.75%7D%2C%7Bx%3A250%2Cy%3A0.5%7D%2C%7Bx%3A525%2Cy%3A0.25%7D%2C%7Bx%3A1000%2Cy%3A0.1%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) | ![U02](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A0%2Cy%3A0%7D%2C%7Bx%3A50%2Cy%3A0.5%7D%2C%7Bx%3A100%2Cy%3A0.75%7D%2C%7Bx%3A250%2Cy%3A0.5%7D%2C%7Bx%3A525%2Cy%3A0.25%7D%2C%7Bx%3A1000%2Cy%3A0.1%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
@@ -1146,7 +1146,7 @@ Comparison of the latest tuning revision of every vehicle.
 
 ### 0x090ED0AF
 
-| Field | StadiumCar | SnowCar | RallyCar | DesertCar |
+| Field | [StadiumCar](TuningsSport.VehicleTunings.Gbx) | [SnowCar](TuningsSnow.VehicleTunings.Gbx) | [RallyCar](CarRally.VehicleTunings.Gbx) | [DesertCar](DesertCar.VehicleTunings.Gbx) |
 | --- | --- | --- | --- | --- |
 | U01 | ![U01](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A0%2Cy%3A80%7D%2C%7Bx%3A100%2Cy%3A80%7D%2C%7Bx%3A200%2Cy%3A75%7D%2C%7Bx%3A300%2Cy%3A67%7D%2C%7Bx%3A400%2Cy%3A60%7D%2C%7Bx%3A500%2Cy%3A55%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) | ![U01](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A0%2Cy%3A100%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) | ![U01](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A0%2Cy%3A25%7D%2C%7Bx%3A75%2Cy%3A25%7D%2C%7Bx%3A125%2Cy%3A25%7D%2C%7Bx%3A200%2Cy%3A25%7D%2C%7Bx%3A400%2Cy%3A25%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) | ![U01](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A0%2Cy%3A80%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
 | U02 | 1051931443 | 1058642330 | 1060320051 | 1051931443 |
@@ -1229,7 +1229,7 @@ Comparison of the latest tuning revision of every vehicle.
 
 ### 0x090ED0B0
 
-| Field | StadiumCar | SnowCar | RallyCar | DesertCar |
+| Field | [StadiumCar](TuningsSport.VehicleTunings.Gbx) | [SnowCar](TuningsSnow.VehicleTunings.Gbx) | [RallyCar](CarRally.VehicleTunings.Gbx) | [DesertCar](DesertCar.VehicleTunings.Gbx) |
 | --- | --- | --- | --- | --- |
 | U01 | 0 | 1048576000 | 1031865893 | 1012202996 |
 | U02 | 0 | 1032805417 | 1022739087 | 0 |

@@ -4,7 +4,7 @@ Comparison of the latest tuning revision of every vehicle.
 
 ## Properties
 
-| Property | StadiumCar |
+| Property | [StadiumCar](StadiumCar.VehicleTunings.Gbx) |
 | --- | --- |
 | AbsorbingValKa | 1 |
 | AbsorbingValKi | 40 |
@@ -199,14 +199,14 @@ Comparison of the latest tuning revision of every vehicle.
 
 ### 0x090ED000
 
-| Field | StadiumCar |
+| Field | [StadiumCar](StadiumCar.VehicleTunings.Gbx) |
 | --- | --- |
 | U01 | 1 |
 | U02 | 35 |
 
 ### 0x090ED013
 
-| Field | StadiumCar |
+| Field | [StadiumCar](StadiumCar.VehicleTunings.Gbx) |
 | --- | --- |
 | U01 | 0 |
 | U02 | 0 |
@@ -223,14 +223,14 @@ Comparison of the latest tuning revision of every vehicle.
 
 ### 0x090ED014
 
-| Field | StadiumCar |
+| Field | [StadiumCar](StadiumCar.VehicleTunings.Gbx) |
 | --- | --- |
 | U01 | 0 |
 | U02 | 0 |
 
 ### 0x090ED017
 
-| Field | StadiumCar |
+| Field | [StadiumCar](StadiumCar.VehicleTunings.Gbx) |
 | --- | --- |
 | U01 | 0 |
 | U02 | 0 |
@@ -240,19 +240,19 @@ Comparison of the latest tuning revision of every vehicle.
 
 ### 0x090ED01A
 
-| Field | StadiumCar |
+| Field | [StadiumCar](StadiumCar.VehicleTunings.Gbx) |
 | --- | --- |
 | U01 | 1 |
 
 ### 0x090ED01B
 
-| Field | StadiumCar |
+| Field | [StadiumCar](StadiumCar.VehicleTunings.Gbx) |
 | --- | --- |
 | U01 | 0 |
 
 ### 0x090ED01F
 
-| Field | StadiumCar |
+| Field | [StadiumCar](StadiumCar.VehicleTunings.Gbx) |
 | --- | --- |
 | U01 | 1 |
 | U02 | 1 |
@@ -260,19 +260,19 @@ Comparison of the latest tuning revision of every vehicle.
 
 ### 0x090ED028
 
-| Field | StadiumCar |
+| Field | [StadiumCar](StadiumCar.VehicleTunings.Gbx) |
 | --- | --- |
 | U01 | 1 |
 | U02 | 1 |
 
 ### 0x090ED02E
 
-| Field | StadiumCar |
+| Field | [StadiumCar](StadiumCar.VehicleTunings.Gbx) |
 | --- | --- |
 | U01 | 0 |
 
 ### 0x090ED039
 
-| Field | StadiumCar |
+| Field | [StadiumCar](StadiumCar.VehicleTunings.Gbx) |
 | --- | --- |
 | U01 | 0 |

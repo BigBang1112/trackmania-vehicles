@@ -4,7 +4,7 @@ Comparison of the latest tuning revision of every vehicle.
 
 ## Properties
 
-| Property | CanyonCar | StadiumCar | ValleyCar | LagoonCar | TrafficCar | CoastCar |
+| Property | [CanyonCar](CanyonCar.VehicleTunings.Gbx) | [StadiumCar](StadiumCar.VehicleTunings.Gbx) | [ValleyCar](ValleyCar.VehicleTunings.Gbx) | [LagoonCar](LagoonCar.VehicleTunings.Gbx) | [TrafficCar](TrafficCar.VehicleTunings.Gbx) | [CoastCar](CoastCar.VehicleTunings.Gbx) |
 | --- | --- | --- | --- | --- | --- | --- |
 | AbsorbingValKa | 2 | 1 | 2 | 2 | 2 | 10 |
 | AbsorbingValKi | 10 | 40 | 10 | 5 | 10 | 10 |
@@ -199,27 +199,27 @@ Comparison of the latest tuning revision of every vehicle.
 
 ### 0x090EB000
 
-| Field | CanyonCar | StadiumCar | ValleyCar | LagoonCar | TrafficCar | CoastCar |
+| Field | [CanyonCar](CanyonCar.VehicleTunings.Gbx) | [StadiumCar](StadiumCar.VehicleTunings.Gbx) | [ValleyCar](ValleyCar.VehicleTunings.Gbx) | [LagoonCar](LagoonCar.VehicleTunings.Gbx) | [TrafficCar](TrafficCar.VehicleTunings.Gbx) | [CoastCar](CoastCar.VehicleTunings.Gbx) |
 | --- | --- | --- | --- | --- | --- | --- |
 | U01 | ![U01](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A0%2Cy%3A0%7D%2C%7Bx%3A3%2Cy%3A0%7D%2C%7Bx%3A60%2Cy%3A1%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) | null | ![U01](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A0%2Cy%3A0%7D%2C%7Bx%3A3%2Cy%3A0%7D%2C%7Bx%3A60%2Cy%3A1%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) | ![U01](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A0%2Cy%3A0%7D%2C%7Bx%3A3%2Cy%3A0%7D%2C%7Bx%3A60%2Cy%3A1%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) | ![U01](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A0%2Cy%3A0%7D%2C%7Bx%3A3%2Cy%3A0%7D%2C%7Bx%3A60%2Cy%3A1%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) | ![U01](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A0%2Cy%3A0%7D%2C%7Bx%3A3%2Cy%3A0%7D%2C%7Bx%3A60%2Cy%3A1%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
 | U02 | 0 | 0 | 0 | 0 | 0 | 0 |
 
 ### 0x090EB001
 
-| Field | CanyonCar | StadiumCar | ValleyCar | LagoonCar | TrafficCar | CoastCar |
+| Field | [CanyonCar](CanyonCar.VehicleTunings.Gbx) | [StadiumCar](StadiumCar.VehicleTunings.Gbx) | [ValleyCar](ValleyCar.VehicleTunings.Gbx) | [LagoonCar](LagoonCar.VehicleTunings.Gbx) | [TrafficCar](TrafficCar.VehicleTunings.Gbx) | [CoastCar](CoastCar.VehicleTunings.Gbx) |
 | --- | --- | --- | --- | --- | --- | --- |
 | U01 | True | False | False | True | False | False |
 
 ### 0x090ED000
 
-| Field | CanyonCar | StadiumCar | ValleyCar | LagoonCar | TrafficCar | CoastCar |
+| Field | [CanyonCar](CanyonCar.VehicleTunings.Gbx) | [StadiumCar](StadiumCar.VehicleTunings.Gbx) | [ValleyCar](ValleyCar.VehicleTunings.Gbx) | [LagoonCar](LagoonCar.VehicleTunings.Gbx) | [TrafficCar](TrafficCar.VehicleTunings.Gbx) | [CoastCar](CoastCar.VehicleTunings.Gbx) |
 | --- | --- | --- | --- | --- | --- | --- |
 | U01 | 1 | 1 | 1 | 1 | 1 | 1 |
 | U02 | 0 | 0 | 0 | 0 | 0 | 0 |
 
 ### 0x090ED013
 
-| Field | CanyonCar | StadiumCar | ValleyCar | LagoonCar | TrafficCar | CoastCar |
+| Field | [CanyonCar](CanyonCar.VehicleTunings.Gbx) | [StadiumCar](StadiumCar.VehicleTunings.Gbx) | [ValleyCar](ValleyCar.VehicleTunings.Gbx) | [LagoonCar](LagoonCar.VehicleTunings.Gbx) | [TrafficCar](TrafficCar.VehicleTunings.Gbx) | [CoastCar](CoastCar.VehicleTunings.Gbx) |
 | --- | --- | --- | --- | --- | --- | --- |
 | U01 | 0 | 0 | 0 | 0 | 0 | 0 |
 | U02 | 0 | 0 | 0 | 0 | 0 | 0 |
@@ -236,14 +236,14 @@ Comparison of the latest tuning revision of every vehicle.
 
 ### 0x090ED014
 
-| Field | CanyonCar | StadiumCar | ValleyCar | LagoonCar | TrafficCar | CoastCar |
+| Field | [CanyonCar](CanyonCar.VehicleTunings.Gbx) | [StadiumCar](StadiumCar.VehicleTunings.Gbx) | [ValleyCar](ValleyCar.VehicleTunings.Gbx) | [LagoonCar](LagoonCar.VehicleTunings.Gbx) | [TrafficCar](TrafficCar.VehicleTunings.Gbx) | [CoastCar](CoastCar.VehicleTunings.Gbx) |
 | --- | --- | --- | --- | --- | --- | --- |
 | U01 | 0 | 0 | 0 | 0 | 0 | 0 |
 | U02 | 0 | 0 | 0 | 0 | 0 | 0 |
 
 ### 0x090ED017
 
-| Field | CanyonCar | StadiumCar | ValleyCar | LagoonCar | TrafficCar | CoastCar |
+| Field | [CanyonCar](CanyonCar.VehicleTunings.Gbx) | [StadiumCar](StadiumCar.VehicleTunings.Gbx) | [ValleyCar](ValleyCar.VehicleTunings.Gbx) | [LagoonCar](LagoonCar.VehicleTunings.Gbx) | [TrafficCar](TrafficCar.VehicleTunings.Gbx) | [CoastCar](CoastCar.VehicleTunings.Gbx) |
 | --- | --- | --- | --- | --- | --- | --- |
 | U01 | 0 | 0 | 0 | 0 | 0 | 0 |
 | U02 | 0 | 0 | 0 | 0 | 0 | 0 |
@@ -253,7 +253,7 @@ Comparison of the latest tuning revision of every vehicle.
 
 ### 0x090ED01F
 
-| Field | CanyonCar | StadiumCar | ValleyCar | LagoonCar | TrafficCar | CoastCar |
+| Field | [CanyonCar](CanyonCar.VehicleTunings.Gbx) | [StadiumCar](StadiumCar.VehicleTunings.Gbx) | [ValleyCar](ValleyCar.VehicleTunings.Gbx) | [LagoonCar](LagoonCar.VehicleTunings.Gbx) | [TrafficCar](TrafficCar.VehicleTunings.Gbx) | [CoastCar](CoastCar.VehicleTunings.Gbx) |
 | --- | --- | --- | --- | --- | --- | --- |
 | U01 | 1 | 1 | 1 | 1 | 1 | 1 |
 | U02 | 1 | 1 | 1 | 1 | 1 | 1 |
@@ -261,69 +261,69 @@ Comparison of the latest tuning revision of every vehicle.
 
 ### 0x090ED028
 
-| Field | CanyonCar | StadiumCar | ValleyCar | LagoonCar | TrafficCar | CoastCar |
+| Field | [CanyonCar](CanyonCar.VehicleTunings.Gbx) | [StadiumCar](StadiumCar.VehicleTunings.Gbx) | [ValleyCar](ValleyCar.VehicleTunings.Gbx) | [LagoonCar](LagoonCar.VehicleTunings.Gbx) | [TrafficCar](TrafficCar.VehicleTunings.Gbx) | [CoastCar](CoastCar.VehicleTunings.Gbx) |
 | --- | --- | --- | --- | --- | --- | --- |
 | U01 | 0 | 0 | 0 | 0 | 0 | 0 |
 | U02 | 0 | 0 | 0 | 0 | 0 | 0 |
 
 ### 0x090ED02E
 
-| Field | CanyonCar | StadiumCar | ValleyCar | LagoonCar | TrafficCar | CoastCar |
+| Field | [CanyonCar](CanyonCar.VehicleTunings.Gbx) | [StadiumCar](StadiumCar.VehicleTunings.Gbx) | [ValleyCar](ValleyCar.VehicleTunings.Gbx) | [LagoonCar](LagoonCar.VehicleTunings.Gbx) | [TrafficCar](TrafficCar.VehicleTunings.Gbx) | [CoastCar](CoastCar.VehicleTunings.Gbx) |
 | --- | --- | --- | --- | --- | --- | --- |
 | U01 | 0 | 0 | 0 | 0 | 0 | 0 |
 
 ### 0x090ED039
 
-| Field | CanyonCar | StadiumCar | ValleyCar | LagoonCar | TrafficCar | CoastCar |
+| Field | [CanyonCar](CanyonCar.VehicleTunings.Gbx) | [StadiumCar](StadiumCar.VehicleTunings.Gbx) | [ValleyCar](ValleyCar.VehicleTunings.Gbx) | [LagoonCar](LagoonCar.VehicleTunings.Gbx) | [TrafficCar](TrafficCar.VehicleTunings.Gbx) | [CoastCar](CoastCar.VehicleTunings.Gbx) |
 | --- | --- | --- | --- | --- | --- | --- |
 | U01 | 0 | 0 | 0 | 0 | 0 | 0 |
 
 ### 0x090ED062
 
-| Field | CanyonCar | StadiumCar | ValleyCar | LagoonCar | TrafficCar | CoastCar |
+| Field | [CanyonCar](CanyonCar.VehicleTunings.Gbx) | [StadiumCar](StadiumCar.VehicleTunings.Gbx) | [ValleyCar](ValleyCar.VehicleTunings.Gbx) | [LagoonCar](LagoonCar.VehicleTunings.Gbx) | [TrafficCar](TrafficCar.VehicleTunings.Gbx) | [CoastCar](CoastCar.VehicleTunings.Gbx) |
 | --- | --- | --- | --- | --- | --- | --- |
 | U01 | 0.05 | -0.05 | 0.05 | 0.05 | 0.05 | 0.05 |
 
 ### 0x090ED063
 
-| Field | CanyonCar | StadiumCar | ValleyCar | LagoonCar | TrafficCar | CoastCar |
+| Field | [CanyonCar](CanyonCar.VehicleTunings.Gbx) | [StadiumCar](StadiumCar.VehicleTunings.Gbx) | [ValleyCar](ValleyCar.VehicleTunings.Gbx) | [LagoonCar](LagoonCar.VehicleTunings.Gbx) | [TrafficCar](TrafficCar.VehicleTunings.Gbx) | [CoastCar](CoastCar.VehicleTunings.Gbx) |
 | --- | --- | --- | --- | --- | --- | --- |
 | U01 | 20 | 0.05 | 20 | 20 | 20 | 20 |
 
 ### 0x090ED064
 
-| Field | CanyonCar | StadiumCar | ValleyCar | LagoonCar | TrafficCar | CoastCar |
+| Field | [CanyonCar](CanyonCar.VehicleTunings.Gbx) | [StadiumCar](StadiumCar.VehicleTunings.Gbx) | [ValleyCar](ValleyCar.VehicleTunings.Gbx) | [LagoonCar](LagoonCar.VehicleTunings.Gbx) | [TrafficCar](TrafficCar.VehicleTunings.Gbx) | [CoastCar](CoastCar.VehicleTunings.Gbx) |
 | --- | --- | --- | --- | --- | --- | --- |
 | U01 | 15 | 90 | 15 | 15 | 15 | 15 |
 
 ### 0x090ED065
 
-| Field | CanyonCar | StadiumCar | ValleyCar | LagoonCar | TrafficCar | CoastCar |
+| Field | [CanyonCar](CanyonCar.VehicleTunings.Gbx) | [StadiumCar](StadiumCar.VehicleTunings.Gbx) | [ValleyCar](ValleyCar.VehicleTunings.Gbx) | [LagoonCar](LagoonCar.VehicleTunings.Gbx) | [TrafficCar](TrafficCar.VehicleTunings.Gbx) | [CoastCar](CoastCar.VehicleTunings.Gbx) |
 | --- | --- | --- | --- | --- | --- | --- |
 | U01 | 1 | 1 | 1 | 1 | 1 | 1 |
 
 ### 0x090ED066
 
-| Field | CanyonCar | StadiumCar | ValleyCar | LagoonCar | TrafficCar | CoastCar |
+| Field | [CanyonCar](CanyonCar.VehicleTunings.Gbx) | [StadiumCar](StadiumCar.VehicleTunings.Gbx) | [ValleyCar](ValleyCar.VehicleTunings.Gbx) | [LagoonCar](LagoonCar.VehicleTunings.Gbx) | [TrafficCar](TrafficCar.VehicleTunings.Gbx) | [CoastCar](CoastCar.VehicleTunings.Gbx) |
 | --- | --- | --- | --- | --- | --- | --- |
 | U01 | 2 | 2 | 2 | 2 | 2 | 2 |
 
 ### 0x090ED06A
 
-| Field | CanyonCar | StadiumCar | ValleyCar | LagoonCar | TrafficCar | CoastCar |
+| Field | [CanyonCar](CanyonCar.VehicleTunings.Gbx) | [StadiumCar](StadiumCar.VehicleTunings.Gbx) | [ValleyCar](ValleyCar.VehicleTunings.Gbx) | [LagoonCar](LagoonCar.VehicleTunings.Gbx) | [TrafficCar](TrafficCar.VehicleTunings.Gbx) | [CoastCar](CoastCar.VehicleTunings.Gbx) |
 | --- | --- | --- | --- | --- | --- | --- |
 | U01 | 277.77777 | 277.77777 | 277.77777 | 277.77777 | 277.77777 | 277.77777 |
 | U02 | 10 | 10 | 10 | 10 | 10 | 10 |
 
 ### 0x090ED06E
 
-| Field | CanyonCar | StadiumCar | ValleyCar | LagoonCar | TrafficCar | CoastCar |
+| Field | [CanyonCar](CanyonCar.VehicleTunings.Gbx) | [StadiumCar](StadiumCar.VehicleTunings.Gbx) | [ValleyCar](ValleyCar.VehicleTunings.Gbx) | [LagoonCar](LagoonCar.VehicleTunings.Gbx) | [TrafficCar](TrafficCar.VehicleTunings.Gbx) | [CoastCar](CoastCar.VehicleTunings.Gbx) |
 | --- | --- | --- | --- | --- | --- | --- |
 | U01 | 0.15 | 0 | 0.15 | 0.15 | 0.15 | 0 |
 
 ### 0x090ED072
 
-| Field | CanyonCar | StadiumCar | ValleyCar | LagoonCar | TrafficCar | CoastCar |
+| Field | [CanyonCar](CanyonCar.VehicleTunings.Gbx) | [StadiumCar](StadiumCar.VehicleTunings.Gbx) | [ValleyCar](ValleyCar.VehicleTunings.Gbx) | [LagoonCar](LagoonCar.VehicleTunings.Gbx) | [TrafficCar](TrafficCar.VehicleTunings.Gbx) | [CoastCar](CoastCar.VehicleTunings.Gbx) |
 | --- | --- | --- | --- | --- | --- | --- |
 | U01 | 0 | 0 | 0 | 0 | 0 | 0 |
 | U02 | 0 | 0 | 0 | 0 | 0 | 0 |
@@ -332,7 +332,7 @@ Comparison of the latest tuning revision of every vehicle.
 
 ### 0x090ED077
 
-| Field | CanyonCar | StadiumCar | ValleyCar | LagoonCar | TrafficCar | CoastCar |
+| Field | [CanyonCar](CanyonCar.VehicleTunings.Gbx) | [StadiumCar](StadiumCar.VehicleTunings.Gbx) | [ValleyCar](ValleyCar.VehicleTunings.Gbx) | [LagoonCar](LagoonCar.VehicleTunings.Gbx) | [TrafficCar](TrafficCar.VehicleTunings.Gbx) | [CoastCar](CoastCar.VehicleTunings.Gbx) |
 | --- | --- | --- | --- | --- | --- | --- |
 | U01 | 0 | 0 | 0 | 0 | 0 | 0 |
 | U02 | 0 | 0 | 0 | 0 | 0 | 0 |
@@ -342,13 +342,13 @@ Comparison of the latest tuning revision of every vehicle.
 
 ### 0x090ED078
 
-| Field | CanyonCar | StadiumCar | ValleyCar | LagoonCar | TrafficCar | CoastCar |
+| Field | [CanyonCar](CanyonCar.VehicleTunings.Gbx) | [StadiumCar](StadiumCar.VehicleTunings.Gbx) | [ValleyCar](ValleyCar.VehicleTunings.Gbx) | [LagoonCar](LagoonCar.VehicleTunings.Gbx) | [TrafficCar](TrafficCar.VehicleTunings.Gbx) | [CoastCar](CoastCar.VehicleTunings.Gbx) |
 | --- | --- | --- | --- | --- | --- | --- |
 | U01 | 5 | 1000 | 5 | 5 | 5 | 1000 |
 
 ### 0x090ED079
 
-| Field | CanyonCar | StadiumCar | ValleyCar | LagoonCar | TrafficCar | CoastCar |
+| Field | [CanyonCar](CanyonCar.VehicleTunings.Gbx) | [StadiumCar](StadiumCar.VehicleTunings.Gbx) | [ValleyCar](ValleyCar.VehicleTunings.Gbx) | [LagoonCar](LagoonCar.VehicleTunings.Gbx) | [TrafficCar](TrafficCar.VehicleTunings.Gbx) | [CoastCar](CoastCar.VehicleTunings.Gbx) |
 | --- | --- | --- | --- | --- | --- | --- |
 | U01 | False | False | False | False | False | False |
 | U02 | ![U02](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A0%2Cy%3A0%7D%2C%7Bx%3A40%2Cy%3A0%7D%2C%7Bx%3A60%2Cy%3A0.1%7D%2C%7Bx%3A90%2Cy%3A0.3%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) | ![U02](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A0%2Cy%3A0%7D%2C%7Bx%3A40%2Cy%3A0%7D%2C%7Bx%3A60%2Cy%3A0.1%7D%2C%7Bx%3A90%2Cy%3A0.3%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) | ![U02](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A0%2Cy%3A0%7D%2C%7Bx%3A40%2Cy%3A0%7D%2C%7Bx%3A60%2Cy%3A0.1%7D%2C%7Bx%3A90%2Cy%3A0.3%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) | ![U02](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A0%2Cy%3A0%7D%2C%7Bx%3A40%2Cy%3A0%7D%2C%7Bx%3A60%2Cy%3A0.1%7D%2C%7Bx%3A90%2Cy%3A0.3%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) | ![U02](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A0%2Cy%3A0%7D%2C%7Bx%3A40%2Cy%3A0%7D%2C%7Bx%3A60%2Cy%3A0.1%7D%2C%7Bx%3A90%2Cy%3A0.3%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) | ![U02](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A0%2Cy%3A0%7D%2C%7Bx%3A40%2Cy%3A0%7D%2C%7Bx%3A60%2Cy%3A0.1%7D%2C%7Bx%3A90%2Cy%3A0.3%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
@@ -357,7 +357,7 @@ Comparison of the latest tuning revision of every vehicle.
 
 ### 0x090ED07D
 
-| Field | CanyonCar | StadiumCar | ValleyCar | LagoonCar | TrafficCar | CoastCar |
+| Field | [CanyonCar](CanyonCar.VehicleTunings.Gbx) | [StadiumCar](StadiumCar.VehicleTunings.Gbx) | [ValleyCar](ValleyCar.VehicleTunings.Gbx) | [LagoonCar](LagoonCar.VehicleTunings.Gbx) | [TrafficCar](TrafficCar.VehicleTunings.Gbx) | [CoastCar](CoastCar.VehicleTunings.Gbx) |
 | --- | --- | --- | --- | --- | --- | --- |
 | U01 | 0 | 0 | 0 | 0 | 0 | 0 |
 | U02 | 0 | 0 | 0 | 0 | 0 | 0 |
@@ -365,7 +365,7 @@ Comparison of the latest tuning revision of every vehicle.
 
 ### 0x090ED082
 
-| Field | CanyonCar | StadiumCar | ValleyCar | LagoonCar | TrafficCar | CoastCar |
+| Field | [CanyonCar](CanyonCar.VehicleTunings.Gbx) | [StadiumCar](StadiumCar.VehicleTunings.Gbx) | [ValleyCar](ValleyCar.VehicleTunings.Gbx) | [LagoonCar](LagoonCar.VehicleTunings.Gbx) | [TrafficCar](TrafficCar.VehicleTunings.Gbx) | [CoastCar](CoastCar.VehicleTunings.Gbx) |
 | --- | --- | --- | --- | --- | --- | --- |
 | U01 | False | False | False | False | False | False |
 | U02 | ![U02](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A0%2Cy%3A0%7D%2C%7Bx%3A20%2Cy%3A5%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) | ![U02](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A0%2Cy%3A0%7D%2C%7Bx%3A20%2Cy%3A20%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) | ![U02](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A0%2Cy%3A0%7D%2C%7Bx%3A20%2Cy%3A5%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) | ![U02](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A0%2Cy%3A1%7D%2C%7Bx%3A20%2Cy%3A5%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) | ![U02](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A0%2Cy%3A0%7D%2C%7Bx%3A20%2Cy%3A5%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) | ![U02](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A0%2Cy%3A0%7D%2C%7Bx%3A20%2Cy%3A20%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
@@ -375,7 +375,7 @@ Comparison of the latest tuning revision of every vehicle.
 
 ### 0x090ED084
 
-| Field | CanyonCar | StadiumCar | ValleyCar | LagoonCar | TrafficCar | CoastCar |
+| Field | [CanyonCar](CanyonCar.VehicleTunings.Gbx) | [StadiumCar](StadiumCar.VehicleTunings.Gbx) | [ValleyCar](ValleyCar.VehicleTunings.Gbx) | [LagoonCar](LagoonCar.VehicleTunings.Gbx) | [TrafficCar](TrafficCar.VehicleTunings.Gbx) | [CoastCar](CoastCar.VehicleTunings.Gbx) |
 | --- | --- | --- | --- | --- | --- | --- |
 | U01 | 3 | 3 | 3 | 3 | 3 | 3 |
 | U02 | 3.6 | 1 | 3 | 3.6 | 3 | 1 |
@@ -383,7 +383,7 @@ Comparison of the latest tuning revision of every vehicle.
 
 ### 0x090ED085
 
-| Field | CanyonCar | StadiumCar | ValleyCar | LagoonCar | TrafficCar | CoastCar |
+| Field | [CanyonCar](CanyonCar.VehicleTunings.Gbx) | [StadiumCar](StadiumCar.VehicleTunings.Gbx) | [ValleyCar](ValleyCar.VehicleTunings.Gbx) | [LagoonCar](LagoonCar.VehicleTunings.Gbx) | [TrafficCar](TrafficCar.VehicleTunings.Gbx) | [CoastCar](CoastCar.VehicleTunings.Gbx) |
 | --- | --- | --- | --- | --- | --- | --- |
 | U01 | True | True | True | True | True | False |
 | U02 | 0 | 0 | 0 | 0 | 0 | 0 |
@@ -394,20 +394,20 @@ Comparison of the latest tuning revision of every vehicle.
 
 ### 0x090ED086
 
-| Field | CanyonCar | StadiumCar | ValleyCar | LagoonCar | TrafficCar | CoastCar |
+| Field | [CanyonCar](CanyonCar.VehicleTunings.Gbx) | [StadiumCar](StadiumCar.VehicleTunings.Gbx) | [ValleyCar](ValleyCar.VehicleTunings.Gbx) | [LagoonCar](LagoonCar.VehicleTunings.Gbx) | [TrafficCar](TrafficCar.VehicleTunings.Gbx) | [CoastCar](CoastCar.VehicleTunings.Gbx) |
 | --- | --- | --- | --- | --- | --- | --- |
 | U01 | 0 | 0 | 0 | 0 | 0 | 0 |
 | U02 | 0.5 | 0.5 | 0.5 | 0.5 | 0.5 | 0.5 |
 
 ### 0x090ED088
 
-| Field | CanyonCar | StadiumCar | ValleyCar | LagoonCar | TrafficCar | CoastCar |
+| Field | [CanyonCar](CanyonCar.VehicleTunings.Gbx) | [StadiumCar](StadiumCar.VehicleTunings.Gbx) | [ValleyCar](ValleyCar.VehicleTunings.Gbx) | [LagoonCar](LagoonCar.VehicleTunings.Gbx) | [TrafficCar](TrafficCar.VehicleTunings.Gbx) | [CoastCar](CoastCar.VehicleTunings.Gbx) |
 | --- | --- | --- | --- | --- | --- | --- |
 | U01 | 0.3 | 0.3 | 0.3 | 0.3 | 0.3 | 0.3 |
 
 ### 0x090ED089
 
-| Field | CanyonCar | StadiumCar | ValleyCar | LagoonCar | TrafficCar | CoastCar |
+| Field | [CanyonCar](CanyonCar.VehicleTunings.Gbx) | [StadiumCar](StadiumCar.VehicleTunings.Gbx) | [ValleyCar](ValleyCar.VehicleTunings.Gbx) | [LagoonCar](LagoonCar.VehicleTunings.Gbx) | [TrafficCar](TrafficCar.VehicleTunings.Gbx) | [CoastCar](CoastCar.VehicleTunings.Gbx) |
 | --- | --- | --- | --- | --- | --- | --- |
 | U01 | ![U01](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A0%2Cy%3A0%7D%2C%7Bx%3A360%2Cy%3A30%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) | ![U01](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A0%2Cy%3A0%7D%2C%7Bx%3A360%2Cy%3A30%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) | ![U01](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A0%2Cy%3A0%7D%2C%7Bx%3A360%2Cy%3A30%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) | ![U01](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A0%2Cy%3A0%7D%2C%7Bx%3A360%2Cy%3A30%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) | ![U01](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A0%2Cy%3A0%7D%2C%7Bx%3A360%2Cy%3A30%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) | ![U01](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A0%2Cy%3A0%7D%2C%7Bx%3A100%2Cy%3A2%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
 | U02 | null | null | null | null | null | null |
@@ -434,7 +434,7 @@ Comparison of the latest tuning revision of every vehicle.
 
 ### 0x090ED08A
 
-| Field | CanyonCar | StadiumCar | ValleyCar | LagoonCar | TrafficCar | CoastCar |
+| Field | [CanyonCar](CanyonCar.VehicleTunings.Gbx) | [StadiumCar](StadiumCar.VehicleTunings.Gbx) | [ValleyCar](ValleyCar.VehicleTunings.Gbx) | [LagoonCar](LagoonCar.VehicleTunings.Gbx) | [TrafficCar](TrafficCar.VehicleTunings.Gbx) | [CoastCar](CoastCar.VehicleTunings.Gbx) |
 | --- | --- | --- | --- | --- | --- | --- |
 | U01 | 20 | 5 | 20 | 50000 | 20 | 5 |
 | U02 | 10 | 5 | 10 | 10 | 10 | 5 |
@@ -455,7 +455,7 @@ Comparison of the latest tuning revision of every vehicle.
 
 ### 0x090ED08B
 
-| Field | CanyonCar | StadiumCar | ValleyCar | LagoonCar | TrafficCar | CoastCar |
+| Field | [CanyonCar](CanyonCar.VehicleTunings.Gbx) | [StadiumCar](StadiumCar.VehicleTunings.Gbx) | [ValleyCar](ValleyCar.VehicleTunings.Gbx) | [LagoonCar](LagoonCar.VehicleTunings.Gbx) | [TrafficCar](TrafficCar.VehicleTunings.Gbx) | [CoastCar](CoastCar.VehicleTunings.Gbx) |
 | --- | --- | --- | --- | --- | --- | --- |
 | U01 | null | null | null | null | null | null |
 | U02 | null | null | null | null | null | null |
@@ -526,7 +526,7 @@ Comparison of the latest tuning revision of every vehicle.
 
 ### 0x090ED08C
 
-| Field | CanyonCar | StadiumCar | ValleyCar | LagoonCar | TrafficCar | CoastCar |
+| Field | [CanyonCar](CanyonCar.VehicleTunings.Gbx) | [StadiumCar](StadiumCar.VehicleTunings.Gbx) | [ValleyCar](ValleyCar.VehicleTunings.Gbx) | [LagoonCar](LagoonCar.VehicleTunings.Gbx) | [TrafficCar](TrafficCar.VehicleTunings.Gbx) | [CoastCar](CoastCar.VehicleTunings.Gbx) |
 | --- | --- | --- | --- | --- | --- | --- |
 | U01 | -0.8 | -0.8 | -0.8 | -0.8 | -0.8 | -0.8 |
 | U02 | -0.8 | -0.8 | -0.8 | -0.8 | -0.8 | -0.8 |
@@ -536,7 +536,7 @@ Comparison of the latest tuning revision of every vehicle.
 
 ### 0x090ED08D
 
-| Field | CanyonCar | StadiumCar | ValleyCar | LagoonCar | TrafficCar | CoastCar |
+| Field | [CanyonCar](CanyonCar.VehicleTunings.Gbx) | [StadiumCar](StadiumCar.VehicleTunings.Gbx) | [ValleyCar](ValleyCar.VehicleTunings.Gbx) | [LagoonCar](LagoonCar.VehicleTunings.Gbx) | [TrafficCar](TrafficCar.VehicleTunings.Gbx) | [CoastCar](CoastCar.VehicleTunings.Gbx) |
 | --- | --- | --- | --- | --- | --- | --- |
 | U01 | 30 | 10 | 30 | 30 | 30 | 10 |
 | U02 | False | False | False | False | False | False |
@@ -550,7 +550,7 @@ Comparison of the latest tuning revision of every vehicle.
 
 ### 0x090ED08E
 
-| Field | CanyonCar | StadiumCar | ValleyCar | LagoonCar | TrafficCar | CoastCar |
+| Field | [CanyonCar](CanyonCar.VehicleTunings.Gbx) | [StadiumCar](StadiumCar.VehicleTunings.Gbx) | [ValleyCar](ValleyCar.VehicleTunings.Gbx) | [LagoonCar](LagoonCar.VehicleTunings.Gbx) | [TrafficCar](TrafficCar.VehicleTunings.Gbx) | [CoastCar](CoastCar.VehicleTunings.Gbx) |
 | --- | --- | --- | --- | --- | --- | --- |
 | U01 | [External { Node = , File = VehicleTunings\Behind.VehicleCameraRace3Model.gbx, Flags: 1, UseFile: False }, External { Node = , File = VehicleTunings\CloseCanyonLab.VehicleCameraRace3Model - Copie.gbx, Flags: 1, UseFile: False }, External { Node = , File = ControlCamera\CameraInternalCanyon.CtrlCam.Gbx, Flags: 1, UseFile: False }] | [External { Node = , File = VehicleTunings\StadiumBehind.VehicleCameraRace2Model.gbx, Flags: 1, UseFile: False }, External { Node = , File = VehicleTunings\StadiumClose.VehicleCameraRace3Model.gbx, Flags: 1, UseFile: False }, External { Node = , File = ControlCamera\CameraInternalStadium.CtrlCam.Gbx.VehicleCameraInternalModel.gbx, Flags: 1, UseFile: False }] | [External { Node = , File = VehicleTunings\Behind.VehicleCameraRace3Model.gbx, Flags: 1, UseFile: False }, External { Node = , File = VehicleTunings\CloseCanyonLab.VehicleCameraRace3Model - Copie.gbx, Flags: 1, UseFile: False }, External { Node = , File = ControlCamera\CameraInternalValley.CtrlCam.Gbx, Flags: 1, UseFile: False }] | [External { Node = , File = VehicleTunings\Behind.VehicleCameraRace3Model.gbx, Flags: 1, UseFile: False }, External { Node = , File = VehicleTunings\CloseLagoon.VehicleCameraRace3Model.gbx, Flags: 1, UseFile: False }, External { Node = , File = ControlCamera\CameraInternalValley.CtrlCam.Gbx, Flags: 1, UseFile: False }] | [External { Node = , File = VehicleTunings\Behind.VehicleCameraRace3Model.gbx, Flags: 1, UseFile: False }, External { Node = , File = VehicleTunings\CloseCanyonLab.VehicleCameraRace3Model - Copie.gbx, Flags: 1, UseFile: False }, External { Node = , File = ControlCamera\CameraInternalValley.CtrlCam.Gbx, Flags: 1, UseFile: False }] | [External { Node = , File = CamCoast_1.Cam.gbx, Flags: 1, UseFile: False }, External { Node = , File = CamCoast_2.Cam.gbx, Flags: 1, UseFile: False }, External { Node = , File = CamTMO_Internal.Cam.Gbx, Flags: 1, UseFile: False }] |
 | U01File | null | null | null | null | null | null |
@@ -565,7 +565,7 @@ Comparison of the latest tuning revision of every vehicle.
 
 ### 0x090ED094
 
-| Field | CanyonCar | StadiumCar | ValleyCar | LagoonCar | TrafficCar | CoastCar |
+| Field | [CanyonCar](CanyonCar.VehicleTunings.Gbx) | [StadiumCar](StadiumCar.VehicleTunings.Gbx) | [ValleyCar](ValleyCar.VehicleTunings.Gbx) | [LagoonCar](LagoonCar.VehicleTunings.Gbx) | [TrafficCar](TrafficCar.VehicleTunings.Gbx) | [CoastCar](CoastCar.VehicleTunings.Gbx) |
 | --- | --- | --- | --- | --- | --- | --- |
 | U01 | 1 | 5 | 1 | 3 | 1 | 5 |
 | U02 | ![U02](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A0%2Cy%3A60%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) | ![U02](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A0%2Cy%3A0%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) | ![U02](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A0%2Cy%3A60%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) | ![U02](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A0%2Cy%3A0%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) | ![U02](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A0%2Cy%3A60%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) | ![U02](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A0%2Cy%3A60%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
@@ -584,7 +584,7 @@ Comparison of the latest tuning revision of every vehicle.
 
 ### 0x090ED095
 
-| Field | CanyonCar | StadiumCar | ValleyCar | LagoonCar | TrafficCar | CoastCar |
+| Field | [CanyonCar](CanyonCar.VehicleTunings.Gbx) | [StadiumCar](StadiumCar.VehicleTunings.Gbx) | [ValleyCar](ValleyCar.VehicleTunings.Gbx) | [LagoonCar](LagoonCar.VehicleTunings.Gbx) | [TrafficCar](TrafficCar.VehicleTunings.Gbx) | [CoastCar](CoastCar.VehicleTunings.Gbx) |
 | --- | --- | --- | --- | --- | --- | --- |
 | U01 | 100 | 30000 | 30000 | 100 | 30000 | 30000 |
 | U02 | 3.141593 | 3.14 | 3.141593 | 3.141593 | 3.141593 | 3.141593 |
@@ -607,7 +607,7 @@ Comparison of the latest tuning revision of every vehicle.
 
 ### 0x090ED096
 
-| Field | CanyonCar | StadiumCar | ValleyCar | LagoonCar | TrafficCar | CoastCar |
+| Field | [CanyonCar](CanyonCar.VehicleTunings.Gbx) | [StadiumCar](StadiumCar.VehicleTunings.Gbx) | [ValleyCar](ValleyCar.VehicleTunings.Gbx) | [LagoonCar](LagoonCar.VehicleTunings.Gbx) | [TrafficCar](TrafficCar.VehicleTunings.Gbx) | [CoastCar](CoastCar.VehicleTunings.Gbx) |
 | --- | --- | --- | --- | --- | --- | --- |
 | U01 | 10000 | 11000 | 10000 | 10000 | 10000 | 11000 |
 | U02 | 2500 | 2500 | 2500 | 2500 | 2500 | 2500 |
@@ -631,7 +631,7 @@ Comparison of the latest tuning revision of every vehicle.
 
 ### 0x090ED097
 
-| Field | CanyonCar | StadiumCar | ValleyCar | LagoonCar | TrafficCar | CoastCar |
+| Field | [CanyonCar](CanyonCar.VehicleTunings.Gbx) | [StadiumCar](StadiumCar.VehicleTunings.Gbx) | [ValleyCar](ValleyCar.VehicleTunings.Gbx) | [LagoonCar](LagoonCar.VehicleTunings.Gbx) | [TrafficCar](TrafficCar.VehicleTunings.Gbx) | [CoastCar](CoastCar.VehicleTunings.Gbx) |
 | --- | --- | --- | --- | --- | --- | --- |
 | U01 | 0.3 | 0.3 | 0.3 | 0.3 | 0.3 | 0.3 |
 | U02 | 0.2 | 0.2 | 0.2 | 0.2 | 0.2 | 0.2 |
@@ -644,7 +644,7 @@ Comparison of the latest tuning revision of every vehicle.
 
 ### 0x090ED098
 
-| Field | CanyonCar | StadiumCar | ValleyCar | LagoonCar | TrafficCar | CoastCar |
+| Field | [CanyonCar](CanyonCar.VehicleTunings.Gbx) | [StadiumCar](StadiumCar.VehicleTunings.Gbx) | [ValleyCar](ValleyCar.VehicleTunings.Gbx) | [LagoonCar](LagoonCar.VehicleTunings.Gbx) | [TrafficCar](TrafficCar.VehicleTunings.Gbx) | [CoastCar](CoastCar.VehicleTunings.Gbx) |
 | --- | --- | --- | --- | --- | --- | --- |
 | U01 | 80 | 80 | 80 | 80 | 80 | 80 |
 | U02 | 150 | 150 | 200 | 150 | 200 | 150 |
@@ -658,20 +658,20 @@ Comparison of the latest tuning revision of every vehicle.
 
 ### 0x090ED099
 
-| Field | CanyonCar | StadiumCar | ValleyCar | LagoonCar | TrafficCar | CoastCar |
+| Field | [CanyonCar](CanyonCar.VehicleTunings.Gbx) | [StadiumCar](StadiumCar.VehicleTunings.Gbx) | [ValleyCar](ValleyCar.VehicleTunings.Gbx) | [LagoonCar](LagoonCar.VehicleTunings.Gbx) | [TrafficCar](TrafficCar.VehicleTunings.Gbx) | [CoastCar](CoastCar.VehicleTunings.Gbx) |
 | --- | --- | --- | --- | --- | --- | --- |
 | U01 | null | null | null | null | null | null |
 
 ### 0x090ED09A
 
-| Field | CanyonCar | StadiumCar | ValleyCar | LagoonCar | TrafficCar | CoastCar |
+| Field | [CanyonCar](CanyonCar.VehicleTunings.Gbx) | [StadiumCar](StadiumCar.VehicleTunings.Gbx) | [ValleyCar](ValleyCar.VehicleTunings.Gbx) | [LagoonCar](LagoonCar.VehicleTunings.Gbx) | [TrafficCar](TrafficCar.VehicleTunings.Gbx) | [CoastCar](CoastCar.VehicleTunings.Gbx) |
 | --- | --- | --- | --- | --- | --- | --- |
 | U01 | null | null | null | null | null | GBX.NET.Engines.Plug.CPlugVehicleGearBox |
 | U01File | VehicleTunings\CanyonCarGearBox.VehicleGearBox.Gbx, Flags: 1, UseFile: False | VehicleTunings\StadiumCarGearBox.VehicleGearBox.Gbx, Flags: 1, UseFile: False | VehicleTunings\ValleyCarGearBox.VehicleGearBox.Gbx, Flags: 1, UseFile: False | VehicleTunings\LagoonCarGearBox.VehicleGearBox.Gbx, Flags: 1, UseFile: False | VehicleTunings\ValleyCarGearBox.VehicleGearBox.Gbx, Flags: 1, UseFile: False | null |
 
 ### 0x090ED09B
 
-| Field | CanyonCar | StadiumCar | ValleyCar | LagoonCar | TrafficCar | CoastCar |
+| Field | [CanyonCar](CanyonCar.VehicleTunings.Gbx) | [StadiumCar](StadiumCar.VehicleTunings.Gbx) | [ValleyCar](ValleyCar.VehicleTunings.Gbx) | [LagoonCar](LagoonCar.VehicleTunings.Gbx) | [TrafficCar](TrafficCar.VehicleTunings.Gbx) | [CoastCar](CoastCar.VehicleTunings.Gbx) |
 | --- | --- | --- | --- | --- | --- | --- |
 | U01 | 12 | 12 | 10 | 16 | 10 | 25 |
 | U02 | 20 | 20 | 22 | 24 | 22 | 15 |
@@ -707,7 +707,7 @@ Comparison of the latest tuning revision of every vehicle.
 
 ### 0x090ED09C
 
-| Field | CanyonCar | StadiumCar | ValleyCar | LagoonCar | TrafficCar | CoastCar |
+| Field | [CanyonCar](CanyonCar.VehicleTunings.Gbx) | [StadiumCar](StadiumCar.VehicleTunings.Gbx) | [ValleyCar](ValleyCar.VehicleTunings.Gbx) | [LagoonCar](LagoonCar.VehicleTunings.Gbx) | [TrafficCar](TrafficCar.VehicleTunings.Gbx) | [CoastCar](CoastCar.VehicleTunings.Gbx) |
 | --- | --- | --- | --- | --- | --- | --- |
 | U01 | null | null | null | null | null | null |
 | U02 | ![U02](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A0%2Cy%3A3500%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) | ![U02](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A0%2Cy%3A3500%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) | ![U02](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A0%2Cy%3A3500%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) | ![U02](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A0%2Cy%3A3500%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) | ![U02](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A0%2Cy%3A3500%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) | ![U02](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A0%2Cy%3A3500%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
@@ -747,7 +747,7 @@ Comparison of the latest tuning revision of every vehicle.
 
 ### 0x090ED09D
 
-| Field | CanyonCar | StadiumCar | ValleyCar | LagoonCar | TrafficCar | CoastCar |
+| Field | [CanyonCar](CanyonCar.VehicleTunings.Gbx) | [StadiumCar](StadiumCar.VehicleTunings.Gbx) | [ValleyCar](ValleyCar.VehicleTunings.Gbx) | [LagoonCar](LagoonCar.VehicleTunings.Gbx) | [TrafficCar](TrafficCar.VehicleTunings.Gbx) | [CoastCar](CoastCar.VehicleTunings.Gbx) |
 | --- | --- | --- | --- | --- | --- | --- |
 | U01 | null | null | null | null | null | null |
 | U02 | null | null | null | null | null | null |
@@ -803,7 +803,7 @@ Comparison of the latest tuning revision of every vehicle.
 
 ### 0x090ED09E
 
-| Field | CanyonCar | StadiumCar | ValleyCar | LagoonCar | TrafficCar | CoastCar |
+| Field | [CanyonCar](CanyonCar.VehicleTunings.Gbx) | [StadiumCar](StadiumCar.VehicleTunings.Gbx) | [ValleyCar](ValleyCar.VehicleTunings.Gbx) | [LagoonCar](LagoonCar.VehicleTunings.Gbx) | [TrafficCar](TrafficCar.VehicleTunings.Gbx) | [CoastCar](CoastCar.VehicleTunings.Gbx) |
 | --- | --- | --- | --- | --- | --- | --- |
 | U01 | 5 | 5 | 5 | 5 | 5 | 5 |
 | U02 | 0.5 | 0.5 | 0.5 | 0.5 | 0.5 | 0.5 |
@@ -822,7 +822,7 @@ Comparison of the latest tuning revision of every vehicle.
 
 ### 0x090ED09F
 
-| Field | CanyonCar | StadiumCar | ValleyCar | LagoonCar | TrafficCar | CoastCar |
+| Field | [CanyonCar](CanyonCar.VehicleTunings.Gbx) | [StadiumCar](StadiumCar.VehicleTunings.Gbx) | [ValleyCar](ValleyCar.VehicleTunings.Gbx) | [LagoonCar](LagoonCar.VehicleTunings.Gbx) | [TrafficCar](TrafficCar.VehicleTunings.Gbx) | [CoastCar](CoastCar.VehicleTunings.Gbx) |
 | --- | --- | --- | --- | --- | --- | --- |
 | U01 | ![U01](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A0%2Cy%3A1%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) | ![U01](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A0%2Cy%3A1%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) | ![U01](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A0%2Cy%3A1%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) | ![U01](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A0%2Cy%3A1%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) | ![U01](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A0%2Cy%3A1%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) | ![U01](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A0%2Cy%3A1%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
 | U02 | 1 | 1 | 1 | 1 | 1 | 1 |

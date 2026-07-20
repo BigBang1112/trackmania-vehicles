@@ -4,7 +4,7 @@ Comparison of the latest tuning revision of every vehicle.
 
 ## Properties
 
-| Property | DesertCar | SnowCar | RallyCar | IslandCar | BayCar | CoastCar | StadiumCar |
+| Property | [DesertCar](American.VehicleTunings.Gbx) | [SnowCar](Buggy.VehicleTunings.Gbx) | [RallyCar](Rally.VehicleTunings.Gbx) | [IslandCar](Sport.VehicleTunings.Gbx) | [BayCar](BayCar.VehicleTunings.Gbx) | [CoastCar](CoastCar.VehicleTunings.Gbx) | [StadiumCar](StadiumCar.VehicleTunings.Gbx) |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | AbsorbingValKa | 2 | 2 | 2 | 8 | 2 | 10 | 1 |
 | AbsorbingValKi | 40 | 40 | 40 | 20 | 40 | 10 | 40 |
@@ -199,21 +199,21 @@ Comparison of the latest tuning revision of every vehicle.
 
 ### 0x090EB000
 
-| Field | DesertCar | SnowCar | RallyCar | IslandCar | BayCar | CoastCar | StadiumCar |
+| Field | [DesertCar](American.VehicleTunings.Gbx) | [SnowCar](Buggy.VehicleTunings.Gbx) | [RallyCar](Rally.VehicleTunings.Gbx) | [IslandCar](Sport.VehicleTunings.Gbx) | [BayCar](BayCar.VehicleTunings.Gbx) | [CoastCar](CoastCar.VehicleTunings.Gbx) | [StadiumCar](StadiumCar.VehicleTunings.Gbx) |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | U01 | ![U01](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A0%2Cy%3A0%7D%2C%7Bx%3A30%2Cy%3A0%7D%2C%7Bx%3A100%2Cy%3A1%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) | ![U01](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A0%2Cy%3A0%7D%2C%7Bx%3A30%2Cy%3A0%7D%2C%7Bx%3A100%2Cy%3A1%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) | ![U01](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A0%2Cy%3A0%7D%2C%7Bx%3A30%2Cy%3A0%7D%2C%7Bx%3A100%2Cy%3A1%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) | ![U01](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A0%2Cy%3A0%7D%2C%7Bx%3A3%2Cy%3A0%7D%2C%7Bx%3A60%2Cy%3A1%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) | ![U01](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A0%2Cy%3A0%7D%2C%7Bx%3A3%2Cy%3A0%7D%2C%7Bx%3A60%2Cy%3A1%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) | ![U01](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A0%2Cy%3A0%7D%2C%7Bx%3A3%2Cy%3A0%7D%2C%7Bx%3A60%2Cy%3A1%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) | ![U01](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A0%2Cy%3A0%7D%2C%7Bx%3A30%2Cy%3A0%7D%2C%7Bx%3A100%2Cy%3A1%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
 | U02 | 50 | 50 | 50 | 50 | 50 | 50 | 50 |
 
 ### 0x090ED000
 
-| Field | DesertCar | SnowCar | RallyCar | IslandCar | BayCar | CoastCar | StadiumCar |
+| Field | [DesertCar](American.VehicleTunings.Gbx) | [SnowCar](Buggy.VehicleTunings.Gbx) | [RallyCar](Rally.VehicleTunings.Gbx) | [IslandCar](Sport.VehicleTunings.Gbx) | [BayCar](BayCar.VehicleTunings.Gbx) | [CoastCar](CoastCar.VehicleTunings.Gbx) | [StadiumCar](StadiumCar.VehicleTunings.Gbx) |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | U01 | 1 | 1 | 1 | 1 | 1 | 1 | 1 |
 | U02 | 35 | 35 | 35 | 35 | 35 | 35 | 35 |
 
 ### 0x090ED013
 
-| Field | DesertCar | SnowCar | RallyCar | IslandCar | BayCar | CoastCar | StadiumCar |
+| Field | [DesertCar](American.VehicleTunings.Gbx) | [SnowCar](Buggy.VehicleTunings.Gbx) | [RallyCar](Rally.VehicleTunings.Gbx) | [IslandCar](Sport.VehicleTunings.Gbx) | [BayCar](BayCar.VehicleTunings.Gbx) | [CoastCar](CoastCar.VehicleTunings.Gbx) | [StadiumCar](StadiumCar.VehicleTunings.Gbx) |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | U01 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | U02 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
@@ -230,14 +230,14 @@ Comparison of the latest tuning revision of every vehicle.
 
 ### 0x090ED014
 
-| Field | DesertCar | SnowCar | RallyCar | IslandCar | BayCar | CoastCar | StadiumCar |
+| Field | [DesertCar](American.VehicleTunings.Gbx) | [SnowCar](Buggy.VehicleTunings.Gbx) | [RallyCar](Rally.VehicleTunings.Gbx) | [IslandCar](Sport.VehicleTunings.Gbx) | [BayCar](BayCar.VehicleTunings.Gbx) | [CoastCar](CoastCar.VehicleTunings.Gbx) | [StadiumCar](StadiumCar.VehicleTunings.Gbx) |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | U01 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | U02 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 
 ### 0x090ED017
 
-| Field | DesertCar | SnowCar | RallyCar | IslandCar | BayCar | CoastCar | StadiumCar |
+| Field | [DesertCar](American.VehicleTunings.Gbx) | [SnowCar](Buggy.VehicleTunings.Gbx) | [RallyCar](Rally.VehicleTunings.Gbx) | [IslandCar](Sport.VehicleTunings.Gbx) | [BayCar](BayCar.VehicleTunings.Gbx) | [CoastCar](CoastCar.VehicleTunings.Gbx) | [StadiumCar](StadiumCar.VehicleTunings.Gbx) |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | U01 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | U02 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
@@ -247,19 +247,19 @@ Comparison of the latest tuning revision of every vehicle.
 
 ### 0x090ED01A
 
-| Field | DesertCar | SnowCar | RallyCar | IslandCar | BayCar | CoastCar | StadiumCar |
+| Field | [DesertCar](American.VehicleTunings.Gbx) | [SnowCar](Buggy.VehicleTunings.Gbx) | [RallyCar](Rally.VehicleTunings.Gbx) | [IslandCar](Sport.VehicleTunings.Gbx) | [BayCar](BayCar.VehicleTunings.Gbx) | [CoastCar](CoastCar.VehicleTunings.Gbx) | [StadiumCar](StadiumCar.VehicleTunings.Gbx) |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | U01 | 1 | 1 | 1 | 1 | 1 | 1 | 1 |
 
 ### 0x090ED01B
 
-| Field | DesertCar | SnowCar | RallyCar | IslandCar | BayCar | CoastCar | StadiumCar |
+| Field | [DesertCar](American.VehicleTunings.Gbx) | [SnowCar](Buggy.VehicleTunings.Gbx) | [RallyCar](Rally.VehicleTunings.Gbx) | [IslandCar](Sport.VehicleTunings.Gbx) | [BayCar](BayCar.VehicleTunings.Gbx) | [CoastCar](CoastCar.VehicleTunings.Gbx) | [StadiumCar](StadiumCar.VehicleTunings.Gbx) |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | U01 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 
 ### 0x090ED01F
 
-| Field | DesertCar | SnowCar | RallyCar | IslandCar | BayCar | CoastCar | StadiumCar |
+| Field | [DesertCar](American.VehicleTunings.Gbx) | [SnowCar](Buggy.VehicleTunings.Gbx) | [RallyCar](Rally.VehicleTunings.Gbx) | [IslandCar](Sport.VehicleTunings.Gbx) | [BayCar](BayCar.VehicleTunings.Gbx) | [CoastCar](CoastCar.VehicleTunings.Gbx) | [StadiumCar](StadiumCar.VehicleTunings.Gbx) |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | U01 | 1 | 1 | 1 | 1 | 1 | 1 | 1 |
 | U02 | 1 | 1 | 1 | 1 | 1 | 1 | 1 |
@@ -267,49 +267,49 @@ Comparison of the latest tuning revision of every vehicle.
 
 ### 0x090ED028
 
-| Field | DesertCar | SnowCar | RallyCar | IslandCar | BayCar | CoastCar | StadiumCar |
+| Field | [DesertCar](American.VehicleTunings.Gbx) | [SnowCar](Buggy.VehicleTunings.Gbx) | [RallyCar](Rally.VehicleTunings.Gbx) | [IslandCar](Sport.VehicleTunings.Gbx) | [BayCar](BayCar.VehicleTunings.Gbx) | [CoastCar](CoastCar.VehicleTunings.Gbx) | [StadiumCar](StadiumCar.VehicleTunings.Gbx) |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | U01 | 1 | 1 | 1 | 1 | 1 | 1 | 1 |
 | U02 | 1 | 1 | 1 | 1 | 1 | 1 | 1 |
 
 ### 0x090ED02E
 
-| Field | DesertCar | SnowCar | RallyCar | IslandCar | BayCar | CoastCar | StadiumCar |
+| Field | [DesertCar](American.VehicleTunings.Gbx) | [SnowCar](Buggy.VehicleTunings.Gbx) | [RallyCar](Rally.VehicleTunings.Gbx) | [IslandCar](Sport.VehicleTunings.Gbx) | [BayCar](BayCar.VehicleTunings.Gbx) | [CoastCar](CoastCar.VehicleTunings.Gbx) | [StadiumCar](StadiumCar.VehicleTunings.Gbx) |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | U01 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 
 ### 0x090ED039
 
-| Field | DesertCar | SnowCar | RallyCar | IslandCar | BayCar | CoastCar | StadiumCar |
+| Field | [DesertCar](American.VehicleTunings.Gbx) | [SnowCar](Buggy.VehicleTunings.Gbx) | [RallyCar](Rally.VehicleTunings.Gbx) | [IslandCar](Sport.VehicleTunings.Gbx) | [BayCar](BayCar.VehicleTunings.Gbx) | [CoastCar](CoastCar.VehicleTunings.Gbx) | [StadiumCar](StadiumCar.VehicleTunings.Gbx) |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | U01 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 
 ### 0x090ED062
 
-| Field | DesertCar | SnowCar | RallyCar | IslandCar | BayCar | CoastCar | StadiumCar |
+| Field | [DesertCar](American.VehicleTunings.Gbx) | [SnowCar](Buggy.VehicleTunings.Gbx) | [RallyCar](Rally.VehicleTunings.Gbx) | [IslandCar](Sport.VehicleTunings.Gbx) | [BayCar](BayCar.VehicleTunings.Gbx) | [CoastCar](CoastCar.VehicleTunings.Gbx) | [StadiumCar](StadiumCar.VehicleTunings.Gbx) |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | U01 | 0.05 | 0.05 | 0.05 | 0.05 | 0.05 | 0.05 | -0.05 |
 
 ### 0x090ED063
 
-| Field | DesertCar | SnowCar | RallyCar | IslandCar | BayCar | CoastCar | StadiumCar |
+| Field | [DesertCar](American.VehicleTunings.Gbx) | [SnowCar](Buggy.VehicleTunings.Gbx) | [RallyCar](Rally.VehicleTunings.Gbx) | [IslandCar](Sport.VehicleTunings.Gbx) | [BayCar](BayCar.VehicleTunings.Gbx) | [CoastCar](CoastCar.VehicleTunings.Gbx) | [StadiumCar](StadiumCar.VehicleTunings.Gbx) |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | U01 | 20 | 20 | 20 | 20 | 20 | 20 | 0.05 |
 
 ### 0x090ED064
 
-| Field | DesertCar | SnowCar | RallyCar | IslandCar | BayCar | CoastCar | StadiumCar |
+| Field | [DesertCar](American.VehicleTunings.Gbx) | [SnowCar](Buggy.VehicleTunings.Gbx) | [RallyCar](Rally.VehicleTunings.Gbx) | [IslandCar](Sport.VehicleTunings.Gbx) | [BayCar](BayCar.VehicleTunings.Gbx) | [CoastCar](CoastCar.VehicleTunings.Gbx) | [StadiumCar](StadiumCar.VehicleTunings.Gbx) |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | U01 | 15 | 15 | 15 | 15 | 15 | 15 | 90 |
 
 ### 0x090ED065
 
-| Field | DesertCar | SnowCar | RallyCar | IslandCar | BayCar | CoastCar | StadiumCar |
+| Field | [DesertCar](American.VehicleTunings.Gbx) | [SnowCar](Buggy.VehicleTunings.Gbx) | [RallyCar](Rally.VehicleTunings.Gbx) | [IslandCar](Sport.VehicleTunings.Gbx) | [BayCar](BayCar.VehicleTunings.Gbx) | [CoastCar](CoastCar.VehicleTunings.Gbx) | [StadiumCar](StadiumCar.VehicleTunings.Gbx) |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | U01 | 1 | 1 | 1 | 1 | 1 | 1 | 1 |
 
 ### 0x090ED066
 
-| Field | DesertCar | SnowCar | RallyCar | IslandCar | BayCar | CoastCar | StadiumCar |
+| Field | [DesertCar](American.VehicleTunings.Gbx) | [SnowCar](Buggy.VehicleTunings.Gbx) | [RallyCar](Rally.VehicleTunings.Gbx) | [IslandCar](Sport.VehicleTunings.Gbx) | [BayCar](BayCar.VehicleTunings.Gbx) | [CoastCar](CoastCar.VehicleTunings.Gbx) | [StadiumCar](StadiumCar.VehicleTunings.Gbx) |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | U01 | 2 | 2 | 2 | 2 | 2 | 2 | 2 |

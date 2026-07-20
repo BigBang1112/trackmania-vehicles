@@ -4,7 +4,7 @@ Comparison of the latest tuning revision of every vehicle.
 
 ## Properties
 
-| Property | IslandCar | BayCar | CoastCar |
+| Property | [IslandCar](Sport.VehicleTunings.Gbx) | [BayCar](BayCar.VehicleTunings.Gbx) | [CoastCar](CoastCar.VehicleTunings.Gbx) |
 | --- | --- | --- | --- |
 | AbsorbingValKa | 8 | 2 | 10 |
 | AbsorbingValKi | 20 | 40 | 10 |
@@ -199,14 +199,14 @@ Comparison of the latest tuning revision of every vehicle.
 
 ### 0x090ED000
 
-| Field | IslandCar | BayCar | CoastCar |
+| Field | [IslandCar](Sport.VehicleTunings.Gbx) | [BayCar](BayCar.VehicleTunings.Gbx) | [CoastCar](CoastCar.VehicleTunings.Gbx) |
 | --- | --- | --- | --- |
 | U01 | 1 | 1 | 1 |
 | U02 | 35 | 35 | 35 |
 
 ### 0x090ED013
 
-| Field | IslandCar | BayCar | CoastCar |
+| Field | [IslandCar](Sport.VehicleTunings.Gbx) | [BayCar](BayCar.VehicleTunings.Gbx) | [CoastCar](CoastCar.VehicleTunings.Gbx) |
 | --- | --- | --- | --- |
 | U01 | 0 | 0 | 0 |
 | U02 | 0 | 0 | 0 |
@@ -223,14 +223,14 @@ Comparison of the latest tuning revision of every vehicle.
 
 ### 0x090ED014
 
-| Field | IslandCar | BayCar | CoastCar |
+| Field | [IslandCar](Sport.VehicleTunings.Gbx) | [BayCar](BayCar.VehicleTunings.Gbx) | [CoastCar](CoastCar.VehicleTunings.Gbx) |
 | --- | --- | --- | --- |
 | U01 | 0 | 0 | 0 |
 | U02 | 0 | 0 | 0 |
 
 ### 0x090ED017
 
-| Field | IslandCar | BayCar | CoastCar |
+| Field | [IslandCar](Sport.VehicleTunings.Gbx) | [BayCar](BayCar.VehicleTunings.Gbx) | [CoastCar](CoastCar.VehicleTunings.Gbx) |
 | --- | --- | --- | --- |
 | U01 | 0 | 0 | 0 |
 | U02 | 0 | 0 | 0 |
@@ -240,19 +240,19 @@ Comparison of the latest tuning revision of every vehicle.
 
 ### 0x090ED01A
 
-| Field | IslandCar | BayCar | CoastCar |
+| Field | [IslandCar](Sport.VehicleTunings.Gbx) | [BayCar](BayCar.VehicleTunings.Gbx) | [CoastCar](CoastCar.VehicleTunings.Gbx) |
 | --- | --- | --- | --- |
 | U01 | 1 | 1 | 1 |
 
 ### 0x090ED01B
 
-| Field | IslandCar | BayCar | CoastCar |
+| Field | [IslandCar](Sport.VehicleTunings.Gbx) | [BayCar](BayCar.VehicleTunings.Gbx) | [CoastCar](CoastCar.VehicleTunings.Gbx) |
 | --- | --- | --- | --- |
 | U01 | 0 | 0 | 0 |
 
 ### 0x090ED01F
 
-| Field | IslandCar | BayCar | CoastCar |
+| Field | [IslandCar](Sport.VehicleTunings.Gbx) | [BayCar](BayCar.VehicleTunings.Gbx) | [CoastCar](CoastCar.VehicleTunings.Gbx) |
 | --- | --- | --- | --- |
 | U01 | 1 | 1 | 1 |
 | U02 | 1 | 1 | 1 |
@@ -260,19 +260,19 @@ Comparison of the latest tuning revision of every vehicle.
 
 ### 0x090ED028
 
-| Field | IslandCar | BayCar | CoastCar |
+| Field | [IslandCar](Sport.VehicleTunings.Gbx) | [BayCar](BayCar.VehicleTunings.Gbx) | [CoastCar](CoastCar.VehicleTunings.Gbx) |
 | --- | --- | --- | --- |
 | U01 | 1 | 1 | 1 |
 | U02 | 1 | 1 | 1 |
 
 ### 0x090ED02E
 
-| Field | IslandCar | BayCar | CoastCar |
+| Field | [IslandCar](Sport.VehicleTunings.Gbx) | [BayCar](BayCar.VehicleTunings.Gbx) | [CoastCar](CoastCar.VehicleTunings.Gbx) |
 | --- | --- | --- | --- |
 | U01 | 0 | 0 | 0 |
 
 ### 0x090ED039
 
-| Field | IslandCar | BayCar | CoastCar |
+| Field | [IslandCar](Sport.VehicleTunings.Gbx) | [BayCar](BayCar.VehicleTunings.Gbx) | [CoastCar](CoastCar.VehicleTunings.Gbx) |
 | --- | --- | --- | --- |
 | U01 | 0 | 0 | 0 |
