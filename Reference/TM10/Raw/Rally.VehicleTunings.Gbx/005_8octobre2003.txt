@@ -1,0 +1,301 @@
+Name: 8octobre2003
+
+AbsorbingValKa: 2
+AbsorbingValKi: 40
+AbsorbingValMax: 1
+AbsorbingValMin: 0
+AbsorbingValRest: 0.25
+AbsorbTension: 5
+AccelCurve: (-100, 25) (0, 60) (25, 35) (50, 25) (75, 20) (100, 8) (125, 6) (200, 4) (400, 2)
+AccelCurveRearGear: null
+AirControlDuration: 30000
+AirControlZCoefFromAngularSpeed: null
+AngularFluidFrictionCoef1: 2
+AngularFluidFrictionCoef2: 1
+AngularSpeedClamp: 20
+AngularSpeedYImpulseScale: 0.8
+AxialSlopeAdherenceMax: 0.7
+AxialSlopeAdherenceMin: 0.4
+BodyFrictionCoef: 0.3
+BodyFrictionCoef_Metal: 0.2
+BodyRestCoef: -0.5
+BodyRestCoef_Metal: -0.5
+BrakeBase: 100
+BrakeCoef: 0
+BrakeCoolingSpeed: 0
+BrakeHeatSpeedFromFBrake: null
+BrakeMax: 50
+BrakeMaxDynamic: 50
+CMAftForce: 0
+CMDownUp: 0.45
+DebugAbsorbCoef: 0.2
+DecrepitudeCoef: 0.2
+DecrepitudeImpactVal: 25
+DisplaySteerRadiusCoef: 0.01
+DisplaySteerRadiusMin: 2
+EngineAutoGearMaxRPMs: null
+EngineAutoGearMinRPMs: null
+EngineGearRatios: null
+GravityCoef: 3
+GravityCoefAir: 4
+GroundSlowDownBase: 1
+GroundSlowDownCoef: 0
+InertiaHalfDiag: <0.5, 0.5, 0.5>
+InertiaMass: 5
+IsFakeEngine: True
+LateralContactSlowDown: (0, 0.8) (100, 0.8) (200, 0.8) (300, 0.8)
+LateralSlopeAdherenceMax: 0.7
+LateralSlopeAdherenceMin: 0.3
+LimitToMaxSpeedForce: 10
+LinearFluidFrictionCoef: 0
+LinearSpeed2PositiveDeltaMax: 10000
+M4LateralFrictionForce: 0
+M4LateralFrictionSquareForce: 0
+M4LateralFrictionSquareTorque: 0
+M4LateralFrictionTorque: 0
+M4LeaveSlippingSpeed: 0
+M4MaxFrictionForceFromSpeed: null
+M4MaxFrictionForceWhenSlipping: 0
+M4MaxFrictionTorqueFromSpeed: null
+M4MaxFrictionTorqueWhenSlippingCoef: 0
+M4SlipAngleSpeed: 0
+M4SteerAngleWhenSlippingMax: 0
+M4SteerRadiusCoefFromSlipAngle: 0
+M4SteerRadiusFromSpeed: null
+M4SteerRadiusWhenSlippingCoef: 0
+M5AccelSlipCoefMax: 0
+M5KeepNoSteerSlowDownWhenSlippingDuration: 0
+M5KeepSlidingAccelDuration: 0
+M5KeepSteerSlowDownDurarion: 0
+M5LateralConstantSlowDownDuration: 0
+M5MaxAxialRolloverTorque: 0
+M5SlippingAccelCurve: null
+M5SmoothInputSteerDurationFromSpeed: null
+M5SteerCoefFromSpeed: null
+M6AfterBurnoutAccMod: 0
+M6AfterBurnoutDuration: 0
+M6AfterBurnoutImpulse: 0
+M6AirRpmAcc: 0
+M6AirRpmDeadening: 0
+M6BrakeMaxDynamicRear: 0
+M6BrakeMaxRear: 0
+M6BrakeModulationWhenSlipping: 0
+M6BrakeSmokeIntensity: 0
+M6BurnoutAccMod: 0
+M6BurnoutCenterForceCoeff: 0
+M6BurnoutCenterForceCoeff2: 0
+M6BurnoutDuration: 0
+M6BurnoutFricMod: 0
+M6BurnoutLateralSpeed: null
+M6BurnoutLateralSpeedCoeff: 0
+M6BurnoutLateralSpeedMax: 0
+M6BurnoutRadius: null
+M6BurnoutRadiusMax: 0
+M6BurnoutRolloverFromSpeed: null
+M6BurnoutRpmAcc: 0
+M6BurnoutSmokeIntensity: 0
+M6BurnoutSmokeVelocity: 0
+M6BurnoutSteerCoeff: 0
+M6BurnoutSteerCoeff2: 0
+M6BurnoutSteerCoeff3: 0
+M6BurnoutWheelAngularRotation: 0
+M6DonutRolloverFromSpeed: null
+M6ForceEpsilon: 0
+M6FrictionModulationWhenSlipNBrake: 0
+M6GearRatio: null
+M6InertialMass: 0
+M6InertialTorqueModualtionX: 0
+M6InertialTorqueModulationZ: 0
+M6MaxDiffBtwGroundNormal: 0
+M6MaxDiffBtwnPropulsionAndSpeed: 0
+M6MaxNegAngle4Burnout: 0
+M6MaxPosAngle4Burnout: 0
+M6MaxRpm: 0
+M6MaxRPM: null
+M6MaxSpeed4Burnout: 0
+M6MinRPM: null
+M6MinSpeed4Burnout: 0
+M6RolloverLateralFromSpeedRatio: null
+M6RpmGainCoefOnGearDown: 0
+M6RpmGainOnTakeOff: 0
+M6RpmLossCoefOnGearUp: 0
+M6RpmLossOnTakeOffFinished: 0
+M6RpmWantedOnGearUp: null
+M6SpeedLimitNegForTakeOffFront: 0
+M6SpeedLimitNegTakeOffRear: 0
+M6SpeedLimitPositiveForTakeOffFront: 0
+M6SpeedLimitPositiveForTakeOffRear: 0
+Mass: 1
+MaxAngularSpeedYAirControl: 3.141593
+MaxSideFriction: (0, 25) (75, 25) (125, 25) (200, 25) (400, 25)
+MaxSideFrictionBlendCoef: 0
+MaxSideFrictionSliding: 0.7
+MaxSpeed: 416.6667
+ModulationFromWheelCompression: null
+NoSteerSlowDownWhenSlipping: False
+RelSpeedMultCoef: 0.2
+ReverseMaxSpeed: 41.666668
+RolloverAxial: 0
+RolloverLateral: (0, 0.1) (100, 0.15) (200, 0.2) (300, 0.25)
+RolloverLateralFromAngle: (0, 1)
+RubberBallElasticity: 1
+ShockModel: Demo03
+SideFriction1: 40
+SideFriction2: 0
+SlipAngleForceCoef1: 10
+SlipAngleForceCoef2: 0.01
+SlipAngleForceMax: 0.087266
+SlopeSpeedGainLimit: 0
+SoundBodyImpact_Hard_Threshold: 18
+SoundBodyImpact_Soft_Threshold: 1.5
+SoundEngineVolume: 0.6
+SoundImpactVolume: 1
+SoundSkidConcreteVolume: 1
+SoundSkidSandVolume: 1
+SoundWheelImpact_Hard_Threshold: 5
+SoundWheelImpact_Soft_Threshold: 3
+SteerAngleMax: 0.523599
+SteerDriveTorque: (0, 10)
+SteerDurationBeforeSteerSlowDown: 0
+SteerGroundTorque: 0.08
+SteerGroundTorqueSlippingCoef: 1.1
+SteerLowSpeed: 30
+SteerModel: Steer02
+SteerRadiusCoef: 0.7
+SteerRadiusMin: 5
+SteerSlowDown: (0, 0) (50, 3) (100, 1.5) (150, 0) (300, 0)
+SteerSlowDownCoef: 0.25
+SteerSlowDownFadeInDuration: 0
+SteerSlowDownFadeOutDuration: 0
+SteerSpeed: 30
+TireMaterial: 9
+Turbo2Boost: 0
+Turbo2Duration: 0
+TurboBoost: 1.8
+TurboDuration: 500
+VibrationPeriodSpeedCoef: 0.0005
+VisualSteerAngleFromSpeed: null
+WaterAngularFriction: 0
+WaterAngularFrictionSq: 0
+WaterBumpMinSpeed: 0
+WaterBumpSlowDownFromSpeedRatio: null
+WaterFrictionFromSpeed: null
+WaterGravity: 0
+WaterReboundFromSpeedRatio: null
+WaterReboundMinHSpeed: 0
+WaterSplashFromSpeed: null
+WheelFrictionCoef_Concrete: 0
+WheelFrictionCoef_Metal: 0
+WheelRestCoef_Concrete: -0.8
+WheelRestCoef_Metal: -0.8
+
+0x090ED000
+U01: 1
+U02: 35
+
+0x090ED001
+
+0x090ED002
+
+0x090ED004
+
+0x090ED005
+
+0x090ED007
+
+0x090ED008
+
+0x090ED009
+
+0x090ED00B
+
+0x090ED00D
+
+0x090ED00E
+
+0x090ED010
+
+0x090ED013
+U01: 0
+U02: 0
+U03: 0
+U04: 0
+U05: 0
+U06: 0
+U07: 0
+U08: 0
+U09: 0
+U10: 0
+U11: 0
+U12: 0
+
+0x090ED014
+U01: 2.9833224E-32
+U02: 6.2863704E-33
+
+0x090ED016
+
+0x090ED017
+U01: 0
+U02: 0
+U03: 0
+U04: 0
+U05: 0
+
+0x090ED018
+
+0x090ED019
+
+0x090ED01A
+U01: 1
+
+0x090ED01B
+U01: 0
+
+0x090ED01D
+
+0x090ED01E
+
+0x090ED01F
+U01: 1
+U02: 1
+U03: 1
+
+0x090ED020
+
+0x090ED023
+
+0x090ED024
+
+0x090ED026
+
+0x090ED027
+
+0x090ED028
+U01: 1
+U02: 1
+
+0x090ED029
+
+0x090ED02A
+
+0x090ED02B
+
+0x090ED02C
+
+0x090ED02D
+
+0x090ED02E
+U01: 0
+
+0x090ED02F
+
+0x090ED030
+
+0x090ED031
+
+0x090ED032
+
+0x090ED033
+
+0x090ED034

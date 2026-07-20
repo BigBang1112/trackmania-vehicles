@@ -20,7 +20,9 @@
     </ItemGroup>
 
     <ItemGroup>
-      <Folder Include="Reference\" />
+      <Folder Include="Tunings\TM2020\" />
+      <Folder Include="Tunings\TM10\" />
+      <Folder Include="Tunings\TMSX\" />
     </ItemGroup>
 
 </Project>

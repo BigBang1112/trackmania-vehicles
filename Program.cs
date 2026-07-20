@@ -36,8 +36,10 @@ foreach (var filePath in Directory.EnumerateFiles("Tunings", "*.Gbx", SearchOpti
     {
         var tuningName = (tuning as CPlugVehicleCarPhyTuning)?.Name ?? tuning.Name;
 
-        var tuningFilePath = Path.Combine(rawDir, $"{i:D3}_{tuningName}.txt");
-        var tablesFilePath = Path.Combine(tablesDir, $"{i:D3}_{tuningName}.md");
+        var validTuningName = string.Join("_", tuningName.Split(Path.GetInvalidFileNameChars()));
+
+        var tuningFilePath = Path.Combine(rawDir, $"{i:D3}_{validTuningName}.txt");
+        var tablesFilePath = Path.Combine(tablesDir, $"{i:D3}_{validTuningName}.md");
 
         await using (var txtWriter = File.CreateText(tuningFilePath))
         await using (var mdWriter = File.CreateText(tablesFilePath))
