@@ -65,7 +65,7 @@ foreach (var filePath in Directory.EnumerateFiles("Tunings", "*.Gbx", SearchOpti
 
                 var value = property.GetValue(tuning);
 
-                await txtWriter.WriteLineAsync(PropertyValueToString(property.Name, value));
+                await txtWriter.WriteLineAsync(ValueToString(property.Name, value));
                 await mdWriter.WriteLineAsync($"| {property.Name} | {ValueToMarkdownCell(property.Name, value)} |");
             }
 
@@ -92,7 +92,7 @@ foreach (var filePath in Directory.EnumerateFiles("Tunings", "*.Gbx", SearchOpti
                 {
                     var value = field.GetValue(chunk);
 
-                    await txtWriter.WriteLineAsync(PropertyValueToString(field.Name, value));
+                    await txtWriter.WriteLineAsync(ValueToString(field.Name, value));
                     await mdWriter.WriteLineAsync($"| {field.Name} | {ValueToMarkdownCell(field.Name, value)} |");
                 }
             }
@@ -148,12 +148,15 @@ static async Task WriteDiffFileAsync(string oldFilePath, string newFilePath, str
     }
 }
 
-static string PropertyValueToString(string name, object? value)
+static string ValueToString(string name, object? value)
 {
     switch (value)
     {
         case CFuncKeysReal keys:
             value = KeysToString(keys);
+            break;
+        case CPlugVehicleCarPhyTuning.Keys { U01: not null } tuningKeys:
+            value = KeysToString(tuningKeys.U01);
             break;
         case Array array:
             value = ArrayToString(array);
