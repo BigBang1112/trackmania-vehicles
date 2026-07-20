@@ -1,0 +1,858 @@
+- Name: TestDam4
++ Name: 13Juillet
+  
+  AbsorbingValKa: 2
+  AbsorbingValKi: 20
+  AbsorbingValMax: 0.15
+  AbsorbingValMin: 0.02
+  AbsorbingValRest: 0.08
+  AbsorbTension: 5
+- AccelCurve: (-500, 1) (-90, 15) (-50, 20) (0, 15) (100.5, 10) (200, 6) (400, 5) (800, 4)
++ AccelCurve: (-500, 0) (-90, 2) (-50, 10) (0, 15) (100.5, 10) (200, 6) (400, 5) (800, 4)
+  AccelCurveRearGear: (-100, 2) (-50, 5) (0, 10)
+  AirControlDuration: 0
+  AirControlZCoefFromAngularSpeed: null
+  AngularFluidFrictionCoef1: 0
+  AngularFluidFrictionCoef2: 0.4
+  AngularSpeedClamp: 100
+  AngularSpeedYImpulseScale: 0.5
+  AxialSlopeAdherenceMax: 0.7
+  AxialSlopeAdherenceMin: 0.4
+  BodyFrictionCoef: 0
+  BodyFrictionCoef_Metal: 0
+  BodyRestCoef: 0
+  BodyRestCoef_Metal: 0
+  BrakeBase: 10
+  BrakeCoef: 10
+  BrakeCoolingSpeed: 0
+  BrakeHeatSpeedFromFBrake: null
+  BrakeMax: 50
+  BrakeMaxDynamic: 20
+  CMAftForce: 0
+  CMDownUp: 0.45
+  DebugAbsorbCoef: 0
+  DecrepitudeCoef: 0
+  DecrepitudeImpactVal: 0
+  DisplaySteerRadiusCoef: 0
+  DisplaySteerRadiusMin: 0
+  EngineAutoGearMaxRPMs: [0, 0.8125, 0.8125, 0.8125, 0.8125, 1]
+  EngineAutoGearMinRPMs: [0, 0, 0.375, 0.53125, 0.5625, 0.625]
+  EngineGearRatios: [4, 2, 1, 0.8, 0.5, 0.3]
+  GravityCoef: 2.5
+  GravityCoefAir: 4
+- GroundSlowDownBase: 5
+- GroundSlowDownCoef: 0.05
++ GroundSlowDownBase: 10
++ GroundSlowDownCoef: 0.2
+  InertiaHalfDiag: <0.5, 0.5, 0.54>
+  InertiaMass: 5
+  IsFakeEngine: False
+- LateralContactSlowDown: (0, 0) (50, 1)
++ LateralContactSlowDown: (0, 0) (50, 0.5) (100, 10) (200, 50) (400, 200) (800, 800)
+  LateralSlopeAdherenceMax: 0.7
+  LateralSlopeAdherenceMin: 0.3
+  LimitToMaxSpeedForce: 10
+  LinearFluidFrictionCoef: 0
+  LinearSpeed2PositiveDeltaMax: 10000
+- M4LateralFrictionForce: 160
++ M4LateralFrictionForce: 1
+  M4LateralFrictionSquareForce: 1
+  M4LateralFrictionSquareTorque: 0
+- M4LateralFrictionTorque: 15
+- M4LeaveSlippingSpeed: -1
+- M4MaxFrictionForceFromSpeed: (0, 200)
+- M4MaxFrictionForceWhenSlipping: 0.5
+- M4MaxFrictionTorqueFromSpeed: (0, 10000)
+- M4MaxFrictionTorqueWhenSlippingCoef: 0.34
+- M4SlipAngleSpeed: 2
+- M4SteerAngleWhenSlippingMax: 0.3
+- M4SteerRadiusCoefFromSlipAngle: 3
+- M4SteerRadiusFromSpeed: (0, 5) (150, 20) (1000, 200)
+- M4SteerRadiusWhenSlippingCoef: 0.7
+- M5AccelSlipCoefMax: 1
+- M5KeepNoSteerSlowDownWhenSlippingDuration: 0
+- M5KeepSlidingAccelDuration: 0
+- M5KeepSteerSlowDownDurarion: 1
+- M5LateralConstantSlowDownDuration: 500
++ M4LateralFrictionTorque: 1
++ M4LeaveSlippingSpeed: 1
++ M4MaxFrictionForceFromSpeed: (0, 40)
++ M4MaxFrictionForceWhenSlipping: 1
++ M4MaxFrictionTorqueFromSpeed: (0, 100)
++ M4MaxFrictionTorqueWhenSlippingCoef: 1
++ M4SlipAngleSpeed: 0.005
++ M4SteerAngleWhenSlippingMax: 0.785398
++ M4SteerRadiusCoefFromSlipAngle: 0.5
++ M4SteerRadiusFromSpeed: (0, 10) (100, 20)
++ M4SteerRadiusWhenSlippingCoef: 1
++ M5AccelSlipCoefMax: 5
++ M5KeepNoSteerSlowDownWhenSlippingDuration: 500
++ M5KeepSlidingAccelDuration: 400
++ M5KeepSteerSlowDownDurarion: 100
++ M5LateralConstantSlowDownDuration: 200
+  M5MaxAxialRolloverTorque: 20
+- M5SlippingAccelCurve: (-100, 50) (0, 50) (100, 1)
+- M5SmoothInputSteerDurationFromSpeed: (0, 0)
+- M5SteerCoefFromSpeed: (0, 1)
++ M5SlippingAccelCurve: (-500, 1) (-90, 15) (-50, 20) (0, 15) (100.5, 10) (200, 40) (400, 25) (500, 10) (800, 4)
++ M5SmoothInputSteerDurationFromSpeed: (0, 0) (200, 0) (500, 500)
++ M5SteerCoefFromSpeed: (0, 1) (200, 0.5) (500, 0.1)
+  M6AfterBurnoutAccMod: 4
+  M6AfterBurnoutDuration: 500
+  M6AfterBurnoutImpulse: 10
+  M6AirRpmAcc: 2
+  M6AirRpmDeadening: 1
+  M6BrakeMaxDynamicRear: 50
+  M6BrakeMaxRear: 100
+  M6BrakeModulationWhenSlipping: 0.5
+  M6BrakeSmokeIntensity: 1
+  M6BurnoutAccMod: 0.5
+  M6BurnoutCenterForceCoeff: 1
+  M6BurnoutCenterForceCoeff2: 0.5
+  M6BurnoutDuration: 1000
+  M6BurnoutFricMod: 0.01
+  M6BurnoutLateralSpeed: (0, 0) (1, 30) (10, 30)
+  M6BurnoutLateralSpeedCoeff: 1
+  M6BurnoutLateralSpeedMax: 10
+  M6BurnoutRadius: (0, 1) (5, 2) (10, 3)
+  M6BurnoutRadiusMax: 20
+  M6BurnoutRolloverFromSpeed: (0, 1.5) (10, 1.2) (50, 0.2)
+  M6BurnoutRpmAcc: 5
+  M6BurnoutSmokeIntensity: 5
+  M6BurnoutSmokeVelocity: 1
+  M6BurnoutSteerCoeff: 6
+  M6BurnoutSteerCoeff2: 2
+  M6BurnoutSteerCoeff3: 0.5
+  M6BurnoutWheelAngularRotation: 150
+  M6DonutRolloverFromSpeed: (0, 0) (10, 5) (20, 6)
+  M6ForceEpsilon: 0.01
+  M6FrictionModulationWhenSlipNBrake: 0.2
+  M6GearRatio: [4, 2, 1, 0.8, 0.5, 0.3]
+  M6InertialMass: 5
+  M6InertialTorqueModualtionX: 0.1
+  M6InertialTorqueModulationZ: 0.1
+  M6MaxDiffBtwGroundNormal: 0.35
+  M6MaxDiffBtwnPropulsionAndSpeed: 200
+  M6MaxNegAngle4Burnout: 0.785
+  M6MaxPosAngle4Burnout: 1.7453
+  M6MaxRpm: 0
+  M6MaxRPM: [0, 0.8125, 0.8125, 0.8125, 0.8125, 1]
+  M6MaxSpeed4Burnout: 10
+  M6MinRPM: [0, 0, 0.375, 0.53125, 0.5625, 0.625]
+  M6MinSpeed4Burnout: 3
+  M6RolloverLateralFromSpeedRatio: (0, 0) (1, 0.8) (10, 1) (20, 1) (30, 1)
+  M6RpmGainCoefOnGearDown: 0
+  M6RpmGainOnTakeOff: 0
+  M6RpmLossCoefOnGearUp: 0
+  M6RpmLossOnTakeOffFinished: 0
+  M6RpmWantedOnGearUp: null
+  M6SpeedLimitNegForTakeOffFront: 0
+  M6SpeedLimitNegTakeOffRear: 0
+  M6SpeedLimitPositiveForTakeOffFront: 0
+  M6SpeedLimitPositiveForTakeOffRear: 0
+  Mass: 1
+  MaxAngularSpeedYAirControl: 3.14
+- MaxSideFriction: (0, 80)
++ MaxSideFriction: (0, 70)
+  MaxSideFrictionBlendCoef: 0.03
+- MaxSideFrictionSliding: 0.5
++ MaxSideFrictionSliding: 0.1
+  MaxSpeed: 277.7778
+  ModulationFromWheelCompression: (0, 1) (0.5, 2) (1, 3)
+  NoSteerSlowDownWhenSlipping: True
+  RelSpeedMultCoef: 0
+  ReverseMaxSpeed: 0
+  RolloverAxial: 0.16
+  RolloverLateral: (0, 0.01) (200, 0.01) (201, 0.01)
+  RolloverLateralFromAngle: (0, 1) (0.4, 0.7) (0.8, 0.2) (1, 0)
+  RubberBallElasticity: 0
+  ShockModel: Demo03
+  SideFriction1: 40
+  SideFriction2: 0
+  SlipAngleForceCoef1: 10
+  SlipAngleForceCoef2: 0.01
+  SlipAngleForceMax: 0.087266
+  SlopeSpeedGainLimit: 0
+  SoundBodyImpact_Hard_Threshold: 0
+  SoundBodyImpact_Soft_Threshold: 0
+  SoundEngineVolume: 0
+  SoundImpactVolume: 0
+  SoundSkidConcreteVolume: 0
+  SoundSkidSandVolume: 0
+  SoundWheelImpact_Hard_Threshold: 0
+  SoundWheelImpact_Soft_Threshold: 0
+  SteerAngleMax: 0.523599
+  SteerDriveTorque: (0, 9)
+  SteerDurationBeforeSteerSlowDown: 0
+  SteerGroundTorque: 0.08
+  SteerGroundTorqueSlippingCoef: 1
+  SteerLowSpeed: 30
+- SteerModel: Steer04
++ SteerModel: Steer05
+  SteerRadiusCoef: 0.7
+  SteerRadiusMin: 5
+- SteerSlowDown: (0, 0) (50, 1)
++ SteerSlowDown: (-500, 15) (-90, 12) (-50, 0) (0, 0) (100.5, 0) (200, 4) (400, 50) (800, 200)
+  SteerSlowDownCoef: 0
+  SteerSlowDownFadeInDuration: 0
+  SteerSlowDownFadeOutDuration: 0
+  SteerSpeed: 20
+  TireMaterial: 9
+  Turbo2Boost: 0
+  Turbo2Duration: 0
+  TurboBoost: 0
+  TurboDuration: 0
+  VibrationPeriodSpeedCoef: 0
+  VisualSteerAngleFromSpeed: null
+  WaterAngularFriction: 0.1
+  WaterAngularFrictionSq: 0.2
+- WaterBumpMinSpeed: 50
+- WaterBumpSlowDownFromSpeedRatio: (0, 0)
+- WaterFrictionFromSpeed: (0, 0) (1000, 1000)
++ WaterBumpMinSpeed: 13.888889
++ WaterBumpSlowDownFromSpeedRatio: (0, 0.7) (0.4, 0.7) (0.5, 0.6) (1, 0.6)
++ WaterFrictionFromSpeed: (0, 0) (2, 0.2) (50, 1)
+  WaterGravity: 0.5
+- WaterReboundFromSpeedRatio: (0, 1)
++ WaterReboundFromSpeedRatio: (0, 0.9) (0.4, 0.9) (0.5, 1.5) (1, 1.5)
+  WaterReboundMinHSpeed: 55.555557
+  WaterSplashFromSpeed: null
+  WheelFrictionCoef_Concrete: 0
+  WheelFrictionCoef_Metal: 0
+  WheelRestCoef_Concrete: 0
+  WheelRestCoef_Metal: 0
+  
+  0x090EB000
+- U01: (0, 0) (30, 0) (100, 1)
++ U01: (0, 0) (3, 0) (60, 1)
+  U02: 0
+  
+  0x090EB001
+  U01: False
+  
+  0x090ED000
+  U01: 1
+  U02: 0
+  
+  0x090ED001
+  
+  0x090ED002
+  
+  0x090ED005
+  
+  0x090ED007
+  
+  0x090ED009
+  
+  0x090ED00B
+  
+  0x090ED00D
+  
+  0x090ED00E
+  
+  0x090ED010
+  
+  0x090ED013
+  U01: 0
+  U02: 0
+  U03: 0
+  U04: 0
+  U05: 0
+  U06: 0
+  U07: 0
+  U08: 0
+  U09: 0
+  U10: 0
+  U11: 0
+  U12: 0
+  
+  0x090ED014
+  U01: 0
+  U02: 0
+  
+  0x090ED017
+  U01: 0
+  U02: 0
+  U03: 0
+  U04: 0
+  U05: 0
+  
+  0x090ED018
+  
+  0x090ED01D
+  
+  0x090ED01F
+  U01: 1
+  U02: 1
+  U03: 1
+  
+  0x090ED020
+  
+  0x090ED023
+  
+  0x090ED024
+  
+  0x090ED026
+  
+  0x090ED027
+  
+  0x090ED028
+  U01: 0
+  U02: 0
+  
+  0x090ED029
+  
+  0x090ED02A
+  
+  0x090ED02B
+  
+  0x090ED02C
+  
+  0x090ED02E
+  U01: 0
+  
+  0x090ED030
+  
+  0x090ED031
+  
+  0x090ED033
+  
+  0x090ED034
+  
+  0x090ED035
+  
+  0x090ED036
+  
+  0x090ED037
+  
+  0x090ED038
+  
+  0x090ED039
+  U01: 0
+  
+  0x090ED03A
+  
+  0x090ED03B
+  
+  0x090ED03C
+  
+  0x090ED03D
+  
+  0x090ED03E
+  
+  0x090ED03F
+  
+  0x090ED040
+  
+  0x090ED041
+  
+  0x090ED042
+  
+  0x090ED043
+  
+  0x090ED044
+  
+  0x090ED046
+  
+  0x090ED047
+  
+  0x090ED049
+  
+  0x090ED04D
+  
+  0x090ED04E
+  
+  0x090ED04F
+  
+  0x090ED051
+  
+  0x090ED052
+  
+  0x090ED053
+  
+  0x090ED056
+  
+  0x090ED05C
+  
+  0x090ED05D
+  
+  0x090ED05F
+  
+  0x090ED061
+  
+  0x090ED062
+  U01: 0.05
+  
+  0x090ED063
+  U01: 20
+  
+  0x090ED064
+  U01: 15
+  
+  0x090ED065
+  U01: 1
+  
+  0x090ED066
+  U01: 2
+  
+  0x090ED06A
+  U01: 277.77777
+  U02: 10
+  
+  0x090ED06E
+  U01: 0
+  
+  0x090ED072
+  U01: 0
+  U02: 0
+  U03: 30
+  U04: 0
+  
+  0x090ED077
+  U01: 0
+  U02: 0
+  U03: 1
+  U04: 1
+  U05: (0, 2) (100, 5)
+  
+  0x090ED078
+  U01: 1000
+  
+  0x090ED079
+  U01: False
+  U02: (0, 0) (40, 0) (60, 0.1) (90, 0.3)
+  U03: (0, 0) (40, 0) (60, 0.1) (90, 0.3)
+  U04: 0.1
+  
+  0x090ED07D
+  U01: 0
+  U02: 0
+  U03: 4
+  
+  0x090ED082
+  U01: False
+  U02: (0, 0) (20, 20)
+  U03: (0, 1) (30, 0.3) (200, 0)
+  U04: (0, 0) (100, 10)
+  U05: (0, 1) (30, 1)
+  
+  0x090ED084
+  U01: 3
+  U02: 1
+  U03: 3
+  
+  0x090ED085
+  U01: False
+  U02: 0
+  U03: 0.2
+  U04: 0.6
+  U05: 0.2
+  U06: 1.7
+  
+  0x090ED086
+  U01: 0
+  U02: 0.5
+  
+  0x090ED088
+  U01: 0.3
+  
+  0x090ED089
+  U01: (0, 0) (100, 2)
+  U02: null
+  U03: 0
+  U04: 10
+  U05: 130
+  U06: 230
+  U07: 45
+  U08: 80
+  U09: 40
+  U10: 60
+  U11: 0.3
+  U12: 0.3
+  U13: 1
+  U14: 1
+  U15: 1
+  U16: 80
+  U17: 80
+  U18: 0
+  U19: False
+  U20: (-50, 50000) (-10, 10000) (0, 0) (10, 50000) (50, 100000) (100, 500000)
+  U21: (0, 0.5) (10, 0.3) (50, 0.2) (100, 0.1)
+  U22: (-100, -0.3) (-50, -0.3) (-10, -0.2) (0, -0.1)
+  
+  0x090ED08A
+  U01: 5
+  U02: 5
+  U03: 5
+  U04: 2
+  U05: (0, 2) (100, 5)
+  U06: (0, 1)
+  U07: (0, 1)
+  U08: (0, 1)
+  U09: null
+  U10: null
+  U11: (0, 1)
+  U12: (0, 1)
+  U13: 0
+  U14: null
+  U15: (0, 1)
+  U16: False
+  
+  0x090ED08B
+  U01: null
+  U02: null
+  U03: null
+  U04: 0
+  U05: null
+  U06: 0
+  U07: 0
+  U08: null
+  U09: True
+  U10: 0
+  U11: 0
+  U12: (0, 0) (100, 0)
+  U13: 0
+  U14: 0
+  U15: (0, 0)
+  U16: 0
+  U17: (0, 0.1)
+  U18: 0.1
+  U19: (0, 0) (10, 1) (500, 10)
+  U20: 0
+  U21: (0, 0) (8, 80) (10, 24)
+  U22: (0, 1) (100, 20)
+  U23: (0, 1) (100, 50)
+  U24: 5
+  U25: 1
+  U26: 1
+  U27: 10
+  U28: 3
+  U29: (5, 1) (8, 0)
+  U30: 138.61111
+  U31: (0, 0) (300, 6)
+  U32: (0, 0) (300, 6)
+- U33: (0, 0) (50, 1)
++ U33: (0, 0) (50, 0.5) (100, 10) (200, 50) (400, 200) (800, 800)
+  U34: 500
+  U35: 1000
+  U36: (0, 0) (500, 5)
+  U37: 0
+  U38: 0
+  U39: 0
+  U40: 50
+  U41: 200
+  U42: 0
+  U43: True
+  U44: 9.81
+  U45: 0.3333
+  U46: (20, 0) (100, 50) (300, 200)
+  U47: 400
+  U48: False
+  U49: 3
+  U50: 1.1
+  U51: 0
+  U52: 0
+  U53: 0
+  U54: null
+  U55: null
+  U56: 1000
+  U57: 2
+  U58: 10
+  U59: null
+  U60: null
+  U61: 0
+  U62: null
+  U63: False
+  U64: False
+  U65: null
+  U66: null
+  
+  0x090ED08C
+  U01: -0.8
+  U02: -0.8
+  U03: 0
+  U04: 0
+  U05: 1
+  
+  0x090ED08D
+  U01: 10
+  U02: False
+  U03: False
+  U04: 10
+  U05: 0
+  U06: null
+  U07: null
+  U08: 0.01
+  U09: True
+  
+  0x090ED08E
+  U01: []
+  U01File: null
+  U02: []
+  U02File: null
+  U03: null
+  U03File: null
+  U04: null
+  U04File: null
+  U05: null
+  U05File: null
+  
+  0x090ED094
+  U01: 5
+  U02: (0, 60)
+  U03: 1000
+  U04: 5
+  U05: (0, 180)
+  U06: 1000
+  U07: 1000
+  U08: 1000
+  U09: 3
+  U10: (0, 60)
+  U11: 1000
+  U12: 1000
+  U13: null
+  U14: 0
+  
+  0x090ED095
+  U01: 30000
+  U02: 3.14
+  U03: (0, 1)
+  U04: False
+  U05: 0
+  U06: 5
+  U07: 5
+  U08: null
+  U09: null
+  U10: null
+  U11: null
+  U12: null
+  U13: null
+  U14: null
+  U15: null
+  U16: null
+  U17: null
+  U18: null
+  
+  0x090ED096
+  U01: 11000
+  U02: 2500
+  U03: 25
+  U04: 0.225
+  U05: 2
+  U06: 1
+  U07: 5000
+  U08: 10000
+  U09: 5
+  U10: 0.75
+  U11: 10000
+  U12: 4000
+  U13: 3
+  U14: 2
+  U15: -2
+  U16: -3
+  U17: 1
+  U18: False
+  U19: 1
+  
+  0x090ED097
+  U01: 0.3
+  U02: 0.2
+  U03: -0.5
+  U04: -0.5
+  U05: -0.8
+  U06: -0.8
+  U07: False
+  U08: null
+  
+  0x090ED098
+  U01: 80
+  U02: 150
+  U03: 0.6
+  U04: 0.5
+  U05: 50
+  U06: 0.2
+  U07: 5
+  U08: 10
+  U09: False
+  
+  0x090ED099
+  U01: null
+  
+  0x090ED09A
+  U01: GBX.NET.Engines.Plug.CPlugVehicleGearBox
+  U01File: null
+  
+  0x090ED09B
+  U01: 25
+  U02: 15
+  U03: 10
+  U04: 6
+  U05: 0.5
+  U06: 0.2
+  U07: 300
+  U08: 150
+  U09: 2000
+  U10: 25
+  U11: 50
+  U12: 125
+  U13: 250
+  U14: 350
+  U15: 1
+  U16: 0.5
+  U17: 0.2
+  U18: 0.1
+  U19: 3
+  U20: 1.5
+  U21: 0.8
+  U22: 0.4
+  U23: 100
+  U24: 1.5
+  U25: 1.5
+  U26: 1.5
+  U27: 1.5
+  U28: 0
+  U29: 0
+  U30: 0
+  U31: null
+  
+  0x090ED09C
+  U01: null
+  U02: (0, 3500)
+  U03: (0, 0) (20, 50000)
+  U04: (10, 1) (100, 0)
+  U05: -4000
+  U06: -6000
+  U07: null
+  U08: null
+  U09: null
+  U10: (0, 4000) (0.5, 5000) (0.6, 7000) (0.7, 0)
+  U11: (0, 0) (0.2, 2000) (0.6, 7000)
+  U12: (0, 4000) (0.5, 5000) (0.6, 7000) (0.7, 0)
+  U13: (0, 0) (0.2, 2000) (0.6, 7000)
+  U14: 2
+  U15: null
+  U16: null
+  U17: 2.5
+  U18: (0, 180000) (0.2, 110000) (0.4, 90000) (0.6, 70000) (0.8, 10000) (1, 5000)
+  U19: 30
+  U20: 500
+  U21: 1000
+  U22: 200
+  U23: 0
+  U24: (0, 200000)
+  U25: (0, 200000)
+  U26: 200
+  U27: 1.4
+  U28: (0, 2.5) (20, 1.2) (25, 1) (35, 1) (50, 0.8) (90, 0)
+  U29: (0, 0) (20, 0.8) (25, 1) (35, 1) (40, 1.2) (90, 2)
+  U30: (0, 1.5) (20, 1)
+  U31: (1, 1) (20, 1)
+  U32: 0
+  U33: 40
+  U34: (0, 0)
+  U35: 1
+  
+  0x090ED09D
+  U01: null
+  U02: null
+  U03: null
+  U04: 0
+  U05: 0
+  U06: null
+  U07: 0
+  U08: 0
+  U09: (0, 0)
+  U10: 1
+  U11: (0, 0)
+  U12: 1
+  U13: 1E-06
+  U14: 50
+  U15: 1
+  U16: (0, 10000)
+  U17: (0, 100)
+  U18: (0, 1)
+  U19: (0, 0)
+  U20: (0, 0)
+  U21: 1
+  U22: 0.004
+  U23: 30
+  U24: (0, 1)
+  U25: (0, 0)
+  U26: (0, 1000)
+  U27: (0, 0.85)
+  U28: (0, 100)
+  U29: null
+  U30: null
+  U31: null
+  U32: null
+  U33: null
+  U34: null
+  U35: 1
+  U36: (0, 1)
+  U37: 1
+  U38: 1
+  U39: 0
+  U40: (0, 0)
+  U41: 0
+  U42: (0, 1)
+  U43: (0, 0)
+  U44: (0, 0)
+  U45: 10
+  U46: 2.803E-42
+  U47: 0
+  U48: 0.5
+  U49: (0, 0)
+  U50: 0
+  U51: null
+  
+  0x090ED09E
+  U01: 5
+  U02: 0.5
+  U03: 45
+  U04: 1
+  U05: 0
+  U06: 0.3
+  U07: 1
+  U08: 0.5
+  U09: (0, 1)
+  U10: 2.5
+  U11: null
+  U12: 2.5
+  U13: null
+  U14: null
+  
+  0x090ED09F
+  U01: (0, 1)
+  U02: 1
+  U03: 1
+  U04: 1
+  U05: 1
+  U06: (0, 0)
+  U07: (0, 0)
+  U08: 3
+  U09: 5
+  U10: 0
+  U11: 0
+  U12: 0
+  U13: 0
+  U14: 0
+  U15: (0, 0)
+  U16: 0.5
+  U17: (0, 1)
+  U18: (0, 1)
+  U19: 17.5
+  U20: -5
+  U21: 1
+  U22: 1
+  U23: 1
+  U24: <1, 1, 1>
+  U25: <0, 0, 0>
+  U26: (0, 0)
+  U27: (0, 0)
+  U28: False
+  U29: 2500
+  U30: 10000
+  U31: 4500
+  U32: 17500
+  U33: 8
+  

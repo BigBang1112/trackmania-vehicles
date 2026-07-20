@@ -13,7 +13,7 @@ var referenceDir = Path.Combine(projectDir, "Reference");
 var gameVehicleOrder = new Dictionary<string, (string DisplayName, string FileBaseName)[]>
 {
     ["TM2020"] = [("StadiumCar", "TuningsSport"), ("SnowCar", "TuningsSnow"), ("RallyCar", "CarRally"), ("DesertCar", "DesertCar")],
-    ["MP4"] = [("CanyonCar", "CanyonCar"), ("DesertCar", "DesertCar"), ("StadiumCar", "StadiumCar"), ("ValleyCar", "ValleyCar"), ("LagoonCar", "LagoonCar"), ("TrafficCar", "TrafficCar")],
+    ["MP4"] = [("CanyonCar", "CanyonCar"), ("StadiumCar", "StadiumCar"), ("ValleyCar", "ValleyCar"), ("LagoonCar", "LagoonCar"), ("TrafficCar", "TrafficCar"), ("DesertCar", "American"), ("SnowCar", "Buggy"), ("RallyCar", "Rally"), ("IslandCar", "Sport"), ("BayCar", "BayCar"), ("CoastCar", "CoastCar")],
     ["TMF"] = [("DesertCar", "American"), ("SnowCar", "Buggy"), ("RallyCar", "Rally"), ("IslandCar", "Sport"), ("BayCar", "BayCar"), ("CoastCar", "CoastCar"), ("StadiumCar", "StadiumCar")],
     ["TMN"] = [("StadiumCar", "StadiumCar")],
     ["TMSX"] = [("IslandCar", "Sport"), ("BayCar", "BayCar"), ("CoastCar", "CoastCar")],
