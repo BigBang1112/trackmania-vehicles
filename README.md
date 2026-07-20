@@ -89,3 +89,7 @@ Running it regenerates the whole [Reference](Reference) folder from `*.VehicleTu
 ## License
 
 Public domain, [The Unlicense](LICENSE.txt). Do whatever you want with it.
+
+## Special thanks
+
+To [greffmaster](https://github.com/GreffMASTER) for contributing with the vehicle parameter names in the library.
