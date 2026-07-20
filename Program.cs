@@ -197,8 +197,8 @@ static string ValueToString(string name, object? value)
     switch (value)
     {
         case CFuncKeysReal or CPlugVehicleCarPhyTuning.Keys:
-            var points = GetKeyPoints(value);
-            value = points is null ? null : string.Join(" ", points.Select(p => $"({p.X}, {p.Y})"));
+            var keyPoints = GetKeyPoints(value);
+            value = keyPoints is null ? null : string.Join(" ", keyPoints.Points.Select(p => $"({p.X}, {p.Y})"));
             break;
         case Array array:
             value = ArrayToString(array);
@@ -218,10 +218,10 @@ static string ValueToMarkdownCell(string name, object? value)
     switch (value)
     {
         case CFuncKeysReal or CPlugVehicleCarPhyTuning.Keys:
-            var points = GetKeyPoints(value);
-            return points is null || points.Length == 0
+            var keyPoints = GetKeyPoints(value);
+            return keyPoints is null || keyPoints.Points.Length == 0
                 ? "*(empty)*"
-                : $"![{EscapeMarkdownCell(name)}]({KeysToChartUrl(points)})";
+                : $"![{EscapeMarkdownCell(name)}]({KeysToChartUrl(keyPoints.Points, keyPoints.Interp)})";
         case Array array:
             return EscapeMarkdownCell(ArrayToString(array));
         default:
@@ -229,13 +229,13 @@ static string ValueToMarkdownCell(string name, object? value)
     }
 }
 
-static (float X, float Y)[]? GetKeyPoints(object? value)
+static KeyPoints? GetKeyPoints(object? value)
 {
     return value switch
     {
-        CFuncKeysReal keys => ZipKeys(keys.Xs, keys.Ys),
-        CPlugVehicleCarPhyTuning.Keys { U01: { } keys } => ZipKeys(keys.Xs, keys.Ys),
-        CPlugVehicleCarPhyTuning.Keys { U04: { } vecs } => vecs.Select(v => (v.X, v.Y)).ToArray(),
+        CFuncKeysReal keys => new KeyPoints(ZipKeys(keys.Xs, keys.Ys), keys.RealInterp),
+        CPlugVehicleCarPhyTuning.Keys { U01: { } keys } => new KeyPoints(ZipKeys(keys.Xs, keys.Ys), keys.RealInterp),
+        CPlugVehicleCarPhyTuning.Keys { U04: { } vecs } => new KeyPoints(vecs.Select(v => (v.X, v.Y)).ToArray(), CFuncKeysReal.ERealInterp.Linear),
         _ => null
     };
 }
@@ -250,9 +250,10 @@ static string EscapeMarkdownCell(string text)
     return text.Replace("|", "\\|").Replace("\r\n", " ").Replace("\n", " ");
 }
 
-static string KeysToChartUrl((float X, float Y)[] points)
+static string KeysToChartUrl((float X, float Y)[] points, CFuncKeysReal.ERealInterp interp)
 {
     var pointsJson = string.Join(",", points.Select(p => $"{{x:{p.X},y:{p.Y}}}"));
+    var interpOptions = GetInterpOptions(interp);
 
     var config = $@"
 {{
@@ -261,7 +262,8 @@ static string KeysToChartUrl((float X, float Y)[] points)
     datasets: [
       {{
         data: [{pointsJson}],
-        fill: false
+        fill: false,
+        {interpOptions}
       }}
     ]
   }},
@@ -269,11 +271,6 @@ static string KeysToChartUrl((float X, float Y)[] points)
     plugins: {{
       legend: {{
         display: false
-      }}
-    }},
-    elements: {{
-      line: {{
-        cubicInterpolationMode: 'default'
       }}
     }},
     scales: {{
@@ -287,6 +284,18 @@ static string KeysToChartUrl((float X, float Y)[] points)
     config = string.Concat(config.Where(c => !char.IsWhiteSpace(c)));
 
     return $"https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c={Uri.EscapeDataString(config)}";
+}
+
+static string GetInterpOptions(CFuncKeysReal.ERealInterp interp)
+{
+    return interp switch
+    {
+        CFuncKeysReal.ERealInterp.None => "stepped:true",
+        CFuncKeysReal.ERealInterp.Linear => "tension:0",
+        CFuncKeysReal.ERealInterp.Hermite => "cubicInterpolationMode:'default',tension:0.4",
+        CFuncKeysReal.ERealInterp.SmoothStep => "cubicInterpolationMode:'monotone',tension:0",
+        _ => "tension:0"
+    };
 }
 
 static async Task WriteGameReadmeAsync(string gameReferenceDir, string gameName, List<VehicleTableData> vehicles, (string DisplayName, string FileBaseName)[] vehicleOrder)
@@ -381,4 +390,5 @@ static async Task WriteGameReadmeAsync(string gameReferenceDir, string gameName,
     }
 }
 
+record KeyPoints((float X, float Y)[] Points, CFuncKeysReal.ERealInterp Interp);
 record VehicleTableData(string FileBaseName, Dictionary<string, object?> Properties, Dictionary<string, Dictionary<string, object?>> Chunks);
