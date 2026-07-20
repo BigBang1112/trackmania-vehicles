@@ -13,7 +13,7 @@ This is a generated reference of every documented Trackmania vehicle tuning revi
 | RallyCar | CarRally | [CarRally.VehicleTunings.Gbx](Reference/TM2020/CarRally.VehicleTunings.Gbx) |
 | DesertCar | CarDesert | [DesertCar.VehicleTunings.Gbx](Reference/TM2020/DesertCar.VehicleTunings.Gbx) |
 
-### [TrackMania 2](Reference/TM2)
+### [TrackMania 2](Reference/MP4)
 
 | Name | Technical name | Tunings file |
 | --- | --- | --- |
