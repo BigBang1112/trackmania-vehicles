@@ -18,4 +18,8 @@
         <PackageReference Include="GBX.NET" Version="2.4.3" />
     </ItemGroup>
 
+    <ItemGroup>
+      <Folder Include="Tunings\TMT\" />
+    </ItemGroup>
+
 </Project>

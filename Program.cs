@@ -14,6 +14,7 @@ var gameVehicleOrder = new Dictionary<string, (string DisplayName, string FileBa
 {
     ["TM2020"] = [("StadiumCar", "TuningsSport"), ("SnowCar", "TuningsSnow"), ("RallyCar", "CarRally"), ("DesertCar", "DesertCar")],
     ["MP4"] = [("CanyonCar", "CanyonCar"), ("StadiumCar", "StadiumCar"), ("ValleyCar", "ValleyCar"), ("LagoonCar", "LagoonCar"), ("TrafficCar", "TrafficCar"), ("DesertCar", "American"), ("SnowCar", "Buggy"), ("RallyCar", "Rally"), ("IslandCar", "Sport"), ("BayCar", "BayCar"), ("CoastCar", "CoastCar")],
+    ["TMT"] = [("CanyonCar", "CanyonCar"), ("StadiumCar", "StadiumCar"), ("ValleyCar", "ValleyCar"), ("LagoonCar", "LagoonCar")],
     ["TMF"] = [("DesertCar", "American"), ("SnowCar", "Buggy"), ("RallyCar", "Rally"), ("IslandCar", "Sport"), ("BayCar", "BayCar"), ("CoastCar", "CoastCar"), ("StadiumCar", "StadiumCar")],
     ["TMN"] = [("StadiumCar", "StadiumCar")],
     ["TMSX"] = [("IslandCar", "Sport"), ("BayCar", "BayCar"), ("CoastCar", "CoastCar")],
@@ -28,7 +29,7 @@ foreach (var gameGroup in filesByGame)
     var relativeDir = gameGroup.Key;
     var gameReferenceDir = Path.Combine(referenceDir, relativeDir);
     var gameVehicles = new List<VehicleTableData>();
-    var isMP = relativeDir is "MP4" or "TM2020";
+    var isMP = relativeDir is "MP4" or "TMT" or "TM2020";
 
     foreach (var filePath in gameGroup)
     {
