@@ -33,6 +33,12 @@ See [comparison between vehicles](Reference/MP4).
 | ValleyCar | ValleyCar | [ValleyCar.VehicleTunings.Gbx](Reference/MP4/ValleyCar.VehicleTunings.Gbx) |
 | LagoonCar | LagoonCar | [LagoonCar.VehicleTunings.Gbx](Reference/MP4/LagoonCar.VehicleTunings.Gbx) |
 | TrafficCar | TrafficCar | [TrafficCar.VehicleTunings.Gbx](Reference/MP4/TrafficCar.VehicleTunings.Gbx) |
+| DesertCar | DesertCar | [DesertCar.VehicleTunings.Gbx](Reference/MP4/DesertCar.VehicleTunings.Gbx) |
+| SnowCar | SnowCar | [Buggy.VehicleTunings.Gbx](Reference/MP4/Buggy.VehicleTunings.Gbx) |
+| RallyCar | RallyCar | [RallyCar.VehicleTunings.Gbx](Reference/MP4/RallyCar.VehicleTunings.Gbx) |
+| IslandCar | IslandCar | [IslandCar.VehicleTunings.Gbx](Reference/MP4/IslandCar.VehicleTunings.Gbx) |
+| BayCar | BayCar | [BayCar.VehicleTunings.Gbx](Reference/MP4/BayCar.VehicleTunings.Gbx) |
+| CoastCar | CoastCar | [CoastCar.VehicleTunings.Gbx](Reference/MP4/CoastCar.VehicleTunings.Gbx) |
 
 > [!NOTE]
 > Some parameters could be inaccurate for TM2 due to bad member mapping of values. If you find any possible mappings, please contribute in the [GBX.NET](https://github.com/BigBang1112/gbx-net/blob/master/Src/GBX.NET/Engines/Plug/CPlugVehicleCarPhyTuning.chunkl) repository.
