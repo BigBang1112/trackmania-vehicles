@@ -156,8 +156,15 @@ static string ValueToString(string name, object? value)
         case CFuncKeysReal keys:
             value = KeysToString(keys);
             break;
-        case CPlugVehicleCarPhyTuning.Keys { U01: not null } tuningKeys:
-            value = KeysToString(tuningKeys.U01);
+        case CPlugVehicleCarPhyTuning.Keys tuningKeys:
+            if (tuningKeys.U01 is not null)
+            {
+                value = KeysToString(tuningKeys.U01);
+            }
+            else if (tuningKeys.U04 is not null)
+            {
+                value = KeysVec2ToString(tuningKeys.U04);
+            }
             break;
         case Array array:
             value = ArrayToString(array);
@@ -173,6 +180,16 @@ static string KeysToString(CFuncKeysReal keys)
     var ys = keys.Ys ?? [];
 
     return string.Join(" ", xs.Zip(ys, (x, y) => $"({x}, {y})"));
+}
+
+static string KeysVec2ToString(Vec2[]? keys)
+{
+    if (keys is null)
+    {
+        return "null";
+    }
+
+    return string.Join(" ", keys.Select(k => $"({k.X}, {k.Y})"));
 }
 
 static string ArrayToString(Array array)
