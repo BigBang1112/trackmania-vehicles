@@ -31,6 +31,7 @@ foreach (var gameGroup in filesByGame)
     var relativeDir = gameGroup.Key;
     var gameReferenceDir = Path.Combine(referenceDir, relativeDir);
     var gameVehicles = new List<VehicleTableData>();
+    var isMP = relativeDir is "MP4" or "TM2020";
 
     foreach (var filePath in gameGroup)
     {
@@ -91,8 +92,8 @@ foreach (var gameGroup in filesByGame)
 
                     properties[property.Name] = value;
 
-                    await txtWriter.WriteLineAsync(ValueToString(property.Name, value));
-                    await mdWriter.WriteLineAsync($"| {property.Name} | {ValueToMarkdownCell(property.Name, value)} |");
+                    await txtWriter.WriteLineAsync(ValueToString(property.Name, value, isMP));
+                    await mdWriter.WriteLineAsync($"| {property.Name} | {ValueToMarkdownCell(property.Name, value, isMP)} |");
                 }
 
                 await mdWriter.WriteLineAsync("## Chunks");
@@ -122,8 +123,8 @@ foreach (var gameGroup in filesByGame)
 
                         chunkFields[field.Name] = value;
 
-                        await txtWriter.WriteLineAsync(ValueToString(field.Name, value));
-                        await mdWriter.WriteLineAsync($"| {field.Name} | {ValueToMarkdownCell(field.Name, value)} |");
+                        await txtWriter.WriteLineAsync(ValueToString(field.Name, value, isMP));
+                        await mdWriter.WriteLineAsync($"| {field.Name} | {ValueToMarkdownCell(field.Name, value, isMP)} |");
                     }
 
                     if (chunkFields.Count > 0)
@@ -160,7 +161,7 @@ foreach (var gameGroup in filesByGame)
 
     var vehicleOrder = gameVehicleOrder.TryGetValue(relativeDir, out var configuredOrder) ? configuredOrder : [];
 
-    await WriteGameReadmeAsync(gameReferenceDir, relativeDir, gameVehicles, vehicleOrder);
+    await WriteGameReadmeAsync(gameReferenceDir, relativeDir, gameVehicles, vehicleOrder, isMP);
 }
 
 static async Task WriteDiffFileAsync(string oldFilePath, string newFilePath, string diffFilePath)
@@ -192,12 +193,12 @@ static async Task WriteDiffFileAsync(string oldFilePath, string newFilePath, str
     }
 }
 
-static string ValueToString(string name, object? value)
+static string ValueToString(string name, object? value, bool isMP)
 {
     switch (value)
     {
         case CFuncKeysReal or CPlugVehicleCarPhyTuning.Keys:
-            var keyPoints = GetKeyPoints(value);
+            var keyPoints = GetKeyPoints(value, isMP);
             value = keyPoints is null ? null : string.Join(" ", keyPoints.Points.Select(p => $"({p.X}, {p.Y})"));
             break;
         case Array array:
@@ -213,12 +214,12 @@ static string ArrayToString(Array array)
     return $"[{string.Join(", ", array.Cast<object>().Select(x => x?.ToString() ?? "null"))}]";
 }
 
-static string ValueToMarkdownCell(string name, object? value)
+static string ValueToMarkdownCell(string name, object? value, bool isMP)
 {
     switch (value)
     {
         case CFuncKeysReal or CPlugVehicleCarPhyTuning.Keys:
-            var keyPoints = GetKeyPoints(value);
+            var keyPoints = GetKeyPoints(value, isMP);
             return keyPoints is null || keyPoints.Points.Length == 0
                 ? "*(empty)*"
                 : $"![{EscapeMarkdownCell(name)}]({KeysToChartUrl(keyPoints.Points, keyPoints.Interp)})";
@@ -229,11 +230,11 @@ static string ValueToMarkdownCell(string name, object? value)
     }
 }
 
-static KeyPoints? GetKeyPoints(object? value)
+static KeyPoints? GetKeyPoints(object? value, bool isMP)
 {
     return value switch
     {
-        CFuncKeysReal keys => new KeyPoints(ZipKeys(keys.Xs, keys.Ys), keys.RealInterp switch
+        CFuncKeysReal keys => new KeyPoints(ZipKeys(keys.Xs, keys.Ys), isMP ? keys.RealInterp : keys.RealInterp switch
         {
             CFuncKeysReal.ERealInterp.Linear => CFuncKeysReal.ERealInterp.None,
             CFuncKeysReal.ERealInterp.None => CFuncKeysReal.ERealInterp.Linear,
@@ -303,7 +304,7 @@ static string GetInterpOptions(CFuncKeysReal.ERealInterp interp)
     };
 }
 
-static async Task WriteGameReadmeAsync(string gameReferenceDir, string gameName, List<VehicleTableData> vehicles, (string DisplayName, string FileBaseName)[] vehicleOrder)
+static async Task WriteGameReadmeAsync(string gameReferenceDir, string gameName, List<VehicleTableData> vehicles, (string DisplayName, string FileBaseName)[] vehicleOrder, bool isMP)
 {
     if (vehicles.Count == 0)
     {
@@ -346,7 +347,7 @@ static async Task WriteGameReadmeAsync(string gameReferenceDir, string gameName,
         var cells = columns.Select(c =>
         {
             c.Vehicle.Properties.TryGetValue(propertyName, out var value);
-            return ValueToMarkdownCell(propertyName, value);
+            return ValueToMarkdownCell(propertyName, value, isMP);
         });
 
         await writer.WriteLineAsync($"| {propertyName} | {string.Join(" | ", cells)} |");
@@ -356,6 +357,9 @@ static async Task WriteGameReadmeAsync(string gameReferenceDir, string gameName,
         .SelectMany(c => c.Vehicle.Chunks.Keys)
         .Distinct()
         .OrderBy(x => x);
+
+    await writer.WriteLineAsync();
+    await writer.WriteLineAsync("## Chunks");
 
     foreach (var chunkId in chunkIds)
     {
@@ -371,7 +375,7 @@ static async Task WriteGameReadmeAsync(string gameReferenceDir, string gameName,
         }
 
         await writer.WriteLineAsync();
-        await writer.WriteLineAsync($"## Chunk {chunkId}");
+        await writer.WriteLineAsync($"### {chunkId}");
         await writer.WriteLineAsync();
         await writer.WriteLineAsync($"| Field | {string.Join(" | ", columns.Select(c => c.DisplayName))} |");
         await writer.WriteLineAsync($"| --- | {string.Join(" | ", columns.Select(_ => "---"))} |");
@@ -387,7 +391,7 @@ static async Task WriteGameReadmeAsync(string gameReferenceDir, string gameName,
                     chunkFields.TryGetValue(fieldName, out value);
                 }
 
-                return ValueToMarkdownCell(fieldName, value);
+                return ValueToMarkdownCell(fieldName, value, isMP);
             });
 
             await writer.WriteLineAsync($"| {fieldName} | {string.Join(" | ", cells)} |");
