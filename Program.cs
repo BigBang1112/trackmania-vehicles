@@ -234,7 +234,12 @@ static KeyPoints? GetKeyPoints(object? value)
     return value switch
     {
         CFuncKeysReal keys => new KeyPoints(ZipKeys(keys.Xs, keys.Ys), keys.RealInterp),
-        CPlugVehicleCarPhyTuning.Keys { U01: { } keys } => new KeyPoints(ZipKeys(keys.Xs, keys.Ys), keys.RealInterp),
+        CPlugVehicleCarPhyTuning.Keys { U01: { } keys } => new KeyPoints(ZipKeys(keys.Xs, keys.Ys), keys.RealInterp switch
+        {
+            CFuncKeysReal.ERealInterp.Linear => CFuncKeysReal.ERealInterp.None,
+            CFuncKeysReal.ERealInterp.None => CFuncKeysReal.ERealInterp.Linear,
+            _ => keys.RealInterp
+        }),
         CPlugVehicleCarPhyTuning.Keys { U04: { } vecs } => new KeyPoints(vecs.Select(v => (v.X, v.Y)).ToArray(), CFuncKeysReal.ERealInterp.Linear),
         _ => null
     };
