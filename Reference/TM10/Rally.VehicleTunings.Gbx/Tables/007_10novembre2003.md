@@ -10,7 +10,7 @@
 | AbsorbingValMin | 0 |
 | AbsorbingValRest | 0.25 |
 | AbsorbTension | 5 |
-| AccelCurve | ![AccelCurve](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A-200%2Cy%3A2%7D%2C%7Bx%3A-100%2Cy%3A20%7D%2C%7Bx%3A0%2Cy%3A60%7D%2C%7Bx%3A25%2Cy%3A35%7D%2C%7Bx%3A50%2Cy%3A25%7D%2C%7Bx%3A75%2Cy%3A20%7D%2C%7Bx%3A100%2Cy%3A8%7D%2C%7Bx%3A125%2Cy%3A6%7D%2C%7Bx%3A200%2Cy%3A4%7D%2C%7Bx%3A400%2Cy%3A2%7D%5D%2Cfill%3Afalse%2Cstepped%3Atrue%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
+| AccelCurve | ![AccelCurve](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A-200%2Cy%3A2%7D%2C%7Bx%3A-100%2Cy%3A20%7D%2C%7Bx%3A0%2Cy%3A60%7D%2C%7Bx%3A25%2Cy%3A35%7D%2C%7Bx%3A50%2Cy%3A25%7D%2C%7Bx%3A75%2Cy%3A20%7D%2C%7Bx%3A100%2Cy%3A8%7D%2C%7Bx%3A125%2Cy%3A6%7D%2C%7Bx%3A200%2Cy%3A4%7D%2C%7Bx%3A400%2Cy%3A2%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
 | AccelCurveRearGear | null |
 | AirControlDuration | 30000 |
 | AirControlZCoefFromAngularSpeed | null |
@@ -47,7 +47,7 @@
 | InertiaHalfDiag | <0.5, 0.5, 0.5> |
 | InertiaMass | 5 |
 | IsFakeEngine | True |
-| LateralContactSlowDown | ![LateralContactSlowDown](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A0%2Cy%3A0.8%7D%2C%7Bx%3A100%2Cy%3A0.8%7D%2C%7Bx%3A200%2Cy%3A0.8%7D%2C%7Bx%3A300%2Cy%3A0.8%7D%5D%2Cfill%3Afalse%2Cstepped%3Atrue%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
+| LateralContactSlowDown | ![LateralContactSlowDown](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A0%2Cy%3A0.8%7D%2C%7Bx%3A100%2Cy%3A0.8%7D%2C%7Bx%3A200%2Cy%3A0.8%7D%2C%7Bx%3A300%2Cy%3A0.8%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
 | LateralSlopeAdherenceMax | 0.7 |
 | LateralSlopeAdherenceMin | 0.3 |
 | LimitToMaxSpeedForce | 10 |
@@ -131,7 +131,7 @@
 | M6SpeedLimitPositiveForTakeOffRear | 0 |
 | Mass | 1 |
 | MaxAngularSpeedYAirControl | 3.141593 |
-| MaxSideFriction | ![MaxSideFriction](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A0%2Cy%3A25%7D%2C%7Bx%3A75%2Cy%3A25%7D%2C%7Bx%3A125%2Cy%3A25%7D%2C%7Bx%3A200%2Cy%3A25%7D%2C%7Bx%3A400%2Cy%3A25%7D%5D%2Cfill%3Afalse%2Cstepped%3Atrue%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
+| MaxSideFriction | ![MaxSideFriction](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A0%2Cy%3A25%7D%2C%7Bx%3A75%2Cy%3A25%7D%2C%7Bx%3A125%2Cy%3A25%7D%2C%7Bx%3A200%2Cy%3A25%7D%2C%7Bx%3A400%2Cy%3A25%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
 | MaxSideFrictionBlendCoef | 0 |
 | MaxSideFrictionSliding | 0.7 |
 | MaxSpeed | 416.6667 |
@@ -140,8 +140,8 @@
 | RelSpeedMultCoef | 0.2 |
 | ReverseMaxSpeed | 277.7778 |
 | RolloverAxial | 0 |
-| RolloverLateral | ![RolloverLateral](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A0%2Cy%3A0.1%7D%2C%7Bx%3A100%2Cy%3A0.15%7D%2C%7Bx%3A200%2Cy%3A0.2%7D%2C%7Bx%3A300%2Cy%3A0.25%7D%5D%2Cfill%3Afalse%2Cstepped%3Atrue%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
-| RolloverLateralFromAngle | ![RolloverLateralFromAngle](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A0%2Cy%3A1%7D%5D%2Cfill%3Afalse%2Cstepped%3Atrue%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
+| RolloverLateral | ![RolloverLateral](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A0%2Cy%3A0.1%7D%2C%7Bx%3A100%2Cy%3A0.15%7D%2C%7Bx%3A200%2Cy%3A0.2%7D%2C%7Bx%3A300%2Cy%3A0.25%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
+| RolloverLateralFromAngle | ![RolloverLateralFromAngle](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A0%2Cy%3A1%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
 | RubberBallElasticity | 1 |
 | ShockModel | Demo03 |
 | SideFriction1 | 40 |
@@ -159,7 +159,7 @@
 | SoundWheelImpact_Hard_Threshold | 5 |
 | SoundWheelImpact_Soft_Threshold | 3 |
 | SteerAngleMax | 0.523599 |
-| SteerDriveTorque | ![SteerDriveTorque](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A0%2Cy%3A10%7D%5D%2Cfill%3Afalse%2Cstepped%3Atrue%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
+| SteerDriveTorque | ![SteerDriveTorque](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A0%2Cy%3A10%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
 | SteerDurationBeforeSteerSlowDown | 0 |
 | SteerGroundTorque | 0.08 |
 | SteerGroundTorqueSlippingCoef | 1.1 |
@@ -167,7 +167,7 @@
 | SteerModel | Steer02 |
 | SteerRadiusCoef | 0.7 |
 | SteerRadiusMin | 5 |
-| SteerSlowDown | ![SteerSlowDown](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A0%2Cy%3A0%7D%2C%7Bx%3A50%2Cy%3A3%7D%2C%7Bx%3A100%2Cy%3A1.5%7D%2C%7Bx%3A150%2Cy%3A0%7D%2C%7Bx%3A300%2Cy%3A0%7D%5D%2Cfill%3Afalse%2Cstepped%3Atrue%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
+| SteerSlowDown | ![SteerSlowDown](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A0%2Cy%3A0%7D%2C%7Bx%3A50%2Cy%3A3%7D%2C%7Bx%3A100%2Cy%3A1.5%7D%2C%7Bx%3A150%2Cy%3A0%7D%2C%7Bx%3A300%2Cy%3A0%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
 | SteerSlowDownCoef | 0.25 |
 | SteerSlowDownFadeInDuration | 0 |
 | SteerSlowDownFadeOutDuration | 0 |
