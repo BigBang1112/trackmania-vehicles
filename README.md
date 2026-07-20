@@ -24,17 +24,17 @@ This is a generated reference of every documented Trackmania vehicle tuning revi
 | LagoonCar | LagoonCar | [LagoonCar.VehicleTunings.Gbx](Reference/MP4/LagoonCar.VehicleTunings.Gbx) |
 | TrafficCar | TrafficCar | [TrafficCar.VehicleTunings.Gbx](Reference/MP4/TrafficCar.VehicleTunings.Gbx) |
 
-### [TrackMania United Forever](Reference/TMUF)
+### [TrackMania Forever](Reference/TMF)
 
 | Name | Technical name | Tunings file |
 | --- | --- | --- |
-| DesertCar | American | [American.VehicleTunings.Gbx](Reference/TMUF/American.VehicleTunings.Gbx) |
-| SnowCar | SnowCar | [Buggy.VehicleTunings.Gbx](Reference/TMUF/Buggy.VehicleTunings.Gbx) |
-| RallyCar | Rally | [Rally.VehicleTunings.Gbx](Reference/TMUF/Rally.VehicleTunings.Gbx) |
-| IslandCar | SportCar | [Sport.VehicleTunings.Gbx](Reference/TMUF/Sport.VehicleTunings.Gbx) |
-| BayCar | BayCar | [BayCar.VehicleTunings.Gbx](Reference/TMUF/BayCar.VehicleTunings.Gbx) |
-| CoastCar | CoastCar | [CoastCar.VehicleTunings.Gbx](Reference/TMUF/CoastCar.VehicleTunings.Gbx) |
-| StadiumCar | StadiumCar | [StadiumCar.VehicleTunings.Gbx](Reference/TMUF/StadiumCar.VehicleTunings.Gbx) |
+| DesertCar | American | [American.VehicleTunings.Gbx](Reference/TMF/American.VehicleTunings.Gbx) |
+| SnowCar | SnowCar | [Buggy.VehicleTunings.Gbx](Reference/TMF/Buggy.VehicleTunings.Gbx) |
+| RallyCar | Rally | [Rally.VehicleTunings.Gbx](Reference/TMF/Rally.VehicleTunings.Gbx) |
+| IslandCar | SportCar | [Sport.VehicleTunings.Gbx](Reference/TMF/Sport.VehicleTunings.Gbx) |
+| BayCar | BayCar | [BayCar.VehicleTunings.Gbx](Reference/TMF/BayCar.VehicleTunings.Gbx) |
+| CoastCar | CoastCar | [CoastCar.VehicleTunings.Gbx](Reference/TMF/CoastCar.VehicleTunings.Gbx) |
+| StadiumCar | StadiumCar | [StadiumCar.VehicleTunings.Gbx](Reference/TMF/StadiumCar.VehicleTunings.Gbx) |
 
 ### [TrackMania Nations ESWC](Reference/TMN)
 
