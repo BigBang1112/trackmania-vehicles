@@ -18,6 +18,7 @@ var gameVehicleOrder = new Dictionary<string, (string DisplayName, string FileBa
     ["TMF"] = [("DesertCar", "American"), ("SnowCar", "Buggy"), ("RallyCar", "Rally"), ("IslandCar", "Sport"), ("BayCar", "BayCar"), ("CoastCar", "CoastCar"), ("StadiumCar", "StadiumCar")],
     ["TMU"] = [("DesertCar", "American"), ("SnowCar", "Buggy"), ("RallyCar", "Rally"), ("IslandCar", "Sport"), ("BayCar", "BayCar"), ("CoastCar", "CoastCar"), ("StadiumCar", "StadiumCar")],
     ["TMN"] = [("StadiumCar", "StadiumCar")],
+    ["TMO"] = [("DesertCar", "American"), ("SnowCar", "Buggy"), ("RallyCar", "Rally")],
     ["TMSX"] = [("IslandCar", "Sport"), ("BayCar", "BayCar"), ("CoastCar", "CoastCar")],
     ["TM10"] = [("DesertCar", "American"), ("SnowCar", "Buggy"), ("RallyCar", "Rally")],
 };

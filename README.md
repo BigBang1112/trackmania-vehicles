@@ -93,6 +93,16 @@ See [comparison between vehicles](Reference/TMN).
 | --- | --- | --- |
 | StadiumCar | StadiumCar | [StadiumCar.VehicleTunings.Gbx](Reference/TMN/StadiumCar.VehicleTunings.Gbx) |
 
+### TrackMania Original
+
+See [comparison between vehicles](Reference/TMO).
+
+| Name | Technical name | Tunings file |
+| --- | --- | --- |
+| DesertCar | American | [American.VehicleTunings.Gbx](Reference/TMO/American.VehicleTunings.Gbx) |
+| SnowCar | SnowCar | [Buggy.VehicleTunings.Gbx](Reference/TMO/Buggy.VehicleTunings.Gbx) |
+| RallyCar | Rally | [Rally.VehicleTunings.Gbx](Reference/TMO/Rally.VehicleTunings.Gbx) |
+
 ### TrackMania Sunrise eXtreme
 
 See [comparison between vehicles](Reference/TMSX).
