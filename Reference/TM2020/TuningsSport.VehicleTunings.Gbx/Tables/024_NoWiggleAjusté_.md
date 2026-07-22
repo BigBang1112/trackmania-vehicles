@@ -779,8 +779,8 @@
 | U10 | null |
 | U11 | ![U11](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A0%2Cy%3A1%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
 | U12 | 2.5 |
-| U13 | 1061158912 |
-| U14 | 1065353216 |
+| U13 | 0.75 |
+| U14 | 1 |
 
 ### 0x090ED09F
 
@@ -824,15 +824,15 @@
 
 | Name | Value |
 | --- | --- |
-| U01 | -1133133169 |
-| U02 | 1103626240 |
-| U03 | 1084227584 |
-| U04 | 1117126656 |
-| U05 | 1101004800 |
-| U06 | 1101004800 |
-| U07 | 1084227584 |
-| U08 | 1028443341 |
-| U09 | 1077936128 |
+| U01 | -0.015 |
+| U02 | 25 |
+| U03 | 5 |
+| U04 | 75 |
+| U05 | 20 |
+| U06 | 20 |
+| U07 | 5 |
+| U08 | 0.05 |
+| U09 | 3 |
 | U10 | 0 |
 
 ### 0x090ED0A1
@@ -841,15 +841,15 @@
 | --- | --- |
 | U01 | ![U01](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A-90%2Cy%3A1.5%7D%2C%7Bx%3A-10%2Cy%3A1.25%7D%2C%7Bx%3A0%2Cy%3A1%7D%2C%7Bx%3A10%2Cy%3A-1.25%7D%2C%7Bx%3A90%2Cy%3A-1.5%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
 | U02 | ![U02](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A0%2Cy%3A400%7D%2C%7Bx%3A60%2Cy%3A0%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
-| U03 | 1008981770 |
-| U04 | 1008981770 |
+| U03 | 0.01 |
+| U04 | 0.01 |
 | U05 | ![U05](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A0%2Cy%3A1%7D%2C%7Bx%3A5%2Cy%3A3000%7D%2C%7Bx%3A15%2Cy%3A7000%7D%2C%7Bx%3A30%2Cy%3A10000%7D%2C%7Bx%3A45%2Cy%3A7500%7D%2C%7Bx%3A60%2Cy%3A5000%7D%2C%7Bx%3A90%2Cy%3A4000%7D%2C%7Bx%3A140%2Cy%3A3000%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
 | U06 | ![U06](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A0%2Cy%3A1%7D%2C%7Bx%3A20%2Cy%3A25%7D%2C%7Bx%3A100%2Cy%3A100%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
-| U07 | 1048576000 |
-| U08 | 1119092736 |
-| U09 | 1101004800 |
-| U10 | 1110704128 |
-| U11 | 1008981770 |
+| U07 | 0.25 |
+| U08 | 90 |
+| U09 | 20 |
+| U10 | 45 |
+| U11 | 0.01 |
 | U12 | ![U12](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A0%2Cy%3A2000%7D%2C%7Bx%3A100%2Cy%3A1000%7D%2C%7Bx%3A200%2Cy%3A500%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
 
 ### 0x090ED0A2
@@ -873,18 +873,18 @@
 
 | Name | Value |
 | --- | --- |
-| U01 | 1045220557 |
-| U02 | 1061997773 |
+| U01 | 0.2 |
+| U02 | 0.8 |
 | U03 | 1650 |
 | U04 | 3300 |
-| U05 | 1055286886 |
-| U06 | 1086324736 |
-| U07 | -1061158912 |
-| U08 | 1028443341 |
-| U09 | 1056964608 |
-| U10 | 1061158912 |
+| U05 | 0.45 |
+| U06 | 6 |
+| U07 | -6 |
+| U08 | 0.05 |
+| U09 | 0.5 |
+| U10 | 0.75 |
 | U11 | null |
-| U12 | 1110704128 |
+| U12 | 45 |
 | U13 | 0 |
 | U14 | 0 |
 | U15 | 0 |
@@ -896,10 +896,10 @@
 | U21 | 6000 |
 | U22 | 1000 |
 | U23 | 1 |
-| U24 | 1084227584 |
+| U24 | 5 |
 | U25 | 10000 |
 | U26 | 750 |
-| U27 | 1060320051 |
+| U27 | 0.7 |
 | U28 | ![U28](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A0%2Cy%3A0%7D%2C%7Bx%3A0.05%2Cy%3A0.6%7D%2C%7Bx%3A0.2%2Cy%3A0.85%7D%2C%7Bx%3A1%2Cy%3A1%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
 | U29 | ![U29](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A0%2Cy%3A0%7D%2C%7Bx%3A0.8%2Cy%3A0.3%7D%2C%7Bx%3A0.95%2Cy%3A0.7%7D%2C%7Bx%3A1%2Cy%3A1%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
 
@@ -907,16 +907,16 @@
 
 | Name | Value |
 | --- | --- |
-| U01 | 1058139013 |
-| U02 | 1038323257 |
+| U01 | 0.57 |
+| U02 | 0.11111111 |
 | U03 | 15000 |
 | U04 | 0 |
 | U05 | ![U05](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A0%2Cy%3A0%7D%2C%7Bx%3A70%2Cy%3A1%7D%2C%7Bx%3A100%2Cy%3A0%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
-| U06 | 1101004800 |
-| U07 | 1084227584 |
-| U08 | 1063675494 |
+| U06 | 20 |
+| U07 | 5 |
+| U08 | 0.9 |
 | U09 | 0 |
-| U10 | 985963430 |
+| U10 | 0.0015 |
 | U11 | ![U11](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A0%2Cy%3A1%7D%2C%7Bx%3A50%2Cy%3A1%7D%2C%7Bx%3A200%2Cy%3A0.9%7D%2C%7Bx%3A400%2Cy%3A0.6%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
 | U12 | ![U12](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A15%2Cy%3A0%7D%2C%7Bx%3A20%2Cy%3A1%7D%2C%7Bx%3A120%2Cy%3A1%7D%2C%7Bx%3A125%2Cy%3A0%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
 | U13 | ![U13](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A1%2Cy%3A0.9%7D%2C%7Bx%3A2%2Cy%3A0.8%7D%2C%7Bx%3A3%2Cy%3A0.7%7D%2C%7Bx%3A4%2Cy%3A0.5%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
@@ -931,7 +931,7 @@
 | U22 | ![U22](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A50%2Cy%3A0%7D%2C%7Bx%3A100%2Cy%3A0.25%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
 | U23 | 0 |
 | U24 | 17 |
-| U25 | 1065353216 |
+| U25 | 1 |
 | U26 | 1 |
 
 ### 0x090ED0A5
@@ -946,12 +946,12 @@
 | U06 | 0 |
 | U07 | 0 |
 | U08 | 0 |
-| U09 | 1101004800 |
-| U10 | 1069547520 |
-| U11 | 1056964608 |
-| U12 | 1073741824 |
-| U13 | 1065353216 |
-| U14 | 1045220557 |
+| U09 | 20 |
+| U10 | 1.5 |
+| U11 | 0.5 |
+| U12 | 2 |
+| U13 | 1 |
+| U14 | 0.2 |
 | U15 | null |
 | U16 | null |
 | U17 | null |
@@ -974,12 +974,12 @@
 | U04 | 20 |
 | U05 | 20 |
 | U06 | 0 |
-| U07 | 1084227584 |
+| U07 | 5 |
 | U08 | ![U08](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A0%2Cy%3A0.5%7D%2C%7Bx%3A50%2Cy%3A1.6%7D%2C%7Bx%3A100%2Cy%3A1.85%7D%2C%7Bx%3A300%2Cy%3A1.6%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
 | U09 | ![U09](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A10%2Cy%3A0%7D%2C%7Bx%3A30%2Cy%3A1%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
-| U10 | 1110704128 |
+| U10 | 45 |
 | U11 | ![U11](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A0%2Cy%3A0.25%7D%2C%7Bx%3A100%2Cy%3A0.17%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
-| U12 | 1036831949 |
+| U12 | 0.1 |
 | U13 | ![U13](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A-100%2Cy%3A23%7D%2C%7Bx%3A0%2Cy%3A16%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
 | U14 | ![U14](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A0%2Cy%3A0.5%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
 | U15 | 0 |
@@ -1004,18 +1004,18 @@
 | U01 | 1 |
 | U02 | 0 |
 | U03 | 6000 |
-| U04 | 1092616192 |
-| U05 | 1082130432 |
-| U06 | 1056964608 |
-| U07 | 1092616192 |
+| U04 | 10 |
+| U05 | 4 |
+| U06 | 0.5 |
+| U07 | 10 |
 | U08 | ![U08](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A0%2Cy%3A1.25%7D%2C%7Bx%3A1%2Cy%3A0%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
 | U09 | ![U09](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A-200%2Cy%3A50%7D%2C%7Bx%3A-100%2Cy%3A20%7D%2C%7Bx%3A-25%2Cy%3A1%7D%2C%7Bx%3A0%2Cy%3A0%7D%2C%7Bx%3A25%2Cy%3A-1.5%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
 | U10 | 30 |
 | U11 | 0 |
 | U12 | ![U12](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A-200%2Cy%3A8%7D%2C%7Bx%3A100%2Cy%3A8%7D%2C%7Bx%3A150%2Cy%3A4%7D%2C%7Bx%3A200%2Cy%3A3%7D%2C%7Bx%3A300%2Cy%3A2.5%7D%2C%7Bx%3A400%2Cy%3A1.5%7D%2C%7Bx%3A500%2Cy%3A1%7D%2C%7Bx%3A800%2Cy%3A0.5%7D%2C%7Bx%3A1000%2Cy%3A0%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
 | U13 | 0 |
-| U14 | 1073741824 |
-| U15 | 1075838976 |
+| U14 | 2 |
+| U15 | 2.5 |
 | U16 | 0 |
 | U17 | 0 |
 | U18 | 200 |
@@ -1026,19 +1026,19 @@
 | U23 | ![U23](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A0%2Cy%3A25%7D%2C%7Bx%3A1%2Cy%3A10%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
 | U24 | ![U24](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A0%2Cy%3A2.25%7D%2C%7Bx%3A0.5%2Cy%3A2.5%7D%2C%7Bx%3A1%2Cy%3A2.75%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
 | U25 | 500 |
-| U26 | 1086324736 |
+| U26 | 6 |
 | U27 | ![U27](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A-50%2Cy%3A1.5%7D%2C%7Bx%3A0%2Cy%3A0%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
 | U28 | ![U28](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A300%2Cy%3A1%7D%2C%7Bx%3A400%2Cy%3A0.8%7D%2C%7Bx%3A600%2Cy%3A0.6%7D%2C%7Bx%3A800%2Cy%3A0.2%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
-| U29 | 1092616192 |
-| U30 | 1073741824 |
+| U29 | 10 |
+| U30 | 2 |
 | U31 | ![U31](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A700%2Cy%3A1%7D%2C%7Bx%3A800%2Cy%3A0.8%7D%2C%7Bx%3A900%2Cy%3A0.6%7D%2C%7Bx%3A1100%2Cy%3A0.4%7D%2C%7Bx%3A1300%2Cy%3A0.2%7D%2C%7Bx%3A1500%2Cy%3A0.1%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
 | U32 | ![U32](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A0%2Cy%3A1%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
 | U33 | ![U33](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A0%2Cy%3A0%7D%2C%7Bx%3A50%2Cy%3A0.05%7D%2C%7Bx%3A100%2Cy%3A0.15%7D%2C%7Bx%3A250%2Cy%3A0.175%7D%2C%7Bx%3A500%2Cy%3A0.2%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
 | U34 | 1000 |
 | U35 | ![U35](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A0%2Cy%3A0%7D%2C%7Bx%3A100%2Cy%3A15%7D%2C%7Bx%3A500%2Cy%3A20%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
 | U36 | ![U36](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A0%2Cy%3A0%7D%2C%7Bx%3A1000%2Cy%3A0.1%7D%2C%7Bx%3A1500%2Cy%3A0.25%7D%2C%7Bx%3A2000%2Cy%3A0.5%7D%2C%7Bx%3A2500%2Cy%3A1%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
-| U37 | 1051931443 |
-| U38 | 1077936128 |
+| U37 | 0.35 |
+| U38 | 3 |
 
 ### 0x090ED0A8
 
@@ -1052,11 +1052,11 @@
 | U06 | ![U06](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A0%2Cy%3A0%7D%2C%7Bx%3A25%2Cy%3A2%7D%2C%7Bx%3A50%2Cy%3A4%7D%2C%7Bx%3A100%2Cy%3A10%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
 | U07 | 100 |
 | U08 | 100 |
-| U09 | 1101004800 |
+| U09 | 20 |
 | U10 | ![U10](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A20%2Cy%3A0%7D%2C%7Bx%3A50%2Cy%3A10%7D%2C%7Bx%3A100%2Cy%3A12%7D%2C%7Bx%3A200%2Cy%3A15%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
 | U11 | ![U11](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A20%2Cy%3A0%7D%2C%7Bx%3A50%2Cy%3A0.5%7D%2C%7Bx%3A100%2Cy%3A1%7D%2C%7Bx%3A200%2Cy%3A1.25%7D%2C%7Bx%3A300%2Cy%3A1.5%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
-| U12 | 1051372191 |
-| U13 | 1056964608 |
+| U12 | 0.333333 |
+| U13 | 0.5 |
 | U14 | ![U14](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A0%2Cy%3A1%7D%2C%7Bx%3A0.25%2Cy%3A0.95%7D%2C%7Bx%3A0.5%2Cy%3A0.8%7D%2C%7Bx%3A0.75%2Cy%3A0.6%7D%2C%7Bx%3A1%2Cy%3A0.25%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
 
 ### 0x090ED0A9
@@ -1069,7 +1069,7 @@
 | U04 | ![U04](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A0%2Cy%3A1%7D%2C%7Bx%3A20%2Cy%3A0.8%7D%2C%7Bx%3A100%2Cy%3A0.4%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
 | U05 | 0 |
 | U06 | 500 |
-| U07 | 1082130432 |
+| U07 | 4 |
 | U08 | ![U08](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A0%2Cy%3A0%7D%2C%7Bx%3A20%2Cy%3A15%7D%2C%7Bx%3A50%2Cy%3A35%7D%2C%7Bx%3A100%2Cy%3A150%7D%2C%7Bx%3A200%2Cy%3A200%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
 | U09 | ![U09](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A1%2Cy%3A2%7D%2C%7Bx%3A1.5%2Cy%3A1.5%7D%2C%7Bx%3A2%2Cy%3A1%7D%2C%7Bx%3A2.5%2Cy%3A0.5%7D%2C%7Bx%3A3%2Cy%3A0%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
 | U10 | ![U10](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A0%2Cy%3A0%7D%2C%7Bx%3A50%2Cy%3A20%7D%2C%7Bx%3A200%2Cy%3A100%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
@@ -1086,7 +1086,7 @@
 | --- | --- |
 | U01 | 1 |
 | U02 | 2000 |
-| U03 | 1109393408 |
+| U03 | 40 |
 | U04 | ![U04](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A1000%2Cy%3A0%7D%2C%7Bx%3A2000%2Cy%3A4%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
 
 ### 0x090ED0AC
@@ -1101,7 +1101,7 @@
 | --- | --- |
 | U01 | ![U01](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A0%2Cy%3A0%7D%2C%7Bx%3A4%2Cy%3A0.05%7D%2C%7Bx%3A16%2Cy%3A0.06%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
 | U02 | 0 |
-| U03 | 1065353216 |
+| U03 | 1 |
 | U04 | 0 |
 | U05 | null |
 | U06 | 0 |
@@ -1125,13 +1125,13 @@
 | U24 | ![U24](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A0%2Cy%3A0%7D%2C%7Bx%3A30%2Cy%3A-50%7D%2C%7Bx%3A180%2Cy%3A-60%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
 | U25 | ![U25](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A0%2Cy%3A0%7D%2C%7Bx%3A1%2Cy%3A-5%7D%2C%7Bx%3A5%2Cy%3A-50%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
 | U26 | ![U26](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A0%2Cy%3A1%7D%2C%7Bx%3A0.1%2Cy%3A0.75%7D%2C%7Bx%3A0.25%2Cy%3A0.6%7D%2C%7Bx%3A0.5%2Cy%3A0.55%7D%2C%7Bx%3A1%2Cy%3A0.5%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
-| U27 | 1051372203 |
-| U28 | 1077936128 |
+| U27 | 0.33333334 |
+| U28 | 3 |
 | U29 | ![U29](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A0%2Cy%3A1%7D%2C%7Bx%3A0.1%2Cy%3A0.5%7D%2C%7Bx%3A0.25%2Cy%3A0.25%7D%2C%7Bx%3A0.5%2Cy%3A0.1%7D%2C%7Bx%3A1%2Cy%3A0%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
 | U30 | null |
 | U31 | null |
 | U32 | ![U32](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A40%2Cy%3A0.5%7D%2C%7Bx%3A60%2Cy%3A1%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
-| U33 | 1086324736 |
+| U33 | 6 |
 | U34 | 1500 |
 
 ### 0x090ED0AE
@@ -1140,86 +1140,86 @@
 | --- | --- |
 | U01 | 1 |
 | U02 | ![U02](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A0%2Cy%3A0%7D%2C%7Bx%3A50%2Cy%3A0.5%7D%2C%7Bx%3A100%2Cy%3A0.75%7D%2C%7Bx%3A250%2Cy%3A0.5%7D%2C%7Bx%3A525%2Cy%3A0.25%7D%2C%7Bx%3A1000%2Cy%3A0.1%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
-| U03 | 1036831949 |
+| U03 | 0.1 |
 
 ### 0x090ED0AF
 
 | Name | Value |
 | --- | --- |
 | U01 | ![U01](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A0%2Cy%3A80%7D%2C%7Bx%3A100%2Cy%3A80%7D%2C%7Bx%3A200%2Cy%3A75%7D%2C%7Bx%3A300%2Cy%3A67%7D%2C%7Bx%3A400%2Cy%3A60%7D%2C%7Bx%3A500%2Cy%3A55%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
-| U02 | 1051931443 |
-| U03 | 1065353216 |
-| U04 | 1084227584 |
-| U05 | 1109393408 |
+| U02 | 0.35 |
+| U03 | 1 |
+| U04 | 5 |
+| U05 | 40 |
 | U06 | ![U06](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A0%2Cy%3A0%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
 | U07 | ![U07](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A0%2Cy%3A0%7D%2C%7Bx%3A50%2Cy%3A12%7D%2C%7Bx%3A100%2Cy%3A24%7D%2C%7Bx%3A200%2Cy%3A48%7D%2C%7Bx%3A400%2Cy%3A70%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
 | U08 | ![U08](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A-50%2Cy%3A1%7D%2C%7Bx%3A0%2Cy%3A0%7D%2C%7Bx%3A50%2Cy%3A0%7D%2C%7Bx%3A100%2Cy%3A0%7D%2C%7Bx%3A200%2Cy%3A0%7D%2C%7Bx%3A300%2Cy%3A0%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
 | U09 | ![U09](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A0%2Cy%3A1%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
-| U10 | 1078523331 |
-| U11 | 1071644672 |
-| U12 | 1114636288 |
-| U13 | 1106247680 |
-| U14 | 1050253722 |
+| U10 | 3.14 |
+| U11 | 1.75 |
+| U12 | 60 |
+| U13 | 30 |
+| U14 | 0.3 |
 | U15 | ![U15](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A-100%2Cy%3A7%7D%2C%7Bx%3A0%2Cy%3A16%7D%2C%7Bx%3A50%2Cy%3A10.4%7D%2C%7Bx%3A100%2Cy%3A8.5%7D%2C%7Bx%3A150%2Cy%3A6.8%7D%2C%7Bx%3A200%2Cy%3A5.5%7D%2C%7Bx%3A300%2Cy%3A4.25%7D%2C%7Bx%3A400%2Cy%3A4%7D%2C%7Bx%3A500%2Cy%3A3.75%7D%2C%7Bx%3A600%2Cy%3A3.75%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
-| U16 | 1065353216 |
-| U17 | 1065353216 |
-| U18 | 1065353216 |
+| U16 | 1 |
+| U17 | 1 |
+| U18 | 1 |
 | U19 | ![U19](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A0%2Cy%3A10%7D%2C%7Bx%3A100%2Cy%3A20%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
 | U20 | ![U20](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A0%2Cy%3A100%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
-| U21 | 1065353216 |
+| U21 | 1 |
 | U22 | ![U22](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A0%2Cy%3A40%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
-| U23 | 1065353216 |
-| U24 | 1065353216 |
+| U23 | 1 |
+| U24 | 1 |
 | U25 | ![U25](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A0%2Cy%3A10%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
 | U26 | ![U26](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A0%2Cy%3A1%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
 | U27 | ![U27](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A0%2Cy%3A0%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
-| U28 | 1051931443 |
-| U29 | 1092616192 |
-| U30 | 1112014848 |
+| U28 | 0.35 |
+| U29 | 10 |
+| U30 | 50 |
 | U31 | ![U31](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A0%2Cy%3A0.7%7D%2C%7Bx%3A0.4%2Cy%3A0.7%7D%2C%7Bx%3A0.5%2Cy%3A0.6%7D%2C%7Bx%3A1%2Cy%3A0.6%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
 | U32 | ![U32](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A0%2Cy%3A0%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
 | U33 | ![U33](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A0%2Cy%3A0.9%7D%2C%7Bx%3A0.4%2Cy%3A0.9%7D%2C%7Bx%3A0.5%2Cy%3A1.5%7D%2C%7Bx%3A1%2Cy%3A1.5%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
 | U34 | ![U34](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A0%2Cy%3A0.1%7D%2C%7Bx%3A0.6%2Cy%3A0.3%7D%2C%7Bx%3A0.975%2Cy%3A1%7D%2C%7Bx%3A1%2Cy%3A1%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
-| U35 | 1101441707 |
+| U35 | 20.833334 |
 | U36 | ![U36](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A0%2Cy%3A1%7D%2C%7Bx%3A5%2Cy%3A2%7D%2C%7Bx%3A10%2Cy%3A3%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
 | U37 | ![U37](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A0%2Cy%3A0%7D%2C%7Bx%3A1%2Cy%3A0.8%7D%2C%7Bx%3A10%2Cy%3A1%7D%2C%7Bx%3A20%2Cy%3A1%7D%2C%7Bx%3A30%2Cy%3A1%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
-| U38 | 1084227584 |
-| U39 | 1128792064 |
+| U38 | 5 |
+| U39 | 200 |
 | U40 | ![U40](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A-1000%2Cy%3A1%7D%2C%7Bx%3A-102%2Cy%3A2%7D%2C%7Bx%3A-80%2Cy%3A6%7D%2C%7Bx%3A-35%2Cy%3A12%7D%2C%7Bx%3A0%2Cy%3A16%7D%2C%7Bx%3A101%2Cy%3A11%7D%2C%7Bx%3A201%2Cy%3A7%7D%2C%7Bx%3A401%2Cy%3A5.5%7D%2C%7Bx%3A801%2Cy%3A1%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
 | U41 | ![U41](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A-150%2Cy%3A0.1%7D%2C%7Bx%3A-100%2Cy%3A1.5%7D%2C%7Bx%3A-50%2Cy%3A8%7D%2C%7Bx%3A0%2Cy%3A14%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
 | U42 | ![U42](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A0%2Cy%3A0%7D%2C%7Bx%3A1%2Cy%3A30%7D%2C%7Bx%3A10%2Cy%3A30%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
-| U43 | 1073741824 |
-| U44 | 1077936128 |
-| U45 | 1086324736 |
-| U46 | 1065353216 |
-| U47 | 1101004800 |
-| U48 | 1101441707 |
-| U49 | 1073741824 |
-| U50 | 1065353216 |
-| U51 | 1056964608 |
+| U43 | 2 |
+| U44 | 3 |
+| U45 | 6 |
+| U46 | 1 |
+| U47 | 20 |
+| U48 | 20.833334 |
+| U49 | 2 |
+| U50 | 1 |
+| U51 | 0.5 |
 | U52 | 500 |
-| U53 | 1056964608 |
-| U54 | 1065353216 |
+| U53 | 0.5 |
+| U54 | 1 |
 | U55 | 150 |
-| U56 | 1045220557 |
-| U57 | 1065353216 |
-| U58 | 1065353216 |
-| U59 | 1084227584 |
+| U56 | 0.2 |
+| U57 | 1 |
+| U58 | 1 |
+| U59 | 5 |
 | U60 | ![U60](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A0%2Cy%3A1.5%7D%2C%7Bx%3A10%2Cy%3A1.2%7D%2C%7Bx%3A50%2Cy%3A0.2%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
 | U61 | ![U61](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A0%2Cy%3A0%7D%2C%7Bx%3A10%2Cy%3A5%7D%2C%7Bx%3A20%2Cy%3A6%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
-| U62 | 1051931443 |
-| U63 | 1125515264 |
-| U64 | 1071605246 |
-| U65 | 1061746115 |
+| U62 | 0.35 |
+| U63 | 150 |
+| U64 | 1.7453 |
+| U65 | 0.785 |
 | U66 | 0 |
 | U67 | ![U67](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A0%2Cy%3A40%7D%2C%7Bx%3A200%2Cy%3A25%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
-| U68 | 1065353216 |
-| U69 | 1065353216 |
+| U68 | 1 |
+| U69 | 1 |
 | U70 | ![U70](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A0%2Cy%3A2%7D%2C%7Bx%3A100%2Cy%3A5%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
 | U71 | 0 |
 | U72 | ![U72](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A0%2Cy%3A0%7D%2C%7Bx%3A40%2Cy%3A0%7D%2C%7Bx%3A60%2Cy%3A0.1%7D%2C%7Bx%3A90%2Cy%3A0.3%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
 | U73 | ![U73](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A0%2Cy%3A0%7D%2C%7Bx%3A40%2Cy%3A0%7D%2C%7Bx%3A60%2Cy%3A0.1%7D%2C%7Bx%3A90%2Cy%3A0.3%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
-| U74 | 1036831949 |
+| U74 | 0.1 |
 | U75 | ![U75](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A0%2Cy%3A0%7D%2C%7Bx%3A20%2Cy%3A20%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
 | U76 | ![U76](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A0%2Cy%3A1%7D%2C%7Bx%3A30%2Cy%3A0.3%7D%2C%7Bx%3A200%2Cy%3A0%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
 | U77 | ![U77](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A0%2Cy%3A0%7D%2C%7Bx%3A100%2Cy%3A10%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
