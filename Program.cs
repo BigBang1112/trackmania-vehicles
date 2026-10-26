@@ -197,7 +197,7 @@ static string ValueToString(string name, object? value, bool isMP)
 {
     switch (value)
     {
-        case CFuncKeysReal or CPlugVehicleCarPhyTuning.Keys:
+        case CFuncKeysReal or PlugCurve:
             var keyPoints = GetKeyPoints(value, isMP);
             value = keyPoints is null ? null : string.Join(" ", keyPoints.Points.Select(p => $"({p.X}, {p.Y})"));
             break;
@@ -218,7 +218,7 @@ static string ValueToMarkdownCell(string name, object? value, bool isMP)
 {
     switch (value)
     {
-        case CFuncKeysReal or CPlugVehicleCarPhyTuning.Keys:
+        case CFuncKeysReal or PlugCurve:
             var keyPoints = GetKeyPoints(value, isMP);
             return keyPoints is null || keyPoints.Points.Length == 0
                 ? "*(empty)*"
@@ -240,8 +240,8 @@ static KeyPoints? GetKeyPoints(object? value, bool isMP)
             CFuncKeysReal.ERealInterp.None => CFuncKeysReal.ERealInterp.Linear,
             _ => keys.RealInterp
         }),
-        CPlugVehicleCarPhyTuning.Keys { U01: { } keys } => new KeyPoints(ZipKeys(keys.Xs, keys.Ys), keys.RealInterp),
-        CPlugVehicleCarPhyTuning.Keys { U04: { } vecs } => new KeyPoints(vecs.Select(v => (v.X, v.Y)).ToArray(), CFuncKeysReal.ERealInterp.Linear),
+        PlugCurve { Curve: { } keys } => new KeyPoints(ZipKeys(keys.Xs, keys.Ys), keys.RealInterp),
+        PlugCurve { Values: { } vecs } => new KeyPoints(vecs.Select(v => (v.X, v.Y)).ToArray(), CFuncKeysReal.ERealInterp.Linear),
         _ => null
     };
 }

@@ -7,18 +7,70 @@ AbsorbingValMin: 0
 AbsorbingValRest: 0.25
 AbsorbTension: 5
 AccelCurve: (-100, 30) (0, 24) (100, 12) (200, 9) (400, 6) (800, 3)
+AccelCurveRear: (-100, 2) (-50, 5) (0, 10)
 AccelCurveRearGear: (-100, 2) (-50, 5) (0, 10)
+AccelCurveTargetSpeedTruck: (-50, 50000) (-10, 10000) (0, 0) (10, 50000) (50, 100000) (100, 500000)
+AccelTorqueCoef: 1
+AdherenceAccelDirYCoef: null
+AdherenceAngleMaxDeg: 80
+AdherenceAngleMaxDeg_Roll: 60
+AdherenceAngleMinDeg: 45
+AdherenceAngleMinDeg_AntiSteerUp: 80
+AdherenceAngleMinDeg_Roll: 40
+AdherenceAntiSteerUpCoef: 1
+AdherenceMin_ForDragForce: 1
+AdherenceMin_ForTorque: 0.3
+AdherenceUseMaxForAccel: null
+AdherenceVel_VelHMax: 230
+AdherenceVel_VelHMin: 130
+AdherenceVel_VelYMax: 10
+AdherenceVel_VelYMin: null
+AdherenceVelMax: 1
+AerialForce_AngleMinDeg: 80
+AerialForce_Base: 0.6
+AerialForce_Duration: 150
+AerialForce_VelYMin: 0.5
+AerialMove_Dist: 0.2
+AerialMove_Duration: 50
+AerialMove_SpeedMax: 10
+AerialMove_SpeedMin: 5
+AerialMove_UseVehicleUp: False
+AfterJumpOrientationAngularSpeedThreshold: 0.01
+AfterJumpOrientationForceCoef: null
+AfterJumpOrientationForceDuration: 10
+AirAngularFluidFrictionCoef1: 0.8
+AirAngularFluidFrictionCoef2: 0.5
 AirControlDuration: 30000
+AirControlMaxAngularSpeedY: 3.141593
+AirControlNewModel7: False
+AirControlXStopFrictionCoef: 5
+AirControlYKeepFrictionCoef: 0
+AirControlYStopFrictionCoef: 5
 AirControlZCoefFromAngularSpeed: (0, 1)
+AirFrictionFromSpeed: (0, 0) (300, 6)
+AirFrictionFromSpeed_Variable: (0, 0) (300, 6)
+AirGravityCoef: 4
 AngularFluidFrictionCoef1: 0.8
 AngularFluidFrictionCoef2: 0.5
 AngularSpeedClamp: 100
+AngularSpeedImpulseScale: 0.55
 AngularSpeedYImpulseScale: 0.55
+AntiWallHitAccelCoefFromSpeed: (0, 0.1)
+AntiWallHitDurationInc_FromLateralContactRelSpeed: (0, 0)
+AntiWallHitDurationMax: 500
+AntiWallHitForceFromSpeed: (0, 0.2)
+AntiWallHitSpeedTransfertCoef: 0.1
 AxialSlopeAdherenceMax: 0.7
 AxialSlopeAdherenceMin: 0.4
+BigCarAccelCoef: 1.5
+BigCarControlCoef: 1.5
+BigCarGravityCoef: 1.5
+BigCarScale: 1.5
 BodyFrictionCoef: 0.3
+BodyFrictionCoef_Concrete: 0.3
 BodyFrictionCoef_Metal: 0.2
 BodyRestCoef: -0.5
+BodyRestCoef_Concrete: -0.5
 BodyRestCoef_Metal: -0.5
 BrakeBase: 50
 BrakeCoef: 0
@@ -26,29 +78,114 @@ BrakeCoolingSpeed: -0.3
 BrakeHeatSpeedFromFBrake: (0, 0) (20, 1)
 BrakeMax: 500
 BrakeMaxDynamic: 500
+BrakeTorqueCoef: 1
+CameraModels: null
+CameraModels_Console: null
+CamModelIronSight: null
+CamModelRear: null
+CatchUpAccelFactor0: null
+CatchUpAccelFactor1: null
+CatchUpAccelFactor2: null
+CatchUpAccelFactor3: null
+CatchUpSpeed0: null
+CatchUpSpeed1: null
+CatchUpSpeed2: null
+CatchUpSpeed3: null
+CatchUpSpeed4: null
+CenterOfMassY: 0.45
+CenterOfMassZNormed: 0
 CMAftForce: 0
 CMDownUp: 0.45
+DamperForceAllways: False
+DamperForceSmoothStop: null
+DamperKa: 2
+DamperKeepContactDuration: 10
+DamperKi: 40
+DamperLengthMax: 0.5
+DamperLengthMin: 0
+DamperLengthRest: 0.25
+DamperModel: 2
+DamperOffset: 0
+DamperTension: 5
 DebugAbsorbCoef: 0.2
+DeclutchingDuration: 0.225
 DecrepitudeCoef: 0.2
 DecrepitudeImpactVal: 25
 DisplaySteerRadiusCoef: 0
 DisplaySteerRadiusMin: 0
-EngineAutoGearMaxRPMs: null
-EngineAutoGearMinRPMs: null
-EngineGearRatios: null
+DragForceFromFrontSpeed: (0, 0) (100, 2)
+Drifting_BackCoefDisableDurationAfterLanding: 1000
+Drifting_BackCoefFromSlipAngle: (0, 1) (30, 1)
+Drifting_BackCoefIntensityFromSpeed: (0, 1) (30, 0.3) (200, 0)
+Drifting_BackCoefSmoothSpeed_CounterSteer: 3
+Drifting_BackCoefSmoothSpeed_Steer: 3
+Drifting_BackCoefSmoothSpeed_StopSteer: 1
+Drifting_InputSteerAngleSmoothSpeedFromSlipAngle_CounterSteer: (0, 1)
+Drifting_InputSteerAngleSmoothSpeedFromSlipAngle_Steer: (0, 1)
+Drifting_InputSteerAngleSmoothSpeedFromSlipAngle_StopSteer: (0, 1)
+Drifting_InputSteerRadiusFromSpeed: (0, 2) (100, 5)
+Drifting_InputSteerSensitivityFromSpeed: (0, 1)
+Drifting_TransfertForceCoef: 1
+Drifting_VehicleBrakeForce_FromVehicleBrakeSpeed: (0, 1) (100, 50)
+Drifting_VehicleBrakeSpeedMin: 1
+Drifting_VehicleLateralForce_FromVehicleLateralSpeed: (0, 0) (20, 20)
+Drifting_VehicleLateralSpeedMin: 5
+Drifting_WheelLateralForce_FromWheelLateralSpeed: (0, 0) (100, 10)
+DriveModel: 0
+EngineAutoGearMaxRPMs: [0, 0.8125, 0.8125, 0.8125, 0.8125, 1]
+EngineAutoGearMinRPMs: [0, 0, 0.375, 0.53125, 0.5625, 0.625]
+EngineGearRatios: [4, 2, 1, 0.8, 0.5, 0.3]
+EngineIdleRPM: 2500
+EngineMaxRPM: 11000
+EngineSlowDownFromSpeed: (0, 0) (10, 1) (500, 10)
+FrictionFactor: null
+GameplayModel: 1
+GearBox: null
 GravityCoef: 3
 GravityCoefAir: 4
+GroundAngularFluidFrictionCoef1: 0
+GroundAngularFluidFrictionCoef2: 0
+GroundAngularFluidFrictionSpeedMin: 0
+GroundGravityCoef: 3
 GroundSlowDownBase: 1
 GroundSlowDownCoef: 0
+GroundSlowDownFromSpeed: (0, 0) (500, 5)
+HookPos: null
+ImpulseDamperReduceCoef_FromLocalVelY: (5, 1) (8, 0)
+ImpulseFriction: 0
+ImpulseGroundBodyRestCoef: -0.8
+ImpulseGroundWheelRestCoef: -0.8
+ImpulseRestCoef: 0
+ImpulseRotationCoef: 1
 InertiaHalfDiag: <0.5, 0.5, 1>
 InertiaMass: 5
+InputBrakeSmoothSpeed: 5
+InputBrakeSwitchCountMax: 4
+InputGasSmoothSpeed: 5
+InputRawGasBrake: null
+InputSteerAlgo: null
+InputSteerAngleMaxDeg: 30
+InputSteerPowFromSpeed: (0, 1)
+InTuningCycle: False
 IsFakeEngine: True
+JumpClassicDuration: 300
+JumpClassicImpulseY: 25
+JumpClassicImpulseZ: 15
+JumpCooldown: 2000
+JumpProgressiveDuration: 150
+JumpProgressiveForceY: 0.5
+JumpProgressiveForceZ: 0.2
+JumpProgressiveImpulseY: 10
+JumpProgressiveImpulseZ: 6
+KeepContactDuration: 50
+KeepDragForceDuration: 0
 LateralContactSlowDown: (0, 2)
 LateralSlopeAdherenceMax: 0.7
 LateralSlopeAdherenceMin: 0.3
 LimitToMaxSpeedForce: 10
 LinearFluidFrictionCoef: 0
 LinearSpeed2PositiveDeltaMax: 10000
+LinearSpeedClamp: 277.77777
 M4LateralFrictionForce: 1
 M4LateralFrictionSquareForce: 1
 M4LateralFrictionSquareTorque: 0
@@ -77,7 +214,9 @@ M6AfterBurnoutDuration: 500
 M6AfterBurnoutImpulse: 10
 M6AirRpmAcc: 5000
 M6AirRpmDeadening: 2500
+M6BrakeMaxDynamicFront: 20
 M6BrakeMaxDynamicRear: 50
+M6BrakeMaxFront: 0.05
 M6BrakeMaxRear: 100
 M6BrakeModulationWhenSlipping: 0.5
 M6BrakeSmokeIntensity: 1
@@ -125,20 +264,50 @@ M6SpeedLimitNegForTakeOffFront: -2
 M6SpeedLimitNegTakeOffRear: -3
 M6SpeedLimitPositiveForTakeOffFront: 3
 M6SpeedLimitPositiveForTakeOffRear: 2
+Magnetic: True
+MagneticForce: 9.81
+MagneticGravity: 0.3333
+MagneticHackAccelCoef_Val: 1.1
+MagneticHackDamperForceAllways: True
+MagneticHackEnabled: False
+MagneticHackSpeedOffset_Val: 3
+MagneticKeepContactDuration: 400
+MagneticSuperDragForceFromSpeedKmh: (20, 0) (100, 50) (300, 200)
 Mass: 1
+Materials: null
 MaxAngularSpeedYAirControl: 3.141593
+MaxDistPerStep: 0.3
 MaxSideFriction: (0, 50)
 MaxSideFrictionBlendCoef: 0
 MaxSideFrictionSliding: 0.6
 MaxSpeed: 416.6667
 ModulationFromWheelCompression: (0, 1) (0.5, 2) (1, 3)
+NoBodyBottomFriction: False
+Normal_InputSteerAngleSmoothSpeed_OverSteer: 4
+Normal_InputSteerAngleSmoothSpeed_Steer: 5
+Normal_InputSteerAngleSmoothSpeedReset: 2
+Normal_InputSteerRadiusFromSpeed: (0, 2) (100, 5)
+Normal_InputSteerSensitivityFromSpeed: null
+Normal_VehicleBrakeForce_FromVehicleBrakeSpeed: (0, 1) (100, 20)
+Normal_VehicleBrakeSpeedMax: 3
+Normal_VehicleLateralSpeedMax: 10
+Normal_WheelLateralForce_FromWheelLateralSpeed: (0, 0) (8, 80) (10, 24)
+NormalEnv: False
+NormalEnvBody_FlatZoneYMax: 0.6
+NormalEnvBody_FlatZoneYMin: 0.2
+NormalEnvBody_HalfSizeX: 0.2
+NormalEnvBody_HalfSizeZ: 1.7
+NormalEnvWheel_WidthCoef1: 0.5
 NoSteerSlowDownWhenSlipping: False
+References: GBX.NET.Engines.Plug.CPlugVehicleCarPhyTuning+NodeRefView
 RelSpeedMultCoef: 0.2
 ReverseMaxSpeed: 41.666668
+Rollover: 0
 RolloverAxial: 0
 RolloverLateral: (0, 0.1)
 RolloverLateralFromAngle: (0, 1)
 RubberBallElasticity: 1
+Shape: null
 ShockModel: Demo03
 SideFriction1: 40
 SideFriction2: 0
@@ -167,14 +336,41 @@ SteerSlowDown: (0, 11)
 SteerSlowDownCoef: 0
 SteerSlowDownFadeInDuration: 0
 SteerSlowDownFadeOutDuration: 0
+SteerSlowDownFromSpeed: (0, 0) (100, 0)
 SteerSpeed: 20
+SteerTorqueZMax: 1000
+TakeOffBoost: 5
+TakeOffBoost_Enable: False
+TakeOffBoost_MaxRPMCoef: 1
+TargetSpeedFromSpeedTruck: (-100, 0.1) (-50, 0.2) (-10, 0.3) (0, 0.5) (10, 0.3) (50, 0.2) (100, 0.1)
+TargetSpeedFromSpeedTruckRear: (-100, -0.3) (-50, -0.3) (-10, -0.2) (0, -0.1)
 TireMaterial: 9
 Turbo2Boost: 2
 Turbo2Duration: 1000
 TurboBoost: 2
+TurboBrakeCoef: 2
+TurboBrakeDuration: 1000
+TurboBrakeMinSpeedZKmh: 10
+TurboCheatAccelCoef: 3
+TurboCheatAccelCoefDuration: 1000
+TurboCheatConstantDuration: 1000
+TurboCheatConstantFromSpeed: (0, 60)
 TurboDuration: 1000
+TurboRedAccelCoef: 2
+TurboRedAccelCoefDuration: 1000
+TurboRedConstantDuration: 1000
+TurboRedConstantFromSpeed: (0, 180)
+TurboYellowAccelCoef: 2
+TurboYellowAccelCoefDuration: 1000
+TurboYellowConstantDuration: 1000
+TurboYellowConstantFromSpeed: (0, 60)
+UltraCatchUpAccelFactor0: null
+UltraCatchUpAccelFactor1: null
+UltraCatchUpAccelFactor2: null
+UltraCatchUpAccelFactor3: null
+UseRealGroundReferential: True
 VibrationPeriodSpeedCoef: 0.0005
-VisualSteerAngleFromSpeed: null
+VisualSteerAngleFromSpeed: 
 WaterAngularFriction: 0.1
 WaterAngularFrictionSq: 0.2
 WaterBumpMinSpeed: 50
@@ -186,11 +382,11 @@ WaterReboundMinHSpeed: 55.555557
 WaterSplashFromSpeed: null
 WheelFrictionCoef_Concrete: 0
 WheelFrictionCoef_Metal: 0
+WheelKeepContactDuration: 200
 WheelRestCoef_Concrete: -0.8
 WheelRestCoef_Metal: -0.8
 
 0x090EB000
-U01: (0, 0) (30, 0) (100, 1)
 U02: 5
 
 0x090ED000
@@ -374,10 +570,8 @@ U01: 0
 0x090ED061
 
 0x090ED062
-U01: 0.05
 
 0x090ED063
-U01: 20
 
 0x090ED064
 U01: 15

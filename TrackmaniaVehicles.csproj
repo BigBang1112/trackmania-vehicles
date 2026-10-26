@@ -15,7 +15,7 @@
 
     <ItemGroup>
         <PackageReference Include="DiffPlex" Version="1.9.0" />
-        <PackageReference Include="GBX.NET" Version="2.4.4-nightly.20260721.caf3b274" />
+        <PackageReference Include="GBX.NET" Version="2.5.0-nightly.20261026.c1a7b39f" />
     </ItemGroup>
 
     <ItemGroup>
