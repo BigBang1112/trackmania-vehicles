@@ -304,7 +304,6 @@
 | NormalEnvBody_HalfSizeZ | 1.5 |
 | NormalEnvWheel_WidthCoef1 | 0.5 |
 | NoSteerSlowDownWhenSlipping | False |
-| References | GBX.NET.Engines.Plug.CPlugVehicleCarPhyTuning+NodeRefView |
 | RelSpeedMultCoef | 0 |
 | ReverseMaxSpeed | 138.61111 |
 | Rollover | 0 |

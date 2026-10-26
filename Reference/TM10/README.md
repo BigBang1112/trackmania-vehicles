@@ -305,7 +305,6 @@ Comparison of the latest tuning revision of every vehicle.
 | NormalEnvBody_HalfSizeZ | 1.7 | 1.7 | 1.7 |
 | NormalEnvWheel_WidthCoef1 | 0.5 | 0.5 | 0.5 |
 | NoSteerSlowDownWhenSlipping | False | False | False |
-| References | GBX.NET.Engines.Plug.CPlugVehicleCarPhyTuning+NodeRefView | GBX.NET.Engines.Plug.CPlugVehicleCarPhyTuning+NodeRefView | GBX.NET.Engines.Plug.CPlugVehicleCarPhyTuning+NodeRefView |
 | RelSpeedMultCoef | 0.2 | 0.2 | 0.2 |
 | ReverseMaxSpeed | 138.61111 | 41.666668 | 277.7778 |
 | Rollover | 0 | 0 | 0 |

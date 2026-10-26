@@ -83,7 +83,7 @@ foreach (var gameGroup in filesByGame)
 
                 foreach (var property in nodeType.GetProperties().OrderBy(x => x.Name))
                 {
-                    if (property.Name is "Id" or "Chunks" or "GameVersion" or "Name")
+                    if (property.Name is "Id" or "Chunks" or "GameVersion" or "Name" or "References")
                     {
                         continue;
                     }
