@@ -2,9 +2,11 @@
 using DiffPlex.DiffBuilder.Model;
 using GBX.NET;
 using GBX.NET.Attributes;
+using GBX.NET.Components;
 using GBX.NET.Engines.Function;
 using GBX.NET.Engines.MwFoundations;
 using GBX.NET.Engines.Plug;
+using GBX.NET.Serialization;
 using System.Globalization;
 using System.Reflection;
 
@@ -82,26 +84,12 @@ foreach (var gameGroup in filesByGame)
                 await mdWriter.WriteLineAsync("| Name | Value |");
                 await mdWriter.WriteLineAsync("| --- | --- |");
 
-                var nodeType = tuning.GetType();
-
-                foreach (var property in nodeType.GetProperties().OrderBy(x => x.Name))
+                foreach (var (name, value) in EnumerateAppliedProperties(tuning, prefix: ""))
                 {
-                    if (property.Name is "Id" or "Chunks" or "GameVersion" or "Name" or "References")
-                    {
-                        continue;
-                    }
+                    properties[name] = value;
 
-                    if (!IsPropertyApplied(property, tuning))
-                    {
-                        continue;
-                    }
-
-                    var value = property.GetValue(tuning);
-
-                    properties[property.Name] = value;
-
-                    await txtWriter.WriteLineAsync(ValueToString(property.Name, value, isMP));
-                    await mdWriter.WriteLineAsync($"| {property.Name} | {ValueToMarkdownCell(property.Name, value, isMP)} |");
+                    await txtWriter.WriteLineAsync(ValueToString(name, value, isMP));
+                    await mdWriter.WriteLineAsync($"| {name} | {ValueToMarkdownCell(name, value, isMP)} |");
                 }
 
                 await mdWriter.WriteLineAsync("## Chunks");
@@ -172,8 +160,154 @@ foreach (var gameGroup in filesByGame)
     await WriteGameReadmeAsync(gameReferenceDir, relativeDir, gameVehicles, vehicleOrder, isMP);
 }
 
-// Only keep properties that are actually read from a chunk present in the node (respecting chunk versions).
-// Obsolete properties are compatibility aliases of other properties, so they are skipped as duplicates.
+static IEnumerable<(string Name, object? Value)> EnumerateAppliedProperties(CMwNod node, string prefix)
+{
+    foreach (var property in node.GetType().GetProperties().OrderBy(x => x.Name))
+    {
+        if (property.Name is "Id" or "Chunks" or "GameVersion" or "References")
+        {
+            continue;
+        }
+
+        // Tuning name is already the file/section title; nested node names are meaningful
+        if (prefix.Length == 0 && property.Name is "Name")
+        {
+            continue;
+        }
+
+        if (!IsPropertyApplied(property, node))
+        {
+            continue;
+        }
+
+        var name = prefix + property.Name;
+        var value = property.GetValue(node);
+
+        if (IsExpandableNodeType(property.PropertyType))
+        {
+            // A missing nested node shows up as null in each of its expanded rows in the game README
+            if (value is CMwNod nestedNode)
+            {
+                foreach (var nested in EnumerateAppliedProperties(nestedNode, name + "."))
+                {
+                    yield return nested;
+                }
+            }
+
+            continue;
+        }
+
+        // Other directly referenced nodes (GearBox, Shape, ...) are not expanded
+        if (value is CMwNod and not CFuncKeysReal)
+        {
+            yield return (name, value);
+            continue;
+        }
+
+        foreach (var entry in EnumerateValue(name, value))
+        {
+            yield return entry;
+        }
+    }
+}
+
+static IEnumerable<(string Name, object? Value)> EnumerateValue(string name, object? value)
+{
+    switch (value)
+    {
+        case CFuncKeysReal or PlugCurve:
+            yield return (name, value);
+            yield break;
+
+        case CMwNod node:
+            foreach (var entry in EnumerateAppliedProperties(node, name + "."))
+            {
+                yield return entry;
+            }
+            yield break;
+
+        case IReadableWritable structured:
+            foreach (var property in structured.GetType().GetProperties().OrderBy(x => x.Name))
+            {
+                foreach (var entry in EnumerateValue($"{name}.{property.Name}", property.GetValue(structured)))
+                {
+                    yield return entry;
+                }
+            }
+            yield break;
+
+        // Arrays of basic values stay on one line
+        case Array array when !IsStructuredElementType(array.GetType().GetElementType()!):
+            yield return (name, value);
+            yield break;
+
+        case Array array:
+            // Count row keeps the collection visible (and comparable) even when it is empty
+            yield return (name, CountToString(array.Length));
+
+            for (var i = 0; i < array.Length; i++)
+            {
+                foreach (var entry in EnumerateValue($"{name}[{i}]", array.GetValue(i)))
+                {
+                    yield return entry;
+                }
+            }
+            yield break;
+    }
+
+    if (value?.GetType() is { IsGenericType: true } type && type.GetGenericTypeDefinition() == typeof(NodeRefList<>))
+    {
+        // NodeRefList<T>.EnumerateReferences() yields NodeRef<T>, which derives from the non-generic NodeRef
+        var references = ((System.Collections.IEnumerable)type.GetMethod(nameof(NodeRefList<>.EnumerateReferences))!.Invoke(value, null)!).Cast<NodeRef>().ToList();
+
+        yield return (name, CountToString(references.Count));
+
+        foreach (var (i, reference) in references.Index())
+        {
+            var elementName = $"{name}[{i}]";
+
+            if (reference.Node is { } node)
+            {
+                foreach (var entry in EnumerateValue(elementName, node))
+                {
+                    yield return entry;
+                }
+
+                continue;
+            }
+
+            yield return (elementName, reference.Descriptor switch
+            {
+                GbxRefTableFile file => $"File: {file.FilePath}",
+                GbxRefTableResource resource => $"Resource: {resource.ResourceIndex}",
+                _ => null
+            });
+        }
+
+        yield break;
+    }
+
+    yield return (name, value);
+}
+
+static bool IsStructuredElementType(Type elementType)
+{
+    return typeof(IReadableWritable).IsAssignableFrom(elementType) || typeof(CMwNod).IsAssignableFrom(elementType);
+}
+
+static string CountToString(int count) => count switch
+{
+    0 => "empty",
+    1 => "1 item",
+    _ => $"{count} items"
+};
+
+static bool IsExpandableNodeType(Type type)
+{
+    // CamModelRear is declared as CPlugCamControlModel, the base of CPlugVehicleCameraInternalModel
+    return typeof(CPlugCamControlModel).IsAssignableFrom(type) || typeof(CPlugCamShakeModel).IsAssignableFrom(type);
+}
+
 static bool IsPropertyApplied(PropertyInfo property, CMwNod node)
 {
     if (property.IsDefined(typeof(ObsoleteAttribute), inherit: true))

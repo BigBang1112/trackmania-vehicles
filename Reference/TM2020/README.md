@@ -120,11 +120,46 @@ Comparison of the latest tuning revision of every vehicle.
 | BumperGroundNormalImpulse | 25 | 25 | 25 | 25 |
 | BumperImpulsePositionOffset | -0.015 | -0.015 | -0.015 | -0.015 |
 | BumperSurfaceNormalImpulse | 5 | 20 | 20 | 20 |
-| CameraModels | GBX.NET.NodeRefList`1[GBX.NET.Engines.Plug.CPlugCamControlModel] | GBX.NET.NodeRefList`1[GBX.NET.Engines.Plug.CPlugCamControlModel] | GBX.NET.NodeRefList`1[GBX.NET.Engines.Plug.CPlugCamControlModel] | GBX.NET.NodeRefList`1[GBX.NET.Engines.Plug.CPlugCamControlModel] |
-| CameraModels_Alternate | GBX.NET.NodeRefList`1[GBX.NET.Engines.Plug.CPlugCamControlModel] | GBX.NET.NodeRefList`1[GBX.NET.Engines.Plug.CPlugCamControlModel] | GBX.NET.NodeRefList`1[GBX.NET.Engines.Plug.CPlugCamControlModel] | GBX.NET.NodeRefList`1[GBX.NET.Engines.Plug.CPlugCamControlModel] |
-| CameraModels_Console | GBX.NET.NodeRefList`1[GBX.NET.Engines.Plug.CPlugCamControlModel] | GBX.NET.NodeRefList`1[GBX.NET.Engines.Plug.CPlugCamControlModel] | GBX.NET.NodeRefList`1[GBX.NET.Engines.Plug.CPlugCamControlModel] | GBX.NET.NodeRefList`1[GBX.NET.Engines.Plug.CPlugCamControlModel] |
-| CamModelIronSight | null | null | null | null |
-| CamModelRear | GBX.NET.Engines.Plug.CPlugVehicleCameraInternalModel | GBX.NET.Engines.Plug.CPlugVehicleCameraInternalModel | GBX.NET.Engines.Plug.CPlugVehicleCameraInternalModel | GBX.NET.Engines.Plug.CPlugVehicleCameraInternalModel |
+| CameraModels | 3 items | 3 items | 3 items | 3 items |
+| CameraModels_Alternate | 3 items | 3 items | 3 items | 3 items |
+| CameraModels_Alternate[0] | File: Cars\CarSport\Camera\AltBehind.Cam.Gbx | File: CarSport\Camera\AltBehind.Cam.Gbx | File: CarSport\Camera\AltBehind.Cam.Gbx | File: CarSport\Camera\AltBehind.Cam.Gbx |
+| CameraModels_Alternate[1] | File: Cars\CarSport\Camera\AltClose.Cam.Gbx | File: CarSport\Camera\AltClose.Cam.Gbx | File: CarSport\Camera\AltClose.Cam.Gbx | File: CarSport\Camera\AltClose.Cam.Gbx |
+| CameraModels_Alternate[2] | File: Cars\CarSport\Camera\AltInternal.Cam.Gbx | File: CarSport\Camera\AltInternal.Cam.Gbx | File: CarSport\Camera\AltInternal.Cam.Gbx | File: CarSport\Camera\AltInternal.Cam.Gbx |
+| CameraModels_Console | 3 items | empty | empty | empty |
+| CameraModels_Console[0] | File: VehicleTunings\Behind_Console.VehicleCameraRace3Model.gbx | null | null | null |
+| CameraModels_Console[1] | File: VehicleTunings\Close_Console.VehicleCameraRace3Model.gbx | null | null | null |
+| CameraModels_Console[2] | File: VehicleTunings\Internal_Console.VehicleCameraInternalModel.Gbx | null | null | null |
+| CameraModels[0] | File: Cars\CarSport\Camera\Behind.Cam.Gbx | File: CarSport\Camera\Behind.Cam.Gbx | File: CarSport\Camera\Behind.Cam.Gbx | File: CarSport\Camera\Behind.Cam.Gbx |
+| CameraModels[1] | File: Cars\CarSport\Camera\Close.Cam.Gbx | File: CarSport\Camera\Close.Cam.Gbx | File: CarSport\Camera\Close.Cam.Gbx | File: CarSport\Camera\Close.Cam.Gbx |
+| CameraModels[2] | File: Cars\CarSport\Camera\Internal.Cam.Gbx | File: CarSnow\Camera\Internal.Cam.Gbx | File: CarRally\Camera\Internal.Cam.Gbx | File: CarDesert\Camera\Internal.Cam.Gbx |
+| CamModelRear.BulletTimeFovSmoothDelta_m_Delta | -20 | -20 | -20 | -20 |
+| CamModelRear.BulletTimeFovSmoothDelta_m_TimeDown | 750 | 750 | 750 | 750 |
+| CamModelRear.BulletTimeFovSmoothDelta_m_TimeUp | 1250 | 1250 | 1250 | 1250 |
+| CamModelRear.CamBlendEnabled | False | False | False | False |
+| CamModelRear.Fov | 60 | 60 | 60 | 60 |
+| CamModelRear.IsFirstPerson | True | True | True | True |
+| CamModelRear.Name |  |  |  |  |
+| CamModelRear.PilotHeadCoef | 0 | 0 | 0 | 0 |
+| CamModelRear.PitchYawRoll | <10.052, 180, 0> | <10.052, 180, 0> | <8, 180, 0> | <8, 180, 0> |
+| CamModelRear.RelativePos | <0, 1.0125, 1.5949> | <0, 1.0125, 1.5949> | <0, 1.5, 1> | <0, 1.5, 1> |
+| CamModelRear.Shake.Params | 2 items | 2 items | 2 items | 2 items |
+| CamModelRear.Shake.Params[0].Duration | 0:00.150 | 0:00.150 | 0:00.150 | 0:00.150 |
+| CamModelRear.Shake.Params[0].FadeDuration | 0:00.150 | 0:00.150 | 0:00.150 | 0:00.150 |
+| CamModelRear.Shake.Params[0].ImpactIntensityMin | 0.75 | 0.75 | 0.75 | 0.75 |
+| CamModelRear.Shake.Params[0].PosFreq | 12 | 12 | 12 | 12 |
+| CamModelRear.Shake.Params[0].PosOffset | 0.05 | 0.05 | 0.05 | 0.05 |
+| CamModelRear.Shake.Params[0].RotFreq | 10 | 10 | 10 | 10 |
+| CamModelRear.Shake.Params[0].RotOffsetDeg | 1 | 1 | 1 | 1 |
+| CamModelRear.Shake.Params[1].Duration | 0:00.150 | 0:00.150 | 0:00.150 | 0:00.150 |
+| CamModelRear.Shake.Params[1].FadeDuration | 0:00.150 | 0:00.150 | 0:00.150 | 0:00.150 |
+| CamModelRear.Shake.Params[1].ImpactIntensityMin | 0.75 | 0.75 | 0.75 | 0.75 |
+| CamModelRear.Shake.Params[1].PosFreq | 12 | 12 | 12 | 12 |
+| CamModelRear.Shake.Params[1].PosOffset | 0.05 | 0.05 | 0.05 | 0.05 |
+| CamModelRear.Shake.Params[1].RotFreq | 10 | 10 | 10 | 10 |
+| CamModelRear.Shake.Params[1].RotOffsetDeg | 1 | 1 | 1 | 1 |
+| CamModelRear.SuperBulletTimeFovSmoothMultiplier | 0.5 | 0.5 | 0.5 | 0.5 |
+| CamModelRear.SuperBulletTimeFovSmoothMultiplier_m_TimeDown | 1250 | 1250 | 1250 | 1250 |
+| CamModelRear.SuperBulletTimeFovSmoothMultiplier_m_TimeUp | 750 | 750 | 750 | 750 |
 | CatchUpAccelFactor0 | 2.5 | 1 | 1 | 1 |
 | CatchUpAccelFactor1 | 2.5 | 0.5 | 0.5 | 0.5 |
 | CatchUpAccelFactor2 | 1.5 | 0.2 | 0.2 | 0.2 |

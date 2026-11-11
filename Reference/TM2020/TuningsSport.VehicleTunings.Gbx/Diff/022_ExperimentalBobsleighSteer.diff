@@ -115,11 +115,46 @@
   BumperGroundNormalImpulse: 25
   BumperImpulsePositionOffset: -0.015
   BumperSurfaceNormalImpulse: 5
-  CameraModels: GBX.NET.NodeRefList`1[GBX.NET.Engines.Plug.CPlugCamControlModel]
-  CameraModels_Alternate: GBX.NET.NodeRefList`1[GBX.NET.Engines.Plug.CPlugCamControlModel]
-  CameraModels_Console: GBX.NET.NodeRefList`1[GBX.NET.Engines.Plug.CPlugCamControlModel]
-  CamModelIronSight: null
-  CamModelRear: GBX.NET.Engines.Plug.CPlugVehicleCameraInternalModel
+  CameraModels: 3 items
+  CameraModels[0]: File: Cars\CarSport\Camera\Behind.Cam.Gbx
+  CameraModels[1]: File: Cars\CarSport\Camera\Close.Cam.Gbx
+  CameraModels[2]: File: Cars\CarSport\Camera\Internal.Cam.Gbx
+  CameraModels_Alternate: 3 items
+  CameraModels_Alternate[0]: File: Cars\CarSport\Camera\AltBehind.Cam.Gbx
+  CameraModels_Alternate[1]: File: Cars\CarSport\Camera\AltClose.Cam.Gbx
+  CameraModels_Alternate[2]: File: Cars\CarSport\Camera\AltInternal.Cam.Gbx
+  CameraModels_Console: 3 items
+  CameraModels_Console[0]: File: VehicleTunings\Behind_Console.VehicleCameraRace3Model.gbx
+  CameraModels_Console[1]: File: VehicleTunings\Close_Console.VehicleCameraRace3Model.gbx
+  CameraModels_Console[2]: File: VehicleTunings\Internal_Console.VehicleCameraInternalModel.Gbx
+  CamModelRear.BulletTimeFovSmoothDelta_m_Delta: -20
+  CamModelRear.BulletTimeFovSmoothDelta_m_TimeDown: 750
+  CamModelRear.BulletTimeFovSmoothDelta_m_TimeUp: 1250
+  CamModelRear.CamBlendEnabled: False
+  CamModelRear.Fov: 60
+  CamModelRear.IsFirstPerson: True
+  CamModelRear.Name: 
+  CamModelRear.PilotHeadCoef: 0
+  CamModelRear.PitchYawRoll: <10.052, 180, 0>
+  CamModelRear.RelativePos: <0, 1.0125, 1.5949>
+  CamModelRear.Shake.Params: 2 items
+  CamModelRear.Shake.Params[0].Duration: 0:00.150
+  CamModelRear.Shake.Params[0].FadeDuration: 0:00.150
+  CamModelRear.Shake.Params[0].ImpactIntensityMin: 0.75
+  CamModelRear.Shake.Params[0].PosFreq: 12
+  CamModelRear.Shake.Params[0].PosOffset: 0.05
+  CamModelRear.Shake.Params[0].RotFreq: 10
+  CamModelRear.Shake.Params[0].RotOffsetDeg: 1
+  CamModelRear.Shake.Params[1].Duration: 0:00.150
+  CamModelRear.Shake.Params[1].FadeDuration: 0:00.150
+  CamModelRear.Shake.Params[1].ImpactIntensityMin: 0.75
+  CamModelRear.Shake.Params[1].PosFreq: 12
+  CamModelRear.Shake.Params[1].PosOffset: 0.05
+  CamModelRear.Shake.Params[1].RotFreq: 10
+  CamModelRear.Shake.Params[1].RotOffsetDeg: 1
+  CamModelRear.SuperBulletTimeFovSmoothMultiplier: 0.5
+  CamModelRear.SuperBulletTimeFovSmoothMultiplier_m_TimeDown: 1250
+  CamModelRear.SuperBulletTimeFovSmoothMultiplier_m_TimeUp: 750
   CatchUpAccelFactor0: 2.5
   CatchUpAccelFactor1: 2.5
   CatchUpAccelFactor2: 1.5

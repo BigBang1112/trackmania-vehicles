@@ -72,8 +72,14 @@
 | BrakeMax | 35 |
 | BrakeMaxDynamic | 25 |
 | BrakeTorqueCoef | 1 |
-| CameraModels | GBX.NET.NodeRefList`1[GBX.NET.Engines.Plug.CPlugCamControlModel] |
-| CameraModels_Console | GBX.NET.NodeRefList`1[GBX.NET.Engines.Plug.CPlugCamControlModel] |
+| CameraModels | 3 items |
+| CameraModels[0] | File: VehicleTunings\Behind.VehicleCameraRace3Model.gbx |
+| CameraModels[1] | File: VehicleTunings\CloseLagoon.VehicleCameraRace3Model.gbx |
+| CameraModels[2] | File: ControlCamera\CameraInternalValley.CtrlCam.Gbx |
+| CameraModels_Console | 3 items |
+| CameraModels_Console[0] | File: VehicleTunings\Behind_Console.VehicleCameraRace3Model.gbx |
+| CameraModels_Console[1] | File: VehicleTunings\Close_Console.VehicleCameraRace3Model.gbx |
+| CameraModels_Console[2] | File: VehicleTunings\Internal_Console.VehicleCameraInternalModel.Gbx |
 | CatchUpAccelFactor0 | 1 |
 | CatchUpAccelFactor1 | 1 |
 | CatchUpAccelFactor2 | 1 |

@@ -99,10 +99,35 @@
   BrakeMax: 35
   BrakeMaxDynamic: 25
   BrakeTorqueCoef: 1
-  CameraModels: GBX.NET.NodeRefList`1[GBX.NET.Engines.Plug.CPlugCamControlModel]
-  CameraModels_Console: GBX.NET.NodeRefList`1[GBX.NET.Engines.Plug.CPlugCamControlModel]
-  CamModelIronSight: null
-  CamModelRear: GBX.NET.Engines.Plug.CPlugVehicleCameraInternalModel
+  CameraModels: 3 items
+  CameraModels[0]: File: VehicleTunings\Behind.VehicleCameraRace3Model.gbx
+  CameraModels[1]: File: VehicleTunings\CloseLagoon.VehicleCameraRace3Model.gbx
+  CameraModels[2]: File: ControlCamera\CameraInternalValley.CtrlCam.Gbx
+  CameraModels_Console: 3 items
+  CameraModels_Console[0]: File: VehicleTunings\Behind_Console.VehicleCameraRace3Model.gbx
+  CameraModels_Console[1]: File: VehicleTunings\Close_Console.VehicleCameraRace3Model.gbx
+  CameraModels_Console[2]: File: VehicleTunings\Internal_Console.VehicleCameraInternalModel.Gbx
+  CamModelRear.CamBlendEnabled: False
+  CamModelRear.Fov: 60
+  CamModelRear.IsFirstPerson: True
+  CamModelRear.Name: 
+  CamModelRear.PitchYawRoll: <10.019, 180, 0>
+  CamModelRear.RelativePos: <0, 1.2839, 1.7151>
+  CamModelRear.Shake.Params: 2 items
+  CamModelRear.Shake.Params[0].Duration: 0:00.150
+  CamModelRear.Shake.Params[0].FadeDuration: 0:00.150
+  CamModelRear.Shake.Params[0].ImpactIntensityMin: 0.75
+  CamModelRear.Shake.Params[0].PosFreq: 12
+  CamModelRear.Shake.Params[0].PosOffset: 0.05
+  CamModelRear.Shake.Params[0].RotFreq: 10
+  CamModelRear.Shake.Params[0].RotOffsetDeg: 1
+  CamModelRear.Shake.Params[1].Duration: 0:00.150
+  CamModelRear.Shake.Params[1].FadeDuration: 0:00.150
+  CamModelRear.Shake.Params[1].ImpactIntensityMin: 0.75
+  CamModelRear.Shake.Params[1].PosFreq: 12
+  CamModelRear.Shake.Params[1].PosOffset: 0.05
+  CamModelRear.Shake.Params[1].RotFreq: 10
+  CamModelRear.Shake.Params[1].RotOffsetDeg: 1
   CatchUpAccelFactor0: 2
   CatchUpAccelFactor1: 1.5
   CatchUpAccelFactor2: 1

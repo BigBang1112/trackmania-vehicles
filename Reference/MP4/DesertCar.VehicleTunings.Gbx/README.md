@@ -101,10 +101,11 @@
 | BrakeMax | 35 |
 | BrakeMaxDynamic | 25 |
 | BrakeTorqueCoef | 1 |
-| CameraModels | GBX.NET.NodeRefList`1[GBX.NET.Engines.Plug.CPlugCamControlModel] |
-| CameraModels_Console | GBX.NET.NodeRefList`1[GBX.NET.Engines.Plug.CPlugCamControlModel] |
-| CamModelIronSight | null |
-| CamModelRear | null |
+| CameraModels | 3 items |
+| CameraModels[0] | File: CamTMO_1.Cam.gbx |
+| CameraModels[1] | File: CamTMO_2.Cam.gbx |
+| CameraModels[2] | File: CamTMO_Internal.Cam.Gbx |
+| CameraModels_Console | empty |
 | CatchUpAccelFactor0 | 1 |
 | CatchUpAccelFactor1 | 0.5 |
 | CatchUpAccelFactor2 | 0.2 |

@@ -114,11 +114,9 @@
   BumperGroundNormalImpulse: 25
   BumperImpulsePositionOffset: -0.015
   BumperSurfaceNormalImpulse: 20
-  CameraModels: GBX.NET.NodeRefList`1[GBX.NET.Engines.Plug.CPlugCamControlModel]
-  CameraModels_Alternate: GBX.NET.NodeRefList`1[GBX.NET.Engines.Plug.CPlugCamControlModel]
-  CameraModels_Console: GBX.NET.NodeRefList`1[GBX.NET.Engines.Plug.CPlugCamControlModel]
-  CamModelIronSight: null
-  CamModelRear: null
+  CameraModels: empty
+  CameraModels_Alternate: empty
+  CameraModels_Console: empty
   CatchUpAccelFactor0: 1
   CatchUpAccelFactor1: 0.5
   CatchUpAccelFactor2: 0.2

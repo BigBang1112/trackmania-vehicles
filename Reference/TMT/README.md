@@ -74,8 +74,14 @@ Comparison of the latest tuning revision of every vehicle.
 | BrakeMax | 35 | 60 | 35 | 35 |
 | BrakeMaxDynamic | 25 | 30 | 25 | 25 |
 | BrakeTorqueCoef | 1 | 1 | 1 | 1 |
-| CameraModels | GBX.NET.NodeRefList`1[GBX.NET.Engines.Plug.CPlugCamControlModel] | GBX.NET.NodeRefList`1[GBX.NET.Engines.Plug.CPlugCamControlModel] | GBX.NET.NodeRefList`1[GBX.NET.Engines.Plug.CPlugCamControlModel] | GBX.NET.NodeRefList`1[GBX.NET.Engines.Plug.CPlugCamControlModel] |
-| CameraModels_Console | GBX.NET.NodeRefList`1[GBX.NET.Engines.Plug.CPlugCamControlModel] | GBX.NET.NodeRefList`1[GBX.NET.Engines.Plug.CPlugCamControlModel] | GBX.NET.NodeRefList`1[GBX.NET.Engines.Plug.CPlugCamControlModel] | GBX.NET.NodeRefList`1[GBX.NET.Engines.Plug.CPlugCamControlModel] |
+| CameraModels | 3 items | 3 items | 3 items | 3 items |
+| CameraModels_Console | 3 items | 3 items | 3 items | 3 items |
+| CameraModels_Console[0] | File: VehicleTunings\Behind_Console.VehicleCameraRace3Model.gbx | File: VehicleTunings\Behind_Console.VehicleCameraRace3Model.gbx | File: VehicleTunings\Behind_Console.VehicleCameraRace3Model.gbx | File: VehicleTunings\Behind_Console.VehicleCameraRace3Model.gbx |
+| CameraModels_Console[1] | File: VehicleTunings\Close_Console.VehicleCameraRace3Model.gbx | File: VehicleTunings\Close_Console.VehicleCameraRace3Model.gbx | File: VehicleTunings\Close_Console.VehicleCameraRace3Model.gbx | File: VehicleTunings\Close_Console.VehicleCameraRace3Model.gbx |
+| CameraModels_Console[2] | File: VehicleTunings\Internal_Console.VehicleCameraInternalModel.Gbx | File: VehicleTunings\Internal_Console.VehicleCameraInternalModel.Gbx | File: VehicleTunings\Internal_Console.VehicleCameraInternalModel.Gbx | File: VehicleTunings\Internal_Console.VehicleCameraInternalModel.Gbx |
+| CameraModels[0] | File: VehicleTunings\Behind.VehicleCameraRace3Model.gbx | File: VehicleTunings\StadiumBehind.VehicleCameraRace2Model.gbx | File: VehicleTunings\Behind.VehicleCameraRace3Model.gbx | File: VehicleTunings\Behind.VehicleCameraRace3Model.gbx |
+| CameraModels[1] | File: VehicleTunings\CloseCanyonLab.VehicleCameraRace3Model - Copie.gbx | File: VehicleTunings\StadiumClose.VehicleCameraRace3Model.gbx | File: VehicleTunings\CloseCanyonLab.VehicleCameraRace3Model - Copie.gbx | File: VehicleTunings\CloseLagoon.VehicleCameraRace3Model.gbx |
+| CameraModels[2] | File: ControlCamera\CameraInternalCanyon.CtrlCam.Gbx | File: ControlCamera\CameraInternalStadium.CtrlCam.Gbx.VehicleCameraInternalModel.gbx | File: ControlCamera\CameraInternalValley.CtrlCam.Gbx | File: ControlCamera\CameraInternalValley.CtrlCam.Gbx |
 | CatchUpAccelFactor0 | 1.5 | 2.5 | 1.5 | 2 |
 | CatchUpAccelFactor1 | 1 | 2.5 | 1.2 | 1.5 |
 | CatchUpAccelFactor2 | 0.7 | 1.5 | 1 | 1 |
