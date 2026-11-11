@@ -1,15 +1,9 @@
 - Name: AntiWallHit201021
 + Name: Water210115
   
-  AbsorbingValKa: 1
-  AbsorbingValKi: 40
-  AbsorbingValMax: 0.7
-  AbsorbingValMin: 0
-  AbsorbingValRest: 0.2
-  AbsorbTension: 5
+  AccelCoefFromDamage: (0, 1) (0.25, 0.8) (0.5, 0.3) (1, 0.2)
   AccelCurve: (-1000, 1) (-102, 2) (-80, 6) (-35, 12) (0, 16) (101, 11) (201, 7) (401, 5.5) (801, 1)
   AccelCurveRear: (-150, 0.1) (-100, 1.5) (-50, 8) (0, 14)
-  AccelCurveRearGear: (-150, 0.1) (-100, 1.5) (-50, 8) (0, 14)
   AccelCurveTargetSpeedTruck: (-50, 50000) (-10, 10000) (0, 0) (10, 50000) (50, 100000) (100, 500000)
   AccelTorqueCoef: 1
   AdherenceAccelDirYCoef: 0
@@ -39,23 +33,34 @@
   AfterJumpOrientationAngularSpeedThreshold: 0.01
   AfterJumpOrientationForceCoef: 0
   AfterJumpOrientationForceDuration: 10
+  AfterWaterUprightDuration: 1500
+  AfterWaterUprightTorqueFromAngularSpeed: (0, 0)
   AirAngularFluidFrictionCoef1: 0.4
   AirAngularFluidFrictionCoef2: 0.2
+  AirBrakeEnabled: False
+  AirBrakeForceFromPitchAngle: (0, 0) (40, 0) (60, 0.1) (90, 0.3)
+  AirBrakePitchDamping: 0.1
+  AirBrakePitchTorqueFromPitchAngle: (0, 0) (40, 0) (60, 0.1) (90, 0.3)
   AirControlDuration: 30000
   AirControlMaxAngularSpeedY: 3.14
   AirControlNewModel7: False
+  AirControlXAccelCoefFromOrientation: (-0.25, 0) (0, 1) (0.25, 0)
+  AirControlXAccelFromAngularSpeed: (0, 1.57) (3.14, 0)
+  AirControlXEnabled: True
+  AirControlXLimitTorqueFromAngularSpeed: (-10, 75) (0, 0) (10, -75)
+  AirControlXOrientationLimitEnabled: True
+  AirControlXOrientationThresholdDeg: 5
   AirControlXStopFrictionCoef: 5
+  AirControlXYEnabled: True
+  AirControlYAccelFromAngularSpeed: (0, 1.57) (3.14, 0)
   AirControlYKeepFrictionCoef: 0
   AirControlYStopFrictionCoef: 5
   AirControlZCoefFromAngularSpeed: (0, 1)
   AirFrictionFromSpeed: (0, 0) (300, 6)
   AirFrictionFromSpeed_Variable: (0, 0) (300, 6)
   AirGravityCoef: 2.5
-  AngularFluidFrictionCoef1: 0.4
-  AngularFluidFrictionCoef2: 0.2
   AngularSpeedClamp: 100
   AngularSpeedImpulseScale: 0.55
-  AngularSpeedYImpulseScale: 0.55
   AntiWallHitAccelCoefFromSpeed: (0, 1) (20, 0.4) (100, 0.2)
   AntiWallHitDurationInc_FromLateralContactRelSpeed: (0, 0) (20, 1000) (50, 2000)
   AntiWallHitDurationMax: 2000
@@ -67,20 +72,51 @@
   BigCarControlCoef: 2.5
   BigCarGravityCoef: 1.5
   BigCarScale: 1.5
-  BodyFrictionCoef: 0.3
+  BoatAccelFromSpeedKmh: (0, 10000)
+  BoatCharacteristicLength: 1
+  BoatEngineDirFollowRudderFromSpeedZKmh: (0, 1)
+  BoatEngineDuration01: 1
+  BoatEngineSteeringFromSpeedKmh: (0, 100)
+  BoatInertiaYCoef: 1
+  BoatIsCarrier: 0
+  BoatPlanningAngularSpeedThreshold: 10
+  BoatPlanningAsternForceFromBrakeDuration: (0, 0)
+  BoatPlanningCoefBuildingRateFromPlanningCoefValue: (0, 0)
+  BoatPlanningCoefDecayFromRudderInputDelta01: 0
+  BoatPlanningCoefDecayRate_Forward: 1
+  BoatPlanningCoefDecayRate_TurningOrColliding: 1
+  BoatPlanningContactVelKmhThreshold: 0
+  BoatPlanningCooldownDuration: 2000
+  BoatPlanningForceFromCoef: (0, 0)
+  BoatReferenceSpeed: 0
+  BoatReverseAccelFromSpeedKmh: (0, 1000)
+  BoatReverseDirFollowRudderFromSpeedZKmh: (0, 0)
+  BoatRigthingTorqueRatioFromSpeedKmh: (0, 0)
+  BoatRudderAngleCoeffFromSpeedKmh: (0, 1)
+  BoatRudderResistanceCoef: 0
+  BoatSteeringSmoothingRatio: 0.004
+  BoatTargetAngularSpeedZFromRoll: (0, 0)
+  BoatWaterSteeringFromSpeedKmh: (0, 100)
+  BoatWheelInverseTimeToZeroFromSpeedZKmh: (0, 0)
+  BoatWheelMaxAngle: 30
+  BoatWheelTimeToMaxAngleFromSpeedZKmh: (0, 1)
   BodyFrictionCoef_Concrete: 0.3
   BodyFrictionCoef_Metal: 0.2
-  BodyRestCoef: -0.5
   BodyRestCoef_Concrete: -0.5
   BodyRestCoef_Metal: -0.5
   BrakeBase: 1
   BrakeCoef: 1.75
-  BrakeCoolingSpeed: 0
-  BrakeHeatSpeedFromFBrake: null
+  BrakeForceCoefFromWetness: (0, 1)
   BrakeMax: 60
   BrakeMaxDynamic: 30
   BrakeTorqueCoef: 1
+  Bumper2GroundNormalImpulse: 75
+  Bumper2SurfaceNormalImpulse: 20
+  BumperGroundNormalImpulse: 25
+  BumperImpulsePositionOffset: -0.015
+  BumperSurfaceNormalImpulse: 20
   CameraModels: GBX.NET.NodeRefList`1[GBX.NET.Engines.Plug.CPlugCamControlModel]
+  CameraModels_Alternate: GBX.NET.NodeRefList`1[GBX.NET.Engines.Plug.CPlugCamControlModel]
   CameraModels_Console: GBX.NET.NodeRefList`1[GBX.NET.Engines.Plug.CPlugCamControlModel]
   CamModelIronSight: null
   CamModelRear: GBX.NET.Engines.Plug.CPlugVehicleCameraInternalModel
@@ -94,9 +130,18 @@
   CatchUpSpeed3: 325
   CatchUpSpeed4: 425
   CenterOfMassY: 0.45
+  CenterOfMassZ_NoWheel: 0
   CenterOfMassZNormed: 0
-  CMAftForce: 0
-  CMDownUp: 0.45
+  ChangeGearMaxSpeed: 10
+  DamageEnabled: True
+  DamageFromGroundImpactSpeed: (10, 0) (17, 2) (25, 15) (37, 32) (50, 36) (250, 44)
+  DamageFromWallImpactSpeed: (10, 0) (25, 50) (100, 60) (250, 75)
+  DamageFromWallSlideSpeed: (20, 0) (50, 0.5) (100, 1) (200, 1.25) (300, 1.5)
+  DamageLandingMinAirDuration: 100
+  DamageSlowDownFromSpeed: (0, 0) (25, 2) (50, 4) (100, 10)
+  DamageWheelImpactReduction: 20
+  DamageWheelImpactReductionFromDelay: (0, 1) (0.25, 0.95) (0.5, 0.8) (0.75, 0.6) (1, 0.25)
+  DamageWheelImpactWindow: 100
   DamperForceAllways: False
   DamperForceSmoothStop: False
   DamperKa: 1
@@ -112,8 +157,6 @@
   DeclutchingDuration: 0.225
   DecrepitudeCoef: 0
   DecrepitudeImpactVal: 0
-  DisplaySteerRadiusCoef: 0
-  DisplaySteerRadiusMin: 0
   DragForceFromFrontSpeed: (0, 0) (360, 30)
   Drifting_BackCoefDisableDurationAfterLanding: 1000
   Drifting_BackCoefFromSlipAngle: (0, 1) (30, 1)
@@ -133,17 +176,19 @@
   Drifting_VehicleLateralSpeedMin: 5
   Drifting_WheelLateralForce_FromWheelLateralSpeed: (0, 0) (100, 10)
   DriveModel: 0
+  DynaWaterModel: GBX.NET.Engines.Plug.CPlugDynaWaterModel
   EngineAutoGearMaxRPMs: [0, 0.95, 0.9, 0.95, 0.95, 1]
   EngineAutoGearMinRPMs: [0, 0, 0.5, 0.57, 0.55, 0.6]
+  EngineDirectionChangeSpeedCoef: 1
   EngineGearRatios: [400, 370, 220, 160, 110, 85]
   EngineIdleRPM: 2500
   EngineMaxRPM: 11000
+  EngineRpmAccelerationSmoothSpeed: 25
   EngineSlowDownFromSpeed: (0, 0) (10, 1) (500, 10)
+  EngineTakeOffRPMCoef: 0.75
   FrictionFactor: 0.5
   GameplayModel: 5
   GearBox: null
-  GravityCoef: 3
-  GravityCoefAir: 2.5
   GroundAngularFluidFrictionCoef1: 0
   GroundAngularFluidFrictionCoef2: 0
   GroundAngularFluidFrictionSpeedMin: 0
@@ -151,6 +196,34 @@
   GroundSlowDownBase: 1
   GroundSlowDownCoef: 0.3
   GroundSlowDownFromSpeed: (0, 0) (500, 5)
+  HelicoBladeMaxSpeedDeg: 1000
+  HelicoBladeRotAccelDeg: 500
+  HelicoBladeRotDecelDeg: 200
+  HelicoCoefCorrectedPitch: 1.4
+  HelicoCoefEngineHorizontal: (0, 200000)
+  HelicoCoefEngineVertical: (0, 200000)
+  HelicoCoefIronSight: 1
+  HelicoCoefSmoothedLanding: (0, 180000) (0.2, 110000) (0.4, 90000) (0.6, 70000) (0.8, 10000) (1, 5000)
+  HelicoDragPitchFromPitchDeg: (0, 0) (0.2, 2000) (0.6, 7000)
+  HelicoDragRollFromRollDeg: (0, 0) (0.2, 2000) (0.6, 7000)
+  HelicoFrictionCoef: -4000
+  HelicoFrictionCoefZ: 2
+  HelicoFrictionTorqueCoef: -6000
+  HelicoGroundAccelCoefFromGroundDist: (1, 1) (20, 1)
+  HelicoGroundCheckDist: 40
+  HelicoGroundFrictionCoef: 2.5
+  HelicoHorizontalForceCoefFromAngleDeg: (0, 0) (20, 0.8) (25, 1) (35, 1) (40, 1.2) (90, 2)
+  HelicoInputSteerSmoothCoefBack: 200
+  HelicoLandingStartDist: 30
+  HelicoPitchTorqueCoefFromSpeedKmh: (0, 1.5) (20, 1)
+  HelicoPitchTorqueFromPitchDeg: (0, 4000) (0.5, 5000) (0.6, 7000) (0.7, 0)
+  HelicoRollTorqueFromRollDeg: (0, 4000) (0.5, 5000) (0.6, 7000) (0.7, 0)
+  HelicoVersion: V1
+  HelicoVerticalForceCoefFromAngleDeg: (0, 2.5) (20, 1.2) (25, 1) (35, 1) (50, 0.8) (90, 0)
+  HelicoYaw_Brake_HSpeedDecFromHSpeed: (0, 0)
+  HelicoYawTorqueCoefFromHSpeedKmh: (0, 3500)
+  HelicoYawTorqueFromRollSteer: (0, 0) (20, 50000)
+  HelicoYawTorqueFromRollSteer_CoefFromHSpeedKmh: (10, 1) (100, 0)
   HookPos: <0, 0.875496, 0.0795808>
   ImpulseDamperReduceCoef_FromLocalVelY: (5, 1) (8, 0)
   ImpulseFriction: 0
@@ -166,9 +239,9 @@
   InputRawGasBrake: False
   InputSteerAlgo: 0
   InputSteerAngleMaxDeg: 30
+  InputSteerFromTargetYaw: False
   InputSteerPowFromSpeed: (0, 1)
   InTuningCycle: False
-  IsFakeEngine: False
   JumpClassicDuration: 300
   JumpClassicImpulseY: 12
   JumpClassicImpulseZ: 20
@@ -180,6 +253,10 @@
   JumpProgressiveImpulseZ: 10
   KeepContactDuration: 50
   KeepDragForceDuration: 0
+  LandingAccelCoefFromSpeed: (0, 1) (20, 0.8) (100, 0.4)
+  LandingAccelDurationInc_FromNormalContactRelSpeed: (50, 0) (100, 500) (200, 2000)
+  LandingAccelDurationMax: 2000
+  LandingAccelEnabled: False
   LateralContactSlowDown: (0, 0) (50, 12) (100, 24) (200, 48) (400, 70)
   LateralSlopeAdherenceMax: 0.7
   LateralSlopeAdherenceMin: 0.3
@@ -242,7 +319,6 @@
   M6DonutRolloverFromSpeed: (0, 0) (10, 5) (20, 6)
   M6ForceEpsilon: 0.01
   M6FrictionModulationWhenSlipNBrake: 0.2
-  M6GearRatio: [400, 370, 220, 160, 110, 85]
   M6InertialMass: 5
   M6InertialTorqueModualtionX: 0.05
   M6InertialTorqueModulationZ: 0.05
@@ -250,20 +326,16 @@
   M6MaxDiffBtwnPropulsionAndSpeed: 200
   M6MaxNegAngle4Burnout: 0.785
   M6MaxPosAngle4Burnout: 1.7453
-  M6MaxRpm: 0
-  M6MaxRPM: [0, 0.95, 0.9, 0.95, 0.95, 1]
   M6MaxSpeed4Burnout: 20.833334
-  M6MinRPM: [0, 0, 0.5, 0.57, 0.55, 0.6]
   M6MinSpeed4Burnout: 3
   M6RolloverLateralFromSpeedRatio: (0, 0) (1, 0.8) (10, 1) (20, 1) (30, 1)
-  M6RpmGainCoefOnGearDown: 7000
+  M6RpmGainCoefOnGearDown: 11500
   M6RpmGainOnTakeOff: 10000
-  M6RpmLossCoefOnGearUp: 10000
+  M6RpmLossCoefOnGearUp: 17000
   M6RpmLossOnTakeOffFinished: 4000
-  M6RpmWantedOnGearUp: null
   M6SpeedLimitNegForTakeOffFront: -2
-  M6SpeedLimitNegTakeOffRear: -10
-  M6SpeedLimitPositiveForTakeOffFront: 10
+  M6SpeedLimitNegTakeOffRear: -3
+  M6SpeedLimitPositiveForTakeOffFront: 3
   M6SpeedLimitPositiveForTakeOffRear: 2
   Magnetic: True
   MagneticForce: 9.81
@@ -276,7 +348,6 @@
   MagneticSuperDragForceFromSpeedKmh: (20, 0) (100, 50) (300, 200)
   Mass: 1
   Materials: GBX.NET.Engines.MwFoundations.CMwRefBuffer
-  MaxAngularSpeedYAirControl: 3.14
   MaxDistPerStep: 0.3
   MaxSideFriction: (0, 80) (100, 80) (200, 75) (300, 67) (400, 60) (500, 55)
   MaxSideFrictionBlendCoef: 0.018
@@ -284,7 +355,7 @@
   MaxSpeed: 277.5
   ModulationFromWheelCompression: (0, 0.1) (0.6, 0.3) (0.975, 1) (1, 1)
   NoBodyBottomFriction: True
-  Normal_InputSteerAngleSmoothSpeed_OverSteer: 0
+  Normal_InputSteerAngleSmoothSpeed_OverSteer: 4
   Normal_InputSteerAngleSmoothSpeed_Steer: 5
   Normal_InputSteerAngleSmoothSpeedReset: 2
   Normal_InputSteerRadiusFromSpeed: (0, 2) (100, 5)
@@ -298,44 +369,72 @@
   NormalEnvBody_FlatZoneYMin: 0.2
   NormalEnvBody_HalfSizeX: 0.2
   NormalEnvBody_HalfSizeZ: 1.7
+  NormalEnvWheel_MinNormalAngle: 0
   NormalEnvWheel_WidthCoef1: 0.5
   NoSteerSlowDownWhenSlipping: False
+  PlaneAngularFriction: 1
+  PlaneDragCoef: <1, 1, 1>
+  PlaneDragMultiplierFromGroundDist: (0, 1)
+  PlaneEngineAuto: False
+  PlaneEngineTime01s: 1
+  PlaneEngineTime10s: 1
+  PlaneFrontWheelDamperCoef: 0.5
+  PlaneLanding_Contact_BestTime: 2500
+  PlaneLanding_Contact_Coef: 1
+  PlaneLanding_Contact_WorseTime: 10000
+  PlaneLanding_End_BestTime: 4500
+  PlaneLanding_End_Coef: 1
+  PlaneLanding_End_WorseTime: 17500
+  PlaneLanding_Impacts_Coef: 5
+  PlaneLanding_Rebounds_Coef: 3
+  PlaneLanding_Rebounds_MaxCount: 8
+  PlaneLiftCoefFromStallAngleRatio: (0, 0)
+  PlaneLiftMultiplierFromGroundDist: (0, 1)
+  PlaneLiftPower: 1
+  PlanePitchControlFromSpeedKmh: (0, 0)
+  PlanePitchGroundControlMultiplier: 1
+  PlaneRollControlFromSpeedKmh: (0, 0)
+  PlaneStallAngleMaxDeg: 17.5
+  PlaneStallAngleMinDeg: -5
+  PlaneThrustFromFrontSpeedKmh: (0, 1)
+  PlaneXDragApplicationPosOffset: <0, 0, 0>
+  PlaneYawControlFromFrontSpeedKmh: (0, 0)
+  PlaneYawGroundControlFromFrontSpeedKmh: (0, 0)
+  PlasticContactCoefFromNormalSpeed: (0, 0)
+  PlasticContactEnabled: True
+  PreLandingAirDurationMin: 500
+  PreLandingForceCoefFromWheelDistDiff: (1, 2) (1.5, 1.5) (2, 1) (2.5, 0.5) (3, 0)
+  PreLandingForceEnabled: False
+  PreLandingForwardForceFromSpeed: (0, 0) (50, 20) (200, 100)
+  PreLandingNormalForceFromSpeed: (0, 0) (20, 15) (50, 35) (100, 150) (200, 200)
+  PreLandingRayLength: 4
+  ReactorBoostDuration: 6000
+  ReactorBoostEnabled: 1
   RelSpeedMultCoef: 0
   ReverseMaxSpeed: 138.61111
   Rollover: 0
   RolloverAxial: 0.3
   RolloverLateral: (0, 0)
   RolloverLateralFromAngle: (0, 1)
-  RubberBallElasticity: 0
   Shape: null
-  ShockModel: Demo03
   SideFriction1: 40
-  SideFriction2: 0
   SlipAngleForceCoef1: 10
   SlipAngleForceCoef2: 0.01
   SlipAngleForceMax: 0.087266
   SlopeSpeedGainLimit: 0
-  SoundBodyImpact_Hard_Threshold: 0
-  SoundBodyImpact_Soft_Threshold: 0
-  SoundEngineVolume: 0
-  SoundImpactVolume: 0
-  SoundSkidConcreteVolume: 0
-  SoundSkidSandVolume: 0
-  SoundWheelImpact_Hard_Threshold: 0
-  SoundWheelImpact_Soft_Threshold: 0
+  SlowMotionDuration: 15000
+  SlowMotionTimeScaleCoef: 0.57
+  SlowMotionTimeScaleMin: 0.11111111
   SteerAngleMax: 0.523599
+  SteerCoefFromDamage: (0, 1) (0.5, 0.25) (1, 0.1)
   SteerDriveTorque: (-100, 7) (0, 16) (50, 10.4) (100, 8.5) (150, 6.8) (200, 5.5) (300, 4.25) (400, 4) (500, 3.75) (600, 3.75)
-  SteerDurationBeforeSteerSlowDown: 0
   SteerGroundTorque: 0.08
   SteerGroundTorqueSlippingCoef: 1
   SteerLowSpeed: 30
-  SteerModel: Steer06
   SteerRadiusCoef: 0.85
   SteerRadiusMin: 2
   SteerSlowDown: (-50, 1) (0, 0) (50, 0) (100, 0) (200, 0) (300, 0)
   SteerSlowDownCoef: 0.5
-  SteerSlowDownFadeInDuration: 0
-  SteerSlowDownFadeOutDuration: 0
   SteerSlowDownFromSpeed: (0, 0) (100, 0)
   SteerSpeed: 20
   SteerTorqueZMax: 1000
@@ -345,9 +444,17 @@
   TargetSpeedFromSpeedTruck: (0, 0.5) (10, 0.3) (50, 0.2) (100, 0.1)
   TargetSpeedFromSpeedTruckRear: (-100, -0.3) (-50, -0.3) (-10, -0.2) (0, -0.1)
   TireMaterial: 9
-  Turbo2Boost: 20
-  Turbo2Duration: 100
-  TurboBoost: 5
+  TruckAccelPenaltyDuration: 0
+  TruckAxisMaxAngle: 45
+  TruckInertiaZCoef: 1
+  TruckLinkHackHeaderPositiveRollMultiplierCurve: (0, 1)
+  TruckLinkPosCorrectionRate: 0.3
+  TruckLinkPosVelDamping: 1
+  TruckLinkRollCenterOfMassY: 2.5
+  TruckLinkRollMultiplierFromZSpeedKmh: (0, 1)
+  TruckLinkStiffness: 0.5
+  TruckLinkThresholdAngle: 5
+  TruckLinkTrailerAngularCorrectionRatio: 0.5
   TurboBrakeCoef: 2
   TurboBrakeDuration: 1000
   TurboBrakeMinSpeedZKmh: 10
@@ -355,11 +462,11 @@
   TurboCheatAccelCoefDuration: 3000
   TurboCheatConstantDuration: 500
   TurboCheatConstantFromSpeed: (0, 60)
-  TurboDuration: 250
   TurboRedAccelCoef: 20
   TurboRedAccelCoefDuration: 100
   TurboRedConstantDuration: 1000
   TurboRedConstantFromSpeed: (0, 0)
+  TurboRouletteCycleDuration: 2000
   TurboYellowAccelCoef: 5
   TurboYellowAccelCoefDuration: 250
   TurboYellowConstantDuration: 1000
@@ -368,25 +475,46 @@
   UltraCatchUpAccelFactor1: 4
   UltraCatchUpAccelFactor2: 3
   UltraCatchUpAccelFactor3: 0.5
+- UseFluidWaterPhysics: False
++ UseFluidWaterPhysics: True
   UseRealGroundReferential: True
   VibrationPeriodSpeedCoef: 0
   VisualSteerAngleFromSpeed: (0, 40) (200, 25)
+  WallEscapeAccelCoefIncFromDuration: (1000, 1) (2000, 4)
+  WallEscapeDurationAfterContact: 2000
+  WallEscapeEnabled: True
+  WallEscapeMaxSpeed: 40
   WaterAngularFriction: 0.1
+- WaterAngularFrictionFromAngularSpeedSq: (-1, 400) (0, 400) (0.15, -200) (1, -200)
++ WaterAngularFrictionFromAngularSpeedSq: (-1, 0) (-0.75, 200) (0, 200) (0.15, 0) (1, 0)
   WaterAngularFrictionSq: 0.2
   WaterBumpMinSpeed: 50
 - WaterBumpSlowDownFromSpeedRatio: (0, 0.7) (0.4, 0.7) (0.5, 0.6) (1, 0.6)
-- WaterFrictionFromSpeed: (0, 0) (2, 0.2) (50, 1)
 + WaterBumpSlowDownFromSpeedRatio: (0, -0.002)
+  WaterEnterDuration: 200
+  WaterExitDelay: 50
+  WaterFluidForceImmersionPow: 5
+- WaterFrictionFromSpeed: (0, 0) (2, 0.2) (50, 1)
 + WaterFrictionFromSpeed: (0, 0)
   WaterGravity: 1
 - WaterReboundFromSpeedRatio: (0, 0.9) (0.4, 0.9) (0.5, 1.5) (1, 1.5)
 - WaterReboundMinHSpeed: 55.555557
+- WaterSteerTorqueFromSteerAngle: (0, 0)
 + WaterReboundFromSpeedRatio: (0, 1000)
 + WaterReboundMinHSpeed: 10
-  WaterSplashFromSpeed: null
-  WheelFrictionCoef_Concrete: 0
-  WheelFrictionCoef_Metal: 0
++ WaterSteerTorqueFromSteerAngle: (0.1, 0) (1, 10)
+  WaterUprightEnabled: False
+  WaterUprightTorqueFromTiltAngle: (0, 0)
+  WaterWheelDragFromSpeed: (0, 0)
+  WaterWheelDragWetnessPow: 3
+  WaterWheelSteerForceFromSpeed: (0, 0)
+  WaterWheelUpForceCoefFromHSpeed: (0, 0)
+  WaterWheelUpForceCoefFromVSpeed: (0, 0)
+  WaterWheelUpForceFromThrottle: (0, 1)
+  WetnessDecreaseCoefFromSpeed: (0, 1)
+  WetnessGainPerEnterDuration: 0.33333334
   WheelKeepContactDuration: 200
+  WheelLateralForceCoefFromWetness: (0, 1)
   WheelRestCoef_Concrete: -0.8
   WheelRestCoef_Metal: -0.8
   
@@ -471,7 +599,6 @@
   0x090ED035
   
   0x090ED039
-  U01: 0
   
   0x090ED03A
   
@@ -519,7 +646,6 @@
   U01: 2
   
   0x090ED06A
-  U01: 10
   
   0x090ED06E
   
@@ -530,7 +656,7 @@
   0x090ED078
   
   0x090ED07D
-  U01: 4
+  U01: 0
   
   0x090ED084
   
@@ -543,13 +669,8 @@
   0x090ED088
   
   0x090ED089
-  U02: 0.3
-  U03: 80
   
   0x090ED08A
-  U01: null
-  U02: null
-  U03: null
   
   0x090ED08B
   U01: null
@@ -563,12 +684,10 @@
   U12: 0
   U13: 0
   U14: 0
-  U15: 0
-  U16: 0
-  U21: 0
-  U23: 1500
-  U24: False
-  U25: (0, 0)
+  U19: 0
+  U21: 1500
+  U22: False
+  U23: (0, 0)
   
   0x090ED08C
   
@@ -577,39 +696,16 @@
   U02: null
   
   0x090ED08E
-  U01: GBX.NET.NodeRefList`1[GBX.NET.Engines.Plug.CPlugCamControlModel]
   
   0x090ED094
   U01: null
-  U02: 2000
   
   0x090ED095
   U01: 0
-  U02: 1
-  U03: (0, 1.57) (3.14, 0)
-  U04: (0, 6.28) (3.14, 3.14)
-  U05: (0, 1.57) (3.14, 0)
-  U06: 1
-  U07: 1
-  U08: 0
-  U09: (-10, 75) (0, 0) (10, -75)
-  U10: 1084227584
-  U11: (-0.25, 0) (0, 1) (0.25, 0)
+  U02: (0, 6.28) (3.14, 3.14)
+  U03: 0
   
   0x090ED096
-  U01: 25
-  U02: 6000
-  U03: 3000
-  U04: 17000
-  U05: 11500
-  U06: 0.75
-  U07: 10000
-  U08: 4000
-  U09: 3
-  U10: 2
-  U11: -2
-  U12: -3
-  U13: 1
   
   0x090ED097
   
@@ -624,151 +720,32 @@
   
   0x090ED09C
   U01: null
-  U02: (0, 3500)
-  U03: (0, 0) (20, 50000)
-  U04: (10, 1) (100, 0)
-  U05: -4000
-  U06: -6000
-  U10: (0, 4000) (0.5, 5000) (0.6, 7000) (0.7, 0)
-  U11: (0, 0) (0.2, 2000) (0.6, 7000)
-  U12: (0, 4000) (0.5, 5000) (0.6, 7000) (0.7, 0)
-  U13: (0, 0) (0.2, 2000) (0.6, 7000)
-  U14: 2
-  U15: null
-  U17: 2.5
-  U18: (0, 180000) (0.2, 110000) (0.4, 90000) (0.6, 70000) (0.8, 10000) (1, 5000)
-  U19: 30
-  U20: 500
-  U21: 1000
-  U22: 200
-  U23: 0
-  U24: (0, 200000)
-  U25: (0, 200000)
-  U26: 200
-  U27: 1.4
-  U28: (0, 2.5) (20, 1.2) (25, 1) (35, 1) (50, 0.8) (90, 0)
-  U29: (0, 0) (20, 0.8) (25, 1) (35, 1) (40, 1.2) (90, 2)
-  U30: (0, 1.5) (20, 1)
-  U31: (1, 1) (20, 1)
-  U32: 0
-  U33: 40
-  U34: (0, 0)
-  U35: 1
+  U05: null
   
   0x090ED09D
   U01: null
   U02: null
   U03: null
-  U04: 0
-  U05: 0
-  U06: null
-  U07: 0
-  U08: 0
-  U09: null
-  U10: null
-  U11: null
-  U12: null
-  U13: null
-  U14: 0
-  U15: 1
-  U16: (0, 10000)
-  U17: (0, 100)
-  U18: null
-  U19: (0, 0)
-  U20: (0, 0)
-  U21: 1
-  U22: 0.004
-  U23: 30
-  U24: (0, 1)
-  U25: (0, 0)
-  U26: (0, 1000)
-  U27: null
-  U28: (0, 100)
-  U29: null
-  U30: null
-  U31: null
-  U32: null
-  U33: null
-  U34: null
-  U35: 1
-  U36: (0, 1)
-  U37: 1
-  U38: 1
-  U39: 0
-  U40: (0, 0)
-  U41: 0
-  U42: (0, 1)
-  U43: (0, 0)
-  U44: (0, 0)
-  U45: 10
-  U46: 2.803E-42
-  U47: 0
-  U48: 0.5
-  U49: (0, 0)
-  U50: 0
+  U04: null
+  U05: 0.5
   
   0x090ED09E
-  U01: 5
-  U02: 0.5
-  U03: 45
-  U04: 1
-  U05: 0
-  U06: 0.3
-  U07: 1
-  U08: 0.5
-  U09: (0, 1)
-  U10: null
-  U11: (0, 1)
-  U12: 2.5
-  U13: 0.75
-  U14: 1
+  U01: 0.75
+  U02: 1
   
   0x090ED09F
-  U01: (0, 1)
-  U02: 1
-  U03: 1
-  U04: 1
-  U05: 1
-  U06: (0, 0)
-  U07: (0, 0)
-  U08: 3
-  U09: 5
-  U10: 0
-  U11: 0
-  U12: 0
-  U13: 0
-  U14: 0
-  U15: (0, 0)
-  U16: 0.5
-  U17: (0, 1)
-  U18: (0, 1)
-  U19: 17.5
-  U20: -5
-  U21: 1
-  U22: 1
-  U23: 1
-  U24: <1, 1, 1>
-  U25: <0, 0, 0>
-  U26: (0, 0)
-  U27: (0, 0)
-  U28: False
-  U29: 2500
-  U30: 10000
-  U31: 4500
-  U32: 17500
-  U33: 8
+  U01: 0
+  U02: 0
+  U03: 0
+  U04: 0
+  U05: 0
   
   0x090ED0A0
-  U01: -0.015
-  U02: 25
-  U03: 20
-  U04: 75
-  U05: 20
-  U06: 20
-  U07: 5
-  U08: 0.075
-  U09: 3
-  U10: 1
+  U01: 20
+  U02: 5
+  U03: 0.075
+  U04: 3
+  U05: 1
   
   0x090ED0A1
   U01: (-90, 1.5) (-10, 1.25) (0, 1) (10, -1.25) (90, -1.5)
@@ -827,32 +804,29 @@
   U29: (0, 0) (0.8, 0.3) (0.95, 0.7) (1, 1)
   
   0x090ED0A4
-  U01: 0.57
-  U02: 0.11111111
-  U03: 15000
-  U04: 0
-  U05: (0, 0) (70, 1) (100, 0)
-  U06: 20
-  U07: 5
-  U08: 0.9
-  U09: 0
-  U10: 0.0015
-  U11: (0, 1) (50, 1) (200, 0.9) (400, 0.6)
-  U12: (15, 0) (20, 1) (120, 1) (125, 0)
-  U13: (1, 0.9) (2, 0.8) (3, 0.7) (4, 0.5)
+  U01: 0
+  U02: (0, 0) (70, 1) (100, 0)
+  U03: 20
+  U04: 5
+  U05: 0.9
+  U06: 0
+  U07: 0.0015
+  U08: (0, 1) (50, 1) (200, 0.9) (400, 0.6)
+  U09: (15, 0) (20, 1) (120, 1) (125, 0)
+  U10: (1, 0.9) (2, 0.8) (3, 0.7) (4, 0.5)
+  U11: 1
+  U12: (0, 0) (50, 0.1) (150, 0.15) (200, 0.4)
+  U13: (1, 0.1) (2, 0.4) (3, 0.7) (4, 1)
   U14: 1
-  U15: (0, 0) (50, 0.1) (150, 0.15) (200, 0.4)
-  U16: (1, 0.1) (2, 0.4) (3, 0.7) (4, 1)
-  U17: 1
+  U15: 0
+  U16: 0
+  U17: 0
   U18: 0
-  U19: 0
+  U19: (0, 0)
   U20: 0
-  U21: 0
-  U22: (0, 0)
-  U23: 0
-  U24: 17
-  U25: 1
-  U26: 1
+  U21: 17
+  U22: 1
+  U23: 1
   
   0x090ED0A5
   U01: 0
@@ -912,129 +886,70 @@
   U28: (0, 1.07) (1, 1.05)
   
   0x090ED0A7
-  U01: 1
-  U02: 0
-  U03: 6000
-  U04: 10
-  U05: 4
-  U06: 0.5
-  U07: 10
-  U08: (0, 1.25) (1, 0)
-  U09: (-200, 50) (-100, 20) (-25, 1) (0, 0) (25, -1.5)
-  U10: 30
+  U01: 0
+  U02: 10
+  U03: 4
+  U04: 0.5
+  U05: 10
+  U06: (0, 1.25) (1, 0)
+  U07: (-200, 50) (-100, 20) (-25, 1) (0, 0) (25, -1.5)
+  U08: 30
+  U09: 0
+  U10: (-200, 8) (100, 8) (150, 4) (200, 3) (300, 2.5) (400, 1.5) (500, 1) (800, 0.5) (1000, 0)
   U11: 0
-  U12: (-200, 8) (100, 8) (150, 4) (200, 3) (300, 2.5) (400, 1.5) (500, 1) (800, 0.5) (1000, 0)
-  U13: 0
-  U14: 2
-  U15: 2.5
-  U16: 0
+  U12: 2
+  U13: 2.5
+  U14: 0
+  U15: 0
+  U16: 200
   U17: 0
-  U18: 200
   U19: 0
-  U21: 0
-  U22: (-600, 0) (-400, 0.5) (-200, 1) (-100, 2) (0, 3)
-  U23: (0, 25) (1, 10)
-  U24: (0, 2.25) (0.5, 2.5) (1, 2.75)
-  U25: 500
-  U26: 6
-  U27: (-50, 1.5) (0, 0)
-  U28: (300, 1) (400, 0.8) (600, 0.6) (800, 0.2)
-  U29: 10
-  U30: 2
-  U31: (700, 1) (800, 0.8) (900, 0.6) (1100, 0.4) (1300, 0.2) (1500, 0.1)
-  U32: (0, 1)
-  U33: (0, 0) (50, 0.05) (100, 0.15) (250, 0.175) (500, 0.2)
-  U34: 1000
-  U35: (0, 0)
-  U36: (0, 1)
-  U37: 0.35
-  U38: 2
+  U20: (-600, 0) (-400, 0.5) (-200, 1) (-100, 2) (0, 3)
+  U21: (0, 25) (1, 10)
+  U22: (0, 2.25) (0.5, 2.5) (1, 2.75)
+  U23: 500
+  U24: 6
+  U25: (-50, 1.5) (0, 0)
+  U26: (300, 1) (400, 0.8) (600, 0.6) (800, 0.2)
+  U27: 10
+  U28: 2
+  U29: (700, 1) (800, 0.8) (900, 0.6) (1100, 0.4) (1300, 0.2) (1500, 0.1)
+  U30: (0, 1)
+  U31: (0, 0) (50, 0.05) (100, 0.15) (250, 0.175) (500, 0.2)
+  U32: 1000
+  U33: (0, 0)
+  U34: (0, 1)
+  U35: 0.35
+  U36: 2
   
   0x090ED0A8
-  U01: 1
-  U02: (10, 0) (25, 50) (100, 60) (250, 75)
-  U03: (0, 1) (0.25, 0.8) (0.5, 0.3) (1, 0.2)
-  U04: (0, 1) (0.5, 0.25) (1, 0.1)
-  U05: (10, 0) (17, 2) (25, 15) (37, 32) (50, 36) (250, 44)
-  U06: (0, 0) (25, 2) (50, 4) (100, 10)
-  U07: 100
-  U08: 100
-  U09: 20
-  U10: (20, 0) (50, 10) (100, 12) (200, 15)
-  U11: (20, 0) (50, 0.5) (100, 1) (200, 1.25) (300, 1.5)
-  U12: 0.333333
-  U13: 0.5
-  U14: (0, 1) (0.25, 0.95) (0.5, 0.8) (0.75, 0.6) (1, 0.25)
+  U01: (20, 0) (50, 10) (100, 12) (200, 15)
+  U02: 0.333333
+  U03: 0.5
   
   0x090ED0A9
-  U01: 0
-  U02: 2000
-  U03: (50, 0) (100, 500) (200, 2000)
-  U04: (0, 1) (20, 0.8) (100, 0.4)
-  U05: 0
-  U06: 500
-  U07: 4
-  U08: (0, 0) (20, 15) (50, 35) (100, 150) (200, 200)
-  U09: (1, 2) (1.5, 1.5) (2, 1) (2.5, 0.5) (3, 0)
-  U10: (0, 0) (50, 20) (200, 100)
   
   0x090ED0AA
-  U01: 0
   
   0x090ED0AB
-  U01: 1
-  U02: 2000
-  U03: 40
-  U04: (1000, 1) (2000, 4)
   
   0x090ED0AC
-  U01: 0
   
   0x090ED0AD
-- U01: (-1, 400) (0, 400) (0.15, -200) (1, -200)
-+ U01: (-1, 0) (-0.75, 200) (0, 200) (0.15, 0) (1, 0)
-  U02: 0
-- U03: 3
-+ U03: 1
-  U04: 0
+  U01: 0
+- U02: 3
++ U02: 1
+  U03: 0
+  U05: 0
   U06: 0
   U07: 0
-  U08: 0
-- U09: 0
-- U11: (0, 0)
-+ U09: 1
-+ U11: (0.1, 0) (1, 10)
-  U12: 0
-  U13: 0
-  U15: (0, 1)
-  U17: (0, 0)
-  U18: (0, 0)
-  U19: (0, 0)
-  U20: (0, 0)
-  U21: 0
-  U22: 200
-  U23: 50
-  U24: (0, 0)
-  U25: (0, 0)
-  U26: (0, 1)
-  U27: 0.33333334
-  U28: 3
-  U29: (0, 1)
-  U32: (0, 1)
-  U33: 5
-  U34: 1500
+  U09: 0
+  U10: 0
   
   0x090ED0AE
-  U01: 1
-  U02: (0, 0)
-  U03: 0.2
+  U01: 0.2
   
   0x090ED0AF
-  U01: 1
-  U02: 0
-  U03: (0, 0) (40, 0) (60, 0.1) (90, 0.3)
-  U04: (0, 0) (40, 0) (60, 0.1) (90, 0.3)
-  U05: 0.1
   
   0x090ED0B0
   U01: 0

@@ -1,9 +1,12 @@
 ﻿using DiffPlex.DiffBuilder;
 using DiffPlex.DiffBuilder.Model;
 using GBX.NET;
+using GBX.NET.Attributes;
 using GBX.NET.Engines.Function;
+using GBX.NET.Engines.MwFoundations;
 using GBX.NET.Engines.Plug;
 using System.Globalization;
+using System.Reflection;
 
 CultureInfo.CurrentCulture = CultureInfo.InvariantCulture;
 
@@ -88,6 +91,11 @@ foreach (var gameGroup in filesByGame)
                         continue;
                     }
 
+                    if (!IsPropertyApplied(property, tuning))
+                    {
+                        continue;
+                    }
+
                     var value = property.GetValue(tuning);
 
                     properties[property.Name] = value;
@@ -162,6 +170,28 @@ foreach (var gameGroup in filesByGame)
     var vehicleOrder = gameVehicleOrder.TryGetValue(relativeDir, out var configuredOrder) ? configuredOrder : [];
 
     await WriteGameReadmeAsync(gameReferenceDir, relativeDir, gameVehicles, vehicleOrder, isMP);
+}
+
+// Only keep properties that are actually read from a chunk present in the node (respecting chunk versions).
+// Obsolete properties are compatibility aliases of other properties, so they are skipped as duplicates.
+static bool IsPropertyApplied(PropertyInfo property, CMwNod node)
+{
+    if (property.IsDefined(typeof(ObsoleteAttribute), inherit: true))
+    {
+        return false;
+    }
+
+    var attributes = property.GetCustomAttributes<AppliedWithChunkAttribute>(inherit: true).ToList();
+
+    // Properties without chunk info, or nodes serialized without chunks, can't be filtered
+    if (attributes.Count == 0 || node.Chunks.Count == 0)
+    {
+        return true;
+    }
+
+    return node.Chunks.Any(chunk => attributes.Any(att => chunk.GetType() == att.ChunkType
+        && (chunk is not IVersionable versionable
+            || (versionable.Version >= att.SinceVersion && (att.UpToVersion is null || versionable.Version <= att.UpToVersion)))));
 }
 
 static async Task WriteDiffFileAsync(string oldFilePath, string newFilePath, string diffFilePath)

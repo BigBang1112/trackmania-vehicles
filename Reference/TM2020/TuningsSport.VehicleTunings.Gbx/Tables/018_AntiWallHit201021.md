@@ -4,15 +4,9 @@
 
 | Name | Value |
 | --- | --- |
-| AbsorbingValKa | 1 |
-| AbsorbingValKi | 40 |
-| AbsorbingValMax | 0.7 |
-| AbsorbingValMin | 0 |
-| AbsorbingValRest | 0.2 |
-| AbsorbTension | 5 |
+| AccelCoefFromDamage | ![AccelCoefFromDamage](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A0%2Cy%3A1%7D%2C%7Bx%3A0.25%2Cy%3A0.8%7D%2C%7Bx%3A0.5%2Cy%3A0.3%7D%2C%7Bx%3A1%2Cy%3A0.2%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
 | AccelCurve | ![AccelCurve](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A-1000%2Cy%3A1%7D%2C%7Bx%3A-102%2Cy%3A2%7D%2C%7Bx%3A-80%2Cy%3A6%7D%2C%7Bx%3A-35%2Cy%3A12%7D%2C%7Bx%3A0%2Cy%3A16%7D%2C%7Bx%3A101%2Cy%3A11%7D%2C%7Bx%3A201%2Cy%3A7%7D%2C%7Bx%3A401%2Cy%3A5.5%7D%2C%7Bx%3A801%2Cy%3A1%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
 | AccelCurveRear | ![AccelCurveRear](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A-150%2Cy%3A0.1%7D%2C%7Bx%3A-100%2Cy%3A1.5%7D%2C%7Bx%3A-50%2Cy%3A8%7D%2C%7Bx%3A0%2Cy%3A14%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
-| AccelCurveRearGear | ![AccelCurveRearGear](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A-150%2Cy%3A0.1%7D%2C%7Bx%3A-100%2Cy%3A1.5%7D%2C%7Bx%3A-50%2Cy%3A8%7D%2C%7Bx%3A0%2Cy%3A14%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
 | AccelCurveTargetSpeedTruck | ![AccelCurveTargetSpeedTruck](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A-50%2Cy%3A50000%7D%2C%7Bx%3A-10%2Cy%3A10000%7D%2C%7Bx%3A0%2Cy%3A0%7D%2C%7Bx%3A10%2Cy%3A50000%7D%2C%7Bx%3A50%2Cy%3A100000%7D%2C%7Bx%3A100%2Cy%3A500000%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
 | AccelTorqueCoef | 1 |
 | AdherenceAccelDirYCoef | 0 |
@@ -42,23 +36,34 @@
 | AfterJumpOrientationAngularSpeedThreshold | 0.01 |
 | AfterJumpOrientationForceCoef | 0 |
 | AfterJumpOrientationForceDuration | 10 |
+| AfterWaterUprightDuration | 1500 |
+| AfterWaterUprightTorqueFromAngularSpeed | ![AfterWaterUprightTorqueFromAngularSpeed](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A0%2Cy%3A0%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
 | AirAngularFluidFrictionCoef1 | 0.4 |
 | AirAngularFluidFrictionCoef2 | 0.2 |
+| AirBrakeEnabled | False |
+| AirBrakeForceFromPitchAngle | ![AirBrakeForceFromPitchAngle](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A0%2Cy%3A0%7D%2C%7Bx%3A40%2Cy%3A0%7D%2C%7Bx%3A60%2Cy%3A0.1%7D%2C%7Bx%3A90%2Cy%3A0.3%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
+| AirBrakePitchDamping | 0.1 |
+| AirBrakePitchTorqueFromPitchAngle | ![AirBrakePitchTorqueFromPitchAngle](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A0%2Cy%3A0%7D%2C%7Bx%3A40%2Cy%3A0%7D%2C%7Bx%3A60%2Cy%3A0.1%7D%2C%7Bx%3A90%2Cy%3A0.3%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
 | AirControlDuration | 30000 |
 | AirControlMaxAngularSpeedY | 3.14 |
 | AirControlNewModel7 | False |
+| AirControlXAccelCoefFromOrientation | ![AirControlXAccelCoefFromOrientation](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A-0.25%2Cy%3A0%7D%2C%7Bx%3A0%2Cy%3A1%7D%2C%7Bx%3A0.25%2Cy%3A0%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
+| AirControlXAccelFromAngularSpeed | ![AirControlXAccelFromAngularSpeed](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A0%2Cy%3A1.57%7D%2C%7Bx%3A3.14%2Cy%3A0%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
+| AirControlXEnabled | True |
+| AirControlXLimitTorqueFromAngularSpeed | ![AirControlXLimitTorqueFromAngularSpeed](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A-10%2Cy%3A75%7D%2C%7Bx%3A0%2Cy%3A0%7D%2C%7Bx%3A10%2Cy%3A-75%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
+| AirControlXOrientationLimitEnabled | True |
+| AirControlXOrientationThresholdDeg | 5 |
 | AirControlXStopFrictionCoef | 5 |
+| AirControlXYEnabled | True |
+| AirControlYAccelFromAngularSpeed | ![AirControlYAccelFromAngularSpeed](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A0%2Cy%3A1.57%7D%2C%7Bx%3A3.14%2Cy%3A0%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
 | AirControlYKeepFrictionCoef | 0 |
 | AirControlYStopFrictionCoef | 5 |
 | AirControlZCoefFromAngularSpeed | ![AirControlZCoefFromAngularSpeed](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A0%2Cy%3A1%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
 | AirFrictionFromSpeed | ![AirFrictionFromSpeed](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A0%2Cy%3A0%7D%2C%7Bx%3A300%2Cy%3A6%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
 | AirFrictionFromSpeed_Variable | ![AirFrictionFromSpeed_Variable](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A0%2Cy%3A0%7D%2C%7Bx%3A300%2Cy%3A6%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
 | AirGravityCoef | 2.5 |
-| AngularFluidFrictionCoef1 | 0.4 |
-| AngularFluidFrictionCoef2 | 0.2 |
 | AngularSpeedClamp | 100 |
 | AngularSpeedImpulseScale | 0.55 |
-| AngularSpeedYImpulseScale | 0.55 |
 | AntiWallHitAccelCoefFromSpeed | ![AntiWallHitAccelCoefFromSpeed](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A0%2Cy%3A1%7D%2C%7Bx%3A20%2Cy%3A0.4%7D%2C%7Bx%3A100%2Cy%3A0.2%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
 | AntiWallHitDurationInc_FromLateralContactRelSpeed | ![AntiWallHitDurationInc_FromLateralContactRelSpeed](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A0%2Cy%3A0%7D%2C%7Bx%3A20%2Cy%3A1000%7D%2C%7Bx%3A50%2Cy%3A2000%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
 | AntiWallHitDurationMax | 2000 |
@@ -70,20 +75,51 @@
 | BigCarControlCoef | 2.5 |
 | BigCarGravityCoef | 1.5 |
 | BigCarScale | 1.5 |
-| BodyFrictionCoef | 0.3 |
+| BoatAccelFromSpeedKmh | ![BoatAccelFromSpeedKmh](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A0%2Cy%3A10000%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
+| BoatCharacteristicLength | 1 |
+| BoatEngineDirFollowRudderFromSpeedZKmh | ![BoatEngineDirFollowRudderFromSpeedZKmh](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A0%2Cy%3A1%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
+| BoatEngineDuration01 | 1 |
+| BoatEngineSteeringFromSpeedKmh | ![BoatEngineSteeringFromSpeedKmh](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A0%2Cy%3A100%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
+| BoatInertiaYCoef | 1 |
+| BoatIsCarrier | 0 |
+| BoatPlanningAngularSpeedThreshold | 10 |
+| BoatPlanningAsternForceFromBrakeDuration | ![BoatPlanningAsternForceFromBrakeDuration](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A0%2Cy%3A0%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
+| BoatPlanningCoefBuildingRateFromPlanningCoefValue | ![BoatPlanningCoefBuildingRateFromPlanningCoefValue](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A0%2Cy%3A0%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
+| BoatPlanningCoefDecayFromRudderInputDelta01 | 0 |
+| BoatPlanningCoefDecayRate_Forward | 1 |
+| BoatPlanningCoefDecayRate_TurningOrColliding | 1 |
+| BoatPlanningContactVelKmhThreshold | 0 |
+| BoatPlanningCooldownDuration | 2000 |
+| BoatPlanningForceFromCoef | ![BoatPlanningForceFromCoef](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A0%2Cy%3A0%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
+| BoatReferenceSpeed | 0 |
+| BoatReverseAccelFromSpeedKmh | ![BoatReverseAccelFromSpeedKmh](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A0%2Cy%3A1000%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
+| BoatReverseDirFollowRudderFromSpeedZKmh | ![BoatReverseDirFollowRudderFromSpeedZKmh](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A0%2Cy%3A0%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
+| BoatRigthingTorqueRatioFromSpeedKmh | ![BoatRigthingTorqueRatioFromSpeedKmh](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A0%2Cy%3A0%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
+| BoatRudderAngleCoeffFromSpeedKmh | ![BoatRudderAngleCoeffFromSpeedKmh](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A0%2Cy%3A1%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
+| BoatRudderResistanceCoef | 0 |
+| BoatSteeringSmoothingRatio | 0.004 |
+| BoatTargetAngularSpeedZFromRoll | ![BoatTargetAngularSpeedZFromRoll](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A0%2Cy%3A0%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
+| BoatWaterSteeringFromSpeedKmh | ![BoatWaterSteeringFromSpeedKmh](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A0%2Cy%3A100%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
+| BoatWheelInverseTimeToZeroFromSpeedZKmh | ![BoatWheelInverseTimeToZeroFromSpeedZKmh](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A0%2Cy%3A0%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
+| BoatWheelMaxAngle | 30 |
+| BoatWheelTimeToMaxAngleFromSpeedZKmh | ![BoatWheelTimeToMaxAngleFromSpeedZKmh](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A0%2Cy%3A1%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
 | BodyFrictionCoef_Concrete | 0.3 |
 | BodyFrictionCoef_Metal | 0.2 |
-| BodyRestCoef | -0.5 |
 | BodyRestCoef_Concrete | -0.5 |
 | BodyRestCoef_Metal | -0.5 |
 | BrakeBase | 1 |
 | BrakeCoef | 1.75 |
-| BrakeCoolingSpeed | 0 |
-| BrakeHeatSpeedFromFBrake | null |
+| BrakeForceCoefFromWetness | ![BrakeForceCoefFromWetness](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A0%2Cy%3A1%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
 | BrakeMax | 60 |
 | BrakeMaxDynamic | 30 |
 | BrakeTorqueCoef | 1 |
+| Bumper2GroundNormalImpulse | 75 |
+| Bumper2SurfaceNormalImpulse | 20 |
+| BumperGroundNormalImpulse | 25 |
+| BumperImpulsePositionOffset | -0.015 |
+| BumperSurfaceNormalImpulse | 20 |
 | CameraModels | GBX.NET.NodeRefList`1[GBX.NET.Engines.Plug.CPlugCamControlModel] |
+| CameraModels_Alternate | GBX.NET.NodeRefList`1[GBX.NET.Engines.Plug.CPlugCamControlModel] |
 | CameraModels_Console | GBX.NET.NodeRefList`1[GBX.NET.Engines.Plug.CPlugCamControlModel] |
 | CamModelIronSight | null |
 | CamModelRear | GBX.NET.Engines.Plug.CPlugVehicleCameraInternalModel |
@@ -97,9 +133,18 @@
 | CatchUpSpeed3 | 325 |
 | CatchUpSpeed4 | 425 |
 | CenterOfMassY | 0.45 |
+| CenterOfMassZ_NoWheel | 0 |
 | CenterOfMassZNormed | 0 |
-| CMAftForce | 0 |
-| CMDownUp | 0.45 |
+| ChangeGearMaxSpeed | 10 |
+| DamageEnabled | True |
+| DamageFromGroundImpactSpeed | ![DamageFromGroundImpactSpeed](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A10%2Cy%3A0%7D%2C%7Bx%3A17%2Cy%3A2%7D%2C%7Bx%3A25%2Cy%3A15%7D%2C%7Bx%3A37%2Cy%3A32%7D%2C%7Bx%3A50%2Cy%3A36%7D%2C%7Bx%3A250%2Cy%3A44%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
+| DamageFromWallImpactSpeed | ![DamageFromWallImpactSpeed](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A10%2Cy%3A0%7D%2C%7Bx%3A25%2Cy%3A50%7D%2C%7Bx%3A100%2Cy%3A60%7D%2C%7Bx%3A250%2Cy%3A75%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
+| DamageFromWallSlideSpeed | ![DamageFromWallSlideSpeed](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A20%2Cy%3A0%7D%2C%7Bx%3A50%2Cy%3A0.5%7D%2C%7Bx%3A100%2Cy%3A1%7D%2C%7Bx%3A200%2Cy%3A1.25%7D%2C%7Bx%3A300%2Cy%3A1.5%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
+| DamageLandingMinAirDuration | 100 |
+| DamageSlowDownFromSpeed | ![DamageSlowDownFromSpeed](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A0%2Cy%3A0%7D%2C%7Bx%3A25%2Cy%3A2%7D%2C%7Bx%3A50%2Cy%3A4%7D%2C%7Bx%3A100%2Cy%3A10%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
+| DamageWheelImpactReduction | 20 |
+| DamageWheelImpactReductionFromDelay | ![DamageWheelImpactReductionFromDelay](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A0%2Cy%3A1%7D%2C%7Bx%3A0.25%2Cy%3A0.95%7D%2C%7Bx%3A0.5%2Cy%3A0.8%7D%2C%7Bx%3A0.75%2Cy%3A0.6%7D%2C%7Bx%3A1%2Cy%3A0.25%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
+| DamageWheelImpactWindow | 100 |
 | DamperForceAllways | False |
 | DamperForceSmoothStop | False |
 | DamperKa | 1 |
@@ -115,8 +160,6 @@
 | DeclutchingDuration | 0.225 |
 | DecrepitudeCoef | 0 |
 | DecrepitudeImpactVal | 0 |
-| DisplaySteerRadiusCoef | 0 |
-| DisplaySteerRadiusMin | 0 |
 | DragForceFromFrontSpeed | ![DragForceFromFrontSpeed](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A0%2Cy%3A0%7D%2C%7Bx%3A360%2Cy%3A30%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
 | Drifting_BackCoefDisableDurationAfterLanding | 1000 |
 | Drifting_BackCoefFromSlipAngle | ![Drifting_BackCoefFromSlipAngle](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A0%2Cy%3A1%7D%2C%7Bx%3A30%2Cy%3A1%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
@@ -136,17 +179,19 @@
 | Drifting_VehicleLateralSpeedMin | 5 |
 | Drifting_WheelLateralForce_FromWheelLateralSpeed | ![Drifting_WheelLateralForce_FromWheelLateralSpeed](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A0%2Cy%3A0%7D%2C%7Bx%3A100%2Cy%3A10%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
 | DriveModel | 0 |
+| DynaWaterModel | GBX.NET.Engines.Plug.CPlugDynaWaterModel |
 | EngineAutoGearMaxRPMs | [0, 0.95, 0.9, 0.95, 0.95, 1] |
 | EngineAutoGearMinRPMs | [0, 0, 0.5, 0.57, 0.55, 0.6] |
+| EngineDirectionChangeSpeedCoef | 1 |
 | EngineGearRatios | [400, 370, 220, 160, 110, 85] |
 | EngineIdleRPM | 2500 |
 | EngineMaxRPM | 11000 |
+| EngineRpmAccelerationSmoothSpeed | 25 |
 | EngineSlowDownFromSpeed | ![EngineSlowDownFromSpeed](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A0%2Cy%3A0%7D%2C%7Bx%3A10%2Cy%3A1%7D%2C%7Bx%3A500%2Cy%3A10%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
+| EngineTakeOffRPMCoef | 0.75 |
 | FrictionFactor | 0.5 |
 | GameplayModel | 5 |
 | GearBox | null |
-| GravityCoef | 3 |
-| GravityCoefAir | 2.5 |
 | GroundAngularFluidFrictionCoef1 | 0 |
 | GroundAngularFluidFrictionCoef2 | 0 |
 | GroundAngularFluidFrictionSpeedMin | 0 |
@@ -154,6 +199,34 @@
 | GroundSlowDownBase | 1 |
 | GroundSlowDownCoef | 0.3 |
 | GroundSlowDownFromSpeed | ![GroundSlowDownFromSpeed](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A0%2Cy%3A0%7D%2C%7Bx%3A500%2Cy%3A5%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
+| HelicoBladeMaxSpeedDeg | 1000 |
+| HelicoBladeRotAccelDeg | 500 |
+| HelicoBladeRotDecelDeg | 200 |
+| HelicoCoefCorrectedPitch | 1.4 |
+| HelicoCoefEngineHorizontal | ![HelicoCoefEngineHorizontal](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A0%2Cy%3A200000%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
+| HelicoCoefEngineVertical | ![HelicoCoefEngineVertical](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A0%2Cy%3A200000%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
+| HelicoCoefIronSight | 1 |
+| HelicoCoefSmoothedLanding | ![HelicoCoefSmoothedLanding](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A0%2Cy%3A180000%7D%2C%7Bx%3A0.2%2Cy%3A110000%7D%2C%7Bx%3A0.4%2Cy%3A90000%7D%2C%7Bx%3A0.6%2Cy%3A70000%7D%2C%7Bx%3A0.8%2Cy%3A10000%7D%2C%7Bx%3A1%2Cy%3A5000%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
+| HelicoDragPitchFromPitchDeg | ![HelicoDragPitchFromPitchDeg](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A0%2Cy%3A0%7D%2C%7Bx%3A0.2%2Cy%3A2000%7D%2C%7Bx%3A0.6%2Cy%3A7000%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
+| HelicoDragRollFromRollDeg | ![HelicoDragRollFromRollDeg](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A0%2Cy%3A0%7D%2C%7Bx%3A0.2%2Cy%3A2000%7D%2C%7Bx%3A0.6%2Cy%3A7000%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
+| HelicoFrictionCoef | -4000 |
+| HelicoFrictionCoefZ | 2 |
+| HelicoFrictionTorqueCoef | -6000 |
+| HelicoGroundAccelCoefFromGroundDist | ![HelicoGroundAccelCoefFromGroundDist](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A1%2Cy%3A1%7D%2C%7Bx%3A20%2Cy%3A1%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
+| HelicoGroundCheckDist | 40 |
+| HelicoGroundFrictionCoef | 2.5 |
+| HelicoHorizontalForceCoefFromAngleDeg | ![HelicoHorizontalForceCoefFromAngleDeg](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A0%2Cy%3A0%7D%2C%7Bx%3A20%2Cy%3A0.8%7D%2C%7Bx%3A25%2Cy%3A1%7D%2C%7Bx%3A35%2Cy%3A1%7D%2C%7Bx%3A40%2Cy%3A1.2%7D%2C%7Bx%3A90%2Cy%3A2%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
+| HelicoInputSteerSmoothCoefBack | 200 |
+| HelicoLandingStartDist | 30 |
+| HelicoPitchTorqueCoefFromSpeedKmh | ![HelicoPitchTorqueCoefFromSpeedKmh](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A0%2Cy%3A1.5%7D%2C%7Bx%3A20%2Cy%3A1%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
+| HelicoPitchTorqueFromPitchDeg | ![HelicoPitchTorqueFromPitchDeg](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A0%2Cy%3A4000%7D%2C%7Bx%3A0.5%2Cy%3A5000%7D%2C%7Bx%3A0.6%2Cy%3A7000%7D%2C%7Bx%3A0.7%2Cy%3A0%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
+| HelicoRollTorqueFromRollDeg | ![HelicoRollTorqueFromRollDeg](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A0%2Cy%3A4000%7D%2C%7Bx%3A0.5%2Cy%3A5000%7D%2C%7Bx%3A0.6%2Cy%3A7000%7D%2C%7Bx%3A0.7%2Cy%3A0%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
+| HelicoVersion | V1 |
+| HelicoVerticalForceCoefFromAngleDeg | ![HelicoVerticalForceCoefFromAngleDeg](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A0%2Cy%3A2.5%7D%2C%7Bx%3A20%2Cy%3A1.2%7D%2C%7Bx%3A25%2Cy%3A1%7D%2C%7Bx%3A35%2Cy%3A1%7D%2C%7Bx%3A50%2Cy%3A0.8%7D%2C%7Bx%3A90%2Cy%3A0%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
+| HelicoYaw_Brake_HSpeedDecFromHSpeed | ![HelicoYaw_Brake_HSpeedDecFromHSpeed](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A0%2Cy%3A0%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
+| HelicoYawTorqueCoefFromHSpeedKmh | ![HelicoYawTorqueCoefFromHSpeedKmh](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A0%2Cy%3A3500%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
+| HelicoYawTorqueFromRollSteer | ![HelicoYawTorqueFromRollSteer](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A0%2Cy%3A0%7D%2C%7Bx%3A20%2Cy%3A50000%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
+| HelicoYawTorqueFromRollSteer_CoefFromHSpeedKmh | ![HelicoYawTorqueFromRollSteer_CoefFromHSpeedKmh](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A10%2Cy%3A1%7D%2C%7Bx%3A100%2Cy%3A0%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
 | HookPos | <0, 0.875496, 0.0795808> |
 | ImpulseDamperReduceCoef_FromLocalVelY | ![ImpulseDamperReduceCoef_FromLocalVelY](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A5%2Cy%3A1%7D%2C%7Bx%3A8%2Cy%3A0%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
 | ImpulseFriction | 0 |
@@ -169,9 +242,9 @@
 | InputRawGasBrake | False |
 | InputSteerAlgo | 0 |
 | InputSteerAngleMaxDeg | 30 |
+| InputSteerFromTargetYaw | False |
 | InputSteerPowFromSpeed | ![InputSteerPowFromSpeed](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A0%2Cy%3A1%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
 | InTuningCycle | False |
-| IsFakeEngine | False |
 | JumpClassicDuration | 300 |
 | JumpClassicImpulseY | 12 |
 | JumpClassicImpulseZ | 20 |
@@ -183,6 +256,10 @@
 | JumpProgressiveImpulseZ | 10 |
 | KeepContactDuration | 50 |
 | KeepDragForceDuration | 0 |
+| LandingAccelCoefFromSpeed | ![LandingAccelCoefFromSpeed](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A0%2Cy%3A1%7D%2C%7Bx%3A20%2Cy%3A0.8%7D%2C%7Bx%3A100%2Cy%3A0.4%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
+| LandingAccelDurationInc_FromNormalContactRelSpeed | ![LandingAccelDurationInc_FromNormalContactRelSpeed](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A50%2Cy%3A0%7D%2C%7Bx%3A100%2Cy%3A500%7D%2C%7Bx%3A200%2Cy%3A2000%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
+| LandingAccelDurationMax | 2000 |
+| LandingAccelEnabled | False |
 | LateralContactSlowDown | ![LateralContactSlowDown](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A0%2Cy%3A0%7D%2C%7Bx%3A50%2Cy%3A12%7D%2C%7Bx%3A100%2Cy%3A24%7D%2C%7Bx%3A200%2Cy%3A48%7D%2C%7Bx%3A400%2Cy%3A70%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
 | LateralSlopeAdherenceMax | 0.7 |
 | LateralSlopeAdherenceMin | 0.3 |
@@ -245,7 +322,6 @@
 | M6DonutRolloverFromSpeed | ![M6DonutRolloverFromSpeed](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A0%2Cy%3A0%7D%2C%7Bx%3A10%2Cy%3A5%7D%2C%7Bx%3A20%2Cy%3A6%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
 | M6ForceEpsilon | 0.01 |
 | M6FrictionModulationWhenSlipNBrake | 0.2 |
-| M6GearRatio | [400, 370, 220, 160, 110, 85] |
 | M6InertialMass | 5 |
 | M6InertialTorqueModualtionX | 0.05 |
 | M6InertialTorqueModulationZ | 0.05 |
@@ -253,20 +329,16 @@
 | M6MaxDiffBtwnPropulsionAndSpeed | 200 |
 | M6MaxNegAngle4Burnout | 0.785 |
 | M6MaxPosAngle4Burnout | 1.7453 |
-| M6MaxRpm | 0 |
-| M6MaxRPM | [0, 0.95, 0.9, 0.95, 0.95, 1] |
 | M6MaxSpeed4Burnout | 20.833334 |
-| M6MinRPM | [0, 0, 0.5, 0.57, 0.55, 0.6] |
 | M6MinSpeed4Burnout | 3 |
 | M6RolloverLateralFromSpeedRatio | ![M6RolloverLateralFromSpeedRatio](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A0%2Cy%3A0%7D%2C%7Bx%3A1%2Cy%3A0.8%7D%2C%7Bx%3A10%2Cy%3A1%7D%2C%7Bx%3A20%2Cy%3A1%7D%2C%7Bx%3A30%2Cy%3A1%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
-| M6RpmGainCoefOnGearDown | 7000 |
+| M6RpmGainCoefOnGearDown | 11500 |
 | M6RpmGainOnTakeOff | 10000 |
-| M6RpmLossCoefOnGearUp | 10000 |
+| M6RpmLossCoefOnGearUp | 17000 |
 | M6RpmLossOnTakeOffFinished | 4000 |
-| M6RpmWantedOnGearUp | null |
 | M6SpeedLimitNegForTakeOffFront | -2 |
-| M6SpeedLimitNegTakeOffRear | -10 |
-| M6SpeedLimitPositiveForTakeOffFront | 10 |
+| M6SpeedLimitNegTakeOffRear | -3 |
+| M6SpeedLimitPositiveForTakeOffFront | 3 |
 | M6SpeedLimitPositiveForTakeOffRear | 2 |
 | Magnetic | True |
 | MagneticForce | 9.81 |
@@ -279,7 +351,6 @@
 | MagneticSuperDragForceFromSpeedKmh | ![MagneticSuperDragForceFromSpeedKmh](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A20%2Cy%3A0%7D%2C%7Bx%3A100%2Cy%3A50%7D%2C%7Bx%3A300%2Cy%3A200%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
 | Mass | 1 |
 | Materials | GBX.NET.Engines.MwFoundations.CMwRefBuffer |
-| MaxAngularSpeedYAirControl | 3.14 |
 | MaxDistPerStep | 0.3 |
 | MaxSideFriction | ![MaxSideFriction](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A0%2Cy%3A80%7D%2C%7Bx%3A100%2Cy%3A80%7D%2C%7Bx%3A200%2Cy%3A75%7D%2C%7Bx%3A300%2Cy%3A67%7D%2C%7Bx%3A400%2Cy%3A60%7D%2C%7Bx%3A500%2Cy%3A55%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
 | MaxSideFrictionBlendCoef | 0.018 |
@@ -287,7 +358,7 @@
 | MaxSpeed | 277.5 |
 | ModulationFromWheelCompression | ![ModulationFromWheelCompression](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A0%2Cy%3A0.1%7D%2C%7Bx%3A0.6%2Cy%3A0.3%7D%2C%7Bx%3A0.975%2Cy%3A1%7D%2C%7Bx%3A1%2Cy%3A1%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
 | NoBodyBottomFriction | True |
-| Normal_InputSteerAngleSmoothSpeed_OverSteer | 0 |
+| Normal_InputSteerAngleSmoothSpeed_OverSteer | 4 |
 | Normal_InputSteerAngleSmoothSpeed_Steer | 5 |
 | Normal_InputSteerAngleSmoothSpeedReset | 2 |
 | Normal_InputSteerRadiusFromSpeed | ![Normal_InputSteerRadiusFromSpeed](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A0%2Cy%3A2%7D%2C%7Bx%3A100%2Cy%3A5%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
@@ -301,44 +372,72 @@
 | NormalEnvBody_FlatZoneYMin | 0.2 |
 | NormalEnvBody_HalfSizeX | 0.2 |
 | NormalEnvBody_HalfSizeZ | 1.7 |
+| NormalEnvWheel_MinNormalAngle | 0 |
 | NormalEnvWheel_WidthCoef1 | 0.5 |
 | NoSteerSlowDownWhenSlipping | False |
+| PlaneAngularFriction | 1 |
+| PlaneDragCoef | <1, 1, 1> |
+| PlaneDragMultiplierFromGroundDist | ![PlaneDragMultiplierFromGroundDist](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A0%2Cy%3A1%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
+| PlaneEngineAuto | False |
+| PlaneEngineTime01s | 1 |
+| PlaneEngineTime10s | 1 |
+| PlaneFrontWheelDamperCoef | 0.5 |
+| PlaneLanding_Contact_BestTime | 2500 |
+| PlaneLanding_Contact_Coef | 1 |
+| PlaneLanding_Contact_WorseTime | 10000 |
+| PlaneLanding_End_BestTime | 4500 |
+| PlaneLanding_End_Coef | 1 |
+| PlaneLanding_End_WorseTime | 17500 |
+| PlaneLanding_Impacts_Coef | 5 |
+| PlaneLanding_Rebounds_Coef | 3 |
+| PlaneLanding_Rebounds_MaxCount | 8 |
+| PlaneLiftCoefFromStallAngleRatio | ![PlaneLiftCoefFromStallAngleRatio](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A0%2Cy%3A0%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
+| PlaneLiftMultiplierFromGroundDist | ![PlaneLiftMultiplierFromGroundDist](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A0%2Cy%3A1%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
+| PlaneLiftPower | 1 |
+| PlanePitchControlFromSpeedKmh | ![PlanePitchControlFromSpeedKmh](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A0%2Cy%3A0%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
+| PlanePitchGroundControlMultiplier | 1 |
+| PlaneRollControlFromSpeedKmh | ![PlaneRollControlFromSpeedKmh](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A0%2Cy%3A0%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
+| PlaneStallAngleMaxDeg | 17.5 |
+| PlaneStallAngleMinDeg | -5 |
+| PlaneThrustFromFrontSpeedKmh | ![PlaneThrustFromFrontSpeedKmh](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A0%2Cy%3A1%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
+| PlaneXDragApplicationPosOffset | <0, 0, 0> |
+| PlaneYawControlFromFrontSpeedKmh | ![PlaneYawControlFromFrontSpeedKmh](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A0%2Cy%3A0%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
+| PlaneYawGroundControlFromFrontSpeedKmh | ![PlaneYawGroundControlFromFrontSpeedKmh](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A0%2Cy%3A0%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
+| PlasticContactCoefFromNormalSpeed | ![PlasticContactCoefFromNormalSpeed](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A0%2Cy%3A0%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
+| PlasticContactEnabled | True |
+| PreLandingAirDurationMin | 500 |
+| PreLandingForceCoefFromWheelDistDiff | ![PreLandingForceCoefFromWheelDistDiff](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A1%2Cy%3A2%7D%2C%7Bx%3A1.5%2Cy%3A1.5%7D%2C%7Bx%3A2%2Cy%3A1%7D%2C%7Bx%3A2.5%2Cy%3A0.5%7D%2C%7Bx%3A3%2Cy%3A0%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
+| PreLandingForceEnabled | False |
+| PreLandingForwardForceFromSpeed | ![PreLandingForwardForceFromSpeed](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A0%2Cy%3A0%7D%2C%7Bx%3A50%2Cy%3A20%7D%2C%7Bx%3A200%2Cy%3A100%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
+| PreLandingNormalForceFromSpeed | ![PreLandingNormalForceFromSpeed](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A0%2Cy%3A0%7D%2C%7Bx%3A20%2Cy%3A15%7D%2C%7Bx%3A50%2Cy%3A35%7D%2C%7Bx%3A100%2Cy%3A150%7D%2C%7Bx%3A200%2Cy%3A200%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
+| PreLandingRayLength | 4 |
+| ReactorBoostDuration | 6000 |
+| ReactorBoostEnabled | 1 |
 | RelSpeedMultCoef | 0 |
 | ReverseMaxSpeed | 138.61111 |
 | Rollover | 0 |
 | RolloverAxial | 0.3 |
 | RolloverLateral | ![RolloverLateral](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A0%2Cy%3A0%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
 | RolloverLateralFromAngle | ![RolloverLateralFromAngle](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A0%2Cy%3A1%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
-| RubberBallElasticity | 0 |
 | Shape | null |
-| ShockModel | Demo03 |
 | SideFriction1 | 40 |
-| SideFriction2 | 0 |
 | SlipAngleForceCoef1 | 10 |
 | SlipAngleForceCoef2 | 0.01 |
 | SlipAngleForceMax | 0.087266 |
 | SlopeSpeedGainLimit | 0 |
-| SoundBodyImpact_Hard_Threshold | 0 |
-| SoundBodyImpact_Soft_Threshold | 0 |
-| SoundEngineVolume | 0 |
-| SoundImpactVolume | 0 |
-| SoundSkidConcreteVolume | 0 |
-| SoundSkidSandVolume | 0 |
-| SoundWheelImpact_Hard_Threshold | 0 |
-| SoundWheelImpact_Soft_Threshold | 0 |
+| SlowMotionDuration | 15000 |
+| SlowMotionTimeScaleCoef | 0.57 |
+| SlowMotionTimeScaleMin | 0.11111111 |
 | SteerAngleMax | 0.523599 |
+| SteerCoefFromDamage | ![SteerCoefFromDamage](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A0%2Cy%3A1%7D%2C%7Bx%3A0.5%2Cy%3A0.25%7D%2C%7Bx%3A1%2Cy%3A0.1%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
 | SteerDriveTorque | ![SteerDriveTorque](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A-100%2Cy%3A7%7D%2C%7Bx%3A0%2Cy%3A16%7D%2C%7Bx%3A50%2Cy%3A10.4%7D%2C%7Bx%3A100%2Cy%3A8.5%7D%2C%7Bx%3A150%2Cy%3A6.8%7D%2C%7Bx%3A200%2Cy%3A5.5%7D%2C%7Bx%3A300%2Cy%3A4.25%7D%2C%7Bx%3A400%2Cy%3A4%7D%2C%7Bx%3A500%2Cy%3A3.75%7D%2C%7Bx%3A600%2Cy%3A3.75%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
-| SteerDurationBeforeSteerSlowDown | 0 |
 | SteerGroundTorque | 0.08 |
 | SteerGroundTorqueSlippingCoef | 1 |
 | SteerLowSpeed | 30 |
-| SteerModel | Steer06 |
 | SteerRadiusCoef | 0.85 |
 | SteerRadiusMin | 2 |
 | SteerSlowDown | ![SteerSlowDown](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A-50%2Cy%3A1%7D%2C%7Bx%3A0%2Cy%3A0%7D%2C%7Bx%3A50%2Cy%3A0%7D%2C%7Bx%3A100%2Cy%3A0%7D%2C%7Bx%3A200%2Cy%3A0%7D%2C%7Bx%3A300%2Cy%3A0%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
 | SteerSlowDownCoef | 0.5 |
-| SteerSlowDownFadeInDuration | 0 |
-| SteerSlowDownFadeOutDuration | 0 |
 | SteerSlowDownFromSpeed | ![SteerSlowDownFromSpeed](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A0%2Cy%3A0%7D%2C%7Bx%3A100%2Cy%3A0%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
 | SteerSpeed | 20 |
 | SteerTorqueZMax | 1000 |
@@ -348,9 +447,17 @@
 | TargetSpeedFromSpeedTruck | ![TargetSpeedFromSpeedTruck](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A0%2Cy%3A0.5%7D%2C%7Bx%3A10%2Cy%3A0.3%7D%2C%7Bx%3A50%2Cy%3A0.2%7D%2C%7Bx%3A100%2Cy%3A0.1%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
 | TargetSpeedFromSpeedTruckRear | ![TargetSpeedFromSpeedTruckRear](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A-100%2Cy%3A-0.3%7D%2C%7Bx%3A-50%2Cy%3A-0.3%7D%2C%7Bx%3A-10%2Cy%3A-0.2%7D%2C%7Bx%3A0%2Cy%3A-0.1%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
 | TireMaterial | 9 |
-| Turbo2Boost | 20 |
-| Turbo2Duration | 100 |
-| TurboBoost | 5 |
+| TruckAccelPenaltyDuration | 0 |
+| TruckAxisMaxAngle | 45 |
+| TruckInertiaZCoef | 1 |
+| TruckLinkHackHeaderPositiveRollMultiplierCurve | ![TruckLinkHackHeaderPositiveRollMultiplierCurve](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A0%2Cy%3A1%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
+| TruckLinkPosCorrectionRate | 0.3 |
+| TruckLinkPosVelDamping | 1 |
+| TruckLinkRollCenterOfMassY | 2.5 |
+| TruckLinkRollMultiplierFromZSpeedKmh | ![TruckLinkRollMultiplierFromZSpeedKmh](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A0%2Cy%3A1%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
+| TruckLinkStiffness | 0.5 |
+| TruckLinkThresholdAngle | 5 |
+| TruckLinkTrailerAngularCorrectionRatio | 0.5 |
 | TurboBrakeCoef | 2 |
 | TurboBrakeDuration | 1000 |
 | TurboBrakeMinSpeedZKmh | 10 |
@@ -358,11 +465,11 @@
 | TurboCheatAccelCoefDuration | 3000 |
 | TurboCheatConstantDuration | 500 |
 | TurboCheatConstantFromSpeed | ![TurboCheatConstantFromSpeed](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A0%2Cy%3A60%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
-| TurboDuration | 250 |
 | TurboRedAccelCoef | 20 |
 | TurboRedAccelCoefDuration | 100 |
 | TurboRedConstantDuration | 1000 |
 | TurboRedConstantFromSpeed | ![TurboRedConstantFromSpeed](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A0%2Cy%3A0%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
+| TurboRouletteCycleDuration | 2000 |
 | TurboYellowAccelCoef | 5 |
 | TurboYellowAccelCoefDuration | 250 |
 | TurboYellowConstantDuration | 1000 |
@@ -371,21 +478,39 @@
 | UltraCatchUpAccelFactor1 | 4 |
 | UltraCatchUpAccelFactor2 | 3 |
 | UltraCatchUpAccelFactor3 | 0.5 |
+| UseFluidWaterPhysics | False |
 | UseRealGroundReferential | True |
 | VibrationPeriodSpeedCoef | 0 |
 | VisualSteerAngleFromSpeed | ![VisualSteerAngleFromSpeed](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A0%2Cy%3A40%7D%2C%7Bx%3A200%2Cy%3A25%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
+| WallEscapeAccelCoefIncFromDuration | ![WallEscapeAccelCoefIncFromDuration](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A1000%2Cy%3A1%7D%2C%7Bx%3A2000%2Cy%3A4%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
+| WallEscapeDurationAfterContact | 2000 |
+| WallEscapeEnabled | True |
+| WallEscapeMaxSpeed | 40 |
 | WaterAngularFriction | 0.1 |
+| WaterAngularFrictionFromAngularSpeedSq | ![WaterAngularFrictionFromAngularSpeedSq](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A-1%2Cy%3A400%7D%2C%7Bx%3A0%2Cy%3A400%7D%2C%7Bx%3A0.15%2Cy%3A-200%7D%2C%7Bx%3A1%2Cy%3A-200%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
 | WaterAngularFrictionSq | 0.2 |
 | WaterBumpMinSpeed | 50 |
 | WaterBumpSlowDownFromSpeedRatio | ![WaterBumpSlowDownFromSpeedRatio](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A0%2Cy%3A0.7%7D%2C%7Bx%3A0.4%2Cy%3A0.7%7D%2C%7Bx%3A0.5%2Cy%3A0.6%7D%2C%7Bx%3A1%2Cy%3A0.6%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
+| WaterEnterDuration | 200 |
+| WaterExitDelay | 50 |
+| WaterFluidForceImmersionPow | 5 |
 | WaterFrictionFromSpeed | ![WaterFrictionFromSpeed](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A0%2Cy%3A0%7D%2C%7Bx%3A2%2Cy%3A0.2%7D%2C%7Bx%3A50%2Cy%3A1%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
 | WaterGravity | 1 |
 | WaterReboundFromSpeedRatio | ![WaterReboundFromSpeedRatio](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A0%2Cy%3A0.9%7D%2C%7Bx%3A0.4%2Cy%3A0.9%7D%2C%7Bx%3A0.5%2Cy%3A1.5%7D%2C%7Bx%3A1%2Cy%3A1.5%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
 | WaterReboundMinHSpeed | 55.555557 |
-| WaterSplashFromSpeed | null |
-| WheelFrictionCoef_Concrete | 0 |
-| WheelFrictionCoef_Metal | 0 |
+| WaterSteerTorqueFromSteerAngle | ![WaterSteerTorqueFromSteerAngle](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A0%2Cy%3A0%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
+| WaterUprightEnabled | False |
+| WaterUprightTorqueFromTiltAngle | ![WaterUprightTorqueFromTiltAngle](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A0%2Cy%3A0%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
+| WaterWheelDragFromSpeed | ![WaterWheelDragFromSpeed](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A0%2Cy%3A0%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
+| WaterWheelDragWetnessPow | 3 |
+| WaterWheelSteerForceFromSpeed | ![WaterWheelSteerForceFromSpeed](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A0%2Cy%3A0%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
+| WaterWheelUpForceCoefFromHSpeed | ![WaterWheelUpForceCoefFromHSpeed](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A0%2Cy%3A0%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
+| WaterWheelUpForceCoefFromVSpeed | ![WaterWheelUpForceCoefFromVSpeed](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A0%2Cy%3A0%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
+| WaterWheelUpForceFromThrottle | ![WaterWheelUpForceFromThrottle](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A0%2Cy%3A1%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
+| WetnessDecreaseCoefFromSpeed | ![WetnessDecreaseCoefFromSpeed](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A0%2Cy%3A1%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
+| WetnessGainPerEnterDuration | 0.33333334 |
 | WheelKeepContactDuration | 200 |
+| WheelLateralForceCoefFromWetness | ![WheelLateralForceCoefFromWetness](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A0%2Cy%3A1%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
 | WheelRestCoef_Concrete | -0.8 |
 | WheelRestCoef_Metal | -0.8 |
 ## Chunks
@@ -451,12 +576,6 @@
 | --- | --- |
 | U01 | 0 |
 
-### 0x090ED039
-
-| Name | Value |
-| --- | --- |
-| U01 | 0 |
-
 ### 0x090ED064
 
 | Name | Value |
@@ -475,12 +594,6 @@
 | --- | --- |
 | U01 | 2 |
 
-### 0x090ED06A
-
-| Name | Value |
-| --- | --- |
-| U01 | 10 |
-
 ### 0x090ED072
 
 | Name | Value |
@@ -492,7 +605,7 @@
 
 | Name | Value |
 | --- | --- |
-| U01 | 4 |
+| U01 | 0 |
 
 ### 0x090ED085
 
@@ -505,21 +618,6 @@
 | Name | Value |
 | --- | --- |
 | U01 | 0 |
-
-### 0x090ED089
-
-| Name | Value |
-| --- | --- |
-| U02 | 0.3 |
-| U03 | 80 |
-
-### 0x090ED08A
-
-| Name | Value |
-| --- | --- |
-| U01 | null |
-| U02 | null |
-| U03 | null |
 
 ### 0x090ED08B
 
@@ -536,12 +634,10 @@
 | U12 | 0 |
 | U13 | 0 |
 | U14 | 0 |
-| U15 | 0 |
-| U16 | 0 |
-| U21 | 0 |
-| U23 | 1500 |
-| U24 | False |
-| U25 | ![U25](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A0%2Cy%3A0%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
+| U19 | 0 |
+| U21 | 1500 |
+| U22 | False |
+| U23 | ![U23](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A0%2Cy%3A0%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
 
 ### 0x090ED08D
 
@@ -550,52 +646,19 @@
 | U01 | null |
 | U02 | null |
 
-### 0x090ED08E
-
-| Name | Value |
-| --- | --- |
-| U01 | GBX.NET.NodeRefList`1[GBX.NET.Engines.Plug.CPlugCamControlModel] |
-
 ### 0x090ED094
 
 | Name | Value |
 | --- | --- |
 | U01 | null |
-| U02 | 2000 |
 
 ### 0x090ED095
 
 | Name | Value |
 | --- | --- |
 | U01 | 0 |
-| U02 | 1 |
-| U03 | ![U03](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A0%2Cy%3A1.57%7D%2C%7Bx%3A3.14%2Cy%3A0%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
-| U04 | ![U04](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A0%2Cy%3A6.28%7D%2C%7Bx%3A3.14%2Cy%3A3.14%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
-| U05 | ![U05](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A0%2Cy%3A1.57%7D%2C%7Bx%3A3.14%2Cy%3A0%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
-| U06 | 1 |
-| U07 | 1 |
-| U08 | 0 |
-| U09 | ![U09](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A-10%2Cy%3A75%7D%2C%7Bx%3A0%2Cy%3A0%7D%2C%7Bx%3A10%2Cy%3A-75%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
-| U10 | 1084227584 |
-| U11 | ![U11](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A-0.25%2Cy%3A0%7D%2C%7Bx%3A0%2Cy%3A1%7D%2C%7Bx%3A0.25%2Cy%3A0%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
-
-### 0x090ED096
-
-| Name | Value |
-| --- | --- |
-| U01 | 25 |
-| U02 | 6000 |
-| U03 | 3000 |
-| U04 | 17000 |
-| U05 | 11500 |
-| U06 | 0.75 |
-| U07 | 10000 |
-| U08 | 4000 |
-| U09 | 3 |
-| U10 | 2 |
-| U11 | -2 |
-| U12 | -3 |
-| U13 | 1 |
+| U02 | ![U02](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A0%2Cy%3A6.28%7D%2C%7Bx%3A3.14%2Cy%3A3.14%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
+| U03 | 0 |
 
 ### 0x090ED09B
 
@@ -608,36 +671,7 @@
 | Name | Value |
 | --- | --- |
 | U01 | null |
-| U02 | ![U02](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A0%2Cy%3A3500%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
-| U03 | ![U03](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A0%2Cy%3A0%7D%2C%7Bx%3A20%2Cy%3A50000%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
-| U04 | ![U04](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A10%2Cy%3A1%7D%2C%7Bx%3A100%2Cy%3A0%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
-| U05 | -4000 |
-| U06 | -6000 |
-| U10 | ![U10](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A0%2Cy%3A4000%7D%2C%7Bx%3A0.5%2Cy%3A5000%7D%2C%7Bx%3A0.6%2Cy%3A7000%7D%2C%7Bx%3A0.7%2Cy%3A0%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
-| U11 | ![U11](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A0%2Cy%3A0%7D%2C%7Bx%3A0.2%2Cy%3A2000%7D%2C%7Bx%3A0.6%2Cy%3A7000%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
-| U12 | ![U12](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A0%2Cy%3A4000%7D%2C%7Bx%3A0.5%2Cy%3A5000%7D%2C%7Bx%3A0.6%2Cy%3A7000%7D%2C%7Bx%3A0.7%2Cy%3A0%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
-| U13 | ![U13](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A0%2Cy%3A0%7D%2C%7Bx%3A0.2%2Cy%3A2000%7D%2C%7Bx%3A0.6%2Cy%3A7000%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
-| U14 | 2 |
-| U15 | null |
-| U17 | 2.5 |
-| U18 | ![U18](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A0%2Cy%3A180000%7D%2C%7Bx%3A0.2%2Cy%3A110000%7D%2C%7Bx%3A0.4%2Cy%3A90000%7D%2C%7Bx%3A0.6%2Cy%3A70000%7D%2C%7Bx%3A0.8%2Cy%3A10000%7D%2C%7Bx%3A1%2Cy%3A5000%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
-| U19 | 30 |
-| U20 | 500 |
-| U21 | 1000 |
-| U22 | 200 |
-| U23 | 0 |
-| U24 | ![U24](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A0%2Cy%3A200000%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
-| U25 | ![U25](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A0%2Cy%3A200000%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
-| U26 | 200 |
-| U27 | 1.4 |
-| U28 | ![U28](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A0%2Cy%3A2.5%7D%2C%7Bx%3A20%2Cy%3A1.2%7D%2C%7Bx%3A25%2Cy%3A1%7D%2C%7Bx%3A35%2Cy%3A1%7D%2C%7Bx%3A50%2Cy%3A0.8%7D%2C%7Bx%3A90%2Cy%3A0%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
-| U29 | ![U29](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A0%2Cy%3A0%7D%2C%7Bx%3A20%2Cy%3A0.8%7D%2C%7Bx%3A25%2Cy%3A1%7D%2C%7Bx%3A35%2Cy%3A1%7D%2C%7Bx%3A40%2Cy%3A1.2%7D%2C%7Bx%3A90%2Cy%3A2%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
-| U30 | ![U30](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A0%2Cy%3A1.5%7D%2C%7Bx%3A20%2Cy%3A1%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
-| U31 | ![U31](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A1%2Cy%3A1%7D%2C%7Bx%3A20%2Cy%3A1%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
-| U32 | 0 |
-| U33 | 40 |
-| U34 | ![U34](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A0%2Cy%3A0%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
-| U35 | 1 |
+| U05 | null |
 
 ### 0x090ED09D
 
@@ -646,125 +680,35 @@
 | U01 | null |
 | U02 | null |
 | U03 | null |
-| U04 | 0 |
-| U05 | 0 |
-| U06 | null |
-| U07 | 0 |
-| U08 | 0 |
-| U09 | null |
-| U10 | null |
-| U11 | null |
-| U12 | null |
-| U13 | null |
-| U14 | 0 |
-| U15 | 1 |
-| U16 | ![U16](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A0%2Cy%3A10000%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
-| U17 | ![U17](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A0%2Cy%3A100%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
-| U18 | null |
-| U19 | ![U19](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A0%2Cy%3A0%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
-| U20 | ![U20](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A0%2Cy%3A0%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
-| U21 | 1 |
-| U22 | 0.004 |
-| U23 | 30 |
-| U24 | ![U24](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A0%2Cy%3A1%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
-| U25 | ![U25](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A0%2Cy%3A0%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
-| U26 | ![U26](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A0%2Cy%3A1000%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
-| U27 | null |
-| U28 | ![U28](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A0%2Cy%3A100%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
-| U29 | null |
-| U30 | null |
-| U31 | null |
-| U32 | null |
-| U33 | null |
-| U34 | null |
-| U35 | 1 |
-| U36 | ![U36](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A0%2Cy%3A1%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
-| U37 | 1 |
-| U38 | 1 |
-| U39 | 0 |
-| U40 | ![U40](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A0%2Cy%3A0%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
-| U41 | 0 |
-| U42 | ![U42](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A0%2Cy%3A1%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
-| U43 | ![U43](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A0%2Cy%3A0%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
-| U44 | ![U44](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A0%2Cy%3A0%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
-| U45 | 10 |
-| U46 | 2.803E-42 |
-| U47 | 0 |
-| U48 | 0.5 |
-| U49 | ![U49](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A0%2Cy%3A0%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
-| U50 | 0 |
+| U04 | null |
+| U05 | 0.5 |
 
 ### 0x090ED09E
 
 | Name | Value |
 | --- | --- |
-| U01 | 5 |
-| U02 | 0.5 |
-| U03 | 45 |
-| U04 | 1 |
-| U05 | 0 |
-| U06 | 0.3 |
-| U07 | 1 |
-| U08 | 0.5 |
-| U09 | ![U09](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A0%2Cy%3A1%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
-| U10 | null |
-| U11 | ![U11](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A0%2Cy%3A1%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
-| U12 | 2.5 |
-| U13 | 0.75 |
-| U14 | 1 |
+| U01 | 0.75 |
+| U02 | 1 |
 
 ### 0x090ED09F
 
 | Name | Value |
 | --- | --- |
-| U01 | ![U01](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A0%2Cy%3A1%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
-| U02 | 1 |
-| U03 | 1 |
-| U04 | 1 |
-| U05 | 1 |
-| U06 | ![U06](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A0%2Cy%3A0%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
-| U07 | ![U07](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A0%2Cy%3A0%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
-| U08 | 3 |
-| U09 | 5 |
-| U10 | 0 |
-| U11 | 0 |
-| U12 | 0 |
-| U13 | 0 |
-| U14 | 0 |
-| U15 | ![U15](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A0%2Cy%3A0%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
-| U16 | 0.5 |
-| U17 | ![U17](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A0%2Cy%3A1%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
-| U18 | ![U18](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A0%2Cy%3A1%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
-| U19 | 17.5 |
-| U20 | -5 |
-| U21 | 1 |
-| U22 | 1 |
-| U23 | 1 |
-| U24 | <1, 1, 1> |
-| U25 | <0, 0, 0> |
-| U26 | ![U26](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A0%2Cy%3A0%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
-| U27 | ![U27](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A0%2Cy%3A0%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
-| U28 | False |
-| U29 | 2500 |
-| U30 | 10000 |
-| U31 | 4500 |
-| U32 | 17500 |
-| U33 | 8 |
+| U01 | 0 |
+| U02 | 0 |
+| U03 | 0 |
+| U04 | 0 |
+| U05 | 0 |
 
 ### 0x090ED0A0
 
 | Name | Value |
 | --- | --- |
-| U01 | -0.015 |
-| U02 | 25 |
-| U03 | 20 |
-| U04 | 75 |
-| U05 | 20 |
-| U06 | 20 |
-| U07 | 5 |
-| U08 | 0.075 |
-| U09 | 3 |
-| U10 | 1 |
+| U01 | 20 |
+| U02 | 5 |
+| U03 | 0.075 |
+| U04 | 3 |
+| U05 | 1 |
 
 ### 0x090ED0A1
 
@@ -835,32 +779,29 @@
 
 | Name | Value |
 | --- | --- |
-| U01 | 0.57 |
-| U02 | 0.11111111 |
-| U03 | 15000 |
-| U04 | 0 |
-| U05 | ![U05](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A0%2Cy%3A0%7D%2C%7Bx%3A70%2Cy%3A1%7D%2C%7Bx%3A100%2Cy%3A0%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
-| U06 | 20 |
-| U07 | 5 |
-| U08 | 0.9 |
-| U09 | 0 |
-| U10 | 0.0015 |
-| U11 | ![U11](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A0%2Cy%3A1%7D%2C%7Bx%3A50%2Cy%3A1%7D%2C%7Bx%3A200%2Cy%3A0.9%7D%2C%7Bx%3A400%2Cy%3A0.6%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
-| U12 | ![U12](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A15%2Cy%3A0%7D%2C%7Bx%3A20%2Cy%3A1%7D%2C%7Bx%3A120%2Cy%3A1%7D%2C%7Bx%3A125%2Cy%3A0%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
-| U13 | ![U13](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A1%2Cy%3A0.9%7D%2C%7Bx%3A2%2Cy%3A0.8%7D%2C%7Bx%3A3%2Cy%3A0.7%7D%2C%7Bx%3A4%2Cy%3A0.5%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
+| U01 | 0 |
+| U02 | ![U02](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A0%2Cy%3A0%7D%2C%7Bx%3A70%2Cy%3A1%7D%2C%7Bx%3A100%2Cy%3A0%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
+| U03 | 20 |
+| U04 | 5 |
+| U05 | 0.9 |
+| U06 | 0 |
+| U07 | 0.0015 |
+| U08 | ![U08](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A0%2Cy%3A1%7D%2C%7Bx%3A50%2Cy%3A1%7D%2C%7Bx%3A200%2Cy%3A0.9%7D%2C%7Bx%3A400%2Cy%3A0.6%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
+| U09 | ![U09](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A15%2Cy%3A0%7D%2C%7Bx%3A20%2Cy%3A1%7D%2C%7Bx%3A120%2Cy%3A1%7D%2C%7Bx%3A125%2Cy%3A0%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
+| U10 | ![U10](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A1%2Cy%3A0.9%7D%2C%7Bx%3A2%2Cy%3A0.8%7D%2C%7Bx%3A3%2Cy%3A0.7%7D%2C%7Bx%3A4%2Cy%3A0.5%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
+| U11 | 1 |
+| U12 | ![U12](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A0%2Cy%3A0%7D%2C%7Bx%3A50%2Cy%3A0.1%7D%2C%7Bx%3A150%2Cy%3A0.15%7D%2C%7Bx%3A200%2Cy%3A0.4%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
+| U13 | ![U13](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A1%2Cy%3A0.1%7D%2C%7Bx%3A2%2Cy%3A0.4%7D%2C%7Bx%3A3%2Cy%3A0.7%7D%2C%7Bx%3A4%2Cy%3A1%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
 | U14 | 1 |
-| U15 | ![U15](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A0%2Cy%3A0%7D%2C%7Bx%3A50%2Cy%3A0.1%7D%2C%7Bx%3A150%2Cy%3A0.15%7D%2C%7Bx%3A200%2Cy%3A0.4%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
-| U16 | ![U16](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A1%2Cy%3A0.1%7D%2C%7Bx%3A2%2Cy%3A0.4%7D%2C%7Bx%3A3%2Cy%3A0.7%7D%2C%7Bx%3A4%2Cy%3A1%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
-| U17 | 1 |
+| U15 | 0 |
+| U16 | 0 |
+| U17 | 0 |
 | U18 | 0 |
-| U19 | 0 |
+| U19 | ![U19](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A0%2Cy%3A0%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
 | U20 | 0 |
-| U21 | 0 |
-| U22 | ![U22](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A0%2Cy%3A0%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
-| U23 | 0 |
-| U24 | 17 |
-| U25 | 1 |
-| U26 | 1 |
+| U21 | 17 |
+| U22 | 1 |
+| U23 | 1 |
 
 ### 0x090ED0A5
 
@@ -929,149 +870,68 @@
 
 | Name | Value |
 | --- | --- |
-| U01 | 1 |
-| U02 | 0 |
-| U03 | 6000 |
-| U04 | 10 |
-| U05 | 4 |
-| U06 | 0.5 |
-| U07 | 10 |
-| U08 | ![U08](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A0%2Cy%3A1.25%7D%2C%7Bx%3A1%2Cy%3A0%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
-| U09 | ![U09](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A-200%2Cy%3A50%7D%2C%7Bx%3A-100%2Cy%3A20%7D%2C%7Bx%3A-25%2Cy%3A1%7D%2C%7Bx%3A0%2Cy%3A0%7D%2C%7Bx%3A25%2Cy%3A-1.5%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
-| U10 | 30 |
+| U01 | 0 |
+| U02 | 10 |
+| U03 | 4 |
+| U04 | 0.5 |
+| U05 | 10 |
+| U06 | ![U06](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A0%2Cy%3A1.25%7D%2C%7Bx%3A1%2Cy%3A0%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
+| U07 | ![U07](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A-200%2Cy%3A50%7D%2C%7Bx%3A-100%2Cy%3A20%7D%2C%7Bx%3A-25%2Cy%3A1%7D%2C%7Bx%3A0%2Cy%3A0%7D%2C%7Bx%3A25%2Cy%3A-1.5%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
+| U08 | 30 |
+| U09 | 0 |
+| U10 | ![U10](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A-200%2Cy%3A8%7D%2C%7Bx%3A100%2Cy%3A8%7D%2C%7Bx%3A150%2Cy%3A4%7D%2C%7Bx%3A200%2Cy%3A3%7D%2C%7Bx%3A300%2Cy%3A2.5%7D%2C%7Bx%3A400%2Cy%3A1.5%7D%2C%7Bx%3A500%2Cy%3A1%7D%2C%7Bx%3A800%2Cy%3A0.5%7D%2C%7Bx%3A1000%2Cy%3A0%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
 | U11 | 0 |
-| U12 | ![U12](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A-200%2Cy%3A8%7D%2C%7Bx%3A100%2Cy%3A8%7D%2C%7Bx%3A150%2Cy%3A4%7D%2C%7Bx%3A200%2Cy%3A3%7D%2C%7Bx%3A300%2Cy%3A2.5%7D%2C%7Bx%3A400%2Cy%3A1.5%7D%2C%7Bx%3A500%2Cy%3A1%7D%2C%7Bx%3A800%2Cy%3A0.5%7D%2C%7Bx%3A1000%2Cy%3A0%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
-| U13 | 0 |
-| U14 | 2 |
-| U15 | 2.5 |
-| U16 | 0 |
+| U12 | 2 |
+| U13 | 2.5 |
+| U14 | 0 |
+| U15 | 0 |
+| U16 | 200 |
 | U17 | 0 |
-| U18 | 200 |
 | U19 | 0 |
-| U21 | 0 |
-| U22 | ![U22](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A-600%2Cy%3A0%7D%2C%7Bx%3A-400%2Cy%3A0.5%7D%2C%7Bx%3A-200%2Cy%3A1%7D%2C%7Bx%3A-100%2Cy%3A2%7D%2C%7Bx%3A0%2Cy%3A3%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
-| U23 | ![U23](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A0%2Cy%3A25%7D%2C%7Bx%3A1%2Cy%3A10%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
-| U24 | ![U24](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A0%2Cy%3A2.25%7D%2C%7Bx%3A0.5%2Cy%3A2.5%7D%2C%7Bx%3A1%2Cy%3A2.75%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
-| U25 | 500 |
-| U26 | 6 |
-| U27 | ![U27](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A-50%2Cy%3A1.5%7D%2C%7Bx%3A0%2Cy%3A0%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
-| U28 | ![U28](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A300%2Cy%3A1%7D%2C%7Bx%3A400%2Cy%3A0.8%7D%2C%7Bx%3A600%2Cy%3A0.6%7D%2C%7Bx%3A800%2Cy%3A0.2%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
-| U29 | 10 |
-| U30 | 2 |
-| U31 | ![U31](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A700%2Cy%3A1%7D%2C%7Bx%3A800%2Cy%3A0.8%7D%2C%7Bx%3A900%2Cy%3A0.6%7D%2C%7Bx%3A1100%2Cy%3A0.4%7D%2C%7Bx%3A1300%2Cy%3A0.2%7D%2C%7Bx%3A1500%2Cy%3A0.1%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
-| U32 | ![U32](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A0%2Cy%3A1%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
-| U33 | ![U33](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A0%2Cy%3A0%7D%2C%7Bx%3A50%2Cy%3A0.05%7D%2C%7Bx%3A100%2Cy%3A0.15%7D%2C%7Bx%3A250%2Cy%3A0.175%7D%2C%7Bx%3A500%2Cy%3A0.2%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
-| U34 | 1000 |
-| U35 | ![U35](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A0%2Cy%3A0%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
-| U36 | ![U36](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A0%2Cy%3A1%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
-| U37 | 0.35 |
-| U38 | 2 |
+| U20 | ![U20](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A-600%2Cy%3A0%7D%2C%7Bx%3A-400%2Cy%3A0.5%7D%2C%7Bx%3A-200%2Cy%3A1%7D%2C%7Bx%3A-100%2Cy%3A2%7D%2C%7Bx%3A0%2Cy%3A3%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
+| U21 | ![U21](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A0%2Cy%3A25%7D%2C%7Bx%3A1%2Cy%3A10%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
+| U22 | ![U22](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A0%2Cy%3A2.25%7D%2C%7Bx%3A0.5%2Cy%3A2.5%7D%2C%7Bx%3A1%2Cy%3A2.75%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
+| U23 | 500 |
+| U24 | 6 |
+| U25 | ![U25](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A-50%2Cy%3A1.5%7D%2C%7Bx%3A0%2Cy%3A0%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
+| U26 | ![U26](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A300%2Cy%3A1%7D%2C%7Bx%3A400%2Cy%3A0.8%7D%2C%7Bx%3A600%2Cy%3A0.6%7D%2C%7Bx%3A800%2Cy%3A0.2%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
+| U27 | 10 |
+| U28 | 2 |
+| U29 | ![U29](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A700%2Cy%3A1%7D%2C%7Bx%3A800%2Cy%3A0.8%7D%2C%7Bx%3A900%2Cy%3A0.6%7D%2C%7Bx%3A1100%2Cy%3A0.4%7D%2C%7Bx%3A1300%2Cy%3A0.2%7D%2C%7Bx%3A1500%2Cy%3A0.1%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
+| U30 | ![U30](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A0%2Cy%3A1%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
+| U31 | ![U31](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A0%2Cy%3A0%7D%2C%7Bx%3A50%2Cy%3A0.05%7D%2C%7Bx%3A100%2Cy%3A0.15%7D%2C%7Bx%3A250%2Cy%3A0.175%7D%2C%7Bx%3A500%2Cy%3A0.2%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
+| U32 | 1000 |
+| U33 | ![U33](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A0%2Cy%3A0%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
+| U34 | ![U34](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A0%2Cy%3A1%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
+| U35 | 0.35 |
+| U36 | 2 |
 
 ### 0x090ED0A8
 
 | Name | Value |
 | --- | --- |
-| U01 | 1 |
-| U02 | ![U02](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A10%2Cy%3A0%7D%2C%7Bx%3A25%2Cy%3A50%7D%2C%7Bx%3A100%2Cy%3A60%7D%2C%7Bx%3A250%2Cy%3A75%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
-| U03 | ![U03](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A0%2Cy%3A1%7D%2C%7Bx%3A0.25%2Cy%3A0.8%7D%2C%7Bx%3A0.5%2Cy%3A0.3%7D%2C%7Bx%3A1%2Cy%3A0.2%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
-| U04 | ![U04](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A0%2Cy%3A1%7D%2C%7Bx%3A0.5%2Cy%3A0.25%7D%2C%7Bx%3A1%2Cy%3A0.1%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
-| U05 | ![U05](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A10%2Cy%3A0%7D%2C%7Bx%3A17%2Cy%3A2%7D%2C%7Bx%3A25%2Cy%3A15%7D%2C%7Bx%3A37%2Cy%3A32%7D%2C%7Bx%3A50%2Cy%3A36%7D%2C%7Bx%3A250%2Cy%3A44%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
-| U06 | ![U06](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A0%2Cy%3A0%7D%2C%7Bx%3A25%2Cy%3A2%7D%2C%7Bx%3A50%2Cy%3A4%7D%2C%7Bx%3A100%2Cy%3A10%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
-| U07 | 100 |
-| U08 | 100 |
-| U09 | 20 |
-| U10 | ![U10](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A20%2Cy%3A0%7D%2C%7Bx%3A50%2Cy%3A10%7D%2C%7Bx%3A100%2Cy%3A12%7D%2C%7Bx%3A200%2Cy%3A15%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
-| U11 | ![U11](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A20%2Cy%3A0%7D%2C%7Bx%3A50%2Cy%3A0.5%7D%2C%7Bx%3A100%2Cy%3A1%7D%2C%7Bx%3A200%2Cy%3A1.25%7D%2C%7Bx%3A300%2Cy%3A1.5%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
-| U12 | 0.333333 |
-| U13 | 0.5 |
-| U14 | ![U14](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A0%2Cy%3A1%7D%2C%7Bx%3A0.25%2Cy%3A0.95%7D%2C%7Bx%3A0.5%2Cy%3A0.8%7D%2C%7Bx%3A0.75%2Cy%3A0.6%7D%2C%7Bx%3A1%2Cy%3A0.25%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
-
-### 0x090ED0A9
-
-| Name | Value |
-| --- | --- |
-| U01 | 0 |
-| U02 | 2000 |
-| U03 | ![U03](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A50%2Cy%3A0%7D%2C%7Bx%3A100%2Cy%3A500%7D%2C%7Bx%3A200%2Cy%3A2000%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
-| U04 | ![U04](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A0%2Cy%3A1%7D%2C%7Bx%3A20%2Cy%3A0.8%7D%2C%7Bx%3A100%2Cy%3A0.4%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
-| U05 | 0 |
-| U06 | 500 |
-| U07 | 4 |
-| U08 | ![U08](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A0%2Cy%3A0%7D%2C%7Bx%3A20%2Cy%3A15%7D%2C%7Bx%3A50%2Cy%3A35%7D%2C%7Bx%3A100%2Cy%3A150%7D%2C%7Bx%3A200%2Cy%3A200%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
-| U09 | ![U09](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A1%2Cy%3A2%7D%2C%7Bx%3A1.5%2Cy%3A1.5%7D%2C%7Bx%3A2%2Cy%3A1%7D%2C%7Bx%3A2.5%2Cy%3A0.5%7D%2C%7Bx%3A3%2Cy%3A0%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
-| U10 | ![U10](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A0%2Cy%3A0%7D%2C%7Bx%3A50%2Cy%3A20%7D%2C%7Bx%3A200%2Cy%3A100%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
-
-### 0x090ED0AA
-
-| Name | Value |
-| --- | --- |
-| U01 | 0 |
-
-### 0x090ED0AB
-
-| Name | Value |
-| --- | --- |
-| U01 | 1 |
-| U02 | 2000 |
-| U03 | 40 |
-| U04 | ![U04](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A1000%2Cy%3A1%7D%2C%7Bx%3A2000%2Cy%3A4%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
-
-### 0x090ED0AC
-
-| Name | Value |
-| --- | --- |
-| U01 | 0 |
+| U01 | ![U01](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A20%2Cy%3A0%7D%2C%7Bx%3A50%2Cy%3A10%7D%2C%7Bx%3A100%2Cy%3A12%7D%2C%7Bx%3A200%2Cy%3A15%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
+| U02 | 0.333333 |
+| U03 | 0.5 |
 
 ### 0x090ED0AD
 
 | Name | Value |
 | --- | --- |
-| U01 | ![U01](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A-1%2Cy%3A400%7D%2C%7Bx%3A0%2Cy%3A400%7D%2C%7Bx%3A0.15%2Cy%3A-200%7D%2C%7Bx%3A1%2Cy%3A-200%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
-| U02 | 0 |
-| U03 | 3 |
-| U04 | 0 |
+| U01 | 0 |
+| U02 | 3 |
+| U03 | 0 |
+| U05 | 0 |
 | U06 | 0 |
 | U07 | 0 |
-| U08 | 0 |
 | U09 | 0 |
-| U11 | ![U11](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A0%2Cy%3A0%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
-| U12 | 0 |
-| U13 | 0 |
-| U15 | ![U15](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A0%2Cy%3A1%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
-| U17 | ![U17](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A0%2Cy%3A0%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
-| U18 | ![U18](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A0%2Cy%3A0%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
-| U19 | ![U19](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A0%2Cy%3A0%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
-| U20 | ![U20](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A0%2Cy%3A0%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
-| U21 | 0 |
-| U22 | 200 |
-| U23 | 50 |
-| U24 | ![U24](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A0%2Cy%3A0%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
-| U25 | ![U25](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A0%2Cy%3A0%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
-| U26 | ![U26](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A0%2Cy%3A1%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
-| U27 | 0.33333334 |
-| U28 | 3 |
-| U29 | ![U29](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A0%2Cy%3A1%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
-| U32 | ![U32](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A0%2Cy%3A1%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
-| U33 | 5 |
-| U34 | 1500 |
+| U10 | 0 |
 
 ### 0x090ED0AE
 
 | Name | Value |
 | --- | --- |
-| U01 | 1 |
-| U02 | ![U02](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A0%2Cy%3A0%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
-| U03 | 0.2 |
-
-### 0x090ED0AF
-
-| Name | Value |
-| --- | --- |
-| U01 | 1 |
-| U02 | 0 |
-| U03 | ![U03](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A0%2Cy%3A0%7D%2C%7Bx%3A40%2Cy%3A0%7D%2C%7Bx%3A60%2Cy%3A0.1%7D%2C%7Bx%3A90%2Cy%3A0.3%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
-| U04 | ![U04](https://quickchart.io/chart?version=4&devicePixelRatio=1&width=300&height=150&c=%7Btype%3A%27line%27%2Cdata%3A%7Bdatasets%3A%5B%7Bdata%3A%5B%7Bx%3A0%2Cy%3A0%7D%2C%7Bx%3A40%2Cy%3A0%7D%2C%7Bx%3A60%2Cy%3A0.1%7D%2C%7Bx%3A90%2Cy%3A0.3%7D%5D%2Cfill%3Afalse%2Ctension%3A0%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Bx%3A%7Btype%3A%27linear%27%7D%7D%7D%7D) |
-| U05 | 0.1 |
+| U01 | 0.2 |
 
 ### 0x090ED0B0
 
